@@ -1,5 +1,5 @@
 # Grupo 4: Introducción a señales biomédicas
-<p align="center"><img src="Imagenes/sig.jpg" width="400"/></p>p>
+<p align="center"><img src="Imagenes/sig.jpg" width="400"/></p>
 
 <h2 style="text-align: center;">Tabla de Contenidos</h2>
 
