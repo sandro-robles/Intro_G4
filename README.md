@@ -12,3 +12,5 @@ Integrantes:
 - <p align="justify">Franco Rozas</p>
 - <p align="justify">Mauricio Juárez</p>
 - <p align="justify">María Mautino</p>
+
+<h2 style="text-align: center;"> Curso: Introducción a señales biomédicas</h2>
