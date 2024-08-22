@@ -6,7 +6,6 @@
 
 <a id="integrantes"></a> 
 
-Integrantes:
 - <p align="justify">Sandro Robles</p>
 - <p align="justify">Anel Ramírez</p>
 - <p align="justify">Franco Rozas</p>
