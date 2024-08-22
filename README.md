@@ -7,8 +7,8 @@
 <a id="integrantes"></a> 
 
 Integrantes:
--Sandro Robles
--Anel Ramírez
--Franco Rozas
--Mauricio Juárez
--María Mautino
+- <p align="justify">Sandro Robles</p>
+- <p align="justify">Anel Ramírez</p>
+- <p align="justify">Franco Rozas</p>
+- <p align="justify">Mauricio Juárez</p>
+- <p align="justify">María Mautino</p>
