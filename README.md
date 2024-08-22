@@ -1,4 +1,4 @@
-# Intro_G4
+# Grupo 4: Introducción a señales biomédicas
 
 <h2 style="text-align: center;">Tabla de Contenidos</h2>
 
