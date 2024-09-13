@@ -30,6 +30,7 @@
 | <video src=""> | <video src=""> | <video src=""> | 
 <p align="center"><i>Tabla 1. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
+
 ### 2. Prueba 02 - Actividad muscular del _____ <a id="P2"></a>
 
 ## **Discusión:**<a id="Discusión"></a>
