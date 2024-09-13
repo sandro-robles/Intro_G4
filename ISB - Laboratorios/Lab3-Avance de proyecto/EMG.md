@@ -15,7 +15,7 @@
 ## **Introduccion:**<a id="Introduccion"></a>
 
 <p align="center">
-  <img src="Otros/Imagen1_Lab.png"width="400">
+  <img src="ISB%20-%20Laboratorios/Lab3-Avance%20de%20proyecto/Otros/Imagen1_Lab.png" width="400">
 </p>
 
 
