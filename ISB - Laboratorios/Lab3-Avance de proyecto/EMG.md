@@ -4,7 +4,7 @@
 2. [Equipos y materiales utilizados](#Equipos)
 3. [Resultados](#Resultados)
 ### **Objetivos:**<a id="Objetivos"></a>
-*Familiarizarse con el uso del sistema BITalino para la adquisición de señales EMG.
-*Realizar mediciones de EMG en diferentes grupos musculares.
+* Familiarizarse con el uso del sistema BITalino para la adquisición de señales EMG.
+* Realizar mediciones de EMG en diferentes grupos musculares.
 ### **Equipos y materiales utilizados:**<a id="Equipos"></a>
 ### **Resultados:**<a id="Resultados"></a>
