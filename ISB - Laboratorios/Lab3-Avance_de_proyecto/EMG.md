@@ -21,9 +21,9 @@
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 
 ## **Resultados:**<a id="Resultados"></a>
-### 1. Prueba 01 - Actividad muscular del _____ <a name="P1"></a>
+### 1. Prueba 01 - Actividad muscular del _____ <a id="P1"></a>
 
-### 2. Prueba 02 - Actividad muscular del _____ <a name="P2"></a>
+### 2. Prueba 02 - Actividad muscular del _____ <a id="P2"></a>
 
 ## **Discusión:**<a id="Discusión"></a>
 
