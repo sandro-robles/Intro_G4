@@ -16,7 +16,7 @@
 hhhhh
 
 <p align="center">
-  <img src="ISB - Laboratorios/Lab3-Avance de proyecto/Anexos/Lab1.png"/>
+  <img src="ISB - Laboratorios/Lab3-Avance de proyecto/Anexos/IL1.jpeg"/>
 </p>
 
 
