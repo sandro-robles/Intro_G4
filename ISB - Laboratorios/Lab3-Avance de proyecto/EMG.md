@@ -13,7 +13,11 @@
 * Realizar mediciones de EMG en diferentes grupos musculares.
 * Analizar las señales EMG obtenidas mediante el software OpenSignals (r)evolution.
 ## **Introduccion:**<a id="Introduccion"></a>
-<p align="center"><img src="ISB - Laboratorios/Lab3-Avance de proyecto/Anexos/Lab1.png" width="400"/></p>
+<p align="center">
+  <img src="ISB - Laboratorios/Lab3-Avance de proyecto/Anexos/Lab1.png" width="400"/>
+</p>
+
+
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 
 ## **Resultados:**<a id="Resultados"></a>
