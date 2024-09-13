@@ -15,7 +15,8 @@
 ## **Introduccion:**<a id="Introduccion"></a>
 
 <p align="center">
-  <img src="[ISB - Laboratorios/Lab3-Avance_de_proyecto/Anexos/Lab1.png](https://github.com/sandro-robles/Intro_G4/blob/a9da3dc41faeb8a49a9b0f9b03ff78ddd5b0940e/ISB%20-%20Laboratorios/Lab3-Avance_de_proyecto/Anexos/Lab1.png)" width="400">
+![Descripción de la imagen](ISB%20-%20Laboratorios/Lab3-Avance_de_proyecto/Anexos/IL1.jpeg)
+
 </p>
 
 
