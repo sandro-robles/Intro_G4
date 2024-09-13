@@ -32,6 +32,7 @@
 </p>
 
 <p align="center">
+   
 | **Posición** | **Señal y FFT** |
 |:------------:|:---------------:|
 | **En reposo**|<image src="">|
