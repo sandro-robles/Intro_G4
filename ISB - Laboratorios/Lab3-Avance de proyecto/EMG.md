@@ -6,5 +6,6 @@
 ### **Objetivos:**<a id="Objetivos"></a>
 * Familiarizarse con el uso del sistema BITalino para la adquisición de señales EMG.
 * Realizar mediciones de EMG en diferentes grupos musculares.
+* Analizar las señales EMG obtenidas mediante el software OpenSignals (r)evolution.
 ### **Equipos y materiales utilizados:**<a id="Equipos"></a>
 ### **Resultados:**<a id="Resultados"></a>
