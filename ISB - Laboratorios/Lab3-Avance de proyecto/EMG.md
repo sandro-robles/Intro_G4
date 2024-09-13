@@ -13,10 +13,15 @@
 * Realizar mediciones de EMG en diferentes grupos musculares.
 * Analizar las señales EMG obtenidas mediante el software OpenSignals (r)evolution.
 ## **Introduccion:**<a id="Introduccion"></a>
-<p align="center"><img src="Otros/sig.gif" width="400"/></p>
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
+
 ## **Resultados:**<a id="Resultados"></a>
+### 1. Prueba 01 - Actividad muscular del _____ <a name="P1"></a>
+
+### 2. Prueba 02 - Actividad muscular del _____ <a name="P2"></a>
+
 ## **Discusión:**<a id="Discusión"></a>
+
 ## **Bibliografia:**<a id="Bibliografia"></a>
 [1]	
