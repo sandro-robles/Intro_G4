@@ -2,7 +2,7 @@
 <p align="center"><img src="Otros/sig.gif" width="400"/></p>
 ¡Hola y bienvenidos al repositorio del grupo 4 del curso de Introducción a Imágenes Biomédicas!
 Este proyecto está diseñado para explorar y aplicar técnicas fundamentales en el campo de las señales biomedicas
-<p align="center"><img src="Imagen1_Lab.png" width="400"/></p>
+<p align="center"><img src="Otros/sig.gif" width="400"/></p>
 <h2 style="text-align: center;">Tabla de Contenidos</h2>
 
 1. [Resumen](#Resumen)
