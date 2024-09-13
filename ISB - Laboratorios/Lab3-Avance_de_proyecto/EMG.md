@@ -14,7 +14,7 @@
 * Analizar las señales EMG obtenidas mediante el software OpenSignals (r)evolution.
 ## **Introduccion:**<a id="Introduccion"></a>
 <p align="center">
-<img src="ISB - Laboratorios/Lab3-Avance_de_proyecto/Anexos/IL1.jpeg" width="400"/></p>
+<img src="ISB - Laboratorios/Lab3-Avance_de_proyecto/Anexos/EMG.jpg" width="400"/></p>
 <p align="center"><i>Figura 1.  </i></p>
 
 
