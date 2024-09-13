@@ -88,7 +88,7 @@
 | **Con oposición**|<image src="">|
 <p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
-### 2. Prueba 04 - Actividad muscular del _____ <a id="P4"></a>
+### 4. Prueba 04 - Actividad muscular del _____ <a id="P4"></a>
 <p align="center"><img src="Anexos/IMG_bicep.PNG" width="450" height="300"></p>
 
 <p align="center"><i>Figura 5.</i></p>
@@ -98,7 +98,7 @@
 |  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** | **Actividad muscular del bíceps braquial con oposición** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 | <video src=""> | <video src=""> | <video src=""> | 
-<p align="center"><i>Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
+<p align="center"><i>Tabla 7. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
 
 <p align="center">
@@ -108,7 +108,30 @@
 | **En reposo**|<image src="">|
 | **Sin oposición**|<image src="">|
 | **Con oposición**|<image src="">|
-<p align="center"><i>Tabla 4. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+<p align="center"><i>Tabla 8. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+
+### 5. Prueba 05 - Actividad muscular del _____ <a id="P5"></a>
+<p align="center"><img src="Anexos/IMG_espalda.PNG" width="450" height="300"></p>
+
+<p align="center"><i>Figura 6.</i></p>
+
+<p align="center">
+   
+|  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** | **Actividad muscular del bíceps braquial con oposición** |
+|:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
+| <video src=""> | <video src=""> | <video src=""> | 
+<p align="center"><i>Tabla 9. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
+</p>
+
+<p align="center">
+   
+| **Posición** | **Señal y FFT** |
+|:------------:|:---------------:|
+| **En reposo**|<image src="">|
+| **Sin oposición**|<image src="">|
+| **Con oposición**|<image src="">|
+<p align="center"><i>Tabla 10. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+
 ## **Discusión:**<a id="Discusión"></a>
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
