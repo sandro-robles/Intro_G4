@@ -23,7 +23,7 @@
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Prueba 01 - Actividad muscular del _____ <a id="P1"></a>
-<p align="center"><img src="Anexos/IMG_tricep.PNG" width="400"></p>
+<p align="center"><img src="Anexos/IMG_tricep.PNG" width="500"></p>
 
 <p align="center"><i>Figura 2.</i></p>
 
