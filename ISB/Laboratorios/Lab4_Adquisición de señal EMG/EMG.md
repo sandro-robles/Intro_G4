@@ -1,5 +1,5 @@
 # **LABORATORIO 3: – USO DE BITalino PARA EMG**
-## **Tabla de contenidos**
+## **Tabla de contenidos:**
 1. [Objetivos](#Objetivos)
 2. [Introduccion](#Introduccion)
 3. [Equipos y materiales utilizados](#Equipos)
@@ -15,7 +15,7 @@
 * Familiarizarse con el uso del sistema BITalino para la adquisición de señales EMG.
 * Realizar mediciones de EMG en diferentes grupos musculares.
 * Analizar las señales EMG obtenidas mediante el software OpenSignals (r)evolution.
-## **Introduccion:**<a id="Introduccion"></a>
+## **Introducción:**<a id="Introduccion"></a>
 <p align="justify"> FALTA INTRODUCCIONNNNN</p>
 <p align="center"><img src="Anexos/EMG.jpg" width="400"></p>
 
