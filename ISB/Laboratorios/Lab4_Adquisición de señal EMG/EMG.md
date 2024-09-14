@@ -16,6 +16,7 @@
 * Realizar mediciones de EMG en diferentes grupos musculares.
 * Analizar las señales EMG obtenidas mediante el software OpenSignals (r)evolution.
 ## **Introduccion:**<a id="Introduccion"></a>
+<p align="justify"> FALTA INTRODUCCIONNNNN</p>
 <p align="center"><img src="Anexos/EMG.jpg" width="400"></p>
 
 <p align="center"><i>Figura 1: [1].</i></p>
