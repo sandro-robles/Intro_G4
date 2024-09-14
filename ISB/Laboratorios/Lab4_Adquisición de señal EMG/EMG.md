@@ -100,9 +100,9 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-|  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** | **Actividad muscular del bíceps braquial con oposición** |
+|  **Actividad muscular de la mano en reposo** | **Actividad muscular de la mano sin oposición** | **Actividad muscular de la mano con oposición** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
-| <video src=""> | <video src=""> | <video src=""> | 
+| <video src="https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712"> | <video src="https://github.com/user-attachments/assets/750503ff-88bb-4193-a935-c3d0a1321b8b"> | <video src="https://github.com/user-attachments/assets/84ebebe4-5c92-4557-954f-179f88f1f5e8"> | 
 <p align="center"><i>Tabla 5. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
 
