@@ -68,11 +68,14 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 ### 2. Actividad muscular del gastrocnemio según la literatura: <a id="P1"></a>
 <p align="justify"> En el estudio de Wang et al. (2021), se centra en la medición de la actividad EMG del gastrocnemio durante varias inclinaciones y tipos de marcha (caminar en plano, cuesta arriba, cuesta abajo, y subir/bajar escaleras). Se observa que la actividad EMG del gastrocnemio aumenta progresivamente al caminar cuesta arriba, sugiriendo una mayor activación muscular debido a la mayor demanda de fuerza en comparación con caminar en plano o cuesta abajo. Es importante medir la actividad EMG en estas diferentes condiciones para entender cómo varía la activación muscular y cómo optimizar los movimientos en la rehabilitación o el entrenamiento [4]. </p>
 
+### 2.1. Diferencias metodológicas: <a id="P1"></a>
+<p align="justify"> Es importante mencionar que, para esta prueba, buscamos simplificar el análisis de la activación muscular del gastrocnemio imitando la marcha con un solo movimiento: la elevación de pantorrillas. A diferencia del estudio de Wang et al. (2021), nuestro enfoque se centró en capturar la actividad eléctrica del músculo gastrocnemio mediante la flexión plantar, utilizando una elevación controlada. Esta metodología nos permitió medir de manera eficiente la actividad muscular en un entorno controlado, manteniendo el tobillo en una posición neutral y relajada, con los electrodos colocados en la cabeza lateral del gastrocnemio para captar los datos durante el movimiento.</p>
+
 #### <blockquote> Prueba 02: Gastrocnemio
 
 <p align="center"><img src="Anexos/IMG_pierna.PNG" width="450" height="300"></p>
 
-<p align="center"><i>Figura 3.</i></p>
+<p align="center"><i>Figura 3. La medición del EMG del gastrocnemio se realizó con el participante de pie, manteniendo el tobillo en una posición neutral y relajada. Se colocaron electrodos de superficie en la cabeza lateral del gastrocnemio para captar la actividad eléctrica del músculo durante diferentes movimientos de flexión plantar y dorsiflexión.</i></p>
 
 <p align="center">
    
@@ -157,7 +160,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
 
-<p align="center"><i>Figura 6.</i></p>
+<p align="center"><i>Figura 6. La medición del EMG del trapecio se realizó con el participante de pie, imitando el ejercicio de elevación de trapecio (encogimiento de hombros) para analizar la actividad muscular durante situaciones de estrés físico. Se colocaron electrodos de superficie bilateralmente en la región del trapecio superior (izquierdo y derecho) para captar la actividad eléctrica del músculo durante el ejercicio. Los electrodos se posicionaron entre el acromion y la columna cervical (C7), siguiendo la ubicación estándar para estudiar el trapecio superior, un músculo clave en la elevación y estabilidad del hombro.</i></p>
 
 <p align="center">
    
@@ -179,8 +182,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
 
-<p align="justify">[2]ricardog, “Seminario ‘Aplicaciones de la electromiografía en asistencia y rehabilitación’ | Instituto Bioingeniería,” Bioingenieria.umh.es, 2024. https://bioingenieria.umh.es/2023/11/15/seminario-aplicaciones-de-la-electromiografia-en-asistencia-y-rehabilitacion/ (accessed Sep. 14, 2024).</p>
-
+<p align="justify">[2] “Seminario ‘Aplicaciones de la electromiografía en asistencia y rehabilitación’ | Instituto Bioingeniería,” Bioingenieria.umh.es, 2024. https://bioingenieria.umh.es/2023/11/15/seminario-aplicaciones-de-la-electromiografia-en-asistencia-y-rehabilitacion/ (accessed Sep. 14, 2024).</p>
 
 <p align="justify">[3] Marina Mello Villalba, Rafael Akira Fujita, Claudinei Iossi Junior, and Matheus Machado Gomes, “Forearm Position Influences Triceps Brachii Activation During Triceps Push-Down Exercise,” ResearchGate, Feb. 23, 2024. https://www.researchgate.net/publication/378472477_Forearm_Position_Influences_Triceps_Brachii_Activation_During_Triceps_Push-Down_Exercise (accessed Sep. 13, 2024).</p>
 
