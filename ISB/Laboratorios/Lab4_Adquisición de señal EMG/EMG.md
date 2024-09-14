@@ -133,7 +133,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 <p align="center"><i>Tabla 8. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 5. Actividad muscular del trapecio según la literatura: <a id="P1"></a>
-<p align="justify"> PARTE SANDRO.</p>
+<p align="justify">PARTE SANDRO.</p>
 
 #### <blockquote> Prueba 05: Trapecio<p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
 
