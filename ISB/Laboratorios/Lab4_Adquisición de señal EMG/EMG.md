@@ -79,7 +79,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 <p align="center">
    
-|  **Actividad muscular - Gastrocnemio en reposo** | **Actividad Muscular - Gastrocnemio en movimiento(elevación)** | **Actividad Muscular - Gastrocnemio ejerciendo fuerza** |
+|  **Actividad muscular - Gastrocnemio en reposo** | **Actividad Muscular - Gastrocnemio en movimiento (felxión plantar)** | **Actividad Muscular - Gastrocnemio ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/69bd1254-6af8-402e-9ef5-aaed76e18859"></video>|<video src="https://github.com/user-attachments/assets/1bd88350-0676-4097-b603-db53ae502012"></video>|<video src="https://github.com/user-attachments/assets/b8c96a19-02b9-4811-9cc9-4b1174248aca"> | 
 <p align="center"><i>
@@ -99,7 +99,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 <p align="justify"> En el estudio de Dalkilic et al. (2017) se enfoca en la evaluación no invasiva de las ramas del nervio mediano en la mano mediante el método de seguimiento de umbral, una técnica avanzada para medir parámetros de excitabilidad neuronal. Los resultados indicaron alteraciones significativas en la excitabilidad del nervio mediano bajo distintas condiciones, lo que refleja cambios en la actividad neuromuscular que son de particular relevancia para el diagnóstico de neuropatías. Este enfoque es esencial para comprender cómo varía la respuesta electromiográfica (EMG) del nervio mediano durante movimientos funcionales de la mano, y proporciona una base sólida para optimizar estrategias terapéuticas y de rehabilitación. Al evaluar la actividad del nervio mediano, es posible identificar patrones específicos de activación muscular, lo que facilita el diseño de intervenciones más precisas en casos de disfunción neuromuscular.</p>
 
 
-#### <blockquote> Prueba 03: Mano
+#### <blockquote> Prueba 03: Mano / Nervio mediano
 
 <p align="center"><img src="Anexos/IMG_mano.jpeg" width="450" height="300"></p>
 
