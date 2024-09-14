@@ -119,9 +119,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
    
 |  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
-| <video src="Anexos/Bíceps reposo.mp4"> | <video src=""> |
-
-<video src="Anexos/Bíceps reposo.mp4"></video>
+| <video src="Anexos/Bíceps reposo.mp4" controls width="600"></video> | <video src=""> |
 
 <p align="center"><i>Tabla 7. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
