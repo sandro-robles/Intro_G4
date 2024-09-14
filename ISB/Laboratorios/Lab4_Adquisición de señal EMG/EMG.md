@@ -47,7 +47,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 <p align="center">
    
-|  **Actividad Muscular del Tríceps en reposo** | **Actividad Muscular del Tríceps ejerciendo fuerza** |
+|  **Actividad Muscular - Tríceps en reposo** | **Actividad Muscular - Tríceps ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/b501a6a4-6002-4526-81b7-ce0dc513d36a"></video>|<video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a">|
 <p align="center"><i>Tabla 2. Videos de adquisición de la señal EMG según dos tomas: en reposo y con el músculo ejerciendo fuerza. </i></p>
@@ -73,7 +73,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 <p align="center">
    
-|  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** | **Actividad muscular del bíceps braquial con oposición** |
+|  **Actividad muscular - Gastrocnemio** | **Actividad Muscular - Gastrocnemio** | **Actividad Muscular - Gastrocnemio** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/69bd1254-6af8-402e-9ef5-aaed76e18859"></video>|<video src="https://github.com/user-attachments/assets/1bd88350-0676-4097-b603-db53ae502012"></video>|<video src="https://github.com/user-attachments/assets/b8c96a19-02b9-4811-9cc9-4b1174248aca"> | 
 <p align="center"><i>
@@ -100,7 +100,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-|  **Actividad muscular de la mano en reposo** | **Actividad muscular de la mano sin oposición** | **Actividad muscular de la mano con oposición** |
+|  **Actividad Muscular - Mano en reposo** | **Actividad Muscular - Mano en** | **Actividad Muscular - Mano en** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 | <video src="https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712"> | <video src="https://github.com/user-attachments/assets/750503ff-88bb-4193-a935-c3d0a1321b8b"> | <video src="https://github.com/user-attachments/assets/84ebebe4-5c92-4557-954f-179f88f1f5e8"> | 
 <p align="center"><i>Tabla 5. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
@@ -126,7 +126,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-|  **Actividad Muscular del Bíceps  en reposo** | **Actividad Muscular del bíceps ejerciendo fuerza** |
+|  **Actividad Muscular - Bíceps  en reposo** | **Actividad Muscular - Bíceps ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
 | <video src="https://github.com/user-attachments/assets/6d9c9523-7049-481b-8242-b2dfcaaf2958"> </video> | <video src="https://github.com/user-attachments/assets/33b24c40-c045-41c5-8eca-b7724281b103"> </video> |
 
@@ -153,7 +153,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-|  **Actividad Muscular del Trapecio en reposo** | **Actividad Muscular del Trapecio ...** | **Actividad muscular del Trapecio ...** |
+|  **Actividad Muscular - Trapecio en reposo** | **Actividad Muscular - Trapecio ...** | **Actividad Muscular - Trapecio ...** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/973a91c9-eab7-4e0c-b104-2dc0212b3720"></video>|<video src="https://github.com/user-attachments/assets/e402e19e-9ef5-4509-aa88-4fd0fd3adc89"></video>|<video src="https://github.com/user-attachments/assets/3e115637-f0ce-429d-8452-8b26524bb439"> | 
 
