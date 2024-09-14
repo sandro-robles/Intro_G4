@@ -54,7 +54,8 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 | **Con oposición**|<image src="">|
 <p align="center"><i>Tabla 2. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
-### 2. Prueba 02 - Actividad muscular del _____ <a id="P2"></a>
+### 2. Actividad muscular del gastrocnemio según la literatura: <a id="P1"></a>
+<p align="justify"> PARTE SANDRO </p>
 <p align="center"><img src="Anexos/IMG_pierna.PNG" width="450" height="300"></p>
 
 <p align="center"><i>Figura 3.</i></p>
