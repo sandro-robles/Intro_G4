@@ -87,7 +87,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 <p align="center"><img src="Anexos/IMG_mano.PNG" width="450" height="300"></p>
 
-<p align="center"><i>Figura 4.</i></p>
+<p align="center"><i>Figura 4: La medición del EMG del nervio mediano se realizó con el participante en una posición sentada, manteniendo una postura natural con los codos apoyados en los reposabrazos y la cabeza en una posición neutral para minimizar la interferencia de otros movimientos.</i></p>
 
 <p align="center">
    
