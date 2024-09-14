@@ -18,7 +18,7 @@
 ## **Introduccion:**<a id="Introduccion"></a>
 <p align="center"><img src="Anexos/EMG.jpg" width="400"></p>
 
-<p align="center"><i>Figura 1.</i></p>
+<p align="center"><i>Figura 1: [1].</i></p>
 
 
 
@@ -26,9 +26,9 @@
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Actividad muscular del tríceps según la literatura: <a id="P1"></a>
-<p align="justify"> En el artículo de Villalba et al. (2024), el enfoque está en medir la actividad EMG del tríceps braquial (cabeza lateral y cabeza larga) durante un ejercicio de tríceps push-down en varias posiciones del antebrazo (supinada y pronada). También se menciona que la cabeza larga del tríceps muestra mayor actividad EMG cuando el antebrazo está en una posición supinada, lo que sugiere una mayor carga sobre este músculo en comparación con la posición pronada. Esto hace que sea importante medir la actividad EMG en ambas posiciones para entender cómo varía la activación muscular y mejorar la eficiencia del ejercicio [1] .
+<p align="justify"> En el artículo de Villalba et al. (2024), el enfoque está en medir la actividad EMG del tríceps braquial (cabeza lateral y cabeza larga) durante un ejercicio de tríceps push-down en varias posiciones del antebrazo (supinada y pronada). También se menciona que la cabeza larga del tríceps muestra mayor actividad EMG cuando el antebrazo está en una posición supinada, lo que sugiere una mayor carga sobre este músculo en comparación con la posición pronada. Esto hace que sea importante medir la actividad EMG en ambas posiciones para entender cómo varía la activación muscular y mejorar la eficiencia del ejercicio [2] .
 
-En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [2]. </p>
+En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [3]. </p>
 
 #### <blockquote> Prueba 01: Tríceps
 
@@ -55,7 +55,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 <p align="center"><i>Tabla 2. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 2. Actividad muscular del gastrocnemio según la literatura: <a id="P1"></a>
-<p align="justify"> PARTE SANDRO </p>
+<p align="justify"> En el estudio de Wang et al. (2021), se centra en la medición de la actividad EMG del gastrocnemio durante varias inclinaciones y tipos de marcha (caminar en plano, cuesta arriba, cuesta abajo, y subir/bajar escaleras). Se observa que la actividad EMG del gastrocnemio aumenta progresivamente al caminar cuesta arriba, sugiriendo una mayor activación muscular debido a la mayor demanda de fuerza en comparación con caminar en plano o cuesta abajo. Es importante medir la actividad EMG en estas diferentes condiciones para entender cómo varía la activación muscular y cómo optimizar los movimientos en la rehabilitación o el entrenamiento [4]. </p>
 
 #### <blockquote> Prueba 02: Gastrocenmio
 
@@ -133,7 +133,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 <p align="center"><i>Tabla 8. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 5. Actividad muscular del trapecio según la literatura: <a id="P1"></a>
-<p align="justify">PARTE SANDRO.</p>
+<p align="justify"> En el estudio de Ahmed et al. (2024), se examina la actividad EMG del trapecio durante pruebas cognitivas que inducen estrés, como el test Stroop y el cálculo mental, así como durante una sesión de meditación guiada. Los resultados muestran que la actividad EMG del trapecio aumenta significativamente durante el estrés en comparación con el reposo y la meditación, especialmente en las frecuencias bajas (0.5–4 Hz). Este estudio también introdujo un método novedoso para evaluar la asimetría en la activación del trapecio entre los lados izquierdo y derecho, encontrando que esta asimetría es útil para detectar estados de estrés y meditación [6].</p>
 
 #### <blockquote> Prueba 05: Trapecio<p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
 
