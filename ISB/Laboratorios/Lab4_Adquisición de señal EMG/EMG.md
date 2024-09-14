@@ -6,6 +6,9 @@
 4. [Resultados](#Resultados)
    - [Prueba 01](#P1)
    - [Prueba 02](#P2)
+   - [Prueba 03](#P3)
+   - [Prueba 04](#P4)
+   - [Prueba 05](#P5)
 6. [Discusión](#Discusión)
 7. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
