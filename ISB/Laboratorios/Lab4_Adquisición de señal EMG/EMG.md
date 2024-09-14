@@ -111,7 +111,7 @@
 <p align="center"><i>Tabla 8. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 5. Prueba 05 - Actividad muscular del _____ <a id="P5"></a>
-<p align="center"><img src="Anexos/IMG_espalda.PNG" width="450" height="300"></p>
+<p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
 
 <p align="center"><i>Figura 6.</i></p>
 
