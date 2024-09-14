@@ -119,7 +119,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
    
 |  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
-| <video src="https://github.com/sandro-robles/Intro_G4/blob/d2a3f0e7ed397f6f32d06a9312ceed8b01f873ea/ISB/Laboratorios/Lab4_Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Anexos/Bi%CC%81ceps%20reposo.mp4"> | <video src=""> |
+| <video src="Anexos/Bíceps reposo.mp4"> | <video src=""> |
 
 <p align="center"><i>Tabla 7. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
@@ -136,7 +136,9 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 ### 5. Actividad muscular del trapecio según la literatura: <a id="P1"></a>
 <p align="justify"> En el estudio de Ahmed et al. (2024), se examina la actividad EMG del trapecio durante pruebas cognitivas que inducen estrés, como el test Stroop y el cálculo mental, así como durante una sesión de meditación guiada. Los resultados muestran que la actividad EMG del trapecio aumenta significativamente durante el estrés en comparación con el reposo y la meditación, especialmente en las frecuencias bajas (0.5–4 Hz). Este estudio también introdujo un método novedoso para evaluar la asimetría en la activación del trapecio entre los lados izquierdo y derecho, encontrando que esta asimetría es útil para detectar estados de estrés y meditación [6].</p>
 
-#### <blockquote> Prueba 05: Trapecio<p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
+#### <blockquote> Prueba 05: Trapecio
+
+<p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
 
 <p align="center"><i>Figura 6.</i></p>
 
