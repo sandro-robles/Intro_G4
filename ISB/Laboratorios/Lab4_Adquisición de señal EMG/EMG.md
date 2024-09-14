@@ -28,7 +28,8 @@
 ### 1. Prueba 01 - Actividad muscular del _____ <a id="P1"></a>
 <p align="center"><img src="Anexos/IMG_tricep.PNG" width="450" height="300"></p>
 
-<p align="center"><i>Figura 2.</i></p>
+<p align="center"><i>Figura 2: La medición del EMG del tríceps se realizó con el participante de pie, manteniendo el brazo relajado al costado del cuerpo. Se colocaron electrodos de superficie en la región del tríceps para captar la actividad eléctrica del músculo durante la contracción y el reposo.
+</i></p>
 
 <p align="center">
    
