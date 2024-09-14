@@ -66,7 +66,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 ### 2. Actividad muscular del gastrocnemio según la literatura: <a id="P1"></a>
 <p align="justify"> En el estudio de Wang et al. (2021), se centra en la medición de la actividad EMG del gastrocnemio durante varias inclinaciones y tipos de marcha (caminar en plano, cuesta arriba, cuesta abajo, y subir/bajar escaleras). Se observa que la actividad EMG del gastrocnemio aumenta progresivamente al caminar cuesta arriba, sugiriendo una mayor activación muscular debido a la mayor demanda de fuerza en comparación con caminar en plano o cuesta abajo. Es importante medir la actividad EMG en estas diferentes condiciones para entender cómo varía la activación muscular y cómo optimizar los movimientos en la rehabilitación o el entrenamiento [4]. </p>
 
-#### <blockquote> Prueba 02: Gastrocenmio
+#### <blockquote> Prueba 02: Gastrocnemio
 
 <p align="center"><img src="Anexos/IMG_pierna.PNG" width="450" height="300"></p>
 
@@ -76,7 +76,8 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
    
 |  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** | **Actividad muscular del bíceps braquial con oposición** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
-| <video src=""> | <video src=""> | <video src=""> | 
+
+| <video src="https://github.com/user-attachments/assets/69bd1254-6af8-402e-9ef5-aaed76e18859"> | <video src="https://github.com/user-attachments/assets/1bd88350-0676-4097-b603-db53ae502012"> | <video src="https://github.com/user-attachments/assets/b8c96a19-02b9-4811-9cc9-4b1174248aca"> | 
 <p align="center"><i>Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
 
