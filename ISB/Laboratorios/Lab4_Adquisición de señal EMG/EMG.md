@@ -56,7 +56,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 ### 2. Actividad muscular del gastrocnemio según la literatura: <a id="P1"></a>
 <p align="justify"> PARTE SANDRO </p>
-#### <blockquote> 2.1 Prueba 02: Gastrocenmio
+<blockquote> 2.1 Prueba 02: Gastrocenmio
 
 <p align="center"><img src="Anexos/IMG_pierna.PNG" width="450" height="300"></p>
 
