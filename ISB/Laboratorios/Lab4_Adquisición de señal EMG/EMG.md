@@ -30,7 +30,7 @@
 
 En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [2]. </p>.
 
-####    1.1 Prueba 01: Tríceps
+#### - 1.1 Prueba 01: Tríceps
 
 <p align="center"><img src="Anexos/IMG_tricep.PNG" width="450" height="300"></p>
 
