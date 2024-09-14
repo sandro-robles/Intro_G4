@@ -126,7 +126,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-|  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** |
+|  **Actividad Muscular del Bíceps  en reposo** | **Actividad Muscular del bíceps ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
 | <video src="https://github.com/user-attachments/assets/6d9c9523-7049-481b-8242-b2dfcaaf2958"> </video> | <video src="https://github.com/user-attachments/assets/33b24c40-c045-41c5-8eca-b7724281b103"> </video> |
 
@@ -153,7 +153,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-|  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** | **Actividad muscular del bíceps braquial con oposición** |
+|  **Actividad Muscular del Trapecio en reposo** | **Actividad Muscular del Trapecio ...** | **Actividad muscular del Trapecio ...** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/973a91c9-eab7-4e0c-b104-2dc0212b3720"></video>|<video src="https://github.com/user-attachments/assets/e402e19e-9ef5-4509-aa88-4fd0fd3adc89"></video>|<video src="https://github.com/user-attachments/assets/3e115637-f0ce-429d-8452-8b26524bb439"> | 
 
