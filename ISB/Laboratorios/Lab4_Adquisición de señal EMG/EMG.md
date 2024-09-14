@@ -75,7 +75,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 <p align="center"><img src="Anexos/IMG_pierna.PNG" width="450" height="300"></p>
 
-<p align="center"><i>Figura 3. La medición del EMG del gastrocnemio se realizó con el participante de pie, manteniendo el tobillo en una posición neutral y relajada. Se colocaron electrodos de superficie en la cabeza lateral del gastrocnemio para captar la actividad eléctrica del músculo durante diferentes movimientos de flexión plantar y dorsiflexión.</i></p>
+<p align="center"><i>Figura 3. La medición del EMG del gastrocnemio se realizó con el participante de pie, manteniendo el tobillo en una posición neutral y relajada. Se colocaron electrodos de superficie en la cabeza lateral del gastrocnemio para captar la actividad eléctrica del músculo durante la flexión plantar.</i></p>
 
 <p align="center">
    
