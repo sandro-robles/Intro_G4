@@ -34,7 +34,7 @@
    
 |  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** | **Actividad muscular del bíceps braquial con oposición** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
-| <video src=""> | <video src=""> | <video src=""> | 
+| <video src="https://drive.google.com/file/d/1-r1KEkxhgwc0BrKvlxiZHZ7AJXO9aaKS/view?usp=drive_link"> | <video src=""> | <video src=""> | 
 <p align="center"><i>Tabla 1. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
 
