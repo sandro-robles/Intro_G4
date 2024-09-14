@@ -21,7 +21,6 @@
 
 <p align="center"><i>Figura 1: [1].</i></p>
 
-<video src="https://github.com/user-attachments/assets/6d9c9523-7049-481b-8242-b2dfcaaf2958"> </video>
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
@@ -129,7 +128,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
    
 |  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del bíceps braquial sin oposición** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
-| <video src="https://raw.githubusercontent.com/sandro-robles/Intro_G4/main/ISB/Laboratorios/Lab4_Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Anexos/Bi%CC%81ceps%20reposo.mp4"> </video> | <video src=""> |
+| <video src="https://github.com/user-attachments/assets/6d9c9523-7049-481b-8242-b2dfcaaf2958"> </video> | <video src="https://github.com/user-attachments/assets/33b24c40-c045-41c5-8eca-b7724281b103"> </video> |
 
 <p align="center"><i>Tabla 7. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
