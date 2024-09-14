@@ -37,9 +37,8 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 <p align="center"><i>Figura 2: La medición del EMG del tríceps se realizó con el participante de pie, manteniendo el brazo relajado al costado del cuerpo. Se colocaron electrodos de superficie en la región del tríceps para captar la actividad eléctrica del músculo durante la contracción y el reposo.
 </i></p>
 
-### 2. Actividad muscular del bíceps según la literatura: <a id="P1"></a>
-
 <p align="center">
+   
 |  **Actividad muscular del bíceps braquial en reposo** | **Actividad muscular del Tricep** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
 | [![Ver video](https://img.youtube.com/vi/-Klp4Z2_d8Y/0.jpg)](https://youtu.be/-Klp4Z2_d8Y) | [Ver video](https://youtu.be/-Klp4Z2_d8Y) | 
