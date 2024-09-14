@@ -26,7 +26,8 @@
 <video src="https://github.com/user-attachments/assets/984b2318-0d3a-42b6-a330-8e68a9c0f11e"> </video>
 
 
-<p align="center">
+<div align="center">
+   
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 |  **Modelo**  | **Descripción** | **Cantidad** |
 |:------------:|:---------------:|:------------:|
