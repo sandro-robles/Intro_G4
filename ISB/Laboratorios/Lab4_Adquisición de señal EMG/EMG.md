@@ -22,7 +22,7 @@
 
 <p align="center"><img src="Anexos/EMG.jpg" width="400"></p>
 
-<p align="center"><i>Figura 1: [1].</i></p>
+<p align="center"><i>Figura 1: Aplicaciones de la electromiografía en asistencia y rehabilitación [2].</i></p>
 
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
@@ -178,6 +178,9 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
+
+<p align="justify">[2real]ricardog, “Seminario ‘Aplicaciones de la electromiografía en asistencia y rehabilitación’ | Instituto Bioingeniería,” Bioingenieria.umh.es, 2024. https://bioingenieria.umh.es/2023/11/15/seminario-aplicaciones-de-la-electromiografia-en-asistencia-y-rehabilitacion/ (accessed Sep. 14, 2024).</p>
+
 
 <p align="justify">[2] Marina Mello Villalba, Rafael Akira Fujita, Claudinei Iossi Junior, and Matheus Machado Gomes, “Forearm Position Influences Triceps Brachii Activation During Triceps Push-Down Exercise,” ResearchGate, Feb. 23, 2024. https://www.researchgate.net/publication/378472477_Forearm_Position_Influences_Triceps_Brachii_Activation_During_Triceps_Push-Down_Exercise (accessed Sep. 13, 2024).</p>
 
