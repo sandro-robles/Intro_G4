@@ -21,8 +21,6 @@
 
 <p align="center"><i>Figura 1: [1].</i></p>
 
-<video src="https://raw.githubusercontent.com/sandro-robles/Intro_G4/main/ISB/Laboratorios/Lab4_Adquisici%C3%B3n%20de%20se%C3%B1al%20EMG/Anexos/Bi%CC%81ceps%20reposo.mp4"></video>
-<video src="https://user-images.githubusercontent.com/62686249/231337697-050966ab-cd84-454a-b6eb-9ab720da62cd.mp4"></video>
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 |  **Modelo**  | **Descripción** | **Cantidad** |
