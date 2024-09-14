@@ -30,7 +30,7 @@
 
 En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [2]. </p>
 
-#### <blockquote> 1.1 Prueba 01: Tríceps
+#### <blockquote> 1.1. Prueba 01: Tríceps
 
 <p align="center"><img src="Anexos/IMG_tricep.PNG" width="450" height="300"></p>
 
@@ -56,7 +56,8 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 ### 2. Actividad muscular del gastrocnemio según la literatura: <a id="P1"></a>
 <p align="justify"> PARTE SANDRO </p>
-<blockquote> 2.1 Prueba 02: Gastrocenmio
+
+#### <blockquote> 2.1. Prueba 02: Gastrocenmio
 
 <p align="center"><img src="Anexos/IMG_pierna.PNG" width="450" height="300"></p>
 
@@ -81,7 +82,9 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 ### 3. Actividad muscular de la mano según la literatura: <a id="P1"></a>
 <p align="justify"> PARTE ANEL </p>
-#### <blockquote> 3.1 Prueba 03: Mano
+
+#### <blockquote> 3.1. Prueba 03: Mano
+
 <p align="center"><img src="Anexos/IMG_mano.PNG" width="450" height="300"></p>
 
 <p align="center"><i>Figura 4.</i></p>
@@ -105,7 +108,9 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 ### 4. Actividad muscular del bíceps según la literatura: <a id="P1"></a>
 <p align="justify"> En el estudio de Robert W. Smith et al., se evaluaron los cambios en la fatiga muscular y las respuestas neuromusculares en el bíceps braquial después de realizar una contracción isométrica máxima (es decir, mantener una contracción sin mover el brazo) hasta el fallo muscular [3].</p>
-#### <blockquote> 4.1 Prueba 02: Bíceps
+
+#### <blockquote> 4.1. Prueba 02: Bíceps
+
 <p align="center"><img src="Anexos/IMG_bicep.PNG" width="450" height="300"></p>
 
 <p align="center"><i>Figura 5: La medición del EMG se realizó con el brazo del participante apoyado sobre la mesa, mientras el resto del cuerpo permanecía en una posición sentada sin contacto con la superficie de apoyo, para evitar interferencias externas. Se utilizaron electrodos en el brazo para captar la actividad eléctrica del músculo bíceps durante la contracción.</i></p>
@@ -127,8 +132,10 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 | **Con oposición**|<image src="">|
 <p align="center"><i>Tabla 8. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
-### 5. Prueba 05 - Actividad muscular del _____ <a id="P5"></a>
-<p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
+### 5. Actividad muscular del trapecio según la literatura: <a id="P1"></a>
+<p align="justify"> PARTE SANDRO.</p>
+
+#### <blockquote> 5.1. Prueba 02: Trapecio<p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
 
 <p align="center"><i>Figura 6.</i></p>
 
