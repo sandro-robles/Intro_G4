@@ -145,6 +145,11 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 ### 5. Actividad muscular del trapecio según la literatura: <a id="P1"></a>
 <p align="justify"> En el estudio de Ahmed et al. (2024), se examina la actividad EMG del trapecio durante pruebas cognitivas que inducen estrés, como el test Stroop y el cálculo mental, así como durante una sesión de meditación guiada. Los resultados muestran que la actividad EMG del trapecio aumenta significativamente durante el estrés en comparación con el reposo y la meditación, especialmente en las frecuencias bajas (0.5–4 Hz). Este estudio también introdujo un método novedoso para evaluar la asimetría en la activación del trapecio entre los lados izquierdo y derecho, encontrando que esta asimetría es útil para detectar estados de estrés y meditación [6].</p>
 
+### 5.1. Trapecio: <a id="P1"></a>
+<p align="justify"> En el estudio mencionado anteriormente, la medición del EMG del músculo trapecio se realizó con el participante en una posición sentada, manteniendo una postura relajada para minimizar interferencias de otros movimientos. Los electrodos de superficie se colocaron bilateralmente en la región del trapecio superior para medir la actividad durante situaciones de reposo, estrés mental y meditación [6]. Sin embargo, en nuestro caso decidimos modificar esta metodología para analizar la actividad eléctrica del músculo durante situaciones de estrés físico, específicamente al realizar ejercicios de elevación de trapecio (encogimiento de hombros).
+
+Para replicar esta condición de ejercicio en un entorno controlado, utilizamos una banca del laboratorio como si fuera una barra de gimnasio, permitiendo que los participantes imitaran el movimiento de elevación de trapecio. Esta variación en la metodología nos permitió enfocarnos en el comportamiento del músculo durante una actividad física intensa, a diferencia del estrés mental analizado en el estudio original. Esta modificación es crucial, ya que nuestro interés radica en entender la activación del trapecio en escenarios de esfuerzo físico, no solo en estados de relajación o estrés cognitivo.</p>
+
 #### <blockquote> Prueba 05: Trapecio
 
 <p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
