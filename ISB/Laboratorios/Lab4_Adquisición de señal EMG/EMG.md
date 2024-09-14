@@ -4,11 +4,11 @@
 2. [Introduccion](#Introduccion)
 3. [Equipos y materiales utilizados](#Equipos)
 4. [Resultados](#Resultados)
-   - [Prueba 01](#P1)
-   - [Prueba 02](#P2)
-   - [Prueba 03](#P3)
-   - [Prueba 04](#P4)
-   - [Prueba 05](#P5)
+   - [Prueba 01: Tríceps](#P1)
+   - [Prueba 02: Gastrocnemio](#P2)
+   - [Prueba 03: Mano](#P3)
+   - [Prueba 04: Bíceps](#P4)
+   - [Prueba 05: Trapecio](#P5)
 6. [Discusión](#Discusión)
 7. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
@@ -16,7 +16,9 @@
 * Realizar mediciones de EMG en diferentes grupos musculares.
 * Analizar las señales EMG obtenidas mediante el software OpenSignals (r)evolution.
 ## **Introducción:**<a id="Introduccion"></a>
-<p align="justify"> FALTA INTRODUCCIONNNNN</p>
+<p align="justify"> El electromiograma de superficie (EMG) es una técnica utilizada para medir la actividad eléctrica de los músculos durante la contracción, proporcionando información esencial sobre las propiedades fisiológicas y funcionales del músculo. La electromiografía (EMG) se refiere a la señal eléctrica colectiva de los músculos, la cual es controlada por el sistema nervioso y producida durante la contracción muscular. La señal representa las propiedades anatómicas y fisiológicas de los músculos; de hecho, una señal EMG es la actividad eléctrica de las unidades motoras de un músculo, que consisten en dos tipos: EMG de superficie y EMG intramuscular. Las señales EMG de superficie y EMG intramuscular se registran mediante electrodos no invasivos y electrodos invasivos, respectivamente. Hoy en día, las señales detectadas en la superficie se prefieren para obtener información sobre el tiempo o la intensidad de la activación de los músculos superficiales. Las señales de electromiografía (EMG) se consideran las más útiles como señales electrofisiológicas tanto en los campos médicos como en los de ingeniería. El método básico para comprender el comportamiento del cuerpo humano bajo condiciones normales y patológicas se proporciona mediante el registro de señales EMG. Siempre que se registra una señal EMG del músculo, varios tipos de ruidos la contaminan. Por lo tanto, analizar y clasificar las señales EMG es muy difícil debido al patrón complicado de la EMG, especialmente cuando ocurre movimiento [1].</p>
+
+<p align="justify"> El uso del sistema BITalino en este laboratorio permite la adquisición de señales EMG de forma práctica y accesible, brindando la oportunidad de analizar la actividad muscular de varios grupos musculares bajo diferentes condiciones. En este contexto, el presente laboratorio tiene como objetivos principales familiarizarse con el sistema BITalino, adquirir señales EMG de distintos músculos y analizar estas señales utilizando el software OpenSignals (r)evolution, todo ello bajo un entorno controlado y con la implementación de técnicas básicas de procesamiento de señales para mitigar los efectos del ruido y los artefactos, tal como lo sugiere la literatura sobre procesamiento de señales EMG.</p>
 <p align="center"><img src="Anexos/EMG.jpg" width="400"></p>
 
 <p align="center"><i>Figura 1: [1].</i></p>
