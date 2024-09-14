@@ -47,10 +47,10 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 <p align="center">
    
-|  **Actividad muscular del tríceps en reposo** | **Actividad muscular del Tricep ejerciendo fuerza** |
+|  **Actividad Muscular del Tríceps en reposo** | **Actividad Muscular del Tríceps ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/b501a6a4-6002-4526-81b7-ce0dc513d36a"></video>|<video src="https://github.com/user-attachments/assets/8ff2246f-7f49-48b0-aa0b-53cf2bd35a6a">|
-<p align="center"><i>Tabla 1. Videos de adquisición la señal EMG según dos tomas: en reposo y con el músculo ejerciendo fuerza </i></p>
+<p align="center"><i>Tabla 2. Videos de adquisición de la señal EMG según dos tomas: en reposo y con el músculo ejerciendo fuerza. </i></p>
 </p>
 
 <p align="center">
