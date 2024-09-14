@@ -37,9 +37,9 @@
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Actividad muscular del tríceps según la literatura: <a id="P1"></a>
-<p align="justify"> En el artículo de Villalba et al. (2024), el enfoque está en medir la actividad EMG del tríceps braquial (cabeza lateral y cabeza larga) durante un ejercicio de tríceps push-down en varias posiciones del antebrazo (supinada y pronada). También se menciona que la cabeza larga del tríceps muestra mayor actividad EMG cuando el antebrazo está en una posición supinada, lo que sugiere una mayor carga sobre este músculo en comparación con la posición pronada. Esto hace que sea importante medir la actividad EMG en ambas posiciones para entender cómo varía la activación muscular y mejorar la eficiencia del ejercicio [2] .
+<p align="justify"> En el artículo de Villalba et al. (2024), el enfoque está en medir la actividad EMG del tríceps braquial (cabeza lateral y cabeza larga) durante un ejercicio de tríceps push-down en varias posiciones del antebrazo (supinada y pronada). También se menciona que la cabeza larga del tríceps muestra mayor actividad EMG cuando el antebrazo está en una posición supinada, lo que sugiere una mayor carga sobre este músculo en comparación con la posición pronada. Esto hace que sea importante medir la actividad EMG en ambas posiciones para entender cómo varía la activación muscular y mejorar la eficiencia del ejercicio [3] .
 
-En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [3]. </p>
+En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [4]. </p>
 
 #### <blockquote> Prueba 01: Tríceps
 
@@ -179,12 +179,12 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
 
-<p align="justify">[2real]ricardog, “Seminario ‘Aplicaciones de la electromiografía en asistencia y rehabilitación’ | Instituto Bioingeniería,” Bioingenieria.umh.es, 2024. https://bioingenieria.umh.es/2023/11/15/seminario-aplicaciones-de-la-electromiografia-en-asistencia-y-rehabilitacion/ (accessed Sep. 14, 2024).</p>
+<p align="justify">[2]ricardog, “Seminario ‘Aplicaciones de la electromiografía en asistencia y rehabilitación’ | Instituto Bioingeniería,” Bioingenieria.umh.es, 2024. https://bioingenieria.umh.es/2023/11/15/seminario-aplicaciones-de-la-electromiografia-en-asistencia-y-rehabilitacion/ (accessed Sep. 14, 2024).</p>
 
 
-<p align="justify">[2] Marina Mello Villalba, Rafael Akira Fujita, Claudinei Iossi Junior, and Matheus Machado Gomes, “Forearm Position Influences Triceps Brachii Activation During Triceps Push-Down Exercise,” ResearchGate, Feb. 23, 2024. https://www.researchgate.net/publication/378472477_Forearm_Position_Influences_Triceps_Brachii_Activation_During_Triceps_Push-Down_Exercise (accessed Sep. 13, 2024).</p>
+<p align="justify">[3] Marina Mello Villalba, Rafael Akira Fujita, Claudinei Iossi Junior, and Matheus Machado Gomes, “Forearm Position Influences Triceps Brachii Activation During Triceps Push-Down Exercise,” ResearchGate, Feb. 23, 2024. https://www.researchgate.net/publication/378472477_Forearm_Position_Influences_Triceps_Brachii_Activation_During_Triceps_Push-Down_Exercise (accessed Sep. 13, 2024).</p>
 
-<p align="justify">[3] J. Hussain, K. Sundaraj, I. D. Subramaniam, and C. K. Lam, “Muscle Fatigue in  the Three Heads of Triceps Brachii During Intensity and Speed Variations of Triceps Push-Down Exercise,” Frontiers in Physiology, vol. 11, p. 467739, Feb. 2020, doi: https://doi.org/10.3389/fphys.2020.00112.</p> 
+<p align="justify">[4] J. Hussain, K. Sundaraj, I. D. Subramaniam, and C. K. Lam, “Muscle Fatigue in  the Three Heads of Triceps Brachii During Intensity and Speed Variations of Triceps Push-Down Exercise,” Frontiers in Physiology, vol. 11, p. 467739, Feb. 2020, doi: https://doi.org/10.3389/fphys.2020.00112.</p> 
 
 <p align="justify">[4] R. W. Smith, T. Neltner, J. Paul, and G. O. Johnson, “Fatigability, Coactivation, and Neuromuscular Responses of the Biceps Brachii and Triceps Brachii...,” ResearchGate, Jun. 2021. 
 https://www.researchgate.net/publication/352159737_Fatigability_Coactivation_and_Neuromuscular_Responses_of_the_Biceps_Brachii_and_Triceps_Brachii_Following_Sustained_Maximal_Isometric_Forearm_Flexion_to_Task_Failure (accessed Sep. 13, 2024).</p>
