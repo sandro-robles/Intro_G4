@@ -27,7 +27,7 @@
 |  **Modelo**  | **Descripción** | **Cantidad** |
 |:------------:|:---------------:|:------------:|
 | (R)EVOLUTION |   Kit BITalino  |       1      |
-|       -      |      Laptop     |       1      |
+|     ASUS     |      Laptop     |       1      |
 |       -      |    Electrodos superficiales   |       3      |
 
 ## **Resultados:**<a id="Resultados"></a>
