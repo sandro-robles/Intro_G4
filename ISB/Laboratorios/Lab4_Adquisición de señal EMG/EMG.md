@@ -33,7 +33,8 @@
 |:------------:|:---------------:|:------------:|
 | (R)EVOLUTION |   Kit BITalino  |       1      |
 |     ASUS     |      Laptop     |       1      |
-|       -      |    Electrodos superficiales   |       3      |</i></p>
+|       -      |    Electrodos superficiales   |       3      
+</div>
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Actividad muscular del tríceps según la literatura: <a id="P1"></a>
