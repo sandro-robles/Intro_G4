@@ -79,7 +79,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 <p align="center">
    
-|  **Actividad muscular - Gastrocnemio** | **Actividad Muscular - Gastrocnemio** | **Actividad Muscular - Gastrocnemio** |
+|  **Actividad muscular - Gastrocnemio en reposo** | **Actividad Muscular - Gastrocnemio en movimiento(elevación)** | **Actividad Muscular - Gastrocnemio ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/69bd1254-6af8-402e-9ef5-aaed76e18859"></video>|<video src="https://github.com/user-attachments/assets/1bd88350-0676-4097-b603-db53ae502012"></video>|<video src="https://github.com/user-attachments/assets/b8c96a19-02b9-4811-9cc9-4b1174248aca"> | 
 <p align="center"><i>
