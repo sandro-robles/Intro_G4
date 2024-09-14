@@ -28,7 +28,7 @@
    
 |  **Modelo**  | **Descripción** | **Cantidad** |
 |:------------:|:---------------:|:------------:|
-| (R)EVOLUTION |   Kit BITalino  |       1      |
+| (r)EVOLUTION |   Kit BITalino  |       1      |
 |     ASUS     |      Laptop     |       1      |
 |       -      |    Electrodos superficiales   |       3      
 </div>
@@ -171,11 +171,11 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 ## **Discusión:**<a id="Discusión"></a>
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
-[1] Marina Mello Villalba, Rafael Akira Fujita, Claudinei Iossi Junior, and Matheus Machado Gomes, “Forearm Position Influences Triceps Brachii Activation During Triceps Push-Down Exercise,” ResearchGate, Feb. 23, 2024. https://www.researchgate.net/publication/378472477_Forearm_Position_Influences_Triceps_Brachii_Activation_During_Triceps_Push-Down_Exercise (accessed Sep. 13, 2024).
+[2] Marina Mello Villalba, Rafael Akira Fujita, Claudinei Iossi Junior, and Matheus Machado Gomes, “Forearm Position Influences Triceps Brachii Activation During Triceps Push-Down Exercise,” ResearchGate, Feb. 23, 2024. https://www.researchgate.net/publication/378472477_Forearm_Position_Influences_Triceps_Brachii_Activation_During_Triceps_Push-Down_Exercise (accessed Sep. 13, 2024).
 
-[2] J. Hussain, K. Sundaraj, I. D. Subramaniam, and C. K. Lam, “Muscle Fatigue in  the Three Heads of Triceps Brachii During Intensity and Speed Variations of Triceps Push-Down Exercise,” Frontiers in Physiology, vol. 11, p. 467739, Feb. 2020, doi: https://doi.org/10.3389/fphys.2020.00112. 
+[3] J. Hussain, K. Sundaraj, I. D. Subramaniam, and C. K. Lam, “Muscle Fatigue in  the Three Heads of Triceps Brachii During Intensity and Speed Variations of Triceps Push-Down Exercise,” Frontiers in Physiology, vol. 11, p. 467739, Feb. 2020, doi: https://doi.org/10.3389/fphys.2020.00112. 
 
-[3] R. W. Smith, T. Neltner, J. Paul, and G. O. Johnson, “Fatigability, Coactivation, and Neuromuscular Responses of the Biceps Brachii and Triceps Brachii...,” ResearchGate, Jun. 2021. 
+[4] R. W. Smith, T. Neltner, J. Paul, and G. O. Johnson, “Fatigability, Coactivation, and Neuromuscular Responses of the Biceps Brachii and Triceps Brachii...,” ResearchGate, Jun. 2021. 
 https://www.researchgate.net/publication/352159737_Fatigability_Coactivation_and_Neuromuscular_Responses_of_the_Biceps_Brachii_and_Triceps_Brachii_Following_Sustained_Maximal_Isometric_Forearm_Flexion_to_Task_Failure (accessed Sep. 13, 2024).
 
 ‌
