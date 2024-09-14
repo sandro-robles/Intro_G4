@@ -21,9 +21,7 @@
 
 <p align="center"><i>Figura 1: [1].</i></p>
 
-
-
-<video src="https://github.com/user-attachments/assets/984b2318-0d3a-42b6-a330-8e68a9c0f11e"> </video>
+<video src="https://github.com/user-attachments/assets/6d9c9523-7049-481b-8242-b2dfcaaf2958"> </video>
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
