@@ -193,6 +193,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 <p align="center"><i>Tabla 11. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ## **Discusión:**<a id="Discusión"></a>
+<p align="justify"> Para este laboratorio se uso el sistema BITalino para la adquision de señales EMG, logrando asi capturar y analizar la actividad muscular en diferentes grupos musculares bajo diferentes condiciones. La tecnología EMG de superficie ofrece una forma no invasiva de medir la actividad eléctrica muscular, proporcionando información clave sobre la fisiología y función de los músculos. AL realizar las pruebas apra cada musculo se pudo observar una variabilidad en cada una de ellas. Diferentes músculos presentan características de activación distintas y diferentes respuestas.</p>
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
