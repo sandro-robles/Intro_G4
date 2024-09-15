@@ -122,7 +122,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-|  **Actividad Muscular - Mano/nervio mediano en reposo** | **Actividad Muscular - Mano/nervio mediano en movimeinto** | **Actividad Muscular - Mano/nervio mediano ejerciendo fuerza** |
+|  **Actividad Muscular - Mano/nervio mediano en reposo** | **Actividad Muscular - Mano/nervio mediano en movimiento** | **Actividad Muscular - Mano/nervio mediano ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 | <video src="https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712"> | <video src="https://github.com/user-attachments/assets/750503ff-88bb-4193-a935-c3d0a1321b8b"> | <video src="https://github.com/user-attachments/assets/84ebebe4-5c92-4557-954f-179f88f1f5e8"> | 
 <p align="center"><i>Tabla 6. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
@@ -188,7 +188,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-|  **Actividad Muscular - Trapecio en reposo** | **Actividad Muscular - Trapecio ...** | **Actividad Muscular - Trapecio ...** |
+|  **Actividad Muscular - Trapecio en reposo** | **Actividad Muscular - Trapecio en movimiento** | **Actividad Muscular - Trapecio ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/973a91c9-eab7-4e0c-b104-2dc0212b3720"></video>|<video src="https://github.com/user-attachments/assets/e402e19e-9ef5-4509-aa88-4fd0fd3adc89"></video>|<video src="https://github.com/user-attachments/assets/3e115637-f0ce-429d-8452-8b26524bb439"> | 
 <p align="center"><i>Tabla 10. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del trapecio. </i></p>
