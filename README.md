@@ -18,4 +18,17 @@ Este proyecto está diseñado para explorar y aplicar técnicas fundamentales en
 <p align="justify">- Mauricio Juárez</p>
 <p align="justify">- María Mautino</p>
 
-<h2 style="text-align: center;"> Curso: Introducción a señales biomédicas</h2>
+### Docentes del curso
+#### PROFESORES DEL CURSO E INVITADOS
+
+| Grado o Título | Nombre    | Apellidos             | Condición   | Correo electrónico         |
+| -------------- | --------- | --------------------- | ----------- | -------------------------- |
+| Magister       | Moisés    | Meza Rodríguez        | Contratado  | [moises.meza@upch.pe](mailto:moises.meza@upch.pe) |
+| Magister       | Lewis  | De la Cruz Rodríguez  | Contratado  | [umbert.de.la.cruz@upch.pe](mailto:umbert.de.la.cruz@upch.pe) |
+| Especialista       | Elder Vicente  | Quispe Huamani  | Docente invitado  | [elder.quispe.h@upch.pe](mailto:elder.quispe.h@upch.pe) |
+
+#### JEFES DE PRÁCTICA
+
+| Grado o Título | Nombre    | Apellidos             | Condición   | Correo electrónico         |
+| -------------- | --------- | --------------------- | ----------- | -------------------------- |
+| Licenciado     | José Alonso | Caceres del Aguila       | Contratado  | [jose.caceres.d@upch.pe](mailto:jose.caceres.d@upch.pe) |
