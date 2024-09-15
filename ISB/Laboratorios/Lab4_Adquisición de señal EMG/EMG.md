@@ -36,7 +36,8 @@
 </div>
 
 ## **Resultados:**<a id="Resultados"></a>
-### 1. Actividad muscular del tríceps según la literatura: <a name="P1"></a>
+<a name="P1"></a>
+### 1. Actividad muscular del tríceps según la literatura:
 <p align="justify"> En el artículo de Villalba et al. (2024), el enfoque está en medir la actividad EMG del tríceps braquial (cabeza lateral y cabeza larga) durante un ejercicio de tríceps push-down en varias posiciones del antebrazo (supinada y pronada). También se menciona que la cabeza larga del tríceps muestra mayor actividad EMG cuando el antebrazo está en una posición supinada, lo que sugiere una mayor carga sobre este músculo en comparación con la posición pronada. Esto hace que sea importante medir la actividad EMG en ambas posiciones para entender cómo varía la activación muscular y mejorar la eficiencia del ejercicio [3] .
 
 En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [4]. </p>
@@ -65,12 +66,12 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 | **Con oposición**|<image src="">|
 <p align="center"><i>Tabla 2. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
-### 2. Actividad muscular del gastrocnemio según la literatura: <a id="P1"></a>
+### 2. Actividad muscular del gastrocnemio según la literatura:
 <p align="justify"> En el estudio de Wang et al. (2021), se centra en la medición de la actividad EMG del gastrocnemio durante varias inclinaciones y tipos de marcha (caminar en plano, cuesta arriba, cuesta abajo, y subir/bajar escaleras). Se observa que la actividad EMG del gastrocnemio aumenta progresivamente al caminar cuesta arriba, sugiriendo una mayor activación muscular debido a la mayor demanda de fuerza en comparación con caminar en plano o cuesta abajo. Es importante medir la actividad EMG en estas diferentes condiciones para entender cómo varía la activación muscular y cómo optimizar los movimientos en la rehabilitación o el entrenamiento [5]. </p>
 
-### 2.1. Diferencias metodológicas: <a id="P1"></a>
+### 2.1. Diferencias metodológicas:
 <p align="justify"> Es importante mencionar que, para esta prueba, buscamos simplificar el análisis de la activación muscular del gastrocnemio imitando la marcha con un solo movimiento: la elevación de pantorrillas. A diferencia del estudio mencionado, nuestro enfoque se centró en capturar la actividad eléctrica del músculo gastrocnemio mediante la flexión plantar, utilizando una elevación controlada. Esta metodología nos permitió medir de manera eficiente la actividad muscular en un entorno controlado, manteniendo el tobillo en una posición neutral y relajada, con los electrodos colocados en la cabeza lateral del gastrocnemio para captar los datos durante el movimiento.</p>
-
+<a name="P2"></a>
 #### <blockquote> Prueba 02: Gastrocnemio
 
 <p align="center"><img src="Anexos/IMG_pierna.PNG" width="450" height="300"></p>
@@ -95,9 +96,9 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 | **Con oposición**|<image src="">|
 <p align="center"><i>Tabla 4. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
-### 3. Actividad muscular de la mano según la literatura: <a id="P1"></a>
+<a name="P2"></a>
+### 3. Actividad muscular de la mano según la literatura:
 <p align="justify"> En el estudio de Dalkilic et al. (2017) se enfoca en la evaluación no invasiva de las ramas del nervio mediano en la mano mediante el método de seguimiento de umbral, una técnica avanzada para medir parámetros de excitabilidad neuronal. Los resultados indicaron alteraciones significativas en la excitabilidad del nervio mediano bajo distintas condiciones, lo que refleja cambios en la actividad neuromuscular que son de particular relevancia para el diagnóstico de neuropatías. Este enfoque es esencial para comprender cómo varía la respuesta electromiográfica (EMG) del nervio mediano durante movimientos funcionales de la mano, y proporciona una base sólida para optimizar estrategias terapéuticas y de rehabilitación. Al evaluar la actividad del nervio mediano, es posible identificar patrones específicos de activación muscular, lo que facilita el diseño de intervenciones más precisas en casos de disfunción neuromuscular [6].</p>
-
 
 #### <blockquote> Prueba 03: Mano / Nervio mediano
 
@@ -122,7 +123,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 | **Con oposición**|<image src="">|
 <p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
-### 4. Actividad muscular del bíceps según la literatura: <a id="P1"></a>
+### 4. Actividad muscular del bíceps según la literatura: <a id="P4"></a>
 <p align="justify"> En el estudio de Robert W. Smith et al., se evaluaron los cambios en la fatiga muscular y las respuestas neuromusculares en el bíceps braquial después de realizar una contracción isométrica máxima (es decir, mantener una contracción sin mover el brazo) hasta el fallo muscular [7].</p>
 
 #### <blockquote> Prueba 04: Bíceps
@@ -149,10 +150,10 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 | **Con oposición**|<image src="">|
 <p align="center"><i>Tabla 8. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
-### 5. Actividad muscular del trapecio según la literatura: <a id="P1"></a>
+### 5. Actividad muscular del trapecio según la literatura: <a id="P5"></a>
 <p align="justify"> En el estudio de Ahmed et al. (2024), se examina la actividad EMG del trapecio durante pruebas cognitivas que inducen estrés, como el test Stroop y el cálculo mental, así como durante una sesión de meditación guiada. Los resultados muestran que la actividad EMG del trapecio aumenta significativamente durante el estrés en comparación con el reposo y la meditación, especialmente en las frecuencias bajas (0.5–4 Hz). Este estudio también introdujo un método novedoso para evaluar la asimetría en la activación del trapecio entre los lados izquierdo y derecho, encontrando que esta asimetría es útil para detectar estados de estrés y meditación [8].</p>
 
-### 5.1. Diferencias metodológicas: <a id="P1"></a>
+### 5.1. Diferencias metodológicas: <a id="P5"></a>
 <p align="justify"> En el estudio mencionado anteriormente, la medición del EMG del músculo trapecio se realizó con el participante en una posición sentada, manteniendo una postura relajada para minimizar interferencias de otros movimientos. Los electrodos de superficie se colocaron bilateralmente en la región del trapecio superior para medir la actividad durante situaciones de reposo, estrés mental y meditación [8]. Sin embargo, en nuestro caso decidimos modificar esta metodología para analizar la actividad eléctrica del músculo durante situaciones de estrés físico, específicamente al realizar ejercicios de elevación de trapecio (encogimiento de hombros).</p>
 
 <p align="justify"> Para replicar esta condición de ejercicio en un entorno controlado, utilizamos una banca del laboratorio como si fuera una barra de gimnasio, permitiendo que los participantes imitaran el movimiento de elevación de trapecio. Esta variación en la metodología nos permitió enfocarnos en el comportamiento del músculo durante una actividad física intensa, a diferencia del estrés mental analizado en el estudio original. Esta modificación es crucial, ya que nuestro interés radica en entender la activación del trapecio en escenarios de esfuerzo físico, no solo en estados de relajación o estrés cognitivo.</p>
