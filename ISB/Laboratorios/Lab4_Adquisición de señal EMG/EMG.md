@@ -172,7 +172,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center"><img src="Anexos/Trap paper.jpg" width="400"></p>
 
-<p align="center"><i>Figura 9: Posición de los electrodos según el protocolo seguido en el paper [8].</i></p>
+<p align="center"><i>Figura 10: Posición de los electrodos según el protocolo seguido en el paper [8].</i></p>
 
 ### 5.1. Diferencias metodológicas: <a id="P5"></a>
 <p align="justify"> En el estudio mencionado anteriormente, la medición del EMG del músculo trapecio se realizó con el participante en una posición sentada, manteniendo una postura relajada para minimizar interferencias de otros movimientos. Los electrodos de superficie se colocaron bilateralmente en la región del trapecio superior para medir la actividad durante situaciones de reposo, estrés mental y meditación [8]. Sin embargo, en nuestro caso decidimos modificar esta metodología para analizar la actividad eléctrica del músculo durante situaciones de estrés físico, específicamente al realizar ejercicios de elevación de trapecio (encogimiento de hombros).</p>
@@ -183,7 +183,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center"><img src="Anexos/IMG_espalda.PNG" width="250" height="350"></p>
 
-<p align="center"><i>Figura 10. La medición del EMG del trapecio se realizó con el participante de pie, imitando el ejercicio de elevación de trapecio (encogimiento de hombros) para analizar la actividad muscular durante situaciones de estrés físico. Se colocaron electrodos de superficie bilateralmente en la región del trapecio superior (izquierdo y derecho) para captar la actividad eléctrica del músculo durante el ejercicio. Los electrodos se posicionaron entre el acromion y la columna cervical (C7), siguiendo la ubicación estándar para estudiar el trapecio superior, un músculo clave en la elevación y estabilidad del hombro.</i></p>
+<p align="center"><i>Figura 11. La medición del EMG del trapecio se realizó con el participante de pie, imitando el ejercicio de elevación de trapecio (encogimiento de hombros) para analizar la actividad muscular durante situaciones de estrés físico. Se colocaron electrodos de superficie bilateralmente en la región del trapecio superior (izquierdo y derecho) para captar la actividad eléctrica del músculo durante el ejercicio. Los electrodos se posicionaron entre el acromion y la columna cervical (C7), siguiendo la ubicación estándar para estudiar el trapecio superior, un músculo clave en la elevación y estabilidad del hombro.</i></p>
 
 <p align="center">
    
