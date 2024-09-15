@@ -98,11 +98,9 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-| **Posición** | **Señal y FFT** |
+| **Posición** | **Señal** |
 |:------------:|:---------------:|
-| **En reposo**|<image src="">|
-| **Sin oposición**|<image src="">|
-| **Con oposición**|<image src="">|
+| **En reposo, en movimiento y ejerciendo fuerza**|<image src="Anexos/S_gastro.png">|
 <p align="center"><i>Tabla 5. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 <a name="P3"></a>
@@ -129,11 +127,9 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-| **Posición** | **Señal y FFT** |
+| **Posición** | **Señal** |
 |:------------:|:---------------:|
-| **En reposo**|<image src="">|
-| **Sin oposición**|<image src="">|
-| **Con oposición**|<image src="">|
+| **En reposo, en movimiento y ejerciendo fuerza**|<image src="Anexos/S_mano.png">|
 <p align="center"><i>Tabla 7. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 4. Actividad muscular del bíceps según la literatura: <a id="P4"></a>
@@ -160,11 +156,9 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="center">
    
-| **Posición** | **Señal y FFT** |
+| **Posición** | **Señal** |
 |:------------:|:---------------:|
-| **En reposo**|<image src="">|
-| **Sin oposición**|<image src="">|
-| **Con oposición**|<image src="">|
+| **En reposo y ejerciendo fuerza**|<image src="Anexos/S_biceps.png">|
 <p align="center"><i>Tabla 9. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 5. Actividad muscular del trapecio según la literatura: <a id="P5"></a>
@@ -193,11 +187,9 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 <p align="center"><i>Tabla 10. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del trapecio. </i></p>
 <p align="center">
    
-| **Posición** | **Señal y FFT** |
+| **Posición** | **Seña** |
 |:------------:|:---------------:|
-| **En reposo**|<image src="">|
-| **Sin oposición**|<image src="">|
-| **Con oposición**|<image src="">|
+| **En reposo, en movimiento y ejerciendo fuerza**|<image src="Anexos/S_trapecio.png">|
 <p align="center"><i>Tabla 11. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ## **Discusión:**<a id="Discusión"></a>
