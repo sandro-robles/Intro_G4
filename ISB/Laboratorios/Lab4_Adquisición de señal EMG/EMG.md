@@ -65,11 +65,9 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 
 <p align="center">
    
-| **Posición** | **Señal y FFT** |
+| **Posición** | **Señal** |
 |:------------:|:---------------:|
-| **En reposo**|<image src="">|
-| **Sin oposición**|<image src="">|
-| **Con oposición**|<image src="">|
+| **En reposo y ejerciendo fuerza**|<image src="Anexos/S_triceps.png">|
 <p align="center"><i>Tabla 3. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 2. Actividad muscular del gastrocnemio según la literatura:
