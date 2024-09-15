@@ -82,6 +82,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 ### 2.1. Diferencias metodológicas:
 <p align="justify"> Es importante mencionar que, para esta prueba, buscamos simplificar el análisis de la activación muscular del gastrocnemio imitando la marcha con un solo movimiento: la elevación de pantorrillas. A diferencia del estudio mencionado, nuestro enfoque se centró en capturar la actividad eléctrica del músculo gastrocnemio mediante la flexión plantar, utilizando una elevación controlada. Esta metodología nos permitió medir de manera eficiente la actividad muscular en un entorno controlado, manteniendo el tobillo en una posición neutral y relajada, con los electrodos colocados en la cabeza lateral del gastrocnemio para captar los datos durante el movimiento.</p>
 <a name="P2"></a>
+
 #### <blockquote> Prueba 02: Gastrocnemio
 
 <p align="center"><img src="Anexos/IMG_pierna.PNG" width="450" height="300"></p>
