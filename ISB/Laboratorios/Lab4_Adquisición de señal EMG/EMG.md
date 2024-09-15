@@ -4,7 +4,7 @@
 2. [Introduccion](#Introduccion)
 3. [Equipos y materiales utilizados](#Equipos)
 4. [Resultados](#Resultados)
-   - [Prueba 01: Tríceps](#P1)
+   - [Prueba 01: Tríceps] (#P1)
    - [Prueba 02: Gastrocnemio](#P2)
    - [Prueba 03: Mano](#P3)
    - [Prueba 04: Bíceps](#P4)
