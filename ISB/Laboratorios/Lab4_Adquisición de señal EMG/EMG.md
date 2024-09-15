@@ -123,7 +123,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 <p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 4. Actividad muscular del bíceps según la literatura: <a id="P1"></a>
-<p align="justify"> En el estudio de Robert W. Smith et al., se evaluaron los cambios en la fatiga muscular y las respuestas neuromusculares en el bíceps braquial después de realizar una contracción isométrica máxima (es decir, mantener una contracción sin mover el brazo) hasta el fallo muscular [3].</p>
+<p align="justify"> En el estudio de Robert W. Smith et al., se evaluaron los cambios en la fatiga muscular y las respuestas neuromusculares en el bíceps braquial después de realizar una contracción isométrica máxima (es decir, mantener una contracción sin mover el brazo) hasta el fallo muscular [7].</p>
 
 #### <blockquote> Prueba 04: Bíceps
 
@@ -150,10 +150,10 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 <p align="center"><i>Tabla 8. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 5. Actividad muscular del trapecio según la literatura: <a id="P1"></a>
-<p align="justify"> En el estudio de Ahmed et al. (2024), se examina la actividad EMG del trapecio durante pruebas cognitivas que inducen estrés, como el test Stroop y el cálculo mental, así como durante una sesión de meditación guiada. Los resultados muestran que la actividad EMG del trapecio aumenta significativamente durante el estrés en comparación con el reposo y la meditación, especialmente en las frecuencias bajas (0.5–4 Hz). Este estudio también introdujo un método novedoso para evaluar la asimetría en la activación del trapecio entre los lados izquierdo y derecho, encontrando que esta asimetría es útil para detectar estados de estrés y meditación [6].</p>
+<p align="justify"> En el estudio de Ahmed et al. (2024), se examina la actividad EMG del trapecio durante pruebas cognitivas que inducen estrés, como el test Stroop y el cálculo mental, así como durante una sesión de meditación guiada. Los resultados muestran que la actividad EMG del trapecio aumenta significativamente durante el estrés en comparación con el reposo y la meditación, especialmente en las frecuencias bajas (0.5–4 Hz). Este estudio también introdujo un método novedoso para evaluar la asimetría en la activación del trapecio entre los lados izquierdo y derecho, encontrando que esta asimetría es útil para detectar estados de estrés y meditación [8].</p>
 
 ### 5.1. Diferencias metodológicas: <a id="P1"></a>
-<p align="justify"> En el estudio mencionado anteriormente, la medición del EMG del músculo trapecio se realizó con el participante en una posición sentada, manteniendo una postura relajada para minimizar interferencias de otros movimientos. Los electrodos de superficie se colocaron bilateralmente en la región del trapecio superior para medir la actividad durante situaciones de reposo, estrés mental y meditación [6]. Sin embargo, en nuestro caso decidimos modificar esta metodología para analizar la actividad eléctrica del músculo durante situaciones de estrés físico, específicamente al realizar ejercicios de elevación de trapecio (encogimiento de hombros).</p>
+<p align="justify"> En el estudio mencionado anteriormente, la medición del EMG del músculo trapecio se realizó con el participante en una posición sentada, manteniendo una postura relajada para minimizar interferencias de otros movimientos. Los electrodos de superficie se colocaron bilateralmente en la región del trapecio superior para medir la actividad durante situaciones de reposo, estrés mental y meditación [8]. Sin embargo, en nuestro caso decidimos modificar esta metodología para analizar la actividad eléctrica del músculo durante situaciones de estrés físico, específicamente al realizar ejercicios de elevación de trapecio (encogimiento de hombros).</p>
 
 <p align="justify"> Para replicar esta condición de ejercicio en un entorno controlado, utilizamos una banca del laboratorio como si fuera una barra de gimnasio, permitiendo que los participantes imitaran el movimiento de elevación de trapecio. Esta variación en la metodología nos permitió enfocarnos en el comportamiento del músculo durante una actividad física intensa, a diferencia del estrés mental analizado en el estudio original. Esta modificación es crucial, ya que nuestro interés radica en entender la activación del trapecio en escenarios de esfuerzo físico, no solo en estados de relajación o estrés cognitivo.</p>
 
@@ -193,8 +193,12 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 
 <p align="justify">[6] Nizamettin Dalkilic, Seckin Tuncer, and Ilksen Burat, “Noninvasive Invastigation of Excitability Parameters of the Finger Branches of Median Nerve by Threshold Tracking Method,” Oct. 2017, doi: https://doi.org/10.1109/bibe.2017.00010.</p> 
 
-<p align="justify">[4] R. W. Smith, T. Neltner, J. Paul, and G. O. Johnson, “Fatigability, Coactivation, and Neuromuscular Responses of the Biceps Brachii and Triceps Brachii...,” ResearchGate, Jun. 2021. 
+<p align="justify">[7] R. W. Smith, T. Neltner, J. Paul, and G. O. Johnson, “Fatigability, Coactivation, and Neuromuscular Responses of the Biceps Brachii and Triceps Brachii...,” ResearchGate, Jun. 2021. 
 https://www.researchgate.net/publication/352159737_Fatigability_Coactivation_and_Neuromuscular_Responses_of_the_Biceps_Brachii_and_Triceps_Brachii_Following_Sustained_Maximal_Isometric_Forearm_Flexion_to_Task_Failure (accessed Sep. 13, 2024).</p>
+
+<p align="justify">[8] M. Ahmed, M. Grillo, Amirtaha Taebi, M. Kaya, and Peshala Thibbotuwawa Gamage, “A Comprehensive Analysis of Trapezius Muscle EMG Activity in Relation to Stress and Meditation,” BioMedInformatics, vol. 4, no. 2, pp. 1047–1058, Apr. 2024, doi: https://doi.org/10.3390/biomedinformatics4020058.</p> 
+
+
 
 ‌
 
