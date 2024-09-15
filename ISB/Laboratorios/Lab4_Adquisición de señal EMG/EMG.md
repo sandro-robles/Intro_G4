@@ -42,7 +42,7 @@
 
 En el artículo de Hussain et al., se observa que la fatiga afecta las señales EMG de diferentes maneras, reduciendo las frecuencias medias de potencia (MPF) y mediana (MDF) a medida que se avanza hacia la fatiga. También se observa un aumento en la amplitud del RMS bajo condiciones de fatiga, lo que indica un mayor esfuerzo muscular a medida que el músculo se acerca al fallo [4]. </p>
 
-<p align="center"><img src="Anexos/Tricep paper.jpg" width="400"></p>
+<p align="center"><img src="Anexos/Tricep paper.png" width="400"></p>
 
 <p align="center"><i>Figura 2: Posición de los electrodos según el protocolo seguido en el paper [4].</i></p>
 
@@ -74,7 +74,7 @@ En el artículo de Hussain et al., se observa que la fatiga afecta las señales 
 ### 2. Actividad muscular del gastrocnemio según la literatura:
 <p align="justify"> En el estudio de Wang et al. (2021), se centra en la medición de la actividad EMG del gastrocnemio durante varias inclinaciones y tipos de marcha (caminar en plano, cuesta arriba, cuesta abajo, y subir/bajar escaleras). Se observa que la actividad EMG del gastrocnemio aumenta progresivamente al caminar cuesta arriba, sugiriendo una mayor activación muscular debido a la mayor demanda de fuerza en comparación con caminar en plano o cuesta abajo. Es importante medir la actividad EMG en estas diferentes condiciones para entender cómo varía la activación muscular y cómo optimizar los movimientos en la rehabilitación o el entrenamiento [5]. </p>
 
-<p align="center"><img src="Anexos/Gastrocnemio paper.jpg" width="400"></p>
+<p align="center"><img src="Anexos/Gastrocnemio paper.png" width="400"></p>
 
 <p align="center"><i>Figura 4: Posición de los electrodos según el protocolo seguido en el paper [5].</i></p>
 
@@ -109,7 +109,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 ### 3. Actividad muscular de la mano según la literatura:
 <p align="justify"> En el estudio de Dalkilic et al. (2017) se enfoca en la evaluación no invasiva de las ramas del nervio mediano en la mano mediante el método de seguimiento de umbral, una técnica avanzada para medir parámetros de excitabilidad neuronal. Los resultados indicaron alteraciones significativas en la excitabilidad del nervio mediano bajo distintas condiciones, lo que refleja cambios en la actividad neuromuscular que son de particular relevancia para el diagnóstico de neuropatías. Este enfoque es esencial para comprender cómo varía la respuesta electromiográfica (EMG) del nervio mediano durante movimientos funcionales de la mano, y proporciona una base sólida para optimizar estrategias terapéuticas y de rehabilitación. Al evaluar la actividad del nervio mediano, es posible identificar patrones específicos de activación muscular, lo que facilita el diseño de intervenciones más precisas en casos de disfunción neuromuscular [6].</p>
 
-<p align="center"><img src="Anexos/Mano paper.jpg" width="400"></p>
+<p align="center"><img src="Anexos/Mano paper.png" width="400"></p>
 
 <p align="center"><i>Figura 6: Posición de los electrodos según el protocolo seguido en el paper [6].</i></p>
 
@@ -139,7 +139,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 ### 4. Actividad muscular del bíceps según la literatura: <a id="P4"></a>
 <p align="justify"> En el estudio de Robert W. Smith et al., se evaluaron los cambios en la fatiga muscular y las respuestas neuromusculares en el bíceps braquial después de realizar una contracción isométrica máxima (es decir, mantener una contracción sin mover el brazo) hasta el fallo muscular [7].</p>
 
-<p align="center"><img src="Anexos/Biceps paper.jpg" width="400"></p>
+<p align="center"><img src="Anexos/Biceps paper.png" width="400"></p>
 
 <p align="center"><i>Figura 8: Posición de los electrodos según el protocolo seguido en el paper [7].</i></p>
 
@@ -170,7 +170,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 ### 5. Actividad muscular del trapecio según la literatura: <a id="P5"></a>
 <p align="justify"> En el estudio de Ahmed et al. (2024), se examina la actividad EMG del trapecio durante pruebas cognitivas que inducen estrés, como el test Stroop y el cálculo mental, así como durante una sesión de meditación guiada. Los resultados muestran que la actividad EMG del trapecio aumenta significativamente durante el estrés en comparación con el reposo y la meditación, especialmente en las frecuencias bajas (0.5–4 Hz). Este estudio también introdujo un método novedoso para evaluar la asimetría en la activación del trapecio entre los lados izquierdo y derecho, encontrando que esta asimetría es útil para detectar estados de estrés y meditación [8].</p>
 
-<p align="center"><img src="Anexos/Trap paper.jpg" width="400"></p>
+<p align="center"><img src="Anexos/Trap paper.png" width="400"></p>
 
 <p align="center"><i>Figura 10: Posición de los electrodos según el protocolo seguido en el paper [8].</i></p>
 
