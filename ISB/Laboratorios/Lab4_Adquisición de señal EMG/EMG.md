@@ -104,7 +104,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 | **En reposo**|<image src="">|
 | **Sin oposición**|<image src="">|
 | **Con oposición**|<image src="">|
-<p align="center"><i>Tabla 4. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+<p align="center"><i>Tabla 5. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 <a name="P2"></a>
 ### 3. Actividad muscular de la mano según la literatura:
@@ -125,7 +125,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 |  **Actividad Muscular - Mano/nervio mediano en reposo** | **Actividad Muscular - Mano/nervio mediano en movimeinto** | **Actividad Muscular - Mano/nervio mediano ejerciendo fuerza** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 | <video src="https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712"> | <video src="https://github.com/user-attachments/assets/750503ff-88bb-4193-a935-c3d0a1321b8b"> | <video src="https://github.com/user-attachments/assets/84ebebe4-5c92-4557-954f-179f88f1f5e8"> | 
-<p align="center"><i>Tabla 5. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
+<p align="center"><i>Tabla 6. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
 
 <p align="center">
@@ -135,7 +135,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 | **En reposo**|<image src="">|
 | **Sin oposición**|<image src="">|
 | **Con oposición**|<image src="">|
-<p align="center"><i>Tabla 6. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+<p align="center"><i>Tabla 7. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 4. Actividad muscular del bíceps según la literatura: <a id="P4"></a>
 <p align="justify"> En el estudio de Robert W. Smith et al., se evaluaron los cambios en la fatiga muscular y las respuestas neuromusculares en el bíceps braquial después de realizar una contracción isométrica máxima (es decir, mantener una contracción sin mover el brazo) hasta el fallo muscular [7].</p>
@@ -156,7 +156,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
 | <video src="https://github.com/user-attachments/assets/6d9c9523-7049-481b-8242-b2dfcaaf2958"> </video> | <video src="https://github.com/user-attachments/assets/33b24c40-c045-41c5-8eca-b7724281b103"> </video> |
 
-<p align="center"><i>Tabla 6. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
+<p align="center"><i>Tabla 8. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del músculo bíceps braquial </i></p>
 </p>
 
 <p align="center">
@@ -166,7 +166,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 | **En reposo**|<image src="">|
 | **Sin oposición**|<image src="">|
 | **Con oposición**|<image src="">|
-<p align="center"><i>Tabla 7. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+<p align="center"><i>Tabla 9. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ### 5. Actividad muscular del trapecio según la literatura: <a id="P5"></a>
 <p align="justify"> En el estudio de Ahmed et al. (2024), se examina la actividad EMG del trapecio durante pruebas cognitivas que inducen estrés, como el test Stroop y el cálculo mental, así como durante una sesión de meditación guiada. Los resultados muestran que la actividad EMG del trapecio aumenta significativamente durante el estrés en comparación con el reposo y la meditación, especialmente en las frecuencias bajas (0.5–4 Hz). Este estudio también introdujo un método novedoso para evaluar la asimetría en la activación del trapecio entre los lados izquierdo y derecho, encontrando que esta asimetría es útil para detectar estados de estrés y meditación [8].</p>
@@ -191,7 +191,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 |  **Actividad Muscular - Trapecio en reposo** | **Actividad Muscular - Trapecio ...** | **Actividad Muscular - Trapecio ...** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|:---------------------------------------------------------:|
 |<video src="https://github.com/user-attachments/assets/973a91c9-eab7-4e0c-b104-2dc0212b3720"></video>|<video src="https://github.com/user-attachments/assets/e402e19e-9ef5-4509-aa88-4fd0fd3adc89"></video>|<video src="https://github.com/user-attachments/assets/3e115637-f0ce-429d-8452-8b26524bb439"> | 
-<p align="center"><i>Tabla 8. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del trapecio. </i></p>
+<p align="center"><i>Tabla 10. Videos de adquisición la señal EMG según las tres tomas: en reposo, sin oposición y con oposición del trapecio. </i></p>
 <p align="center">
    
 | **Posición** | **Señal y FFT** |
@@ -199,7 +199,7 @@ Tabla 4. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 | **En reposo**|<image src="">|
 | **Sin oposición**|<image src="">|
 | **Con oposición**|<image src="">|
-<p align="center"><i>Tabla 9. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
+<p align="center"><i>Tabla 11. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p>
 
 ## **Discusión:**<a id="Discusión"></a>
 
