@@ -34,6 +34,7 @@
 |     ASUS     |      Laptop     |       1      |
 |       -      |    Electrodos superficiales   |       3      
 </div>
+<p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
 
 ## **Resultados:**<a id="Resultados"></a>
 <a name="P1"></a>
