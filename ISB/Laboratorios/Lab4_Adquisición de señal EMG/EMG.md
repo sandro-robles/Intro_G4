@@ -139,7 +139,7 @@ Tabla 3. Videos de adquisición la señal EMG según las tres tomas: en reposo, 
 ### 4. Actividad muscular del bíceps según la literatura: <a id="P4"></a>
 <p align="justify"> En el estudio de Robert W. Smith et al., se evaluaron los cambios en la fatiga muscular y las respuestas neuromusculares en el bíceps braquial después de realizar una contracción isométrica máxima (es decir, mantener una contracción sin mover el brazo) hasta el fallo muscular [7].</p>
 
-<p align="center"><img src="Anexos/Biceps paper.png" width="400"></p>
+<p align="center"><img src="Anexos/Bicep paper.png" width="400"></p>
 
 <p align="center"><i>Figura 8: Posición de los electrodos según el protocolo seguido en el paper [7].</i></p>
 
