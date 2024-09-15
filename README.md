@@ -6,6 +6,7 @@ Este proyecto está diseñado para explorar y aplicar técnicas fundamentales en
 
 1. [Resumen](#Resumen)
 2. [Integrantes](#integrantes)
+3. [Docentes del curso](#Prof)
 
 <a id="Resumen"></a> 
 <h2 style="text-align: center;">Resumen</h2>
@@ -18,7 +19,8 @@ Este proyecto está diseñado para explorar y aplicar técnicas fundamentales en
 <p align="justify">4. Mauricio Juárez </p>
 <p align="justify">5. María Mautino </p>
 
-### Docentes del curso
+<a id="Prof"></a>
+<h2 style="text-align: center;"> Docentes del curso </h2>
 #### PROFESORES DEL CURSO E INVITADOS
 
 | Grado o Título | Nombre    | Apellidos             | Condición   | Correo electrónico         |
