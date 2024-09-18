@@ -4,7 +4,9 @@
 3. [Materiales y equipos]
 4. [Procedimiento]
 5. [Resultados]
-   
+
+
+### 1. Introducción
 - Estado basal D1
 - Estado basal D2
 - Estado basal D3
