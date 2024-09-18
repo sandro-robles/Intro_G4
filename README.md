@@ -17,7 +17,7 @@ Este proyecto está diseñado para explorar y aplicar técnicas fundamentales en
 <p align="justify">2. Anel Ramírez - </p>
 <p align="justify">3. Franco Rozas - franco.rozas@upch.pe </p>
 <p align="justify">4. Mauricio Juárez - </p>
-<p align="justify">5. María Mautino - </p>
+<p align="justify">5. María Mautino - maria.mautino@upch.pe </p>
 
 <a id="Prof"></a>
 <h2 style="text-align: center;"> Docentes del curso </h2>
