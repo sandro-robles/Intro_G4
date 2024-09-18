@@ -8,3 +8,8 @@
 ### **Reposo D2**
 ### **Manteniendo respiración D3**
 ### **Reposo D3**
+### Actividad física
+
+- Actividad física 1
+- Actividad física 2
+- Actividad física 3
