@@ -41,7 +41,7 @@
 </div>
 <p align="center"><i>Tabla 2. Equipos y materiales utilizados en este laboratorio. </i></p>
 
-<p align="center"><img src="Anexos/BITalino.jpeg" width="340" height="300"><img src="Anexos/FLUKE.jpeg" width="300" height="300"></p>
+<p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/FLUKE.jpeg" width="300" height="300"></p>
 <p align="center"><i>Figura 3: </i></p>
 
 ## **Resultados:**<a id="Resultados"></a>
