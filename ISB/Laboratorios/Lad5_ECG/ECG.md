@@ -21,7 +21,6 @@
 
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
-<div align="center">
 
 ## **Resultados:**<a id="Resultados"></a>
 <a name="P1"></a>
