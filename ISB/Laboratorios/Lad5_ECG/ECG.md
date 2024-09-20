@@ -32,6 +32,9 @@
 </div>
 <p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
 
+<p align="center"><img src="Anexos/FLUKE.jpeg" width="450" height="300"></p> <p align="center"><img src="Anexos/BITalino.jpeg" width="450" height="300"></p>
+<p align="center"><i>Figura 3: </i></p>
+
 ## **Resultados:**<a id="Resultados"></a>
 <a name="P1"></a>
 ### 1. Actividad muscular del tríceps según la literatura:
