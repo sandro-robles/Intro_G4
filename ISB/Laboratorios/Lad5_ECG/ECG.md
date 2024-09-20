@@ -17,8 +17,17 @@
 
 <p align="center"><img src="Anexos/EMG.jpg" width="400"></p>
 
-<p align="center"><i>Figura 1: Aplicaciones de la electromiografía en asistencia y rehabilitación [2].</i></p>
+<p align="center"><i>Figura 1: Señal ECG con diferentes intervalos que la componen [2].</i></p>
 
+|  **Onda/Segmento**  | **Descripción** |
+|:------------:|:---------------:|
+| Onda P |      |
+| Intervalo PR  |              |
+| Complejo QRS |        |
+|  Segmento ST  |        |
+|  Onda T  |        |
+</div>
+<p align="center"><i>Tabla 1. Intervalos de una señal ECG. </i></p>
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
@@ -30,7 +39,7 @@
 |       -      |    Electrodos superficiales   |       3      |
 |    FLUKE ProSim 4    |   Vital Signs Simulators   |       1      |
 </div>
-<p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
+<p align="center"><i>Tabla 2. Equipos y materiales utilizados en este laboratorio. </i></p>
 
 <p align="center"><img src="Anexos/FLUKE.jpeg" width="350" height="300"><img src="Anexos/BITalino.jpeg" width="350" height="300"></p>
 <p align="center"><i>Figura 3: </i></p>
