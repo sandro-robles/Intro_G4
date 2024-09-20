@@ -13,10 +13,10 @@ Este proyecto está diseñado para explorar y aplicar técnicas fundamentales en
 
 <a id="integrantes"></a> 
 <h2 style="text-align: center;">Integrantes</h2>
-<p align="justify">1. Sandro Robles - </p>
-<p align="justify">2. Anel Ramírez - </p>
+<p align="justify">1. Sandro Robles - sandro.robles@upch.pe </p>
+<p align="justify">2. Anel Ramírez - anel.ramirez@upch.pe </p>
 <p align="justify">3. Franco Rozas - franco.rozas@upch.pe </p>
-<p align="justify">4. Mauricio Juárez - </p>
+<p align="justify">4. Mauricio Juárez - mauricio.juarez@upch.pe </p>
 <p align="justify">5. María Mautino - maria.mautino@upch.pe </p>
 
 <a id="Prof"></a>
