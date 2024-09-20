@@ -27,7 +27,8 @@
 |:------------:|:---------------:|:------------:|
 | (r)EVOLUTION |   Kit BITalino  |       1      |
 |     ASUS     |      Laptop     |       1      |
-|       -      |    Electrodos superficiales   |       3      
+|       -      |    Electrodos superficiales   |       3      |
+|    FLUKE ProSim 4    |   Vital Signs Simulators   |       1      |
 </div>
 <p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
 
