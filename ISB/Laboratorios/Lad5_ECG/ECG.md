@@ -16,35 +16,35 @@
 - Extraer y analizar las señales ECG utilizando el software OpenSignals (r)evolution.
   
 ## **Introducción:**<a id="Introduccion"></a>
-<p align="justify"> El corazón está compuesto por varios tejidos, entre los cuales se encuentra el músculo cardíaco, que puede producir señales eléctricas que son detectables en la superficie de la piel utilizando un sensor de ECG. [x]. </p>
+<p align="justify"> El corazón está compuesto por varios tejidos, entre los cuales se encuentra el músculo cardíaco, que puede producir señales eléctricas que son detectables en la superficie de la piel utilizando un sensor de ECG. [1]. </p>
 
-<p align="justify"> El electrocardiograma (ECG) es una herramienta fundamental en la medicina cardiovascular, utilizada para identificar una amplia variedad de patologías cardíacas, como arritmias y alteraciones miocárdicas y pericárdicas, así como desequilibrios electrolíticos y enfermedades pulmonares. Su facilidad de uso, carácter no invasivo y bajo costo han consolidado al ECG como una de las pruebas más empleadas en la práctica clínica. Sin embargo, su utilidad diagnóstica depende en gran medida de la precisión en la interpretación de los resultados [1]. </p>
+<p align="justify"> El electrocardiograma (ECG) es una herramienta fundamental en la medicina cardiovascular, utilizada para identificar una amplia variedad de patologías cardíacas, como arritmias y alteraciones miocárdicas y pericárdicas, así como desequilibrios electrolíticos y enfermedades pulmonares. Su facilidad de uso, carácter no invasivo y bajo costo han consolidado al ECG como una de las pruebas más empleadas en la práctica clínica. Sin embargo, su utilidad diagnóstica depende en gran medida de la precisión en la interpretación de los resultados [2]. </p>
 
 <p align="center"><img src="Anexos/Imagen_Intro.png" width="400"></p>
 
-<p align="center"><i>Figura 1: Interpretación de ECG [2].</i></p>
+<p align="center"><i>Figura 1: Interpretación de ECG [3].</i></p>
 
 <p align="justify"> </p>
 
 ## **Triángulo de Eithoven**<a id="TriángulodeEithoven"></a>
 <p align="justify"> Para nuestro laboratorio, es crucial destacar la importancia del triángulo de Einthoven, el cual describe la relación entre las tres derivaciones bipolares de las extremidades (DI, DII y DIII) y los electrodos. Aunque tradicionalmente este triángulo se forma utilizando el brazo izquierdo, el brazo derecho y la pierna izquierda, en este experimento optamos por cambiar la ubicación del electrodo de la pierna izquierda hacia la cresta ilíaca, siguiendo la guía proporcionada. Este cambio no afecta de manera significativa la medición, ya que el ECG mide las diferencias de potencial eléctrico entre los electrodos, y la ubicación exacta no altera sustancialmente el registro de las derivaciones, siempre que se mantenga una distribución similar a las posiciones clásicas. </p>
 
-<p align="justify"> Sin embargo, es importante destacar que la colocación incorrecta accidental de los electrodos de las extremidades es una causa común de anomalías en el ECG, y puede simular patologías como ritmo auricular ectópico, agrandamiento de cámaras cardíacas, isquemia o incluso infarto de miocardio. Por lo tanto, se debe tener especial cuidado al posicionar los electrodos para evitar diagnósticos erróneos [y]. </p>
+<p align="justify"> Sin embargo, es importante destacar que la colocación incorrecta accidental de los electrodos de las extremidades es una causa común de anomalías en el ECG, y puede simular patologías como ritmo auricular ectópico, agrandamiento de cámaras cardíacas, isquemia o incluso infarto de miocardio. Por lo tanto, se debe tener especial cuidado al posicionar los electrodos para evitar diagnósticos erróneos [4]. </p>
 
 <p align="center"><img src="Anexos/eithoven.png" width="400"></p>
 
-<p align="center"><i>Figura 2: (a) Derivaciones de Einthoven I-III (b) Posicionamiento de los electrodos para la derivación I: muñecas y tobillo (izquierdo), clavículas y cresta ilíaca o pecho (derecho) [x].</i></p>
+<p align="center"><i>Figura 2: (a) Derivaciones de Einthoven I-III (b) Posicionamiento de los electrodos para la derivación I: muñecas y tobillo (izquierdo), clavículas y cresta ilíaca o pecho (derecho) [1].</i></p>
 
 ## **Componentes tradicionales del ECG:**<a id="Componentes"></a>
 |  **Onda/Segmento**  | **Descripción** |
 |:------------:|:---------------:|
-| Onda P | La onda P aparece como la primera elevación positiva en el trazado del electrocardiograma e indica el proceso de despolarización de las aurículas, la duración normal es inferior a 0.12 segundos, lo que equivale a menos de 120 milisegundos o a 3 cuadros pequeños en el trazado del ECG [3].|
-| Intervalo PR  |El intervalo PR es el periodo que abarca desde el comienzo de la onda P hasta el inicio del complejo QRS, y refleja la conducción del impulso eléctrico a través del nodo auriculoventricular (AV). Duración normal: menos de 0.12 segundos (menos de 120 ms o 3 cuadros pequeños en el ECG) [4].|
-| Complejo QRS | El complejo QRS corresponde a la despolarización de los ventrículos. La onda Q, que es la primera deflexión descendente, debe tener una duración menor a 0,05 segundos en todas las derivaciones, excepto en V1–V3. En estas derivaciones, la aparición de una onda Q se considera patológica y puede indicar la presencia de un infarto de miocardio, ya sea reciente o antiguo [5].|
-| Intervalo QT | El intervalo QT se extiende desde el inicio de la onda Q hasta el final de la onda T, reflejando el tiempo total que dura la despolarización y repolarización ventricular, es decir, la sístole ventricular completa, desde la contracción isovolumétrica hasta la relajación isovolumétrica. La duración del intervalo QT varía inversamente con la frecuencia cardíaca: se acorta cuando el ritmo es más rápido y se alarga cuando es más lento [6].|
-|  Segmento ST  | El segmento ST normalmente se presenta como una línea plana o isoeléctrica, aunque puede experimentar variaciones menores a 0.5 mm. Para determinar su desplazamiento, se utiliza como punto de referencia el segmento entre la onda T del latido anterior y la onda P del latido actual (segmento TP previo) [7].|
-|  Onda T  | La onda T aparece como una deflexión positiva después del complejo QRS, representa la repolarización de los ventrículos. Es positiva en la mayoría de las derivaciones, excepto en aVR y V1. En cuanto a su amplitud, debe ser menor a 5 mm en las derivaciones de las extremidades y no superar los 10 mm en las derivaciones precordiales (con un límite de 10 mm en hombres y 8 mm en mujeres). Su duración está relacionada con el intervalo QT [8].  |
-|  Onda U  | La onda U es una pequeña deflexión (alrededor de 0.5 mm) que aparece inmediatamente después de la onda T. Normalmente tiene la misma dirección que la onda T y se observa mejor en las derivaciones V2 y V3 [9].  |
+| Onda P | La onda P aparece como la primera elevación positiva en el trazado del electrocardiograma e indica el proceso de despolarización de las aurículas, la duración normal es inferior a 0.12 segundos, lo que equivale a menos de 120 milisegundos o a 3 cuadros pequeños en el trazado del ECG [5].|
+| Intervalo PR  |El intervalo PR es el periodo que abarca desde el comienzo de la onda P hasta el inicio del complejo QRS, y refleja la conducción del impulso eléctrico a través del nodo auriculoventricular (AV). Duración normal: menos de 0.12 segundos (menos de 120 ms o 3 cuadros pequeños en el ECG) [6].|
+| Complejo QRS | El complejo QRS corresponde a la despolarización de los ventrículos. La onda Q, que es la primera deflexión descendente, debe tener una duración menor a 0,05 segundos en todas las derivaciones, excepto en V1–V3. En estas derivaciones, la aparición de una onda Q se considera patológica y puede indicar la presencia de un infarto de miocardio, ya sea reciente o antiguo [7].|
+| Intervalo QT | El intervalo QT se extiende desde el inicio de la onda Q hasta el final de la onda T, reflejando el tiempo total que dura la despolarización y repolarización ventricular, es decir, la sístole ventricular completa, desde la contracción isovolumétrica hasta la relajación isovolumétrica. La duración del intervalo QT varía inversamente con la frecuencia cardíaca: se acorta cuando el ritmo es más rápido y se alarga cuando es más lento [8].|
+|  Segmento ST  | El segmento ST normalmente se presenta como una línea plana o isoeléctrica, aunque puede experimentar variaciones menores a 0.5 mm. Para determinar su desplazamiento, se utiliza como punto de referencia el segmento entre la onda T del latido anterior y la onda P del latido actual (segmento TP previo) [9].|
+|  Onda T  | La onda T aparece como una deflexión positiva después del complejo QRS, representa la repolarización de los ventrículos. Es positiva en la mayoría de las derivaciones, excepto en aVR y V1. En cuanto a su amplitud, debe ser menor a 5 mm en las derivaciones de las extremidades y no superar los 10 mm en las derivaciones precordiales (con un límite de 10 mm en hombres y 8 mm en mujeres). Su duración está relacionada con el intervalo QT [10].  |
+|  Onda U  | La onda U es una pequeña deflexión (alrededor de 0.5 mm) que aparece inmediatamente después de la onda T. Normalmente tiene la misma dirección que la onda T y se observa mejor en las derivaciones V2 y V3 [11].  |
 </div>
 <p align="center"><i>Tabla 1. Intervalos de una señal ECG. </i></p>
 
@@ -244,27 +244,27 @@
 <p align="justify">,</p>
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
-<p align="justify">[x]“BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf</p>
+<p align="justify">[1]“BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf</p>
 ‌
-<p align="justify">[1] N. Rafie, A. H. Kashou, and P. A. Noseworthy, “ECG Interpretation: Clinical Relevance, Challenges, and Advances,” Hearts, vol. 2, no. 4, pp. 505–513, Nov. 2021, doi: https://doi.org/10.3390/hearts2040039. ‌‌</p>
+<p align="justify">[2] N. Rafie, A. H. Kashou, and P. A. Noseworthy, “ECG Interpretation: Clinical Relevance, Challenges, and Advances,” Hearts, vol. 2, no. 4, pp. 505–513, Nov. 2021, doi: https://doi.org/10.3390/hearts2040039. ‌‌</p>
 
-<p align="justify">[2] “Interpretación del electrocardiograma normal y patológico - DIPLOMADO,” Edupyme.edu.pe, 2022. https://edupyme.edu.pe/producto/interpretacion-del-electrocardiograma-normal-y-patologico-diplomado/ (accessed Sep. 21, 2024).‌‌</p>
+<p align="justify">[3] “Interpretación del electrocardiograma normal y patológico - DIPLOMADO,” Edupyme.edu.pe, 2022. https://edupyme.edu.pe/producto/interpretacion-del-electrocardiograma-normal-y-patologico-diplomado/ (accessed Sep. 21, 2024).‌‌</p>
 
-<p align="justify">[y] E. Burns, R. Buttner, and E. Burns, “ECG Limb Lead Reversal,” Life in the Fast Lane • LITFL, Aug. 2018. https://litfl.com/ecg-limb-lead-reversal-ecg-library/ (accessed Sep. 21, 2024).‌‌</p>
+<p align="justify">[4] E. Burns, R. Buttner, and E. Burns, “ECG Limb Lead Reversal,” Life in the Fast Lane • LITFL, Aug. 2018. https://litfl.com/ecg-limb-lead-reversal-ecg-library/ (accessed Sep. 21, 2024).‌‌</p>
 ‌
-<p align="justify"> [3] M. Cadogan, R. Buttner, and M. Cadogan, “P wave,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/p-wave-ecg-library/ (accessed Sep. 21, 2024).</p>
+<p align="justify"> [5] M. Cadogan, R. Buttner, and M. Cadogan, “P wave,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/p-wave-ecg-library/ (accessed Sep. 21, 2024).</p>
 
-<p align="justify">[4] M. Cadogan and M. Cadogan, “PR Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/pr-interval-ecg-library/ (accessed Sep. 21, 2024).</p>
+<p align="justify">[6] M. Cadogan and M. Cadogan, “PR Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/pr-interval-ecg-library/ (accessed Sep. 21, 2024).</p>
 
-<p align="justify">[5] T. Cascino and M. J. Shea, “Electrocardiografía,” Manual MSD versión para profesionales, Jul. 06, 2021. https://www.msdmanuals.com/es-pe/professional/trastornos-cardiovasculares/pruebas-y-procedimientos-cardiovasculares/electrocardiograf%C3%ADa (accessed Sep. 21, 2024).‌</p>
+<p align="justify">[7] T. Cascino and M. J. Shea, “Electrocardiografía,” Manual MSD versión para profesionales, Jul. 06, 2021. https://www.msdmanuals.com/es-pe/professional/trastornos-cardiovasculares/pruebas-y-procedimientos-cardiovasculares/electrocardiograf%C3%ADa (accessed Sep. 21, 2024).‌</p>
 
-<p align="justify">[6] E. Burns, R. Buttner, and E. Burns, “QT Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/qt-interval-ecg-library/ (accessed Sep. 21, 2024).</p>
+<p align="justify">[8] E. Burns, R. Buttner, and E. Burns, “QT Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/qt-interval-ecg-library/ (accessed Sep. 21, 2024).</p>
 ‌
-<p align="justify">[7] “Valoración del Segmento ST,” My-ekg.com, 2018. https://www.my-ekg.com/como-leer-ekg/segmento-st.html#google_vignette (accessed Sep. 21, 2024).</p>  
+<p align="justify">[9] “Valoración del Segmento ST,” My-ekg.com, 2018. https://www.my-ekg.com/como-leer-ekg/segmento-st.html#google_vignette (accessed Sep. 21, 2024).</p>  
 
-<p align="justify">[8] E. Burns, R. Buttner, and E. Burns, “T wave,” Life in the Fast Lane • LITFL, Aug. 2018. https://litfl.com/t-wave-ecg-library/ (accessed Sep. 21, 2024).</p>
+<p align="justify">[10] E. Burns, R. Buttner, and E. Burns, “T wave,” Life in the Fast Lane • LITFL, Aug. 2018. https://litfl.com/t-wave-ecg-library/ (accessed Sep. 21, 2024).</p>
 
-<p align="justify">[9] E. Burns and E. Burns, “U Wave,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/u-wave-ecg-library/ (accessed Sep. 21, 2024).
+<p align="justify">[11] E. Burns and E. Burns, “U Wave,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/u-wave-ecg-library/ (accessed Sep. 21, 2024).
 ‌</p>
 ‌
 ‌
