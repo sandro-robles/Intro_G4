@@ -6,9 +6,10 @@
 4. [Equipos y materiales utilizados](#Equipos)
 5. [Metodología](#Metodología)
 6. [Cronología de mediciones](#Cronologíademediciones)
-7. [Resultados](#Resultados)
-8. [Discusión](#Discusión)
-9. [Bibliografia](#Bibliografia)
+7. [Posiciones de los electrodos](#Posicionesdeloselectrodos)
+8. [Resultados](#Resultados)
+9. [Discusión](#Discusión)
+10. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
 - Captar señales biomédicas de ECG de alta calidad para su análisis.
 - Configurar de manera óptima el dispositivo BiTalino para la recolección de datos ECG.
