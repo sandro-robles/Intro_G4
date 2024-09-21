@@ -52,7 +52,7 @@
 
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|<video src="[https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712]|
+| <video src="https://github.com/user-attachments/assets/9a4cd9f0-1357-4051-9b22-9e2d5093ba85"> |
 <p align="center"><i>Tabla 3. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
