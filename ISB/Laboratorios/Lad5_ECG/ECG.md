@@ -3,9 +3,10 @@
 1. [Objetivos](#Objetivos)
 2. [Introduccion](#Introduccion)
 3. [Equipos y materiales utilizados](#Equipos)
-4. [Resultados](#Resultados)
-5. [Discusión](#Discusión)
-6. [Bibliografia](#Bibliografia)
+4. [Metodología](#Metodología)
+5. [Resultados](#Resultados)
+6. [Discusión](#Discusión)
+7. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
 - Captar señales biomédicas de ECG de alta calidad para su análisis.
 - Configurar de manera óptima el dispositivo BiTalino para la recolección de datos ECG.
@@ -30,6 +31,9 @@
 |  Onda T  |        |
 </div>
 <p align="center"><i>Tabla 1. Intervalos de una señal ECG. </i></p>
+
+## **Metodología:**<a id="Metodología"></a>
+<p align="justify"> fef </p>
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
