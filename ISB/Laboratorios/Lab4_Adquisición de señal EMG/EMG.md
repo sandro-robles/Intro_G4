@@ -20,7 +20,7 @@
 
 <p align="justify"> El uso del sistema BITalino en este laboratorio permite la adquisición de señales EMG de forma práctica y accesible, brindando la oportunidad de analizar la actividad muscular de varios grupos musculares bajo diferentes condiciones. En este contexto, el presente laboratorio tiene como objetivos principales familiarizarse con el sistema BITalino, adquirir señales EMG de distintos músculos y analizar estas señales utilizando el software OpenSignals (r)evolution, todo ello bajo un entorno controlado y con la implementación de técnicas básicas de procesamiento de señales para mitigar los efectos del ruido y los artefactos, tal como lo sugiere la literatura sobre procesamiento de señales EMG.</p>
 
-<p align="center"><img src="Anexos/EMG.jpeg" width="400"></p>
+<p align="center"><img src="Anexos/EMG.jpg" width="400"></p>
 
 <p align="center"><i>Figura 1: Aplicaciones de la electromiografía en asistencia y rehabilitación [2].</i></p>
 
