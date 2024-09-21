@@ -145,7 +145,7 @@
    
 | **Video 10.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/c4a0b0ad-e645-43a5-aa94-9c123bf638d5"> 
+| <video src="https://github.com/user-attachments/assets/604ec57c-67ca-4fcf-bc85-77f125c48e7f"> 
 |<p align="center"><i>Tabla 12. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
