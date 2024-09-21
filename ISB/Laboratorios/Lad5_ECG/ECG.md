@@ -49,9 +49,10 @@
 #### <blockquote> Estado: En reposo </blockquote>
 <p align="center">
    
+
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| |<image src="Anexos/S_triceps.png">|
+|<video src="[https://github.com/user-attachments/assets/e188c019-ad6a-4d4c-baf0-48036068a712](https://github.com/user-attachments/assets/2bc3d09d-115e-43d4-9005-f411a0497305)"> ||
 <p align="center"><i>Tabla 3. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
