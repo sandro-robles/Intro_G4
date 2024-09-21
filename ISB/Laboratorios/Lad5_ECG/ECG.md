@@ -22,7 +22,7 @@
 
 <p align="justify"> </p>
 
-
+## **Componentes tradicionales del ECG:**<a id="Componentes"></a>
 |  **Onda/Segmento**  | **Descripción** |
 |:------------:|:---------------:|
 | Onda P | La onda P aparece como la primera elevación positiva en el trazado del electrocardiograma e indica el proceso de despolarización de las aurículas [3].|
