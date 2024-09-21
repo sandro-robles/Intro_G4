@@ -51,8 +51,26 @@
    
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| **En reposo y ejerciendo fuerza**|<image src="Anexos/S_triceps.png">|
+| |<image src="Anexos/S_triceps.png">|
 <p align="center"><i>Tabla 3. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
+
+#### <blockquote> Estado: Respiración prolongada </blockquote>
+<p align="center">
+   
+| **Video 2.** | **Señal obtenida** |
+|:------------:|:---------------:|
+| |<image src="Anexos/S_triceps.png">|
+<p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
+
+#### <blockquote> Estado: Luego de actividad física </blockquote>
+<p align="center">
+   
+| **Video 3.** | **Señal obtenida** |
+|:------------:|:---------------:|
+| |<image src="Anexos/S_triceps.png">|
+<p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 ### 2. Señales captadas 2da derivacion en diferentes estados:
