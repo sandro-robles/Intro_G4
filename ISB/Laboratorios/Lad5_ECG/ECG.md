@@ -77,56 +77,56 @@
 #### <blockquote> Estado: En reposo </blockquote>
 <p align="center">
    
-| **Video 1.** | **Señal obtenida** |
+| **Video 4.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | |<image src="Anexos/S_triceps.png">|
-<p align="center"><i>Tabla 3. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Estado: Respiración prolongada </blockquote>
 <p align="center">
    
-| **Video 2.** | **Señal obtenida** |
+| **Video 5.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | |<image src="Anexos/S_triceps.png">|
-<p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Estado: Luego de actividad física </blockquote>
 <p align="center">
    
-| **Video 3.** | **Señal obtenida** |
+| **Video 6.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | |<image src="Anexos/S_triceps.png">|
-<p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 8. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 ### 3. Señales captadas 3ra derivacion en diferentes estados:
 #### <blockquote> Estado: En reposo </blockquote>
 <p align="center">
    
-| **Video 1.** | **Señal obtenida** |
+| **Video 7.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | |<image src="Anexos/S_triceps.png">|
-<p align="center"><i>Tabla 3. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 9. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Estado: Respiración prolongada </blockquote>
 <p align="center">
    
-| **Video 2.** | **Señal obtenida** |
+| **Video 8.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | |<image src="Anexos/S_triceps.png">|
-<p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 10. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Estado: Luego de actividad física </blockquote>
 <p align="center">
    
-| **Video 3.** | **Señal obtenida** |
+| **Video 9.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | |<image src="Anexos/S_triceps.png">|
-<p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 11. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 ### 4. Señal del Promsim4 (dispositivo de metrología que genera una señal patrón)
