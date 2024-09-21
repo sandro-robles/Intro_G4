@@ -162,7 +162,7 @@
 
 | **Video 5.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/462f440b-884a-473e-b0df-c56687fc3926"> |
+| <video src="https://github.com/user-attachments/assets/462f440b-884a-473e-b0df-c56687fc3926"> | <img src="Anexos/D2.1.png" > |
 <p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -171,8 +171,8 @@
 
 | **Video 6.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/71c4112d-03f1-428e-ad27-a58b2fef82f0"> 
-|<p align="center"><i>Tabla 8. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+| <video src="https://github.com/user-attachments/assets/71c4112d-03f1-428e-ad27-a58b2fef82f0"> | <img src="Anexos/D2.2.png" > |
+<p align="center"><i>Tabla 8. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Estado: Post - Respiración </blockquote>
@@ -180,8 +180,8 @@
 
 | **Video 7.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/7b176a56-6062-483a-aa1b-311ee33d1bd8"> 
-|<p align="center"><i>Tabla 9. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+| <video src="https://github.com/user-attachments/assets/7b176a56-6062-483a-aa1b-311ee33d1bd8"> |  <img src="Anexos/D2.3.png" > |
+<p align="center"><i>Tabla 9. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Estado: Luego de actividad física </blockquote>
@@ -189,7 +189,7 @@
 
 | **Video 8.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/54c1ac73-5691-4f6e-80d0-187b3e229f20"> 
+| <video src="https://github.com/user-attachments/assets/54c1ac73-5691-4f6e-80d0-187b3e229f20"> | <img src="Anexos/D2.4.png" > |
 <p align="center"><i>Tabla 10. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -200,7 +200,7 @@
    
 | **Video 9.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/546a74f9-e64d-4848-bed0-1276e0c198a6"> |
+| <video src="https://github.com/user-attachments/assets/546a74f9-e64d-4848-bed0-1276e0c198a6"> | <img src="Anexos/D3.1.png" > |
 <p align="center"><i>Tabla 11. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -209,8 +209,8 @@
    
 | **Video 10.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/604ec57c-67ca-4fcf-bc85-77f125c48e7f"> 
-|<p align="center"><i>Tabla 12. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+| <video src="https://github.com/user-attachments/assets/604ec57c-67ca-4fcf-bc85-77f125c48e7f"> | <img src="Anexos/D3.2.png" > |
+<p align="center"><i>Tabla 12. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Estado: Post - Respiración </blockquote>
@@ -218,8 +218,8 @@
 
 | **Video 11.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/2959df29-7fec-4bf8-a91b-4fa707863bfe"> 
-|<p align="center"><i>Tabla 13. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+| <video src="https://github.com/user-attachments/assets/2959df29-7fec-4bf8-a91b-4fa707863bfe"> |  <img src="Anexos/D3.3.png" > |
+<p align="center"><i>Tabla 13. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 
@@ -228,7 +228,7 @@
    
 | **Video 12.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/2a476837-b060-45b9-a28e-e6cc87c3e201"> 
+| <video src="https://github.com/user-attachments/assets/2a476837-b060-45b9-a28e-e6cc87c3e201"> |  <img src="Anexos/D3.4.png" > |
 <p align="center"><i>Tabla 14. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
