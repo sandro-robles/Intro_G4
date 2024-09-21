@@ -19,7 +19,6 @@
 
 <p align="justify"> </p>
 
-<p align="center"><i>Figura 1: Señal ECG con diferentes intervalos que la componen [2].</i></p>
 
 |  **Onda/Segmento**  | **Descripción** |
 |:------------:|:---------------:|
