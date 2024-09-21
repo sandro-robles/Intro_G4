@@ -45,7 +45,13 @@
 <p align="center"><i>Figura 3: </i></p>
 
 ## **Resultados:**<a id="Resultados"></a>
+### 1. Señales captadas 1ra derivacion en diferentes estados:
 
+### 2. Señales captadas 2da derivacion en diferentes estados:
+
+### 3. Señales captadas 3ra derivacion en diferentes estados:
+
+### 4. Señal del Promsim4 (dispositivo de metrología que genera una señal patrón)
 
 ## **Discusión:**<a id="Discusión"></a>
 <p align="justify">,</p>
