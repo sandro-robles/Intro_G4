@@ -242,6 +242,12 @@
 El **ProMSim4** es un simulador de ECG (electrocardiograma) diseñado para evaluar y calibrar dispositivos de monitoreo y diagnóstico cardíaco, como electrocardiógrafos, monitores cardíacos y sistemas de telemetría. Este tipo de simulador genera señales de ECG artificiales con patrones que imitan las señales del corazón en diversas condiciones, incluyendo ritmos cardíacos normales y arritmias.
 #### <blockquote> Estado: En reposo (60 lpm)  </blockquote>
 | <video src="https://github.com/user-attachments/assets/3a9e6d41-2c13-4a77-8595-d0bcd2dd8751"> |
+#### <blockquote> Estado: Comienza a agitarse (120 lpm)  </blockquote>
+| <video src="https://github.com/user-attachments/assets/f1310b2e-73b3-4d66-a538-d2f69ed7e474"> |
+#### <blockquote> Estado: Haciendo ejercicio (150 lpm)  </blockquote>
+| <video src="https://github.com/user-attachments/assets/d76f7100-9bc3-4378-93e1-0e02289eaa54"> |
+#### <blockquote> Estado: Reponiéndose (90 lpm)  </blockquote>
+| <video src="https://github.com/user-attachments/assets/fec886a4-b7b2-41b8-beef-de6fa97c5bf1"> |
 
 
 
