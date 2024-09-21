@@ -5,7 +5,7 @@
 3. [Equipos y materiales utilizados](#Equipos)
 4. [Metodología](#Metodología)
 5. [Resultados](#Resultados)
-6. [Cronología de mediciones](#Cronología de mediciones)
+6. [Cronología de mediciones](#Cronologíademediciones)
 7. [Discusión](#Discusión)
 8. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
@@ -40,7 +40,30 @@
 
 <p align="justify">Para la última prueba, el participante realizó una actividad física moderada, que consistió en subir y bajar escaleras durante 5 minutos con el fin de aumentar su frecuencia cardíaca. Inmediatamente después de finalizar la actividad física, se realizó una toma única de cada derivación, registrando la actividad cardíaca durante un periodo de 20 minutos. </p>
 
-## **Cronología de mediciones:**<a id="Cronología de mediciones"></a>
+## **Cronología de mediciones:**<a id="Cronologíademediciones"></a>
+1. Mediciones en Reposo: 
+1.1. Primera toma de la primera derivación (20 segundos).
+1.2. Segunda toma de la primera derivación (20 segundos).
+1.3. Tercera toma de la primera derivación (20 segundos).
+1.4. Primera toma de la segunda derivación (20 segundos).
+1.5. Segunda toma de la segunda derivación (20 segundos).
+1.6. Tercera toma de la segunda derivación (20 segundos).
+1.7. Primera toma de la tercera derivación (20 segundos).
+1.8. Segunda toma de la tercera derivación (20 segundos).
+1.9. Tercera toma de la tercera derivación (20 segundos).
+
+2. Mediciones con Retención de la Respiración:
+2.1. Toma de la primera derivación durante retención de la respiración (20 segundos).
+2.2. Toma de la recuperación de 2 minutos tras la retención de la respiración para la primera derivación.
+2.3. Toma de la segunda derivación durante retención de la respiración (20 segundos).
+2.4. Toma de la recuperación de 2 minutos tras la retención de la respiración para la segunda derivación.
+2.5. Toma de la tercera derivación durante retención de la respiración (20 segundos).
+2.6. Toma de la recuperación de 2 minutos tras la retención de la respiración para la tercera derivación.
+
+3. Mediciones Posteriores a la Actividad Física:
+3.1. Toma de la primera derivación tras 5 minutos de actividad física.
+3.2. Toma de la segunda derivación tras 5 minutos de actividad física.
+3.3. Toma de la tercera derivación tras 5 minutos de actividad física.
 
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
