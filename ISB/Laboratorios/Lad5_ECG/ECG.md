@@ -47,6 +47,7 @@
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Señales captadas 1ra derivacion en diferentes estados:
 #### <blockquote> Estado: En reposo </blockquote>
+
 <p align="center">
 |  **Video 1. ** | **Señal obtenida** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
