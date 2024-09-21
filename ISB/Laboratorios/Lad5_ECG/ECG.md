@@ -47,13 +47,12 @@
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Señales captadas 1ra derivacion en diferentes estados:
 #### <blockquote> Estado: En reposo </blockquote>
-<p align="center">
-   
+<p align="center"> 
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| **En reposo y ejerciendo fuerza**|<image src="Anexos/S_triceps.png">|
+|  |<image src="Anexos/S_triceps.png">|
 <p align="center"><i>Video de adquisición de la señal ECG y la señal obtenida. </i></p> 
-
+</p>
 ### 2. Señales captadas 2da derivacion en diferentes estados:
 
 ### 3. Señales captadas 3ra derivacion en diferentes estados:
