@@ -1,7 +1,7 @@
 # Grupo 4: Introducción a señales biomédicas
 <p align="center"><img src="Otros/sig.gif" width="400"></p>
 ¡Hola y bienvenidos al repositorio del grupo 4 del curso de Introducción a Imágenes Biomédicas!
-Este proyecto está diseñado para explorar y aplicar técnicas fundamentales en el campo de las señales biomedicas
+Este proyecto está diseñado para explorar y aplicar técnicas fundamentales en el campo de las señales biomedicas.
 <h2 style="text-align: center;">Tabla de Contenidos</h2>
 
 1. [Resumen](#Resumen)
