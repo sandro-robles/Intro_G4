@@ -43,29 +43,29 @@
 <p align="justify">Se recomienda seguir estrictamente la cronología de las mediciones, ya que es crucial que el paciente se encuentre en reposo absoluto al inicio, sin haber experimentado ningún tipo de estrés previo. Si se realizaran primero las mediciones con retención de la respiración o, especialmente, la prueba de actividad física, se afectarían de manera significativa los registros en reposo debido al incremento de la frecuencia cardíaca, lo que alteraría los resultados de manera irreversible.</p>
 
 ## **Cronología de mediciones:**<a id="Cronologíademediciones"></a>
-1. Mediciones en Reposo: 
-1.1. Primera toma de la primera derivación (20 segundos).
-1.2. Segunda toma de la primera derivación (20 segundos).
-1.3. Tercera toma de la primera derivación (20 segundos).
-1.4. Primera toma de la segunda derivación (20 segundos).
-1.5. Segunda toma de la segunda derivación (20 segundos).
-1.6. Tercera toma de la segunda derivación (20 segundos).
-1.7. Primera toma de la tercera derivación (20 segundos).
-1.8. Segunda toma de la tercera derivación (20 segundos).
-1.9. Tercera toma de la tercera derivación (20 segundos).
+1. Mediciones en Reposo: <br>
+1.1. Primera toma de la primera derivación (20 segundos).<br>
+1.2. Segunda toma de la primera derivación (20 segundos).<br>
+1.3. Tercera toma de la primera derivación (20 segundos).<br>
+1.4. Primera toma de la segunda derivación (20 segundos).<br>
+1.5. Segunda toma de la segunda derivación (20 segundos).<br>
+1.6. Tercera toma de la segunda derivación (20 segundos).<br>
+1.7. Primera toma de la tercera derivación (20 segundos).<br>
+1.8. Segunda toma de la tercera derivación (20 segundos).<br>
+1.9. Tercera toma de la tercera derivación (20 segundos).<br>
 
-2. Mediciones con Retención de la Respiración:
-2.1. Toma de la primera derivación durante retención de la respiración (20 segundos).
-2.2. Toma de la recuperación de 2 minutos tras la retención de la respiración para la primera derivación.
-2.3. Toma de la segunda derivación durante retención de la respiración (20 segundos).
-2.4. Toma de la recuperación de 2 minutos tras la retención de la respiración para la segunda derivación.
-2.5. Toma de la tercera derivación durante retención de la respiración (20 segundos).
-2.6. Toma de la recuperación de 2 minutos tras la retención de la respiración para la tercera derivación.
+2. Mediciones con Retención de la Respiración:<br>
+2.1. Toma de la primera derivación durante retención de la respiración (20 segundos).<br>
+2.2. Toma de la recuperación de 2 minutos tras la retención de la respiración para la primera derivación.<br>
+2.3. Toma de la segunda derivación durante retención de la respiración (20 segundos).<br>
+2.4. Toma de la recuperación de 2 minutos tras la retención de la respiración para la segunda derivación.<br>
+2.5. Toma de la tercera derivación durante retención de la respiración (20 segundos).<br>
+2.6. Toma de la recuperación de 2 minutos tras la retención de la respiración para la tercera derivación.<br>
 
-3. Mediciones Posteriores a la Actividad Física:
-3.1. Toma de la primera derivación tras 5 minutos de actividad física.
-3.2. Toma de la segunda derivación tras 5 minutos de actividad física.
-3.3. Toma de la tercera derivación tras 5 minutos de actividad física.
+3. Mediciones Posteriores a la Actividad Física:<br>
+3.1. Toma de la primera derivación tras 5 minutos de actividad física.<br>
+3.2. Toma de la segunda derivación tras 5 minutos de actividad física.<br>
+3.3. Toma de la tercera derivación tras 5 minutos de actividad física.<br>
 
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
