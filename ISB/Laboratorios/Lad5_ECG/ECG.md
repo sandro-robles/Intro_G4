@@ -50,7 +50,6 @@
 <p align="center">
    
 
-
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/9a4cd9f0-1357-4051-9b22-9e2d5093ba85"> |
@@ -67,6 +66,8 @@
 </p>
 
 #### <blockquote> Estado: Post - Respiración </blockquote>
+<p align="center">
+   
 | **Video 3.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/0e6106c2-046d-48a6-badc-7b3202e11244"> 
@@ -75,6 +76,7 @@
 
 #### <blockquote> Estado: Luego de actividad física </blockquote>
 <p align="center">
+   
 | **Video 4.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/da7f9b48-1053-486f-b1d1-562d4cdd4ed0"> 
