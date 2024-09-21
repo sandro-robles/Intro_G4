@@ -154,11 +154,10 @@
 
 #### <blockquote> Estado: Post - Respiración </blockquote>
 <p align="center">
-   
 
 | **Video 7.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/0a67f6a8-7141-4690-be06-ebaed00c046c"> 
+| <video src="https://github.com/user-attachments/assets/7b176a56-6062-483a-aa1b-311ee33d1bd8"> 
 |<p align="center"><i>Tabla 9. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
