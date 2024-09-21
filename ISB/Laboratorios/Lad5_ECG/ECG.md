@@ -23,7 +23,7 @@
 
 |  **Onda/Segmento**  | **Descripción** |
 |:------------:|:---------------:|
-| Onda P |      |
+| Onda P | La onda P aparece como la primera elevación positiva en el trazado del electrocardiograma e indica el proceso de despolarización de las aurículas [3].|
 | Intervalo PR  |              |
 | Complejo QRS |        |
 |  Segmento ST  |        |
