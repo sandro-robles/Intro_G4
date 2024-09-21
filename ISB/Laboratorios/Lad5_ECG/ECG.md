@@ -50,6 +50,7 @@
 <p align="center">
    
 
+
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/9a4cd9f0-1357-4051-9b22-9e2d5093ba85"> |
@@ -61,8 +62,8 @@
    
 | **Video 2.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| |<image src="Anexos/S_triceps.png">|
-<p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+| <video src="https://github.com/user-attachments/assets/c4a0b0ad-e645-43a5-aa94-9c123bf638d5"> 
+|<p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Estado: Luego de actividad física </blockquote>
