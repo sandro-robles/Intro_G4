@@ -67,6 +67,9 @@
 3.2. Toma de la segunda derivación tras 5 minutos de actividad física.<br>
 3.3. Toma de la tercera derivación tras 5 minutos de actividad física.<br>
 
+## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
+
+
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
