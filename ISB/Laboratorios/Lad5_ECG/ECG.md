@@ -13,6 +13,8 @@
 ## **Introducción:**<a id="Introduccion"></a>
 <p align="justify"> El electrocardiograma (ECG) es una herramienta fundamental en la medicina cardiovascular, utilizada para identificar una amplia variedad de patologías cardíacas, como arritmias y alteraciones miocárdicas y pericárdicas, así como desequilibrios electrolíticos y enfermedades pulmonares. Su facilidad de uso, carácter no invasivo y bajo costo han consolidado al ECG como una de las pruebas más empleadas en la práctica clínica. Sin embargo, su utilidad diagnóstica depende en gran medida de la precisión en la interpretación de los resultados [1]. </p>
 
+<p align="center"><img src="Anexos/Imagen_Intro.png" width="400"></p>
+
 <p align="justify"> </p>
 
 <p align="center"><img src="Anexos/EMG.jpg" width="400"></p>
@@ -174,5 +176,5 @@
 <p align="justify">,</p>
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
-<p align="justify">[1]N. Rafie, A. H. Kashou, and P. A. Noseworthy, “ECG Interpretation: Clinical Relevance, Challenges, and Advances,” Hearts, vol. 2, no. 4, pp. 505–513, Nov. 2021, doi: https://doi.org/10.3390/hearts2040039.
+<p align="justify">[1] N. Rafie, A. H. Kashou, and P. A. Noseworthy, “ECG Interpretation: Clinical Relevance, Challenges, and Advances,” Hearts, vol. 2, no. 4, pp. 505–513, Nov. 2021, doi: https://doi.org/10.3390/hearts2040039.
 ‌</p>
