@@ -239,7 +239,7 @@
 </p>
 
 ### 4. Señal del Promsim4 (dispositivo de metrología que genera una señal patrón)
-El **ProMSim4** es un simulador de ECG (electrocardiograma) diseñado para evaluar y calibrar dispositivos de monitoreo y diagnóstico cardíaco, como electrocardiógrafos, monitores cardíacos y sistemas de telemetría. Este tipo de simulador genera señales de ECG artificiales con patrones que imitan las señales del corazón en diversas condiciones, incluyendo ritmos cardíacos normales y arritmias.
+El **ProMSim4** es un simulador de ECG (electrocardiograma) diseñado para evaluar y calibrar dispositivos de monitoreo y diagnóstico cardíaco, como electrocardiógrafos, monitores cardíacos y sistemas de telemetría. Este tipo de simulador genera señales de ECG artificiales con patrones que imitan las señales del corazón en diversas condiciones, incluyendo ritmos cardíacos normales y arritmias[12].
 #### <blockquote> Estado: En reposo (60 lpm)  </blockquote>
 | <video src="https://github.com/user-attachments/assets/3a9e6d41-2c13-4a77-8595-d0bcd2dd8751"> |
 #### <blockquote> Estado: Comienza a agitarse (120 lpm)  </blockquote>
@@ -278,6 +278,7 @@ El **ProMSim4** es un simulador de ECG (electrocardiograma) diseñado para evalu
 
 <p align="justify">[11] E. Burns and E. Burns, “U Wave,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/u-wave-ecg-library/ (accessed Sep. 21, 2024).
 ‌</p>
+<p align="justify">[‌12]“ProSim TM 4 Vital Signs Simulator Manual de funcionamiento básico.” Available: https://www.flukebiomedical.com/sites/default/files/resources/prosim4_gsspa0300.pdf
 ‌
 ‌
 ‌
