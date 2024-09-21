@@ -5,7 +5,7 @@
 3. [Equipos y materiales utilizados](#Equipos)
 4. [Metodología](#Metodología)
 5. [Resultados](#Resultados)
-   5.1. [Cronología de mediciones](#Cronología de mediciones)
+6. [Cronología de mediciones](#Cronología de mediciones)
 7. [Discusión](#Discusión)
 8. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
@@ -40,7 +40,8 @@
 
 <p align="justify">Para la última prueba, el participante realizó una actividad física moderada, que consistió en subir y bajar escaleras durante 5 minutos con el fin de aumentar su frecuencia cardíaca. Inmediatamente después de finalizar la actividad física, se realizó una toma única de cada derivación, registrando la actividad cardíaca durante un periodo de 20 minutos. </p>
 
-## **5.1. Cronología de mediciones:**<a id="Cronología de mediciones"></a>
+## **Cronología de mediciones:**<a id="Cronología de mediciones"></a>
+
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
