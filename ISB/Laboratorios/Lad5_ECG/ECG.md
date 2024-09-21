@@ -15,7 +15,7 @@
 - Extraer y analizar las señales ECG utilizando el software OpenSignals (r)evolution.
   
 ## **Introducción:**<a id="Introduccion"></a>
-<p align="justify"> El corazón está compuesto por varios tejidos, entre los cuales se encuentra el músculo cardíaco, que puede producir señales eléctricas que son detectables en la superficie de la piel utilizando un sensor de ECG. [1]. </p>
+<p align="justify"> El corazón está compuesto por varios tejidos, entre los cuales se encuentra el músculo cardíaco, que puede producir señales eléctricas que son detectables en la superficie de la piel utilizando un sensor de ECG. [x]. </p>
 
 <p align="justify"> El electrocardiograma (ECG) es una herramienta fundamental en la medicina cardiovascular, utilizada para identificar una amplia variedad de patologías cardíacas, como arritmias y alteraciones miocárdicas y pericárdicas, así como desequilibrios electrolíticos y enfermedades pulmonares. Su facilidad de uso, carácter no invasivo y bajo costo han consolidado al ECG como una de las pruebas más empleadas en la práctica clínica. Sin embargo, su utilidad diagnóstica depende en gran medida de la precisión en la interpretación de los resultados [1]. </p>
 
@@ -28,11 +28,11 @@
 ## **Triángulo de Eithoven**<a id="TriángulodeEithoven"></a>
 <p align="justify"> Para nuestro laboratorio, es crucial destacar la importancia del triángulo de Einthoven, el cual describe la relación entre las tres derivaciones bipolares de las extremidades (DI, DII y DIII) y los electrodos. Aunque tradicionalmente este triángulo se forma utilizando el brazo izquierdo, el brazo derecho y la pierna izquierda, en este experimento optamos por cambiar la ubicación del electrodo de la pierna izquierda hacia la cresta ilíaca, siguiendo la guía proporcionada. Este cambio no afecta de manera significativa la medición, ya que el ECG mide las diferencias de potencial eléctrico entre los electrodos, y la ubicación exacta no altera sustancialmente el registro de las derivaciones, siempre que se mantenga una distribución similar a las posiciones clásicas. </p>
 
-<p align="justify"> Sin embargo, es importante destacar que la colocación incorrecta accidental de los electrodos de las extremidades es una causa común de anomalías en el ECG, y puede simular patologías como ritmo auricular ectópico, agrandamiento de cámaras cardíacas, isquemia o incluso infarto de miocardio. Por lo tanto, se debe tener especial cuidado al posicionar los electrodos para evitar diagnósticos erróneos. </p>
+<p align="justify"> Sin embargo, es importante destacar que la colocación incorrecta accidental de los electrodos de las extremidades es una causa común de anomalías en el ECG, y puede simular patologías como ritmo auricular ectópico, agrandamiento de cámaras cardíacas, isquemia o incluso infarto de miocardio. Por lo tanto, se debe tener especial cuidado al posicionar los electrodos para evitar diagnósticos erróneos [y]. </p>
 
 <p align="center"><img src="Anexos/eithoven.png" width="400"></p>
 
-<p align="center"><i>Figura 2: (a) Derivaciones de Einthoven I-III (b) Posicionamiento de los electrodos para la derivación I: muñecas y tobillo (izquierdo), clavículas y cresta ilíaca o pecho (derecho). [].</i></p>
+<p align="center"><i>Figura 2: (a) Derivaciones de Einthoven I-III (b) Posicionamiento de los electrodos para la derivación I: muñecas y tobillo (izquierdo), clavículas y cresta ilíaca o pecho (derecho) [x].</i></p>
 
 ## **Componentes tradicionales del ECG:**<a id="Componentes"></a>
 |  **Onda/Segmento**  | **Descripción** |
@@ -89,7 +89,7 @@
 
 <p align="center"><img src="Anexos/posicionguia.png" width="400"></p>
 
-<p align="center"><i>Figura 4: Colocación de electrodos para la derivación I: IN+ (rojo) e IN- (negro) en las muñecas y REF (blanco) en la cresta ilíaca [].</i></p>
+<p align="center"><i>Figura 4: Colocación de electrodos para la derivación I: IN+ (rojo) e IN- (negro) en las muñecas y REF (blanco) en la cresta ilíaca [x].</i></p>
 
 <p align="center"><img src="Anexos/tablaposiciones.png" width="400"></p>
 
@@ -243,10 +243,14 @@
 <p align="justify">,</p>
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
+<p align="justify">[x]“BITalino (r)evolution Lab Guide.” Available: https://support.pluxbiosignals.com/wp-content/uploads/2022/04/HomeGuide2_ECG.pdf</p>
+‌
 <p align="justify">[1] N. Rafie, A. H. Kashou, and P. A. Noseworthy, “ECG Interpretation: Clinical Relevance, Challenges, and Advances,” Hearts, vol. 2, no. 4, pp. 505–513, Nov. 2021, doi: https://doi.org/10.3390/hearts2040039. ‌‌</p>
 
 <p align="justify">[2] “Interpretación del electrocardiograma normal y patológico - DIPLOMADO,” Edupyme.edu.pe, 2022. https://edupyme.edu.pe/producto/interpretacion-del-electrocardiograma-normal-y-patologico-diplomado/ (accessed Sep. 21, 2024).‌‌</p>
 
+<p align="justify">[y] E. Burns, R. Buttner, and E. Burns, “ECG Limb Lead Reversal,” Life in the Fast Lane • LITFL, Aug. 2018. https://litfl.com/ecg-limb-lead-reversal-ecg-library/ (accessed Sep. 21, 2024).‌‌</p>
+‌
 <p align="justify"> [3] M. Cadogan, R. Buttner, and M. Cadogan, “P wave,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/p-wave-ecg-library/ (accessed Sep. 21, 2024).</p>
 
 <p align="justify">[4] M. Cadogan and M. Cadogan, “PR Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/pr-interval-ecg-library/ (accessed Sep. 21, 2024).</p>
