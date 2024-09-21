@@ -210,9 +210,9 @@
 <p align="center"><i>Tabla 14. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Ejercicio:</blockquote>
+## **Ejercicio realizado:**<a id="Ejercicio"></a>
 <p align="center">
-<p align="center">| <video src="https://github.com/user-attachments/assets/028cd25f-daeb-482f-b897-e39af0cbee37"> </p>
+<p align="center">| <video src="https://github.com/user-attachments/assets/028cd25f-daeb-482f-b897-e39af0cbee37">| </p>
 <p align="center"><i>  Video del ejercicio realizado. </i></p>
 </p>
 
