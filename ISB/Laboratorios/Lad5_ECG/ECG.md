@@ -4,8 +4,8 @@
 2. [Introduccion](#Introduccion)
 3. [Equipos y materiales utilizados](#Equipos)
 4. [Metodología](#Metodología)
-5. [Resultados](#Resultados)
-6. [Cronología de mediciones](#Cronologíademediciones)
+5. [Cronología de mediciones](#Cronologíademediciones)
+6. [Resultados](#Resultados)
 7. [Discusión](#Discusión)
 8. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
