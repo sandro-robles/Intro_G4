@@ -52,8 +52,10 @@
 |  **Video 1. ** | **Señal obtenida** |
 |:-----------------------------------------------------:|:--------------------------------------------------------:|
 |    |    |
+   
 <p align="center"><i>Tabla 3. Video de adquisición de la señal ECG y la señal obtenida</i></p>
 </p>
+
 ### 2. Señales captadas 2da derivacion en diferentes estados:
 
 ### 3. Señales captadas 3ra derivacion en diferentes estados:
