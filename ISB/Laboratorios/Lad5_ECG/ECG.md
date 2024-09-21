@@ -66,13 +66,19 @@
 |<p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Estado: Luego de actividad física </blockquote>
-<p align="center">
-   
+#### <blockquote> Estado: Post - Respiración </blockquote>
 | **Video 3.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| |<image src="Anexos/S_triceps.png">|
-<p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+| <video src="https://github.com/user-attachments/assets/0e6106c2-046d-48a6-badc-7b3202e11244"> 
+|<p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
+
+#### <blockquote> Estado: Luego de actividad física </blockquote>
+<p align="center">
+| **Video 4.** | **Señal obtenida** |
+|:------------:|:---------------:|
+| <video src="https://github.com/user-attachments/assets/da7f9b48-1053-486f-b1d1-562d4cdd4ed0"> 
+<p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 ### 2. Señales captadas 2da derivacion en diferentes estados:
