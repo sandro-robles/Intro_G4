@@ -50,7 +50,7 @@
 
 <p align="center"><img src="Anexos/ECG-waves.jpg" width="700"></p>
 
-<p align="center"><i>Figura 3: Trazado de electrocardiograma (ECG) con los diferentes intervalos y segmentos del ciclo cardíaco [3].</i></p>
+<p align="center"><i>Figura 3: Trazado de electrocardiograma (ECG) con los diferentes intervalos y segmentos del ciclo cardíaco [5].</i></p>
 
 ## **Metodología:**<a id="Metodología"></a>
 <p align="justify">En primer lugar, se realizaron tres registros para cada una de las tres derivaciones en reposo (derivaciones I, II y III). El participante debía estar en una posición cómoda, relajado y sin moverse para evitar interferencias en los registros. </p>
