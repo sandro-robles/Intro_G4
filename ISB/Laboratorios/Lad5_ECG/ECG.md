@@ -136,9 +136,6 @@
 #### <blockquote> Estado: En reposo </blockquote>
 <p align="center">
    
-#### <blockquote> Estado: En reposo </blockquote>
-<p align="center">
-   
 
 | **Video 5.** | **Señal obtenida** |
 |:------------:|:---------------:|
@@ -179,10 +176,6 @@
 #### <blockquote> Estado: En reposo </blockquote>
 <p align="center">
    
-#### <blockquote> Estado: En reposo </blockquote>
-<p align="center">
-
-
 | **Video 9.** | **Señal obtenida** |
 |:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/546a74f9-e64d-4848-bed0-1276e0c198a6"> |
@@ -215,6 +208,11 @@
 |:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/2a476837-b060-45b9-a28e-e6cc87c3e201"> 
 <p align="center"><i>Tabla 14. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
+
+<p align="center">
+| <video src="https://github.com/user-attachments/assets/028cd25f-daeb-482f-b897-e39af0cbee37"> 
+<p align="center"><i>  Video del ejercicio realizado. </i></p>
 </p>
 
 ### 4. Señal del Promsim4 (dispositivo de metrología que genera una señal patrón)
