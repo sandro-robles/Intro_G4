@@ -90,7 +90,7 @@
 
 <p align="center"><img src="Anexos/posicionguia.png" width="400"></p>
 
-<p align="center"><i>Figura 4: Colocación de electrodos para la derivación I: IN+ (rojo) e IN- (negro) en las muñecas y REF (blanco) en la cresta ilíaca [x].</i></p>
+<p align="center"><i>Figura 4: Colocación de electrodos para la derivación I: IN+ (rojo) e IN- (negro) en las muñecas y REF (blanco) en la cresta ilíaca [1].</i></p>
 
 <p align="center"><img src="Anexos/tablaposiciones.png" width="400"></p>
 
