@@ -7,9 +7,10 @@
 5. [Discusión](#Discusión)
 6. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
-- Adquirir señales biomédicas de ECG.
-- Hacer una correcta configuración de BiTalino
-- Extraer la información de las señales ECG del software OpenSignals (r)evolution
+- Captar señales biomédicas de ECG de alta calidad para su análisis.
+- Configurar de manera óptima el dispositivo BiTalino para la recolección de datos ECG.
+- Extraer y analizar las señales ECG utilizando el software OpenSignals (r)evolution.
+  
 ## **Introducción:**<a id="Introduccion"></a>
 <p align="justify"> El electrocardiograma (ECG) es una herramienta fundamental en la medicina cardiovascular, utilizada para identificar una amplia variedad de patologías cardíacas, como arritmias y alteraciones miocárdicas y pericárdicas, así como desequilibrios electrolíticos y enfermedades pulmonares. Su facilidad de uso, carácter no invasivo y bajo costo han consolidado al ECG como una de las pruebas más empleadas en la práctica clínica. Sin embargo, su utilidad diagnóstica depende en gran medida de la precisión en la interpretación de los resultados [1]. </p>
 
