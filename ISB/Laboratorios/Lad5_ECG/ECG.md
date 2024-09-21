@@ -2,18 +2,21 @@
 ## **Tabla de contenidos:**
 1. [Objetivos](#Objetivos)
 2. [Introduccion](#Introduccion)
-3. [Equipos y materiales utilizados](#Equipos)
-4. [Metodología](#Metodología)
-5. [Cronología de mediciones](#Cronologíademediciones)
-6. [Resultados](#Resultados)
-7. [Discusión](#Discusión)
-8. [Bibliografia](#Bibliografia)
+3. [Triángulo de Eithoven](#TriángulodeEithoven)
+4. [Equipos y materiales utilizados](#Equipos)
+5. [Metodología](#Metodología)
+6. [Cronología de mediciones](#Cronologíademediciones)
+7. [Resultados](#Resultados)
+8. [Discusión](#Discusión)
+9. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
 - Captar señales biomédicas de ECG de alta calidad para su análisis.
 - Configurar de manera óptima el dispositivo BiTalino para la recolección de datos ECG.
 - Extraer y analizar las señales ECG utilizando el software OpenSignals (r)evolution.
   
 ## **Introducción:**<a id="Introduccion"></a>
+<p align="justify"> El corazón está compuesto por varios tejidos, entre los cuales se encuentra el músculo cardíaco, que puede producir señales eléctricas que son detectables en la superficie de la piel utilizando un sensor de ECG. [1]. </p>
+
 <p align="justify"> El electrocardiograma (ECG) es una herramienta fundamental en la medicina cardiovascular, utilizada para identificar una amplia variedad de patologías cardíacas, como arritmias y alteraciones miocárdicas y pericárdicas, así como desequilibrios electrolíticos y enfermedades pulmonares. Su facilidad de uso, carácter no invasivo y bajo costo han consolidado al ECG como una de las pruebas más empleadas en la práctica clínica. Sin embargo, su utilidad diagnóstica depende en gran medida de la precisión en la interpretación de los resultados [1]. </p>
 
 <p align="center"><img src="Anexos/Imagen_Intro.png" width="400"></p>
@@ -21,6 +24,15 @@
 <p align="center"><i>Figura 1: Interpretación de ECG [2].</i></p>
 
 <p align="justify"> </p>
+
+## **Triángulo de Eithoven**<a id="TriángulodeEithoven"></a>
+<p align="justify"> Para nuestro laboratorio, es crucial destacar la importancia del triángulo de Einthoven, el cual describe la relación entre las tres derivaciones bipolares de las extremidades (DI, DII y DIII) y los electrodos. Aunque tradicionalmente este triángulo se forma utilizando el brazo izquierdo, el brazo derecho y la pierna izquierda, en este experimento optamos por cambiar la ubicación del electrodo de la pierna izquierda hacia la cresta ilíaca, siguiendo la guía proporcionada. Este cambio no afecta de manera significativa la medición, ya que el ECG mide las diferencias de potencial eléctrico entre los electrodos, y la ubicación exacta no altera sustancialmente el registro de las derivaciones, siempre que se mantenga una distribución similar a las posiciones clásicas. </p>
+
+<p align="justify"> Sin embargo, es importante destacar que la colocación incorrecta accidental de los electrodos de las extremidades es una causa común de anomalías en el ECG, y puede simular patologías como ritmo auricular ectópico, agrandamiento de cámaras cardíacas, isquemia o incluso infarto de miocardio. Por lo tanto, se debe tener especial cuidado al posicionar los electrodos para evitar diagnósticos erróneos. </p>
+
+<p align="center"><img src="Anexos/eithoven.png" width="400"></p>
+
+<p align="center"><i>Figura 2: (a) Derivaciones de Einthoven I-III (b) Posicionamiento de los electrodos para la derivación I: muñecas y tobillo (izquierdo), clavículas y cresta ilíaca o pecho (derecho). [].</i></p>
 
 ## **Componentes tradicionales del ECG:**<a id="Componentes"></a>
 |  **Onda/Segmento**  | **Descripción** |
@@ -37,8 +49,7 @@
 
 <p align="center"><img src="Anexos/ECG-waves.jpg" width="700"></p>
 
-<p align="center"><i>Figura 2: Trazado de electrocardiograma (ECG) con los diferentes intervalos y segmentos del ciclo cardíaco [3].</i></p>
-
+<p align="center"><i>Figura 3: Trazado de electrocardiograma (ECG) con los diferentes intervalos y segmentos del ciclo cardíaco [3].</i></p>
 
 ## **Metodología:**<a id="Metodología"></a>
 <p align="justify">En primer lugar, se realizaron tres registros para cada una de las tres derivaciones en reposo (derivaciones I, II y III). El participante debía estar en una posición cómoda, relajado y sin moverse para evitar interferencias en los registros. </p>
@@ -76,7 +87,18 @@
 
 ## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
 
+<p align="center"><img src="Anexos/posicionguia.png" width="400"></p>
 
+<p align="center"><i>Figura 4: Colocación de electrodos para la derivación I: IN+ (rojo) e IN- (negro) en las muñecas y REF (blanco) en la cresta ilíaca [].</i></p>
+
+<p align="center"><img src="Anexos/tablaposiciones.png" width="400"></p>
+
+<p align="center"><i>Figura 5: Tabla de posiciones de los electrodos de acuerdo a la derivación analizada. Elaboración propia.</i></p>
+
+
+<p align="center"><img src="Anexos/posicionnosotros.png" width="400"></p>
+
+<p align="center"><i>Figura 6: Imagen referencial de las posiciones en donde deben colocarse los electrodos, para una mejor precisión al hacer los cambios. Elaboración propia.</i></p>
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
