@@ -27,8 +27,7 @@
 |:------------:|:---------------:|
 | Onda P | La onda P aparece como la primera elevación positiva en el trazado del electrocardiograma e indica el proceso de despolarización de las aurículas [3].|
 | Intervalo PR  |El intervalo PR es el periodo que abarca desde el comienzo de la onda P hasta el inicio del complejo QRS, y refleja la conducción del impulso eléctrico a través del nodo auriculoventricular (AV) [4].|
-| Complejo QRS | 
-El rango normal de la duración del complejo QRS es de 70 a 100 ms, aunque en algunos individuos sanos puede alcanzar los 110 ms. La amplitud del complejo QRS ayuda a determinar su origen, como sinusal, auricular, nodal o ventricular [5].|
+| Complejo QRS | El rango normal de la duración del complejo QRS es de 70 a 100 ms, aunque en algunos individuos sanos puede alcanzar los 110 ms. La amplitud del complejo QRS ayuda a determinar su origen, como sinusal, auricular, nodal o ventricular [5].|
 |  Segmento ST  | El segmento ST normalmente se presenta como una línea plana o isoeléctrica, aunque puede experimentar variaciones menores a 0.5 mm.
 Para determinar su desplazamiento, se utiliza como punto de referencia el segmento entre la onda T del latido anterior y la onda P del latido actual (segmento TP previo). Si este segmento no es isoeléctrico, se emplea el segmento PR del mismo latido como referencia, teniendo en cuenta la diferencia entre intervalo y segmento [6] |
 |  Onda T  |        |
