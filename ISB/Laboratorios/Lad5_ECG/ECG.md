@@ -35,7 +35,7 @@
 </div>
 <p align="center"><i>Tabla 1. Intervalos de una señal ECG. </i></p>
 
-<p align="center"><img src="Anexos/ECG_waves.jpg" width="400"></p>
+<p align="center"><img src="Anexos/ECG-waves.jpg" width="400"></p>
 
 <p align="center"><i>Figura 2: Trazado de electrocardiograma (ECG) con los diferentes intervalos y segmentos del ciclo cardíaco [3].</i></p>
 
