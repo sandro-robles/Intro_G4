@@ -16,7 +16,7 @@
 ## **Introducción:**<a id="Introduccion"></a>
 <p align="justify"> El electrocardiograma (ECG) es una herramienta fundamental en la medicina cardiovascular, utilizada para identificar una amplia variedad de patologías cardíacas, como arritmias y alteraciones miocárdicas y pericárdicas, así como desequilibrios electrolíticos y enfermedades pulmonares. Su facilidad de uso, carácter no invasivo y bajo costo han consolidado al ECG como una de las pruebas más empleadas en la práctica clínica. Sin embargo, su utilidad diagnóstica depende en gran medida de la precisión en la interpretación de los resultados [1]. </p>
 
-<p align="center"><img src="Anexos/Imagen_Intro.png" width="700"></p>
+<p align="center"><img src="Anexos/Imagen_Intro.png" width="400"></p>
 
 <p align="center"><i>Figura 1: Interpretación de ECG [2].</i></p>
 
@@ -35,7 +35,7 @@
 </div>
 <p align="center"><i>Tabla 1. Intervalos de una señal ECG. </i></p>
 
-<p align="center"><img src="Anexos/ECG-waves.jpg" width="400"></p>
+<p align="center"><img src="Anexos/ECG-waves.jpg" width="700"></p>
 
 <p align="center"><i>Figura 2: Trazado de electrocardiograma (ECG) con los diferentes intervalos y segmentos del ciclo cardíaco [3].</i></p>
 
