@@ -15,9 +15,9 @@
 
 <p align="center"><img src="Anexos/Imagen_Intro.png" width="400"></p>
 
-<p align="justify"> </p>
+<p align="center"><i>Figura 1: Interpretación de ECG [2].</i></p>
 
-<p align="center"><img src="Anexos/EMG.jpg" width="400"></p>
+<p align="justify"> </p>
 
 <p align="center"><i>Figura 1: Señal ECG con diferentes intervalos que la componen [2].</i></p>
 
@@ -178,3 +178,5 @@
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1] N. Rafie, A. H. Kashou, and P. A. Noseworthy, “ECG Interpretation: Clinical Relevance, Challenges, and Advances,” Hearts, vol. 2, no. 4, pp. 505–513, Nov. 2021, doi: https://doi.org/10.3390/hearts2040039.
 ‌</p>
+[2] “Interpretación del electrocardiograma normal y patológico - DIPLOMADO,” Edupyme.edu.pe, 2022. https://edupyme.edu.pe/producto/interpretacion-del-electrocardiograma-normal-y-patologico-diplomado/ (accessed Sep. 21, 2024).
+‌
