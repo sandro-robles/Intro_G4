@@ -27,9 +27,11 @@
 |:------------:|:---------------:|
 | Onda P | La onda P aparece como la primera elevación positiva en el trazado del electrocardiograma e indica el proceso de despolarización de las aurículas [3].|
 | Intervalo PR  |El intervalo PR es el periodo que abarca desde el comienzo de la onda P hasta el inicio del complejo QRS, y refleja la conducción del impulso eléctrico a través del nodo auriculoventricular (AV). Duración normal: menos de 0.12 segundos (menos de 120 ms o 3 cuadros pequeños en el ECG). [4].|
-| Complejo QRS | El rango normal de la duración del complejo QRS es de 70 a 100 ms, aunque en algunos individuos sanos puede alcanzar los 110 ms. La amplitud del complejo QRS ayuda a determinar su origen, como sinusal, auricular, nodal o ventricular [5].|
-|  Segmento ST  | El segmento ST normalmente se presenta como una línea plana o isoeléctrica, aunque puede experimentar variaciones menores a 0.5 mm. Para determinar su desplazamiento, se utiliza como punto de referencia el segmento entre la onda T del latido anterior y la onda P del latido actual (segmento TP previo) [6].|
-|  Onda T  | La onda T aparece como una deflexión positiva después del complejo QRS, representa la repolarización de los ventrículos. Es positiva en la mayoría de las derivaciones, excepto en aVR y V1. En cuanto a su amplitud, debe ser menor a 5 mm en las derivaciones de las extremidades y no superar los 10 mm en las derivaciones precordiales (con un límite de 10 mm en hombres y 8 mm en mujeres). Su duración está relacionada con el intervalo QT [7].        |
+| Complejo QRS | El complejo QRS corresponde a la despolarización de los ventrículos. La onda Q, que es la primera deflexión descendente, debe tener una duración menor a 0,05 segundos en todas las derivaciones, excepto en V1–V3. En estas derivaciones, la aparición de una onda Q se considera patológica y puede indicar la presencia de un infarto de miocardio, ya sea reciente o antiguo. [5].|
+| Intervalo QT | El intervalo QT se extiende desde el inicio de la onda Q hasta el final de la onda T, reflejando el tiempo total que dura la despolarización y repolarización ventricular, es decir, la sístole ventricular completa, desde la contracción isovolumétrica hasta la relajación isovolumétrica. La duración del intervalo QT varía inversamente con la frecuencia cardíaca: se acorta cuando el ritmo es más rápido y se alarga cuando es más lento [6].|
+|  Segmento ST  | El segmento ST normalmente se presenta como una línea plana o isoeléctrica, aunque puede experimentar variaciones menores a 0.5 mm. Para determinar su desplazamiento, se utiliza como punto de referencia el segmento entre la onda T del latido anterior y la onda P del latido actual (segmento TP previo) [7].|
+|  Onda T  | La onda T aparece como una deflexión positiva después del complejo QRS, representa la repolarización de los ventrículos. Es positiva en la mayoría de las derivaciones, excepto en aVR y V1. En cuanto a su amplitud, debe ser menor a 5 mm en las derivaciones de las extremidades y no superar los 10 mm en las derivaciones precordiales (con un límite de 10 mm en hombres y 8 mm en mujeres). Su duración está relacionada con el intervalo QT [8].  |
+|  Onda U  | La onda U es una pequeña deflexión (alrededor de 0.5 mm) que aparece inmediatamente después de la onda T. Normalmente tiene la misma dirección que la onda T y se observa mejor en las derivaciones V2 y V3. [9].  |
 </div>
 <p align="center"><i>Tabla 1. Intervalos de una señal ECG. </i></p>
 
@@ -224,12 +226,16 @@
   
 <p align="justify">[4] M. Cadogan and M. Cadogan, “PR Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/pr-interval-ecg-library/ (accessed Sep. 21, 2024).</p>
   
-<p align="justify">[5] J. Larkin and J. Larkin, “QRS Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/qrs-interval-ecg-library/ (accessed Sep. 21, 2024).</p>
-  
-<p align="justify">[6] “Valoración del Segmento ST,” My-ekg.com, 2018. https://www.my-ekg.com/como-leer-ekg/segmento-st.html#google_vignette (accessed Sep. 21, 2024).</p>
-  
-<p align="justify">[7] E. Burns, R. Buttner, and E. Burns, “T wave,” Life in the Fast Lane • LITFL, Aug. 2018. https://litfl.com/t-wave-ecg-library/ (accessed Sep. 21, 2024).</p>
+<p align="justify">[5] T. Cascino and M. J. Shea, “Electrocardiografía,” Manual MSD versión para profesionales, Jul. 06, 2021. https://www.msdmanuals.com/es-pe/professional/trastornos-cardiovasculares/pruebas-y-procedimientos-cardiovasculares/electrocardiograf%C3%ADa (accessed Sep. 21, 2024).‌</p>
 
+<p align="justify">[6] E. Burns, R. Buttner, and E. Burns, “QT Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/qt-interval-ecg-library/ (accessed Sep. 21, 2024).</p>
+‌
+<p align="justify">[7] “Valoración del Segmento ST,” My-ekg.com, 2018. https://www.my-ekg.com/como-leer-ekg/segmento-st.html#google_vignette (accessed Sep. 21, 2024).</p>
+  
+<p align="justify">[8] E. Burns, R. Buttner, and E. Burns, “T wave,” Life in the Fast Lane • LITFL, Aug. 2018. https://litfl.com/t-wave-ecg-library/ (accessed Sep. 21, 2024).</p>
+
+<p align="justify">[9] E. Burns and E. Burns, “U Wave,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/u-wave-ecg-library/ (accessed Sep. 21, 2024).
+‌</p>
 ‌
 ‌
 ‌
