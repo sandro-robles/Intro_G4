@@ -221,6 +221,8 @@
 [2] “Interpretación del electrocardiograma normal y patológico - DIPLOMADO,” Edupyme.edu.pe, 2022. https://edupyme.edu.pe/producto/interpretacion-del-electrocardiograma-normal-y-patologico-diplomado/ (accessed Sep. 21, 2024).
 [3] M. Cadogan, R. Buttner, and M. Cadogan, “P wave,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/p-wave-ecg-library/ (accessed Sep. 21, 2024).
 [4] M. Cadogan and M. Cadogan, “PR Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/pr-interval-ecg-library/ (accessed Sep. 21, 2024).
+[5] J. Larkin and J. Larkin, “QRS Interval,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/qrs-interval-ecg-library/ (accessed Sep. 21, 2024).
+‌
 ‌
 ‌
 ‌
