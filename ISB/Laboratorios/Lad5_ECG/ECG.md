@@ -56,6 +56,13 @@
 <p align="center"><i>Tabla 3. Video de adquisición de la señal ECG y la señal obtenida</i></p>
 </p>
 
+<p align="center">
+   
+| **Posición** | **Señal** |
+|:------------:|:---------------:|
+| **En reposo y ejerciendo fuerza**|<image src="Anexos/S_triceps.png">|
+<p align="center"><i>Tabla 3. Señales adquiridas en reposo, sin oposición y con oposición graficadas en Python </i></p> 
+
 ### 2. Señales captadas 2da derivacion en diferentes estados:
 
 ### 3. Señales captadas 3ra derivacion en diferentes estados:
