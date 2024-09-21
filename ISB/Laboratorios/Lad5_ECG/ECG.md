@@ -5,8 +5,9 @@
 3. [Equipos y materiales utilizados](#Equipos)
 4. [Metodología](#Metodología)
 5. [Resultados](#Resultados)
-6. [Discusión](#Discusión)
-7. [Bibliografia](#Bibliografia)
+   5.1. [Cronología de mediciones](#Cronología de mediciones)
+7. [Discusión](#Discusión)
+8. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
 - Captar señales biomédicas de ECG de alta calidad para su análisis.
 - Configurar de manera óptima el dispositivo BiTalino para la recolección de datos ECG.
@@ -33,7 +34,13 @@
 <p align="center"><i>Tabla 1. Intervalos de una señal ECG. </i></p>
 
 ## **Metodología:**<a id="Metodología"></a>
-<p align="justify"> fef </p>
+<p align="justify">En primer lugar, se realizaron tres registros para cada una de las tres derivaciones en reposo (derivaciones I, II y III). El participante debía estar en una posición cómoda, relajado y sin moverse para evitar interferencias en los registros. </p>
+
+<p align="justify">A continuación, se procedió a la segunda fase de medición, en la cual se solicitó al participante que retuviera la respiración. Se realizó un solo registro para cada derivación bajo las siguientes condiciones: el participante retenía la respiración durante 20 segundos, y luego se le daba un tiempo de recuperación de 2 minutos, durante el cual se registraba la segunda parte de la toma. Este proceso se repitió para cada una de las tres derivaciones. </p>
+
+<p align="justify">Para la última prueba, el participante realizó una actividad física moderada, que consistió en subir y bajar escaleras durante 5 minutos con el fin de aumentar su frecuencia cardíaca. Inmediatamente después de finalizar la actividad física, se realizó una toma única de cada derivación, registrando la actividad cardíaca durante un periodo de 20 minutos. </p>
+
+## **5.1. Cronología de mediciones:**<a id="Cronología de mediciones"></a>
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
