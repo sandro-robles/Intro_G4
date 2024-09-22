@@ -249,6 +249,15 @@ El **ProMSim4** es un simulador de ECG (electrocardiograma) diseñado para evalu
 <p align="center"><i>Tabla 15. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
+#### <blockquote> Estado: Reponiéndose (90 lpm)  </blockquote>
+<p align="center">
+   
+| **Video 16.** | **Señal obtenida** |
+|:------------:|:---------------:|
+| <video src="https://github.com/user-attachments/assets/fec886a4-b7b2-41b8-beef-de6fa97c5bf1"> |  <img src="Anexos/PRO4.png" > |
+<p align="center"><i>Tabla 18. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
+
 #### <blockquote> Estado: Comienza a agitarse (120 lpm)  </blockquote>
 <p align="center">
    
@@ -266,16 +275,6 @@ El **ProMSim4** es un simulador de ECG (electrocardiograma) diseñado para evalu
 | <video src="https://github.com/user-attachments/assets/d76f7100-9bc3-4378-93e1-0e02289eaa54"> |  <img src="Anexos/PRO3.png" > |
 <p align="center"><i>Tabla 17. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
-
-#### <blockquote> Estado: Reponiéndose (90 lpm)  </blockquote>
-<p align="center">
-   
-| **Video 16.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/fec886a4-b7b2-41b8-beef-de6fa97c5bf1"> |  <img src="Anexos/PRO4.png" > |
-<p align="center"><i>Tabla 18. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
 
 
 
