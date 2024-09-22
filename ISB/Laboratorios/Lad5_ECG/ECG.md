@@ -26,7 +26,7 @@
 
 <p align="justify"> </p>
 
-## **Triángulo de Eithoven**<a id="TriángulodeEithoven"></a>
+### **Triángulo de Eithoven**<a id="TriángulodeEithoven"></a>
 <p align="justify"> Para nuestro laboratorio, es crucial destacar la importancia del triángulo de Einthoven, el cual describe la relación entre las tres derivaciones bipolares de las extremidades (DI, DII y DIII) y los electrodos. Aunque tradicionalmente este triángulo se forma utilizando el brazo izquierdo, el brazo derecho y la pierna izquierda, en este experimento optamos por cambiar la ubicación del electrodo de la pierna izquierda hacia la cresta ilíaca, siguiendo la guía proporcionada. Este cambio no afecta de manera significativa la medición, ya que el ECG mide las diferencias de potencial eléctrico entre los electrodos, y la ubicación exacta no altera sustancialmente el registro de las derivaciones, siempre que se mantenga una distribución similar a las posiciones clásicas. </p>
 
 <p align="justify"> Sin embargo, es importante destacar que la colocación incorrecta accidental de los electrodos de las extremidades es una causa común de anomalías en el ECG, y puede simular patologías como ritmo auricular ectópico, agrandamiento de cámaras cardíacas, isquemia o incluso infarto de miocardio. Por lo tanto, se debe tener especial cuidado al posicionar los electrodos para evitar diagnósticos erróneos [4]. </p>
@@ -35,7 +35,7 @@
 
 <p align="center"><i>Figura 2: (a) Derivaciones de Einthoven I-III (b) Posicionamiento de los electrodos para la derivación I: muñecas y tobillo (izquierdo), clavículas y cresta ilíaca o pecho (derecho) [1].</i></p>
 
-## **Componentes tradicionales del ECG:**<a id="Componentes"></a>
+### **Componentes tradicionales del ECG:**<a id="Componentes"></a>
 |  **Onda/Segmento**  | **Descripción** |
 |:------------:|:---------------:|
 | Onda P | La onda P aparece como la primera elevación positiva en el trazado del electrocardiograma e indica el proceso de despolarización de las aurículas, la duración normal es inferior a 0.12 segundos, lo que equivale a menos de 120 milisegundos o a 3 cuadros pequeños en el trazado del ECG [5].|
