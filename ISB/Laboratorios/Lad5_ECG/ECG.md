@@ -307,9 +307,9 @@ Las gráficas de ECG obtenidas para cada estado se presentan de manera diferente
 
 <p align="justify">[11] E. Burns and E. Burns, “U Wave,” Life in the Fast Lane • LITFL, Aug. 2020. https://litfl.com/u-wave-ecg-library/ (accessed Sep. 21, 2024).
 ‌</p>
-<p align="justify">[‌12]“ProSim TM 4 Vital Signs Simulator Manual de funcionamiento básico.” Available: https://www.flukebiomedical.com/sites/default/files/resources/prosim4_gsspa0300.pdf
+<p align="justify">[‌12] “ProSim TM 4 Vital Signs Simulator Manual de funcionamiento básico.” Available: https://www.flukebiomedical.com/sites/default/files/resources/prosim4_gsspa0300.pdf
 ‌
-<p align="justify">[‌13]M. D. Holmes, J. W. Miller, Juha Voipio, K. Kaila, and Sampsa Vanhatalo, “Vagal Nerve Stimulation Induces Intermittent Hypocapnia,” Epilepsia, vol. 44, no. 12, pp. 1588–1591, Nov. 2003, doi: https://doi.org/10.1111/j.0013-9580.2003.19203.x.
+<p align="justify">[‌13] M. D. Holmes, J. W. Miller, Juha Voipio, K. Kaila, and Sampsa Vanhatalo, “Vagal Nerve Stimulation Induces Intermittent Hypocapnia,” Epilepsia, vol. 44, no. 12, pp. 1588–1591, Nov. 2003, doi: https://doi.org/10.1111/j.0013-9580.2003.19203.x.
 ‌
 ‌
 ‌
