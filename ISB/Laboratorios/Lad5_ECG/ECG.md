@@ -281,8 +281,7 @@ El **ProMSim4** es un simulador de ECG (electrocardiograma) diseñado para evalu
 ## **Discusión:**<a id="Discusión"></a>
 <p align="justify">En este laboratorio, y como en el anterior, se utilizó el BITalino para adquirir las señales ECG para cada estado solicitado (reposo, post-respiración y post-ejercicio). Este tipo de procedimientos nos permite capturar señales fisiológicas de importancia como lo es el electrocardiograma sin necesidad de ser invasivo para proveer información de valor médico. Gracias a esta data se pueden diagnósticar diferentes afecciones cardiacas caracterizando cada onda, las cuales poseen gran significancia dependiendo de sus cualidades.
 
-Para este laboratorio, se utilizó el sistema BITalino para la adquisición de señales EMG, capturando y analizando la actividad en distintos grupos musculares bajo diversas condiciones. La EMG de superficie ofrece una técnica no invasiva para medir la actividad eléctrica muscular, proporcionando información valiosa sobre la fisiología y función de los músculos. Al realizar las pruebas en cada músculo, se observó una variabilidad significativa en las características de activación y las respuestas, lo que demuestra que cada músculo tiene un comportamiento único frente a diferentes condiciones de esfuerzo. Además, cada señal obtenida fue graficada mediante un código en Python, permitiendo visualizar la señal a lo largo del tiempo y asi poder ver los distintos músculos. Estos resultados destacan la importancia de un análisis individual para comprender mejor la función de cada musculo.
-  
+Las gráficas de ECG obtenidas para cada estado se presentan de manera diferente, haciendo referencia tanto la amplitud como la frecuencia cardiaca. El limitar el paso de aire en los pulmones significa una variación en la gráfica de ECG obtenida tanto en la amplitud como en la frecuencia cardiaca. Esto se puede explicar gracias al aumento de los niveles de CO2 en el cuerpo. Ya que no se expulsa suficiente dióxido de carbono, este aumento de su concentración estimula al nervio vago el cual hará que la frecuencia cardiaca disminuya [13]. Al empezar a respirar, el cuerpo regulará sus niveles de CO2, por lo que tanto la amplitud como la frecuencia cardiaca aumentan. Esto se presenta como una medida de regulación del consumo de oxígeno en el cuerpo en situaciones de hipoxia. El mismo concepto sucede al momento de hacer ejercicio ya que se aumenta la deuda de oxígeno en el cuerpo y esta va a ser regulada al momento de dejar de efectuar el ejercicio.  
 </p>
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
@@ -310,6 +309,7 @@ Para este laboratorio, se utilizó el sistema BITalino para la adquisición de s
 ‌</p>
 <p align="justify">[‌12]“ProSim TM 4 Vital Signs Simulator Manual de funcionamiento básico.” Available: https://www.flukebiomedical.com/sites/default/files/resources/prosim4_gsspa0300.pdf
 ‌
+<p align="justify">[‌13]M. D. Holmes, J. W. Miller, Juha Voipio, K. Kaila, and Sampsa Vanhatalo, “Vagal Nerve Stimulation Induces Intermittent Hypocapnia,” Epilepsia, vol. 44, no. 12, pp. 1588–1591, Nov. 2003, doi: https://doi.org/10.1111/j.0013-9580.2003.19203.x.
 ‌
 ‌
 ‌
