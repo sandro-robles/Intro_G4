@@ -114,7 +114,7 @@
 <p align="center"><i>Tabla 2. Equipos y materiales utilizados en este laboratorio. </i></p>
 
 <p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/FLUKE.jpeg" width="300" height="300"></p>
-<p align="center"><i>Figura 2 y 3: </i></p>
+<p align="center"><i>Figura 7 y 8: Kit BITalino y ProSim 4 conectados a los electrodos. </i></p>
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Señales captadas con la 1era derivación en diferentes estados:
