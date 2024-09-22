@@ -241,13 +241,40 @@
 ### 4. Señal del Promsim4 (dispositivo de metrología que genera una señal patrón)
 El **ProMSim4** es un simulador de ECG (electrocardiograma) diseñado para evaluar y calibrar dispositivos de monitoreo y diagnóstico cardíaco, como electrocardiógrafos, monitores cardíacos y sistemas de telemetría. Este tipo de simulador genera señales de ECG artificiales con patrones que imitan las señales del corazón en diversas condiciones, incluyendo ritmos cardíacos normales y arritmias[12].
 #### <blockquote> Estado: En reposo (60 lpm)  </blockquote>
+<p align="center">
+   
+| **Video 13.** | **Señal obtenida** |
+|:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/3a9e6d41-2c13-4a77-8595-d0bcd2dd8751"> |
+<p align="center"><i>Tabla 15. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
+
 #### <blockquote> Estado: Comienza a agitarse (120 lpm)  </blockquote>
+<p align="center">
+   
+| **Video 14.** | **Señal obtenida** |
+|:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/f1310b2e-73b3-4d66-a538-d2f69ed7e474"> |
+<p align="center"><i>Tabla 16. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
+
 #### <blockquote> Estado: Haciendo ejercicio (150 lpm)  </blockquote>
+<p align="center">
+   
+| **Video 15.** | **Señal obtenida** |
+|:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/d76f7100-9bc3-4378-93e1-0e02289eaa54"> |
+<p align="center"><i>Tabla 17. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
+
 #### <blockquote> Estado: Reponiéndose (90 lpm)  </blockquote>
+<p align="center">
+   
+| **Video 16.** | **Señal obtenida** |
+|:------------:|:---------------:|
 | <video src="https://github.com/user-attachments/assets/fec886a4-b7b2-41b8-beef-de6fa97c5bf1"> |
+<p align="center"><i>Tabla 18. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
 
 
 
