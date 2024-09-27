@@ -86,38 +86,37 @@
 ### 1. Señales EEG captadas con eL Kit BITalino:
 #### <blockquote> Caso 1: Linea base sin movimientos y ojos cerrados durante 30 segundos. </blockquote>
 <p align="center">
-   
 
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/9a4cd9f0-1357-4051-9b22-9e2d5093ba85"> | <img src="Anexos/D1.1.png" > |
+|  | <img src="Anexos/D1.1.png" > |
 <p align="center"><i>Tabla 3. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Estado: Respiración prolongada </blockquote>
+#### <blockquote> Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces cada 5 segundos </blockquote>
 <p align="center">
    
 | **Video 2.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/c4a0b0ad-e645-43a5-aa94-9c123bf638d5"> | <img src="Anexos/D1.2.png" > |
+|  | <img src="Anexos/D1.2.png" > |
 <p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Estado: Post - Respiración </blockquote>
+#### <blockquote> Caso 3: Fase de referencia de 30 segundos </blockquote>
 <p align="center">
    
 | **Video 3.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/0e6106c2-046d-48a6-badc-7b3202e11244"> | <img src="Anexos/D1.3.png" > |
+|  | <img src="Anexos/D1.3.png" > |
 <p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Estado: Luego de actividad física </blockquote>
+#### <blockquote> Caso 4: Registro realizando ejercicios mentales </blockquote>
 <p align="center">
    
 | **Video 4.** | **Señal obtenida** |
 |:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/da7f9b48-1053-486f-b1d1-562d4cdd4ed0"> | <img src="Anexos/D1.4.png" > |
+|  | <img src="Anexos/D1.4.png" > |
 <p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
