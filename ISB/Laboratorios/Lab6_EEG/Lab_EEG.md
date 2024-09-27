@@ -24,30 +24,22 @@
 
 ## **Cronología de mediciones:**<a id="Cronologíademediciones"></a>
 1. **Preparación del equipo y del sujeto:** <br>
-   1.1. Conexion de los electrodos, asegurando un buen contacto con la piel y verificando la correcta adherencia de cada uno.
-   1.2. Conexion correcta del Kit BITalino con el portatil.
+   1.1. Conexion de los electrodos, asegurando un buen contacto con la piel y verificando la correcta adherencia de cada uno. <br>
+   1.2. Conexion correcta del Kit BITalino con el portatil. <br>
 
-3. **Mediciones con  Kit BITalino:**
-   2.1. Registro de la línea base inicial (30 segundos).
-   2.2. Ciclo de apertura y cierre de ojos (5 ciclos).
-   2.3. Registro de una segunda línea base (30 segundos)
-   2.4. Ejercicios mentales (resolución de problemas matemáticos).
+3. **Mediciones con  Kit BITalino:** <br>
+   2.1. Registro de la línea base inicial (30 segundos). <br>
+   2.2. Ciclo de apertura y cierre de ojos (5 ciclos). <br>
+   2.3. Registro de una segunda línea base (30 segundos) <br>
+   2.4. Ejercicios mentales (resolución de problemas matemáticos). <br>
 
 
 ## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
 
 <p align="center"><img src="Anexos/posicionguia.png" width="400"></p>
 
-<p align="center"><i>Figura 4: Colocación de electrodos para la derivación I: IN+ (rojo) e IN- (negro) en las muñecas y REF (blanco) en la cresta ilíaca [1].</i></p>
+<p align="center"><i>Figura 4: .</i></p>
 
-<p align="center"><img src="Anexos/tablaposiciones.png" width="400"></p>
-
-<p align="center"><i>Figura 5: Tabla de posiciones de los electrodos de acuerdo a la derivación analizada. Elaboración propia.</i></p>
-
-
-<p align="center"><img src="Anexos/posicionnosotros.png" width="400"></p>
-
-<p align="center"><i>Figura 6: Imagen referencial de las posiciones en donde deben colocarse los electrodos, para una mejor precisión al hacer los cambios. Elaboración propia.</i></p>
 
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
@@ -57,7 +49,7 @@
 | (r)EVOLUTION |   Kit BITalino  |       1      |
 |     ASUS     |      Laptop     |       1      |
 |       -      |    Electrodos superficiales   |       3      |
-|    FLUKE ProSim 4    |   Vital Signs Simulators   |       1      |
+|    MARK IV    |   Ultracortex   |       1      |
 </div>
 <p align="center"><i>Tabla 2. Equipos y materiales utilizados en este laboratorio. </i></p>
 
