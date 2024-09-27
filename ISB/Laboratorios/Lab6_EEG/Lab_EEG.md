@@ -19,38 +19,20 @@
 
 
 ## **Metodología:**<a id="Metodología"></a>
-<p align="justify">En primer lugar, se realizaron tres registros para cada una de las tres derivaciones en reposo (derivaciones I, II y III). El participante debía estar en una posición cómoda, relajado y sin moverse para evitar interferencias en los registros. </p>
+<p align="justify">E </p>
 
-<p align="justify">A continuación, se procedió a la segunda fase de medición, en la cual se solicitó al participante que retuviera la respiración. Se realizó un solo registro para cada derivación bajo las siguientes condiciones: el participante retenía la respiración durante 20 segundos, y luego se le daba un tiempo de recuperación de 2 minutos, durante el cual se registraba la segunda parte de la toma. Este proceso se repitió para cada una de las tres derivaciones. </p>
-
-<p align="justify">Para la última prueba, el participante realizó una actividad física moderada, que consistió en subir y bajar escaleras durante 5 minutos con el fin de aumentar su frecuencia cardíaca. Inmediatamente después de finalizar la actividad física, se realizó una toma única de cada derivación, registrando la actividad cardíaca durante un periodo de 20 minutos. </p>
-
-<p align="justify"> Se recomienda seguir estrictamente la cronología de las mediciones, ya que es crucial que el paciente se encuentre en reposo absoluto al inicio, sin haber experimentado ningún tipo de estrés previo. Si se realizaran primero las mediciones con retención de la respiración o, especialmente, la prueba de actividad física, se afectarían de manera significativa los registros en reposo debido al incremento de la frecuencia cardíaca, lo que alteraría los resultados de manera irreversible.</p>
 
 ## **Cronología de mediciones:**<a id="Cronologíademediciones"></a>
-1. **Mediciones en Reposo:** <br>
-1.1. Primera toma de la primera derivación (20 segundos).<br>
-1.2. Segunda toma de la primera derivación (20 segundos).<br>
-1.3. Tercera toma de la primera derivación (20 segundos).<br>
-1.4. Primera toma de la segunda derivación (20 segundos).<br>
-1.5. Segunda toma de la segunda derivación (20 segundos).<br>
-1.6. Tercera toma de la segunda derivación (20 segundos).<br>
-1.7. Primera toma de la tercera derivación (20 segundos).<br>
-1.8. Segunda toma de la tercera derivación (20 segundos).<br>
-1.9. Tercera toma de la tercera derivación (20 segundos).<br>
+1. **Preparación del equipo y del sujeto:** <br>
+   1.1. Conexion de los electrodos, asegurando un buen contacto con la piel y verificando la correcta adherencia de cada uno.
+   1.2. Conexion correcta del Kit BITalino con el portatil.
 
-2. **Mediciones con Retención de la Respiración:** <br>
-2.1. Toma de la primera derivación durante retención de la respiración (20 segundos).<br>
-2.2. Toma de la recuperación de 2 minutos tras la retención de la respiración para la primera derivación.<br>
-2.3. Toma de la segunda derivación durante retención de la respiración (20 segundos).<br>
-2.4. Toma de la recuperación de 2 minutos tras la retención de la respiración para la segunda derivación.<br>
-2.5. Toma de la tercera derivación durante retención de la respiración (20 segundos).<br>
-2.6. Toma de la recuperación de 2 minutos tras la retención de la respiración para la tercera derivación.<br>
+3. **Mediciones con  Kit BITalino:**
+   2.1. Registro de la línea base inicial (30 segundos).
+   2.2. Ciclo de apertura y cierre de ojos (5 ciclos).
+   2.3. Registro de una segunda línea base (30 segundos)
+   2.4. Ejercicios mentales (resolución de problemas matemáticos).
 
-3. **Mediciones Posteriores a la Actividad Física:** <br>
-3.1. Toma de la primera derivación tras 5 minutos de actividad física.<br>
-3.2. Toma de la segunda derivación tras 5 minutos de actividad física.<br>
-3.3. Toma de la tercera derivación tras 5 minutos de actividad física.<br>
 
 ## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
 
