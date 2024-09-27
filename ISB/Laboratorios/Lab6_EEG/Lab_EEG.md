@@ -83,8 +83,8 @@
 <p align="center"><i>Figura 7 y 8: Kit BITalino y ProSim 4 conectados a los electrodos. </i></p>
 
 ## **Resultados:**<a id="Resultados"></a>
-### 1. Señales captadas con la 1era derivación en diferentes estados:
-#### <blockquote> Estado: En reposo </blockquote>
+### 1. Señales EEG captadas con eL Kit BITalino:
+#### <blockquote> Caso 1: Linea base sin movimientos y ojos cerrados durante 30 segundos. </blockquote>
 <p align="center">
    
 
@@ -120,128 +120,6 @@
 | <video src="https://github.com/user-attachments/assets/da7f9b48-1053-486f-b1d1-562d4cdd4ed0"> | <img src="Anexos/D1.4.png" > |
 <p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
-
-### 2. Señales captadas con la 2da derivación en diferentes estados:
-#### <blockquote> Estado: En reposo </blockquote>
-<p align="center">
-   
-
-| **Video 5.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/462f440b-884a-473e-b0df-c56687fc3926"> | <img src="Anexos/D2.1.png" > |
-<p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-#### <blockquote> Estado: Respiración prolongada </blockquote>
-<p align="center">
-
-| **Video 6.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/71c4112d-03f1-428e-ad27-a58b2fef82f0"> | <img src="Anexos/D2.2.png" > |
-<p align="center"><i>Tabla 8. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-#### <blockquote> Estado: Post - Respiración </blockquote>
-<p align="center">
-
-| **Video 7.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/7b176a56-6062-483a-aa1b-311ee33d1bd8"> |  <img src="Anexos/D2.3.png" > |
-<p align="center"><i>Tabla 9. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-#### <blockquote> Estado: Luego de actividad física </blockquote>
-<p align="center">
-
-| **Video 8.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/54c1ac73-5691-4f6e-80d0-187b3e229f20"> | <img src="Anexos/D2.4.png" > |
-<p align="center"><i>Tabla 10. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-
-### 3. Señales captadas con la 3ra derivación en diferentes estados:
-#### <blockquote> Estado: En reposo </blockquote>
-<p align="center">
-   
-| **Video 9.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/546a74f9-e64d-4848-bed0-1276e0c198a6"> | <img src="Anexos/D3.1.png" > |
-<p align="center"><i>Tabla 11. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-#### <blockquote> Estado: Respiración prolongada </blockquote>
-<p align="center">
-   
-| **Video 10.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/604ec57c-67ca-4fcf-bc85-77f125c48e7f"> | <img src="Anexos/D3.2.png" > |
-<p align="center"><i>Tabla 12. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-#### <blockquote> Estado: Post - Respiración </blockquote>
-<p align="center">
-
-| **Video 11.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/2959df29-7fec-4bf8-a91b-4fa707863bfe"> |  <img src="Anexos/D3.3.png" > |
-<p align="center"><i>Tabla 13. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-
-#### <blockquote> Estado: Luego de actividad física </blockquote>
-<p align="center">
-   
-| **Video 12.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/2a476837-b060-45b9-a28e-e6cc87c3e201"> |  <img src="Anexos/D3.4.png" > |
-<p align="center"><i>Tabla 14. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-## **Ejercicio realizado:**<a id="Ejercicio"></a>
-<p align="center">
-<p align="center"><video src="https://github.com/user-attachments/assets/028cd25f-daeb-482f-b897-e39af0cbee37" width="400"></p>
-<p align="center"><i>  Video del ejercicio realizado. </i></p>
-</p>
-
-### 4. Señal del Promsim4 (dispositivo de metrología que genera una señal patrón)
-El **ProMSim4** es un simulador de ECG (electrocardiograma) diseñado para evaluar y calibrar dispositivos de monitoreo y diagnóstico cardíaco, como electrocardiógrafos, monitores cardíacos y sistemas de telemetría. Este tipo de simulador genera señales de ECG artificiales con patrones que imitan las señales del corazón en diversas condiciones, incluyendo ritmos cardíacos normales y arritmias[12].
-#### <blockquote> Estado: En reposo (60 lpm)  </blockquote>
-<p align="center">
-   
-| **Video 13.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/3a9e6d41-2c13-4a77-8595-d0bcd2dd8751"> |  <img src="Anexos/PRO1.png" > |
-<p align="center"><i>Tabla 15. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-#### <blockquote> Estado: Reponiéndose (90 lpm)  </blockquote>
-<p align="center">
-   
-| **Video 16.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/fec886a4-b7b2-41b8-beef-de6fa97c5bf1"> |  <img src="Anexos/PRO4.png" > |
-<p align="center"><i>Tabla 18. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-#### <blockquote> Estado: Comienza a agitarse (120 lpm)  </blockquote>
-<p align="center">
-   
-| **Video 14.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/f1310b2e-73b3-4d66-a538-d2f69ed7e474"> |  <img src="Anexos/PRO2.png" > |
-<p align="center"><i>Tabla 16. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
-#### <blockquote> Estado: Haciendo ejercicio (150 lpm)  </blockquote>
-<p align="center">
-   
-| **Video 15.** | **Señal obtenida** |
-|:------------:|:---------------:|
-| <video src="https://github.com/user-attachments/assets/d76f7100-9bc3-4378-93e1-0e02289eaa54"> |  <img src="Anexos/PRO3.png" > |
-<p align="center"><i>Tabla 17. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
-</p>
-
 
 
 ## **Discusión:**<a id="Discusión"></a>
