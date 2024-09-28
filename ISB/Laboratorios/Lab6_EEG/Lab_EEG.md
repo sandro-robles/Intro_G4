@@ -54,7 +54,7 @@
 <p align="center"><i>Tabla 2. Equipos y materiales utilizados en este laboratorio. </i></p>
 
 <p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/FLUKE.jpeg" width="300" height="300"></p>
-<p align="center"><i>Figura 7 y 8: Kit BITalino y ProSim 4 conectados a los electrodos. </i></p>
+<p align="center"><i>Figura 7 y 8: Kit BITalino conectado a los electrodos y Ultracortex. </i></p>
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Señales EEG captadas con eL Kit BITalino:
@@ -85,7 +85,7 @@
 <p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Caso 4: Registro realizando ejercicios mentales </blockquote>
+#### <blockquote> Caso 4: Registro realizando ejercicios mentales (Simples) </blockquote>
 <p align="center">
    
 | **Video 4.** | **Señal obtenida** |
@@ -94,6 +94,14 @@
 <p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
+#### <blockquote> Caso 5: Registro realizando ejercicios mentales (Complejos) </blockquote>
+<p align="center">
+   
+| **Video 5.** | **Señal obtenida** |
+|:------------:|:---------------:|
+|  | <img src="Anexos/D1.4.png" > |
+<p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+</p>
 
 ## **Discusión:**<a id="Discusión"></a>
 <p align="justify"> </p>
