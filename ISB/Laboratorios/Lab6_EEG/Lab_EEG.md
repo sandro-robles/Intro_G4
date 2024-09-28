@@ -15,7 +15,13 @@
 - Extraer y analizar señales EEG utilizando el software OpenSignals (r)evolution.
   
 ## **Introducción:**<a id="Introduccion"></a>
-<p align="justify"> El  </p>
+<p align="justify"> La electroencefalografía (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro a través de electrodos colocados en el cuero cabelludo. Se utiliza ampliamente en neurociencia y medicina para estudiar diversos procesos cognitivos y diagnosticar trastornos neurológicos como la epilepsia, el Alzheimer y la esquizofrenia. A pesar de su limitada resolución espacial en comparación con otras técnicas de neuroimagen, su alta resolución temporal permite capturar la dinámica rápida de la actividad cerebral, lo que la hace ideal para estudios que requieren un análisis detallado de la actividad cerebral en tiempo real [1].
+
+
+Los métodos de análisis de señales EEG incluyen técnicas como el análisis espectral y la extracción de características específicas. Estos métodos permiten descomponer las señales en componentes de frecuencia, lo cual es útil para identificar patrones relacionados con diferentes estados mentales, como el sueño, las crisis epilépticas y la actividad cognitiva. Además, la integración de la EEG con otras técnicas de imagen, como la resonancia magnética funcional (fMRI) y la espectroscopía de infrarrojo cercano (fNIRS), permite una visión más completa del cerebro al combinar la alta resolución temporal del EEG con la alta resolución espacial de estas otras modalidades.
+
+En el ámbito clínico, el EEG es una herramienta esencial para el monitoreo intraoperatorio y el seguimiento de la actividad cerebral durante la anestesia general, donde se observan cambios característicos en el patrón de ondas cerebrales según la concentración de anestésicos administrados. Estas características hacen que el EEG sea fundamental para comprender los mecanismos cerebrales subyacentes en diversas condiciones y para el desarrollo de nuevas terapias y tecnologías de interfaz cerebro-computadora​ [2].
+‌ </p>
 
 
 ## **Metodología:**<a id="Metodología"></a>
