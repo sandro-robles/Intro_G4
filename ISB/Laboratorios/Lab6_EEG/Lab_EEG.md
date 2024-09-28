@@ -20,6 +20,7 @@
 
 ## **Metodología:**<a id="Metodología"></a>
 <p align="justify">El laboratorio se llevó a cabo utilizando el Kit BITalino como en los laboratorios anteriores, con 3 electrodos de superficie colocados en las siguientes posiciones:</p>
+
 - El electrodo negativo cercano a la la linea media del lado derecho de la cabeza.
 - El electrodo positivo cercano a la línea media del lado izquierdo de la cabeza.
 - El electrodo de referencia se coloco en una región neutral, el hueso detrás de la oreja.
