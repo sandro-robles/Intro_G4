@@ -63,7 +63,7 @@
 
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/D1.1.png" > |
+|  | <img src="Anexos/S1.png" > |
 <p align="center"><i>Tabla 3. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -72,7 +72,7 @@
    
 | **Video 2.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/D1.2.png" > |
+|  | <img src="Anexos/S2.png" > |
 <p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -81,7 +81,7 @@
    
 | **Video 3.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/D1.3.png" > |
+|  | <img src="Anexos/S3.png" > |
 <p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -90,7 +90,7 @@
    
 | **Video 4.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/D1.4.png" > |
+|  | <img src="Anexos/S4.png" > |
 <p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -99,7 +99,7 @@
    
 | **Video 5.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/D1.4.png" > |
+|  | <img src="Anexos/S5.png" > |
 <p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
