@@ -70,7 +70,7 @@ Preguntas complejas realizadas:
 
 ## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
 
-<p align="center"><img src="Anexos/Imagen de WhatsApp 2024-09-28 a las 17.52.35_7f87aa3e.jpg.png" width="400"></p>
+<p align="center"><img src="Anexos/Imagen de WhatsApp 2024-09-28 a las 17.52.35_7f87aa3e.jpg" width="400"></p>
 
 <p align="center"><i>Figura 4: .</i></p>
 
