@@ -38,11 +38,16 @@ Preguntas simples realizadas:
 </div>
 <p align="center"><i>Tabla 1. Preguntas simples realizadas durante el laboratorio. </i></p>
 Preguntas complejas realizadas:
+<div align="center">
 
-| (r)EVOLUTION |
-|     ASUS     | 
-|       -      |
+|  **Preguntas siples**  |
+|:------------:|
+| Ana tiene 30 lápices, 7 más que Luis. Si juntos tienen 57 lápices, ¿cuántos tiene Luis? |
+| El equipo X ganó 56 puntos, 12 menos que el equipo Y. Si el equipo Z ganó 18 más que ambos equipos juntos, ¿cuántos puntos ganó el equipo Z? |
+| En una escuela hay 120 estudiantes, 20 más que en otra. Si en ambas escuelas hay 45 estudiantes menos que en una tercera escuela, ¿cuántos estudiantes hay en la tercera escuela? |
+</div>
 <p align="center"><i>Tabla 2. Preguntas complejas realizadas durante el laboratorio. </i></p>
+
 ## **Cronología de mediciones:**<a id="Cronologíademediciones"></a>
 1. **Preparación del equipo y del sujeto:** <br>
    1.1. Conexion de los electrodos, asegurando un buen contacto con la piel y verificando la correcta adherencia de cada uno. <br>
