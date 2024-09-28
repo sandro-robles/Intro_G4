@@ -87,7 +87,7 @@ Preguntas complejas realizadas:
 </div>
 <p align="center"><i>Tabla 3. Equipos y materiales utilizados en este laboratorio. </i></p>
 
-<p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/FLUKE.jpeg" width="300" height="300"></p>
+<p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/Ultracortex.jpg" width="300" height="300"></p>
 <p align="center"><i>Figura 7 y 8: Kit BITalino conectado a los electrodos y Ultracortex. </i></p>
 
 ## **Resultados:**<a id="Resultados"></a>
