@@ -27,8 +27,17 @@
 
 <p align="justify">El sujeto, una compañera de clase, estubo sentado en una silla, en un ambiente controlado (sin ruido excesivo y las luces atenuadas). La prueba se desarrolló en varias fases. Primero, se realizó una fase de línea base inicial durante 30 segundos, en la cual nuestra compañera estuvo con los ojos cerrados, permaneciendo quieta y respiró normalmente. Posteriormente, se procedió con cinco ciclos de apertura y cierre de ojos. Luego, se realizó una segunda fase de línea base de 30 segundos, bajo las mismas condiciones que la primera, para comparar las señales en reposo.
 En la siguiente fase de la prueba, un compañero leyó en voz alta una serie de problemas matemáticos simples y complejas. Nuestra compañera resolvio estos problemas, manteniendo la mirada fija en un punto específico para minimizar los artefactos debidos a movimientos oculares. Para cada una de estas fases se midio la señal EEG y  se guardaron los datos obtenidos. Estos datos fueron procesados posteriormente en un programa python para analizar la actividad cerebral en cada una de las fases de la prueba. </p>
+Preguntas simples realizadas:
 
-
+| (r)EVOLUTION |
+|     ASUS     |
+|       -      |
+<p align="center"><i>Tabla 1. Preguntas simples realizadas durante el laboratorio. </i></p>
+Preguntas complejas realizadas:
+| (r)EVOLUTION |
+|     ASUS     | 
+|       -      |
+<p align="center"><i>Tabla 2. Preguntas complejas realizadas durante el laboratorio. </i></p>
 ## **Cronología de mediciones:**<a id="Cronologíademediciones"></a>
 1. **Preparación del equipo y del sujeto:** <br>
    1.1. Conexion de los electrodos, asegurando un buen contacto con la piel y verificando la correcta adherencia de cada uno. <br>
