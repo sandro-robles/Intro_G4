@@ -58,7 +58,7 @@
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Señales EEG captadas con eL Kit BITalino:
-Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](ISB/Laboratorios/Lab6_EEG/Anexos/Señales_EEGplot.ipynb).
+Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](Anexos/Señales_EEGplot.ipynb).
 
 #### <blockquote> Caso 1: Linea base sin movimientos y ojos cerrados durante 30 segundos. </blockquote>
 <p align="center">
