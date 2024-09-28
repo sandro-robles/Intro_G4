@@ -19,7 +19,14 @@
 
 
 ## **Metodología:**<a id="Metodología"></a>
-<p align="justify">E </p>
+<p align="justify">El laboratorio se llevó a cabo utilizando el Kit BITalino como en los laboratorios anteriores, con 3 electrodos de superficie colocados en las siguientes posiciones:
+- El electrodo negativo cercano a la la linea media del lado derecho de la cabeza.
+- El electrodo positivo cercano a la línea media del lado izquierdo de la cabeza.
+- El electrodo de referencia se coloco en una región neutral, el hueso detrás de la oreja.
+El sujeto, una compañera de clase, estubo sentado en una silla, en un ambiente controlado (sin ruido excesivo y las luces atenuadas).
+
+La prueba se desarrolló en varias fases. Primero, se realizó una fase de línea base inicial durante 30 segundos, en la cual nuestra compañera estuvo con los ojos cerrados, permaneciendo quieta y respiró normalmente. Posteriormente, se procedió con cinco ciclos de apertura y cierre de ojos. Luego, se realizó una segunda fase de línea base de 30 segundos, bajo las mismas condiciones que la primera, para comparar las señales en reposo.
+En la siguiente fase de la prueba, un compañero leyó en voz alta una serie de problemas matemáticos simples y complejas. Nuestra compañera resolvio estos problemas, manteniendo la mirada fija en un punto específico para minimizar los artefactos debidos a movimientos oculares. Para cada una de estas fases se midio la señal EEG y  se guardaron los datos obtenidos. Estos datos fueron procesados posteriormente en un programa python para analizar la actividad cerebral en cada una de las fases de la prueba. </p>
 
 
 ## **Cronología de mediciones:**<a id="Cronologíademediciones"></a>
