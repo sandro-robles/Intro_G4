@@ -20,10 +20,12 @@
 
 <p align="justify">Los métodos de análisis de señales EEG incluyen técnicas como el análisis espectral y la extracción de características específicas. Estos métodos permiten descomponer las señales en componentes de frecuencia, lo cual es útil para identificar patrones relacionados con diferentes estados mentales, como el sueño, las crisis epilépticas y la actividad cognitiva. Además, la integración de la EEG con otras técnicas de imagen, como la resonancia magnética funcional (fMRI) y la espectroscopía de infrarrojo cercano (fNIRS), permite una visión más completa del cerebro al combinar la alta resolución temporal del EEG con la alta resolución espacial de estas otras modalidades.
 
-<p align="justify">En el ámbito clínico, el EEG es una herramienta esencial para el monitoreo intraoperatorio y el seguimiento de la actividad cerebral durante la anestesia general, donde se observan cambios característicos en el patrón de ondas cerebrales según la concentración de anestésicos administrados. Estas características hacen que el EEG sea fundamental para comprender los mecanismos cerebrales subyacentes en diversas condiciones y para el desarrollo de nuevas terapias y tecnologías de interfaz cerebro-computadora​ [2].</p>
+### **Ondas cerebrales**<a id="Ondas cerebrales"></a>
+<p align="justify">Las formas de onda del EEG se pueden clasificar según su ubicación, amplitud, frecuencia, morfología, continuidad (como rítmica, intermitente o continua), sincronía, simetría y reactividad. Sin embargo, la clasificación más utilizada se basa en su frecuencia, a tal punto que las ondas del EEG se nombran según sus rangos de frecuencia usando letras griegas. Las ondas más estudiadas son las delta (0,5 a 4 Hz), theta (4 a 7 Hz), alfa (8 a 12 Hz), sigma (12 a 16 Hz) y beta (13 a 30 Hz). Además, existen otras formas de onda, como las oscilaciones infralentas (menos de 0,5 Hz) y las oscilaciones de alta frecuencia (más de 30 Hz), que no se encuentran en el rango tradicional del EEG clínico, pero que han adquirido relevancia clínica gracias a los avances en el procesamiento digital de señales [3].‌ </p>
 
-<p align="justify">Las formas de onda del EEG se pueden clasificar según su ubicación, amplitud, frecuencia, morfología, continuidad (como rítmica, intermitente o continua), sincronía, simetría y reactividad. Sin embargo, la clasificación más utilizada se basa en su frecuencia, a tal punto que las ondas del EEG se nombran según sus rangos de frecuencia usando letras griegas. Las ondas más estudiadas son las delta (0,5 a 4 Hz), theta (4 a 7 Hz), alfa (8 a 12 Hz), sigma (12 a 16 Hz) y beta (13 a 30 Hz). Además, existen otras formas de onda, como las oscilaciones infralentas (menos de 0,5 Hz) y las oscilaciones de alta frecuencia (más de 30 Hz), que no se encuentran en el rango tradicional del EEG clínico, pero que han adquirido relevancia clínica gracias a los avances en el procesamiento digital de señales [3].
-‌ </p>
+<p align="center"><img src="Anexos/ondas-cerabrales.jpeg" width="400"></p>
+
+<p align="center"><i>Figura 1: Ondas cerebrales [4].</i></p>
 
 
 ## **Metodología:**<a id="Metodología"></a>
@@ -66,15 +68,7 @@ Preguntas complejas realizadas:
    2.2. Ciclo de apertura y cierre de ojos (5 ciclos). <br>
    2.3. Registro de una segunda línea base (30 segundos) <br>
    2.4. Ejercicios mentales (resolución de problemas matemáticos). <br>
-
-
-## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
-
-<p align="center"><img src="Anexos/Imagen de WhatsApp 2024-09-28 a las 17.52.35_7f87aa3e.jpg" width="400"></p>
-
-<p align="center"><i>Figura 4: .</i></p>
-
-
+   
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
    
@@ -88,54 +82,63 @@ Preguntas complejas realizadas:
 <p align="center"><i>Tabla 3. Equipos y materiales utilizados en este laboratorio. </i></p>
 
 <p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/Ultracortex.jpg" width="300" height="300"></p>
-<p align="center"><i>Figura 7 y 8: Kit BITalino conectado a los electrodos y Ultracortex. </i></p>
+<p align="center"><i>Figura 2 y 3: Kit BITalino conectado a los electrodos y Ultracortex. </i></p>
+
+## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
+
+<p align="center"><img src="Anexos/Imagen de WhatsApp 2024-09-28 a las 17.52.35_7f87aa3e.jpg" width="400"></p>
+
+<p align="center"><i>Figura: Participante con los electrodos posicionados en la cabeza.</i></p>
+
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. Señales EEG captadas con eL Kit BITalino:
 Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](Anexos/Señales_EEGplot.ipynb).
 
-#### <blockquote> Caso 1: Linea base sin movimientos y ojos cerrados durante 30 segundos. </blockquote>
+#### <blockquote> Caso 1: Línea base sin movimientos y ojos cerrados durante 30 segundos. </blockquote>
 <p align="center">
 
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/S1.png" > |
+|<video src="https://github.com/user-attachments/assets/42f96590-4a11-46fe-b84f-c8ca31c68e31"> | <img src="Anexos/S1.png" > |
 <p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces cada 5 segundos </blockquote>
+#### <blockquote> Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces cada 5 segundos. </blockquote>
 <p align="center">
-   
+  
+
 | **Video 2.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/S2.png" > |
+|<video src="https://github.com/user-attachments/assets/a6729327-a0c4-4448-85a3-6769a2feeb0f">| <img src="Anexos/S2.png" > |
 <p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Caso 3: Fase de referencia de 30 segundos </blockquote>
+#### <blockquote> Caso 3: Fase de referencia de 30 segundos. </blockquote>
 <p align="center">
-   
+  
+
 | **Video 3.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/S3.png" > |
+|<video src="https://github.com/user-attachments/assets/dabb644d-1f9d-465d-b192-6a38d9cb3cf2">| <img src="Anexos/S3.png" > |
 <p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Caso 4: Registro realizando ejercicios mentales (Simples) </blockquote>
+#### <blockquote> Caso 4: Registro realizando ejercicios mentales (Simples). </blockquote>
 <p align="center">
-   
+
 | **Video 4.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/S4.png" > |
+|<video src="https://github.com/user-attachments/assets/e4a0ca57-4e45-46d0-b6a8-1b4c8c50d91e">| <img src="Anexos/S4.png" > |
 <p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
-#### <blockquote> Caso 5: Registro realizando ejercicios mentales (Complejos) </blockquote>
+#### <blockquote> Caso 5: Registro realizando ejercicios mentales (Complejos). </blockquote>
 <p align="center">
    
 | **Video 5.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|  | <img src="Anexos/S5.png" > |
+|<video src="https://github.com/user-attachments/assets/444cd5aa-e248-41b3-a67c-636b4d0af70b">| <img src="Anexos/S5.png" > |
 <p align="center"><i>Tabla 8. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -146,5 +149,9 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 <p align="justify">[1]A. Chaddad, Y. Wu, R. Kateb, and A. Bouridane, “Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques,” Sensors, vol. 23, no. 14, p. 6434, Jul. 2023, doi: https://doi.org/10.3390/s23146434.</p>
 <p align="justify">[2] D. F. Hight, H. A. Kaiser, J. W. Sleigh, and M. S. Avidan, “An updated introduction to electroencephalogram-based brain monitoring during intended general anesthesia,” Canadian Journal of Anesthesia/Journal canadien d’anesthésie, vol. 67, no. 12, pp. 1858–1878, Nov. 2020, doi: https://doi.org/10.1007/s12630-020-01820-3.</p>
 <p align="justify">[3] C. S. Nayak and A. C. Anilkumar, “EEG Normal Waveforms,” Nih.gov, Jul. 24, 2023. https://www.ncbi.nlm.nih.gov/books/NBK539805/#:~:text=However%2C%20the%20most%20frequently%20used,beta%20(13%20to%2030Hz). (accessed Sep. 28, 2024).</p>
+<p align="justify">[4]“¿Para qué es útil el Mapeo Cerebral? - Nepsa Rehabilitación Neurológica,” Nepsa Rehabilitación Neurológica, Dec. 14, 2018. https://nepsa.es/para-que-es-util-el-mapeo-cerebral/ (accessed Sep. 28, 2024).
+‌</p>
+‌
+
 ‌
 
