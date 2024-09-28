@@ -21,6 +21,8 @@
 Los métodos de análisis de señales EEG incluyen técnicas como el análisis espectral y la extracción de características específicas. Estos métodos permiten descomponer las señales en componentes de frecuencia, lo cual es útil para identificar patrones relacionados con diferentes estados mentales, como el sueño, las crisis epilépticas y la actividad cognitiva. Además, la integración de la EEG con otras técnicas de imagen, como la resonancia magnética funcional (fMRI) y la espectroscopía de infrarrojo cercano (fNIRS), permite una visión más completa del cerebro al combinar la alta resolución temporal del EEG con la alta resolución espacial de estas otras modalidades.
 
 En el ámbito clínico, el EEG es una herramienta esencial para el monitoreo intraoperatorio y el seguimiento de la actividad cerebral durante la anestesia general, donde se observan cambios característicos en el patrón de ondas cerebrales según la concentración de anestésicos administrados. Estas características hacen que el EEG sea fundamental para comprender los mecanismos cerebrales subyacentes en diversas condiciones y para el desarrollo de nuevas terapias y tecnologías de interfaz cerebro-computadora​ [2].
+
+Las formas de onda del EEG se pueden clasificar según su ubicación, amplitud, frecuencia, morfología, continuidad (como rítmica, intermitente o continua), sincronía, simetría y reactividad. Sin embargo, la clasificación más utilizada se basa en su frecuencia, a tal punto que las ondas del EEG se nombran según sus rangos de frecuencia usando letras griegas. Las ondas más estudiadas son las delta (0,5 a 4 Hz), theta (4 a 7 Hz), alfa (8 a 12 Hz), sigma (12 a 16 Hz) y beta (13 a 30 Hz). Además, existen otras formas de onda, como las oscilaciones infralentas (menos de 0,5 Hz) y las oscilaciones de alta frecuencia (más de 30 Hz), que no se encuentran en el rango tradicional del EEG clínico, pero que han adquirido relevancia clínica gracias a los avances en el procesamiento digital de señales [3].
 ‌ </p>
 
 
@@ -143,4 +145,6 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1]A. Chaddad, Y. Wu, R. Kateb, and A. Bouridane, “Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques,” Sensors, vol. 23, no. 14, p. 6434, Jul. 2023, doi: https://doi.org/10.3390/s23146434.</p>
 <p align="justify">[2] D. F. Hight, H. A. Kaiser, J. W. Sleigh, and M. S. Avidan, “An updated introduction to electroencephalogram-based brain monitoring during intended general anesthesia,” Canadian Journal of Anesthesia/Journal canadien d’anesthésie, vol. 67, no. 12, pp. 1858–1878, Nov. 2020, doi: https://doi.org/10.1007/s12630-020-01820-3.</p>
+<p align="justify">[3] C. S. Nayak and A. C. Anilkumar, “EEG Normal Waveforms,” Nih.gov, Jul. 24, 2023. https://www.ncbi.nlm.nih.gov/books/NBK539805/#:~:text=However%2C%20the%20most%20frequently%20used,beta%20(13%20to%2030Hz). (accessed Sep. 28, 2024).</p>
+‌
 
