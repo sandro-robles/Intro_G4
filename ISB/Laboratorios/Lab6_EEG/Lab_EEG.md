@@ -29,9 +29,11 @@
 En la siguiente fase de la prueba, un compañero leyó en voz alta una serie de problemas matemáticos simples y complejas. Nuestra compañera resolvio estos problemas, manteniendo la mirada fija en un punto específico para minimizar los artefactos debidos a movimientos oculares. Para cada una de estas fases se midio la señal EEG y  se guardaron los datos obtenidos. Estos datos fueron procesados posteriormente en un programa python para analizar la actividad cerebral en cada una de las fases de la prueba. </p>
 Preguntas simples realizadas:
 
-| (r)EVOLUTION |
-|     ASUS     |
-|       -      |
+|  **Preguntas siples**  |
+|:------------:|
+| Hay 6 gatos en el parque; llegan 3 más. ¿Cuántos gatos hay ahora? |
+| Sofía tiene 8 plumas, y Pablo le da 2. ¿Cuántas plumas tiene Sofía ahora? |
+| Hay 12 flores en el jardín; se marchitan 5. ¿Cuántas flores quedan? |
 <p align="center"><i>Tabla 1. Preguntas simples realizadas durante el laboratorio. </i></p>
 Preguntas complejas realizadas:
 | (r)EVOLUTION |
