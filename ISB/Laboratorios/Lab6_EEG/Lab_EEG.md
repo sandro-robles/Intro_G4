@@ -77,7 +77,7 @@ Preguntas complejas realizadas:
 |       -      |    Electrodos superficiales   |       3      |
 |    MARK IV    |   Ultracortex   |       1      |
 </div>
-<p align="center"><i>Tabla 2. Equipos y materiales utilizados en este laboratorio. </i></p>
+<p align="center"><i>Tabla 3. Equipos y materiales utilizados en este laboratorio. </i></p>
 
 <p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/FLUKE.jpeg" width="300" height="300"></p>
 <p align="center"><i>Figura 7 y 8: Kit BITalino conectado a los electrodos y Ultracortex. </i></p>
@@ -92,7 +92,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |  | <img src="Anexos/S1.png" > |
-<p align="center"><i>Tabla 3. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces cada 5 segundos </blockquote>
@@ -101,7 +101,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 2.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |  | <img src="Anexos/S2.png" > |
-<p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Caso 3: Fase de referencia de 30 segundos </blockquote>
@@ -110,7 +110,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 3.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |  | <img src="Anexos/S3.png" > |
-<p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Caso 4: Registro realizando ejercicios mentales (Simples) </blockquote>
@@ -119,7 +119,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 4.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |  | <img src="Anexos/S4.png" > |
-<p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Caso 5: Registro realizando ejercicios mentales (Complejos) </blockquote>
@@ -128,7 +128,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 5.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |  | <img src="Anexos/S5.png" > |
-<p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 8. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
 ## **Discusión:**<a id="Discusión"></a>
