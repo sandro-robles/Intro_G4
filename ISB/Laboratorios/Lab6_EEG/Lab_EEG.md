@@ -34,8 +34,11 @@ Preguntas simples realizadas:
 | Hay 6 gatos en el parque; llegan 3 más. ¿Cuántos gatos hay ahora? |
 | Sofía tiene 8 plumas, y Pablo le da 2. ¿Cuántas plumas tiene Sofía ahora? |
 | Hay 12 flores en el jardín; se marchitan 5. ¿Cuántas flores quedan? |
+</div>
 <p align="center"><i>Tabla 1. Preguntas simples realizadas durante el laboratorio. </i></p>
 Preguntas complejas realizadas:
+<div align="center">
+
 | (r)EVOLUTION |
 |     ASUS     | 
 |       -      |
