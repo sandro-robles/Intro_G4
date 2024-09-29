@@ -153,6 +153,12 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 ## **Discusión:**<a id="Discusión"></a>
 <p align="justify"> </p>
 
+
+### IMPORTANTE: Por motivos de tiempo, nuestro grupo no pudo realizar la experiencia del Ultracortex, sin embargo, se realizará una búsqueda de información a cerca de su importancia y empleo
+  <a id = "ultracortex"></a>
+<h2 style = "text-align: center;">Ultracortex</h2>
+El **Ultracortex** es un dispositivo de código abierto, fabricable mediante impresión 3D, diseñado específicamente para ser compatible con cualquier placa **OpenBCI**. Su función principal es la adquisición de señales electroencefalográficas (EEG), electromiográficas (EMG) y electrocardiográficas (ECG) con un nivel de precisión adecuado para estudios de investigación científica. Es importante señalar que no está destinado para aplicaciones de estimulación transcraneal. El diseño del auricular está optimizado exclusivamente para la captación de señales EEG. En su versión más avanzada, el **Ultracortex Mark IV** es capaz de registrar hasta 16 canales de EEG, distribuidos en un máximo de 35 ubicaciones anatómicas conforme al sistema internacional 10-20, garantizando una adquisición de datos coherente.
+
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1]A. Chaddad, Y. Wu, R. Kateb, and A. Bouridane, “Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques,” Sensors, vol. 23, no. 14, p. 6434, Jul. 2023, doi: https://doi.org/10.3390/s23146434.</p>
 <p align="justify">[2] D. F. Hight, H. A. Kaiser, J. W. Sleigh, and M. S. Avidan, “An updated introduction to electroencephalogram-based brain monitoring during intended general anesthesia,” Canadian Journal of Anesthesia/Journal canadien d’anesthésie, vol. 67, no. 12, pp. 1858–1878, Nov. 2020, doi: https://doi.org/10.1007/s12630-020-01820-3.</p>
