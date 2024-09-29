@@ -101,13 +101,13 @@ Preguntas complejas realizadas:
 <p align="center"><i>Tabla 3. Equipos y materiales utilizados en este laboratorio. </i></p>
 
 <p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/Ultracortex.jpg" width="300" height="300"></p>
-<p align="center"><i>Figura 2 y 3: Kit BITalino conectado a los electrodos y Ultracortex. </i></p>
+<p align="center"><i>Figura 3 y 4: Kit BITalino conectado a los electrodos y Ultracortex. </i></p>
 
 ## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
 
 <p align="center"><img src="Anexos/Imagen de WhatsApp 2024-09-28 a las 17.52.35_7f87aa3e.jpg" width="400"></p>
 
-<p align="center"><i>Figura 4: Participante con los electrodos posicionados en la cabeza.</i></p>
+<p align="center"><i>Figura 5: Participante con los electrodos posicionados en la cabeza.</i></p>
 
 
 ## **Resultados:**<a id="Resultados"></a>
@@ -161,10 +161,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 <p align="center"><i>Tabla 8. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
 </p>
 
-### 1. Señales EEG captadas con eL Ultracortex:
-
-
-## **Discusión:**<a id="Discusión"></a>
+### 2. Señales EEG captadas con eL Ultracortex:
 
 | **Estado** | **Señal obtenida  (Ultracortex)** |
 |:------------:|:---------------:|
@@ -174,6 +171,9 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 |Registro realizando ejercicios mentales | <img src="Anexos/U4.png" > |
 <p align="center"><i>Tabla 9. Señales adquiridas de la señal EEG por el Ultracortex. </i></p>
 </p>
+
+## **Discusión:**<a id="Discusión"></a>
+
 
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
