@@ -35,8 +35,9 @@
 - El electrodo positivo cercano a la línea media del lado izquierdo de la cabeza.
 - El electrodo de referencia se coloco en una región neutral, el hueso detrás de la oreja.
 
-<p align="justify">El sujeto, una compañera de clase, estubo sentado en una silla, en un ambiente controlado (sin ruido excesivo y las luces atenuadas). La prueba se desarrolló en varias fases. Primero, se realizó una fase de línea base inicial durante 30 segundos, en la cual nuestra compañera estuvo con los ojos cerrados, permaneciendo quieta y respiró normalmente. Posteriormente, se procedió con cinco ciclos de apertura y cierre de ojos. Luego, se realizó una segunda fase de línea base de 30 segundos, bajo las mismas condiciones que la primera, para comparar las señales en reposo.
-En la siguiente fase de la prueba, un compañero leyó en voz alta una serie de problemas matemáticos simples y complejas. Nuestra compañera resolvio estos problemas, manteniendo la mirada fija en un punto específico para minimizar los artefactos debidos a movimientos oculares. Para cada una de estas fases se midio la señal EEG y  se guardaron los datos obtenidos. Estos datos fueron procesados posteriormente en un programa python para analizar la actividad cerebral en cada una de las fases de la prueba. </p>
+<p align="justify">El sujeto, una compañera de clase, estuvo sentado en una silla, en un ambiente controlado (sin ruido excesivo y las luces atenuadas). La prueba se desarrolló en varias fases. Primero, se realizó una fase de línea base inicial durante 30 segundos, en la cual nuestra compañera estuvo con los ojos cerrados, permaneciendo quieta y respiró normalmente. Posteriormente, se procedió con cinco ciclos de apertura y cierre de ojos. Luego, se realizó una segunda fase de línea base de 30 segundos, bajo las mismas condiciones que la primera, para comparar las señales en reposo.
+En la siguiente fase de la prueba, un compañero leyó en voz alta una serie de problemas matemáticos simples y complejas. Nuestra compañera resolvió estos problemas, manteniendo la mirada fija en un punto específico para minimizar los artefactos debidos a movimientos oculares. Para cada una de estas fases se midió la señal EEG y  se guardaron los datos obtenidos. Estos datos fueron procesados posteriormente en un programa python para analizar la actividad cerebral en cada una de las fases de la prueba.  
+Una vez realizado las pruebas con nuestra compañera se procedió a hacer el mismo procedimiento pero en este caso con nuestro docente pero a diferencia de l primer caso ya no usamos el Kit BITalino sino el Ultracortex. </p>
 Preguntas simples realizadas:
 <div align="center">
 
@@ -63,11 +64,17 @@ Preguntas complejas realizadas:
    1.1. Conexion de los electrodos, asegurando un buen contacto con la piel y verificando la correcta adherencia de cada uno. <br>
    1.2. Conexion correcta del Kit BITalino con el portatil. <br>
 
-3. **Mediciones con  Kit BITalino:** <br>
+2. **Mediciones con  Kit BITalino:** <br>
    2.1. Registro de la línea base inicial (30 segundos). <br>
    2.2. Ciclo de apertura y cierre de ojos (5 ciclos). <br>
    2.3. Registro de una segunda línea base (30 segundos) <br>
    2.4. Ejercicios mentales (resolución de problemas matemáticos). <br>
+
+3. **Mediciones con el Ultracortex:** <br>
+   3.1. Registro de la línea base inicial (30 segundos). <br>
+   3.2. Ciclo de apertura y cierre de ojos (5 ciclos). <br>
+   3.3. Registro de una segunda línea base (30 segundos) <br>
+   3.4. Ejercicios mentales (resolución de problemas matemáticos). <br>
    
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
