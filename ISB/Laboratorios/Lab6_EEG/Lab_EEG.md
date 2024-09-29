@@ -100,7 +100,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/42f96590-4a11-46fe-b84f-c8ca31c68e31"> | <img src="Anexos/S1.png" > |
+|<video src="https://github.com/user-attachments/assets/42f96590-4a11-46fe-b84f-c8ca31c68e31"> | <img src="Anexos/S1.jpeg" > |
 <p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -110,7 +110,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 
 | **Video 2.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/a6729327-a0c4-4448-85a3-6769a2feeb0f">| <img src="Anexos/S2.png" > |
+|<video src="https://github.com/user-attachments/assets/a6729327-a0c4-4448-85a3-6769a2feeb0f">| <img src="Anexos/S2.jpeg" > |
 <p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -120,7 +120,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 
 | **Video 3.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/dabb644d-1f9d-465d-b192-6a38d9cb3cf2">| <img src="Anexos/S3.png" > |
+|<video src="https://github.com/user-attachments/assets/dabb644d-1f9d-465d-b192-6a38d9cb3cf2">| <img src="Anexos/S3.jpeg" > |
 <p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -129,7 +129,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 
 | **Video 4.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/e4a0ca57-4e45-46d0-b6a8-1b4c8c50d91e">| <img src="Anexos/S4.png" > |
+|<video src="https://github.com/user-attachments/assets/e4a0ca57-4e45-46d0-b6a8-1b4c8c50d91e">| <img src="Anexos/S4.jpeg" > |
 <p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
@@ -138,7 +138,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
    
 | **Video 5.** | **Señal obtenida** |
 |:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/444cd5aa-e248-41b3-a67c-636b4d0af70b">| <img src="Anexos/S5.png" > |
+|<video src="https://github.com/user-attachments/assets/444cd5aa-e248-41b3-a67c-636b4d0af70b">| <img src="Anexos/S5.jpeg" > |
 <p align="center"><i>Tabla 8. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
 </p>
 
