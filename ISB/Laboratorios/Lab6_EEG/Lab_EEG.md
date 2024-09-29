@@ -96,7 +96,7 @@ Preguntas complejas realizadas:
 
 <p align="center"><img src="Anexos/Imagen de WhatsApp 2024-09-28 a las 17.52.35_7f87aa3e.jpg" width="400"></p>
 
-<p align="center"><i>Figura: Participante con los electrodos posicionados en la cabeza.</i></p>
+<p align="center"><i>Figura 4: Participante con los electrodos posicionados en la cabeza.</i></p>
 
 
 ## **Resultados:**<a id="Resultados"></a>
