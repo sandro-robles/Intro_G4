@@ -159,7 +159,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 <h2 style = "text-align: center;">Ultracortex</h2>
 El Ultracortex es un dispositivo de código abierto, fabricable mediante impresión 3D, diseñado específicamente para ser compatible con cualquier placa OpenBCI. Su función principal es la adquisición de señales electroencefalográficas (EEG), electromiográficas (EMG) y electrocardiográficas (ECG) con un nivel de precisión adecuado para estudios de investigación científica. Es importante señalar que no está destinado para aplicaciones de estimulación transcraneal. El diseño del auricular está optimizado exclusivamente para la captación de señales EEG. En su versión más avanzada, el Ultracortex Mark IV es capaz de registrar hasta 16 canales de EEG, distribuidos en un máximo de 35 ubicaciones anatómicas conforme al sistema internacional 10-20, garantizando una adquisición de datos coherente[5].
 
-<p align="center"><img src=<img width="257" alt="utracortex" src="https://github.com/user-attachments/assets/22643081-d663-4471-83df-dad89e966e5f">
+<p align="center"><img src=<img width="257" alt="utracortex" src="https://github.com/user-attachments/assets/22643081-d663-4471-83df-dad89e966e5f">width="400"></p>
 
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
