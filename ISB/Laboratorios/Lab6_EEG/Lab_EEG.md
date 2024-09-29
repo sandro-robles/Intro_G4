@@ -173,7 +173,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 </p>
 
 ## **Discusión:**<a id="Discusión"></a>
-
+<p align="justify">En la gráfica se pueden observar diferentes ondas en diferentes rangos de frecuencia como lo son las ondas delta (0.5 a 4Hz), ondas teta (4 a 7Hz), ondas alfa (8 a 12Hz), ondas sigma (12 a 16Hz) y ondas beta (13 a 30Hz) y cada una de estas ondas proporcionan características fisiológicas de la persona [7]. La onda delta se presenta fisiológicamente activa en el sueño profundo y es prominente en regiones fotocentrales de la cabeza [7]. La onda teta se encuentra con mayor intensidad en las primeras etapas de sueño y es más prominente en las regiones frontocentrales [7], además de ser indicador neuronal de procesos internos que requieren autogestión [8]. La onda alfa predomina en tareas que requieren atención, memoria semántica. Es fácil de ver cuando el paciente se encuentra con los ojos cerrados y mentalmente inactivo y hay un bloqueo de esta onda cuando el paciente se encuentra con los ojos abiertos y en un lugar con iluminación [8]. La onda sigma se observa fisiológicamente en el sueño N2, estas pueden ser lentas (12 a 14Hz) o rápidas (14 a 16Hz) y se observan con mayor intensidad en regiones frontocentrales de la cabeza [9]. Por último, las ondas beta son más prominentes en regiones frontales y centrales de la cabeza y se muestran con mayor actividad cuando el paciente se encuentra alerta, atento, enfocado en resolver problemas o concentrado en actividades mentales [8]. Se debe tener en cuenta que la gráfica obtenida de electroencefalograma puede verse afectada por diferentes artefactos como la respiración y la actividad del corazón [11].</p>
 
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
@@ -183,6 +183,10 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 <p align="justify">[4]“¿Para qué es útil el Mapeo Cerebral? - Nepsa Rehabilitación Neurológica,” Nepsa Rehabilitación Neurológica, Dec. 14, 2018. https://nepsa.es/para-que-es-util-el-mapeo-cerebral/ (accessed Sep. 28, 2024).‌</p>
 <p align="justify">[5]“Ultracortex ‘Mark IV’ EEG Headset,” OpenBCI Online Store, 2015. https://shop.openbci.com/products/ultracortex-mark-iv srsltid=AfmBOooFLJKSwIY1W_qsd0d7tg13ph0ZpA8x1khuEkfJ13LgNWdD2_ja (accessed Sep. 29, 2024).
 ‌<p align="justify">[6]“OpenBCI EEG Headband Kit Guide | OpenBCI Documentation,” Openbci.com, Jun. 18, 2024. https://docs.openbci.com/AddOns/Headwear/HeadBand/ (accessed Sep. 29, 2024).
-‌
+‌<p align="justify">[7]C. S. Nayak and A. C. Anilkumar, “EEG Normal Waveforms,” Nih.gov, Jul. 24, 2023. https://www.ncbi.nlm.nih.gov/books/NBK539805/ (accessed Sep. 29, 2024).
+‌‌<p align="justify">[8]P. Kora, K. Meenakshi, K. Swaraja, A. Rajani, and Mantena Satyanarayana Raju, “EEG based interpretation of human brain activity during yoga and meditation using machine learning: A systematic review,” Complementary Therapies in Clinical Practice, vol. 43, pp. 101329–101329, Feb. 2021, doi: https://doi.org/10.1016/j.ctcp.2021.101329.
+<p align="justify">[10]A. R. Gondeck and J. R. Smith, “Dynamics of human sleep sigma spindles,” Electroencephalography and Clinical Neurophysiology, vol. 37, no. 3, pp. 293–297, Sep. 1974, doi: https://doi.org/10.1016/0013-4694(74)90033-9.
+‌<p align="justify">[11]S. Majumder, Bijay Guragain, C. Wang, and N. Wilson, “On-board Drowsiness Detection using EEG: Current Status and Future Prospects,” ResearchGate, May 2019. https://www.researchgate.net/publication/335794861_On-board_Drowsiness_Detection_using_EEG_Current_Status_and_Future_Prospects (accessed Sep. 29, 2024).
+
 ‌
 
