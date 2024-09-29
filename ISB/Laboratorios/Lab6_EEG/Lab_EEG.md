@@ -159,6 +159,10 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 <h2 style = "text-align: center;">Ultracortex</h2>
 El Ultracortex es un dispositivo de código abierto, fabricable mediante impresión 3D, diseñado específicamente para ser compatible con cualquier placa OpenBCI. Su función principal es la adquisición de señales electroencefalográficas (EEG), electromiográficas (EMG) y electrocardiográficas (ECG) con un nivel de precisión adecuado para estudios de investigación científica. Es importante señalar que no está destinado para aplicaciones de estimulación transcraneal. El diseño del auricular está optimizado exclusivamente para la captación de señales EEG. En su versión más avanzada, el Ultracortex Mark IV es capaz de registrar hasta 16 canales de EEG, distribuidos en un máximo de 35 ubicaciones anatómicas conforme al sistema internacional 10-20, garantizando una adquisición de datos coherente[5].
 
+<p align="center"><img src="Anexos/nodos.jpeg" width="400"></p>
+
+<p align="center"><i>Figura 5: Colocación De Nodos EEG Aceptadas Internacionalmente 10-20 [5].</i></p>
+
 Durante la práctica de laboratorio, para registrar la actividad cerebral (EEG), se emplearon electrodos tipo peine y planos, los cuales se insertan en el casco. Es importante mencionar que todos los cables de los electrodos finalizan en un conector hembra compatible con las placas de biodetección de OpenBCI (Ganglion, Cyton y CytonDaisy).
 
 Los electrodos planos permiten la medición de múltiples puntos en la corteza frontal (F7, AF7, Fp1, Fpz, Fp2, AF8, F8). Por su parte, los electrodos tipo peine a presión facilitan la medición en los nodos FT7/FT8, T7/T8, TP7/TP8, P7/P8, PO7/PO8, O1/O2 y Oz, dependiendo de la ubicación en la correa ajustable. En cuanto a la placa Ganglion, esta utiliza el EEG como canal de entrada y transmite los datos a través de Bluetooth o wifi. Todas las placas de OpenBCI vienen equipadas con un soporte de batería compatible con cuatro pilas AA y un conector estándar JST de 2 pines, o bien con una batería recargable compacta de polímero de litio de 3,7 V y un cargador USB [6].
