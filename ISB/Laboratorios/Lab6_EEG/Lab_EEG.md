@@ -29,6 +29,17 @@
 <p align="center"><i>Figura 1: Ondas cerebrales [4].</i></p>
 
 
+### **Ultracortex**<a id="ultracortex"></a>
+El Ultracortex es un dispositivo de código abierto, fabricable mediante impresión 3D, diseñado específicamente para ser compatible con cualquier placa OpenBCI. Su función principal es la adquisición de señales electroencefalográficas (EEG), electromiográficas (EMG) y electrocardiográficas (ECG) con un nivel de precisión adecuado para estudios de investigación científica. Es importante señalar que no está destinado para aplicaciones de estimulación transcraneal. El diseño del auricular está optimizado exclusivamente para la captación de señales EEG. En su versión más avanzada, el Ultracortex Mark IV es capaz de registrar hasta 16 canales de EEG, distribuidos en un máximo de 35 ubicaciones anatómicas conforme al sistema internacional 10-20, garantizando una adquisición de datos coherente[5].
+
+<p align="center"><img src="Anexos/nodos.png" width="400"></p>
+
+<p align="center"><i>Figura 2: Colocación De Nodos EEG Aceptadas Internacionalmente 10-20 [5].</i></p>
+
+Durante la práctica de laboratorio, para registrar la actividad cerebral (EEG), se emplearon electrodos tipo peine y planos, los cuales se insertan en el casco. Es importante mencionar que todos los cables de los electrodos finalizan en un conector hembra compatible con las placas de biodetección de OpenBCI (Ganglion, Cyton y CytonDaisy).
+
+Los electrodos planos permiten la medición de múltiples puntos en la corteza frontal (F7, AF7, Fp1, Fpz, Fp2, AF8, F8). Por su parte, los electrodos tipo peine a presión facilitan la medición en los nodos FT7/FT8, T7/T8, TP7/TP8, P7/P8, PO7/PO8, O1/O2 y Oz, dependiendo de la ubicación en la correa ajustable. En cuanto a la placa Ganglion, esta utiliza el EEG como canal de entrada y transmite los datos a través de Bluetooth o wifi. Todas las placas de OpenBCI vienen equipadas con un soporte de batería compatible con cuatro pilas AA y un conector estándar JST de 2 pines, o bien con una batería recargable compacta de polímero de litio de 3,7 V y un cargador USB [6].
+
 ## **Metodología:**<a id="Metodología"></a>
 <p align="justify">El laboratorio se llevó a cabo utilizando el Kit BITalino como en los laboratorios anteriores, con 3 electrodos de superficie colocados en las siguientes posiciones:</p>
 
@@ -109,7 +120,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 1.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |<video src="https://github.com/user-attachments/assets/42f96590-4a11-46fe-b84f-c8ca31c68e31"> | <img src="Anexos/S1.jpeg" > |
-<p align="center"><i>Tabla 4. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 4. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces cada 5 segundos. </blockquote>
@@ -119,7 +130,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 2.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |<video src="https://github.com/user-attachments/assets/a6729327-a0c4-4448-85a3-6769a2feeb0f">| <img src="Anexos/S2.jpeg" > |
-<p align="center"><i>Tabla 5. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 5. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Caso 3: Fase de referencia de 30 segundos. </blockquote>
@@ -129,7 +140,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 3.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |<video src="https://github.com/user-attachments/assets/dabb644d-1f9d-465d-b192-6a38d9cb3cf2">| <img src="Anexos/S3.jpeg" > |
-<p align="center"><i>Tabla 6. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 6. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Caso 4: Registro realizando ejercicios mentales (Simples). </blockquote>
@@ -138,7 +149,7 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 4.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |<video src="https://github.com/user-attachments/assets/e4a0ca57-4e45-46d0-b6a8-1b4c8c50d91e">| <img src="Anexos/S4.jpeg" > |
-<p align="center"><i>Tabla 7. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 7. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
 </p>
 
 #### <blockquote> Caso 5: Registro realizando ejercicios mentales (Complejos). </blockquote>
@@ -147,25 +158,23 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 | **Video 5.** | **Señal obtenida** |
 |:------------:|:---------------:|
 |<video src="https://github.com/user-attachments/assets/444cd5aa-e248-41b3-a67c-636b4d0af70b">| <img src="Anexos/S5.jpeg" > |
-<p align="center"><i>Tabla 8. Video de la adquisición de la señal ECG y la señal obtenida. </i></p>
+<p align="center"><i>Tabla 8. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
 </p>
 
+### 1. Señales EEG captadas con eL Ultracortex:
+
+
 ## **Discusión:**<a id="Discusión"></a>
-<p align="justify"> </p>
 
+| **Estado** | **Señal obtenida  (Ultracortex)** |
+|:------------:|:---------------:|
+|Línea base sin movimientos y ojos cerrados durante 30 segundos | <img src="Anexos/U1.png" > |
+|Ciclo de ojos abiertos - ojos cerrados cinco veces cada 5 segundos | <img src="Anexos/U2.png" > |
+|Fase de referencia de 30 segundos | <img src="Anexos/U3.png" > |
+|Registro realizando ejercicios mentales | <img src="Anexos/U4.png" > |
+<p align="center"><i>Tabla 9. Señales adquiridas de la señal EEG por el Ultracortex. </i></p>
+</p>
 
-### IMPORTANTE: Por motivos de tiempo, nuestro grupo no pudo realizar la experiencia del Ultracortex, sin embargo, se realizará una búsqueda de información a cerca de su importancia y empleo
-  <a id = "ultracortex"></a>
-<h2 style = "text-align: center;">Ultracortex</h2>
-El Ultracortex es un dispositivo de código abierto, fabricable mediante impresión 3D, diseñado específicamente para ser compatible con cualquier placa OpenBCI. Su función principal es la adquisición de señales electroencefalográficas (EEG), electromiográficas (EMG) y electrocardiográficas (ECG) con un nivel de precisión adecuado para estudios de investigación científica. Es importante señalar que no está destinado para aplicaciones de estimulación transcraneal. El diseño del auricular está optimizado exclusivamente para la captación de señales EEG. En su versión más avanzada, el Ultracortex Mark IV es capaz de registrar hasta 16 canales de EEG, distribuidos en un máximo de 35 ubicaciones anatómicas conforme al sistema internacional 10-20, garantizando una adquisición de datos coherente[5].
-
-<p align="center"><img src="Anexos/nodos.png" width="400"></p>
-
-<p align="center"><i>Figura 5: Colocación De Nodos EEG Aceptadas Internacionalmente 10-20 [5].</i></p>
-
-Durante la práctica de laboratorio, para registrar la actividad cerebral (EEG), se emplearon electrodos tipo peine y planos, los cuales se insertan en el casco. Es importante mencionar que todos los cables de los electrodos finalizan en un conector hembra compatible con las placas de biodetección de OpenBCI (Ganglion, Cyton y CytonDaisy).
-
-Los electrodos planos permiten la medición de múltiples puntos en la corteza frontal (F7, AF7, Fp1, Fpz, Fp2, AF8, F8). Por su parte, los electrodos tipo peine a presión facilitan la medición en los nodos FT7/FT8, T7/T8, TP7/TP8, P7/P8, PO7/PO8, O1/O2 y Oz, dependiendo de la ubicación en la correa ajustable. En cuanto a la placa Ganglion, esta utiliza el EEG como canal de entrada y transmite los datos a través de Bluetooth o wifi. Todas las placas de OpenBCI vienen equipadas con un soporte de batería compatible con cuatro pilas AA y un conector estándar JST de 2 pines, o bien con una batería recargable compacta de polímero de litio de 3,7 V y un cargador USB [6].
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1]A. Chaddad, Y. Wu, R. Kateb, and A. Bouridane, “Electroencephalography Signal Processing: A Comprehensive Review and Analysis of Methods and Techniques,” Sensors, vol. 23, no. 14, p. 6434, Jul. 2023, doi: https://doi.org/10.3390/s23146434.</p>
