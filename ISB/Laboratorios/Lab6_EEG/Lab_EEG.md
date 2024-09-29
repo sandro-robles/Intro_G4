@@ -8,7 +8,8 @@
 6. [Posiciones de los electrodos](#Posicionesdeloselectrodos)
 7. [Resultados](#Resultados)
 8. [Discusión](#Discusión)
-9. [Bibliografia](#Bibliografia)
+9. [Ultracortex](#Ultracortex)
+10. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
 - Investigar técnicas de procesamiento de señales EEG, con énfasis en filtrado y eliminación de ruido.
 - Configurar correctamente el dispositivo BiTalino para la adquisición de señales EEG.
