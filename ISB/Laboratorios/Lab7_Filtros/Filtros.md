@@ -25,11 +25,11 @@
 ## **Metodología:**<a id="Metodología"></a>
 <p align="justify"> </p>
 
-### **Diseño del Filtro EMG**<a id="F_EMG"></a>
+### **Diseño del Filtros IIR y FIR para EMG**<a id="F_EMG"></a>
 
-### **Diseño del Filtro ECG**<a id="F_ECG"></a>
+### **Diseño del Filtros IIR y FIR para  ECG**<a id="F_ECG"></a>
 
-### **Diseño del Filtro EEG**<a id="F_EEG"></a>
+### **Diseño del Filtros IIR y FIR para  EEG**<a id="F_EEG"></a>
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. 
