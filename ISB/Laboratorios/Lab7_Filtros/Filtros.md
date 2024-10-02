@@ -1,0 +1,121 @@
+# **LABORATORIO 6: – Uso de BITalino para EEG**
+## **Tabla de contenidos:**
+1. [Objetivos](#Objetivos)
+2. [Introduccion](#Introduccion)
+3. [Equipos y materiales utilizados](#Equipos)
+4. [Metodología](#Metodología)
+5. [Cronología de mediciones](#Cronologíademediciones)
+6. [Posiciones de los electrodos](#Posicionesdeloselectrodos)
+7. [Resultados](#Resultados)
+8. [Discusión](#Discusión)
+9. [Ultracortex](#Ultracortex)
+10. [Bibliografia](#Bibliografia)
+## **Objetivos:**<a id="Objetivos"></a>
+- Investigar técnicas de procesamiento de señales EEG, con énfasis en filtrado y eliminación de ruido.
+- Configurar correctamente el dispositivo BiTalino para la adquisición de señales EEG.
+- Extraer y analizar señales EEG utilizando el software OpenSignals (r)evolution.
+  
+## **Introducción:**<a id="Introduccion"></a>
+<p align="justify"> La electroencefalografía (EEG) es una técnica no invasiva que permite registrar la actividad eléctrica del cerebro a través de electrodos colocados en el cuero cabelludo. Se utiliza ampliamente en neurociencia y medicina para estudiar diversos procesos cognitivos y diagnosticar trastornos neurológicos como la epilepsia, el Alzheimer y la esquizofrenia. A pesar de su limitada resolución espacial en comparación con otras técnicas de neuroimagen, su alta resolución temporal permite capturar la dinámica rápida de la actividad cerebral, lo que la hace ideal para estudios que requieren un análisis detallado de la actividad cerebral en tiempo real [1].‌ </p>
+
+
+<p align="justify">Los métodos de análisis de señales EEG incluyen técnicas como el análisis espectral y la extracción de características específicas. Estos métodos permiten descomponer las señales en componentes de frecuencia, lo cual es útil para identificar patrones relacionados con diferentes estados mentales, como el sueño, las crisis epilépticas y la actividad cognitiva. Además, la integración de la EEG con otras técnicas de imagen, como la resonancia magnética funcional (fMRI) y la espectroscopía de infrarrojo cercano (fNIRS), permite una visión más completa del cerebro al combinar la alta resolución temporal del EEG con la alta resolución espacial de estas otras modalidades.
+
+### **Ondas cerebrales**<a id="Ondas cerebrales"></a>
+<p align="justify">Las formas de onda del EEG se pueden clasificar según su ubicación, amplitud, frecuencia, morfología, continuidad (como rítmica, intermitente o continua), sincronía, simetría y reactividad. Sin embargo, la clasificación más utilizada se basa en su frecuencia, a tal punto que las ondas del EEG se nombran según sus rangos de frecuencia usando letras griegas. Las ondas más estudiadas son las delta (0,5 a 4 Hz), theta (4 a 7 Hz), alfa (8 a 12 Hz), sigma (12 a 16 Hz) y beta (13 a 30 Hz). Además, existen otras formas de onda, como las oscilaciones infralentas (menos de 0,5 Hz) y las oscilaciones de alta frecuencia (más de 30 Hz), que no se encuentran en el rango tradicional del EEG clínico, pero que han adquirido relevancia clínica gracias a los avances en el procesamiento digital de señales [3].‌ </p>
+
+<p align="center"><img src="Anexos/ondas-cerabrales.jpeg" width="400"></p>
+
+<p align="center"><i>Figura 1: Ondas cerebrales [4].</i></p>
+
+
+### **Ultracortex**<a id="ultracortex"></a>
+El Ultracortex es un dispositivo de código abierto, fabricable mediante impresión 3D, diseñado específicamente para ser compatible con cualquier placa OpenBCI. Su función principal es la adquisición de señales electroencefalográficas (EEG), electromiográficas (EMG) y electrocardiográficas (ECG) con un nivel de precisión adecuado para estudios de investigación científica. Es importante señalar que no está destinado para aplicaciones de estimulación transcraneal. El diseño del auricular está optimizado exclusivamente para la captación de señales EEG. En su versión más avanzada, el Ultracortex Mark IV es capaz de registrar hasta 16 canales de EEG, distribuidos en un máximo de 35 ubicaciones anatómicas conforme al sistema internacional 10-20, garantizando una adquisición de datos coherente[5].
+
+<p align="center"><img src="Anexos/nodos.png" width="400"></p>
+
+<p align="center"><i>Figura 2: Colocación De Nodos EEG Aceptadas Internacionalmente 10-20 [5].</i></p>
+
+Durante la práctica de laboratorio, para registrar la actividad cerebral (EEG), se emplearon electrodos tipo peine y planos, los cuales se insertan en el casco. Es importante mencionar que todos los cables de los electrodos finalizan en un conector hembra compatible con las placas de biodetección de OpenBCI (Ganglion, Cyton y CytonDaisy).
+
+Los electrodos planos permiten la medición de múltiples puntos en la corteza frontal (F7, AF7, Fp1, Fpz, Fp2, AF8, F8). Por su parte, los electrodos tipo peine a presión facilitan la medición en los nodos FT7/FT8, T7/T8, TP7/TP8, P7/P8, PO7/PO8, O1/O2 y Oz, dependiendo de la ubicación en la correa ajustable. En cuanto a la placa Ganglion, esta utiliza el EEG como canal de entrada y transmite los datos a través de Bluetooth o wifi. Todas las placas de OpenBCI vienen equipadas con un soporte de batería compatible con cuatro pilas AA y un conector estándar JST de 2 pines, o bien con una batería recargable compacta de polímero de litio de 3,7 V y un cargador USB [6].
+
+## **Metodología:**<a id="Metodología"></a>
+<p align="justify">El laboratorio se llevó a cabo utilizando el Kit BITalino como en los laboratorios anteriores, con 3 electrodos de superficie colocados en las siguientes posiciones:</p>
+
+- El electrodo negativo cercano a la la linea media del lado derecho de la cabeza.
+- El electrodo positivo cercano a la línea media del lado izquierdo de la cabeza.
+- El electrodo de referencia se coloco en una región neutral, el hueso detrás de la oreja.
+
+<p align="justify">El sujeto, una compañera de clase, estuvo sentado en una silla, en un ambiente controlado (sin ruido excesivo y las luces atenuadas). La prueba se desarrolló en varias fases. Primero, se realizó una fase de línea base inicial durante 30 segundos, en la cual nuestra compañera estuvo con los ojos cerrados, permaneciendo quieta y respiró normalmente. Posteriormente, se procedió con cinco ciclos de apertura y cierre de ojos. Luego, se realizó una segunda fase de línea base de 30 segundos, bajo las mismas condiciones que la primera, para comparar las señales en reposo.
+En la siguiente fase de la prueba, un compañero leyó en voz alta una serie de problemas matemáticos simples y complejas. Nuestra compañera resolvió estos problemas, manteniendo la mirada fija en un punto específico para minimizar los artefactos debidos a movimientos oculares. Para cada una de estas fases se midió la señal EEG y  se guardaron los datos obtenidos. Estos datos fueron procesados posteriormente en un programa python para analizar la actividad cerebral en cada una de las fases de la prueba.  
+Una vez realizado las pruebas con nuestra compañera se procedió a hacer el mismo procedimiento pero en este caso con nuestro docente pero a diferencia de l primer caso ya no usamos el Kit BITalino sino el Ultracortex. </p>
+Preguntas simples realizadas:
+<div align="center">
+
+|  **Preguntas simples**  |
+|:------------:|
+| Hay 6 gatos en el parque; llegan 3 más. ¿Cuántos gatos hay ahora? |
+| Sofía tiene 8 plumas, y Pablo le da 2. ¿Cuántas plumas tiene Sofía ahora? |
+| Hay 12 flores en el jardín; se marchitan 5. ¿Cuántas flores quedan? |
+</div>
+<p align="center"><i>Tabla 1. Preguntas simples realizadas durante el laboratorio. </i></p>
+Preguntas complejas realizadas:
+<div align="center">
+
+|  **Preguntas siples**  |
+|:------------:|
+| Ana tiene 30 lápices, 7 más que Luis. Si juntos tienen 57 lápices, ¿cuántos tiene Luis? |
+| El equipo X ganó 56 puntos, 12 menos que el equipo Y. Si el equipo Z ganó 18 más que ambos equipos juntos, ¿cuántos puntos ganó el equipo Z? |
+| En una escuela hay 120 estudiantes, 20 más que en otra. Si en ambas escuelas hay 45 estudiantes menos que en una tercera escuela, ¿cuántos estudiantes hay en la tercera escuela? |
+</div>
+<p align="center"><i>Tabla 2. Preguntas complejas realizadas durante el laboratorio. </i></p>
+
+## **Cronología de mediciones:**<a id="Cronologíademediciones"></a>
+1. **Preparación del equipo y del sujeto:** <br>
+   1.1. Conexion de los electrodos, asegurando un buen contacto con la piel y verificando la correcta adherencia de cada uno. <br>
+   1.2. Conexion correcta del Kit BITalino con el portatil. <br>
+
+2. **Mediciones con  Kit BITalino:** <br>
+   2.1. Registro de la línea base inicial (30 segundos). <br>
+   2.2. Ciclo de apertura y cierre de ojos (5 ciclos). <br>
+   2.3. Registro de una segunda línea base (30 segundos) <br>
+   2.4. Ejercicios mentales (resolución de problemas matemáticos). <br>
+
+3. **Mediciones con el Ultracortex:** <br>
+   3.1. Registro de la línea base inicial (30 segundos). <br>
+   3.2. Ciclo de apertura y cierre de ojos (5 ciclos). <br>
+   3.3. Registro de una segunda línea base (30 segundos) <br>
+   3.4. Ejercicios mentales (resolución de problemas matemáticos). <br>
+   
+## **Equipos y materiales utilizados:**<a id="Equipos"></a>
+<div align="center">
+   
+|  **Modelo**  | **Descripción** | **Cantidad** |
+|:------------:|:---------------:|:------------:|
+| (r)EVOLUTION |   Kit BITalino  |       1      |
+|     ASUS     |      Laptop     |       1      |
+|       -      |    Electrodos superficiales   |       3      |
+|    MARK IV    |   Ultracortex   |       1      |
+</div>
+<p align="center"><i>Tabla 3. Equipos y materiales utilizados en este laboratorio. </i></p>
+
+<p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/Ultracortex.jpg" width="300" height="300"></p>
+<p align="center"><i>Figura 3 y 4: Kit BITalino conectado a los electrodos y Ultracortex. </i></p>
+
+## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
+
+<p align="center"><img src="Anexos/Imagen de WhatsApp 2024-09-28 a las 17.52.35_7f87aa3e.jpg" width="400"></p>
+
+<p align="center"><i>Figura 5: Participante con los electrodos posicionados en la cabeza.</i></p>
+
+
+## **Resultados:**<a id="Resultados"></a>
+### 1. 
+
+## **Discusión:**<a id="Discusión"></a>
+<p align="justify">.</p>
+
+
+## **Bibliografia:**<a id="Bibliografia"></a>
+<p align="justify">[1] </p>
