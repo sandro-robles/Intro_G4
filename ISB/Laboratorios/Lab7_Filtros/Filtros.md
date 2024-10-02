@@ -11,16 +11,25 @@
 9. [Ultracortex](#Ultracortex)
 10. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
-- Investigar técnicas de procesamiento de señales EEG, con énfasis en filtrado y eliminación de ruido.
-- Configurar correctamente el dispositivo BiTalino para la adquisición de señales EEG.
-- Extraer y analizar señales EEG utilizando el software OpenSignals (r)evolution.
+- In.
+- C.
+- Exn.
   
 ## **Introducción:**<a id="Introduccion"></a>
-<p align="justify"></p>
+<p align="justify">generla</p>
+
+### **Filtros IRR**<a id="IIR"></a>
+
+### **Filtros FIR**<a id="FIR"></a>
 
 ## **Metodología:**<a id="Metodología"></a>
 <p align="justify"> </p>
 
+### **Diseño del Filtro EMG**<a id="F_EMG"></a>
+
+### **Diseño del Filtro ECG**<a id="F_ECG"></a>
+
+### **Diseño del Filtro EEG**<a id="F_EEG"></a>
 
 ## **Resultados:**<a id="Resultados"></a>
 ### 1. 
