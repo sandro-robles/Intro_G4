@@ -16,15 +16,13 @@
 ### **Ejercicio EMG** <a name="t7"></a>
 | Campo | Señal Cruda | Filtro IIR | Filtro FIR |
 |-----------|-----------|-----------|-----------|
-| Bicep Braquial   | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_butt.png" alt="Electrodos de guía"  > | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_black.png" alt="Electrodos de guía" >|
-| Antebrazo supinación  | <img src="Imagenes_L6/Imagenes_EMG/antebrazo_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/antebrazo_EMG_butt.png" alt="Electrodos de guía" >| <img src="Imagenes_L6/Imagenes_EMG/antebrazo_EMG_black.png" alt="Electrodos de guía"> |
-| Pulgar en supinación   | <img src="Imagenes_L6/Imagenes_EMG/pulgar_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/pulgar_EMG_butt.png" alt="Electrodos de guía">  | <img src="Imagenes_L6/Imagenes_EMG/pulgar_EMG_black.png" alt="Electrodos de guía"> |
+| Bícep en Movimiento   | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_butt.png" alt="Electrodos de guía"  > | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_black.png" alt="Electrodos de guía" >|
+| Trícep en Movimiento | <img src="Imagenes_L6/Imagenes_EMG/antebrazo_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/antebrazo_EMG_butt.png" alt="Electrodos de guía" >| <img src="Imagenes_L6/Imagenes_EMG/antebrazo_EMG_black.png" alt="Electrodos de guía"> |
+|Mano en reposo  | <img src="Imagenes_L6/Imagenes_EMG/pulgar_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/pulgar_EMG_butt.png" alt="Electrodos de guía">  | <img src="Imagenes_L6/Imagenes_EMG/pulgar_EMG_black.png" alt="Electrodos de guía"> |
+|Trapecio Movimiento/Fuerza  | <img src="Imagenes_L6/Imagenes_EMG/pulgar_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/pulgar_EMG_butt.png" alt="Electrodos de guía">  | <img src="Imagenes_L6/Imagenes_EMG/pulgar_EMG_black.png" alt="Electrodos de guía"> |
+|Gastrocnemio Movimiento  |
 
 <p align="center">
   <b>Tabla 3. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG</b>
 </p>
 
-
-<p align="center">
-  <b>Tabla 4. Resumen de la señal filtrada con filtros FIR e IIR para la data EEG</b>
-</p>
