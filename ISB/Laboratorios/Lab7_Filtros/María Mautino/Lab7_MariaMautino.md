@@ -57,7 +57,8 @@
 ### **Análisis del Filtro** <a name="t6"></a>
 | Filtro | Diagrama de Bode | Diagrama de Polos y Ceros |
 |--------|------------------|--------------------------|
-| FIR    | <img src="Anexo_Biceps/bode fir.png" width="400" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zeros y polos fir.png" width="400" style="display:block; margin:auto;"/> |
-| IIR    | <img src="Anexo_Biceps/bode iir.png" width="400" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zeros y polos iir.png" width="400" style="display:block; margin:auto;"/> |
+| FIR    | <img src="Anexo_Biceps/bode fir.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zeros y polos fir.png" width="400" height="300" style="display:block; margin:auto;"/> |
+| IIR    | <img src="Anexo_Biceps/bode iir.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zeros y polos iir.png" width="400" height="300" style="display:block; margin:auto;"/> |
+
 
 
