@@ -1,15 +1,16 @@
 # Laboratorio N°7 - Diseño de Filtros FIR y IIR 
-1. [Introducción](#t2)
-2. [Objetivos del laboratorio](#t3)
-3. [Metodología](#t4)
-4. [Resultados](#t5)\
-   4.1 [Ejercicio ECG](#t6)\
-   4.2 [Ejercicio EMG ](#t7)\
-5. [Discusión](#t9)\
-   5.1 [Señal ECG](#t10)\
-   5.2 [Señal EMG](#t11)\
-6. [Bibliografía](#t13)
+1. [Introducción](#t1)
+2. [Objetivos del laboratorio](#t2)
+3. [Metodología](#t3)
+4. [Resultados](#t4)\
+   4.1 [Ejercicio ECG](#t5)
+   4.2 [Ejercicio EMG ](#t6)
+5. [Discusión](#t7)\
+   5.1 [Señal ECG](#t8)
+   5.2 [Señal EMG](#t9)
+6. [Bibliografía](#t10)
 
+## Introducción  <a name = "t1"></a>
 
 ## Resultados   <a name="t4"></a>
 
