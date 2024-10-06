@@ -1,4 +1,5 @@
 # Laboratorio N°7 - Diseño de Filtros FIR y IIR 
+## **Tabla de contenidos:**
 1. [Introducción](#t1)
 2. [Objetivos del laboratorio](#t2)
 3. [Metodología](#t3)
@@ -14,7 +15,7 @@
 
 ## Resultados   <a name="t4"></a>
 
-### **Ejercicio ECG** <a name="t6"></a>
+### **Ejercicio ECG** <a name="t5"></a>
 | Campo | Señal Cruda | Filtro FIR | Filtro IIR |
 |-----------|-----------|-----------|-----------|
 | Basal D2  | <img src="Imagenes_L6/Imagenes_ECG/Basal_ECG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_ECG/basal_ECG_butter.png" alt="Electrodos de guía"  > | <img src="Imagenes_L6/Imagenes_ECG/basal_ECG_hanni.png" alt="Electrodos de guía" >|
@@ -27,7 +28,7 @@
 </p>
 
 
-### **Ejercicio EMG** <a name="t7"></a>
+### **Ejercicio EMG** <a name="t6"></a>
 | Campo | Señal Cruda | Filtro FIR | Filtro IIR |
 |-----------|-----------|-----------|-----------|
 | Bícep en Movimiento   | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_butt.png" alt="Electrodos de guía"  > | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_black.png" alt="Electrodos de guía" >|
