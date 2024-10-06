@@ -54,4 +54,9 @@
   <b>Tabla 3. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG</b>
 </p>
 
+### **Análisis del Filtro** <a name="t6"></a>
+| Filtro | Diagrama de Bode | Diagrama de Polos y Zeros |
+|-----------|-----------|-----------|
+| FIR   | <img src="Anexo_Biceps/bode fir.png">  | <img src="Anexo_Biceps/zeros y polos fir.png">  |
+| IIR | <img src="Anexo_Biceps/bode iir.png">  | <img src="Anexo_Biceps/zeros y polos iir.png">  | 
 
