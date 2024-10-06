@@ -1,7 +1,7 @@
 ## Resultados   <a name="t5"></a>
 
 ### **Ejercicio ECG** <a name="t6"></a>
-| Campo | Señal Cruda | Filtro IIR | Filtro FIR |
+| Campo | Señal Cruda | Filtro FIR | Filtro IIR |
 |-----------|-----------|-----------|-----------|
 | Basal D2  | <img src="Imagenes_L6/Imagenes_ECG/Basal_ECG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_ECG/basal_ECG_butter.png" alt="Electrodos de guía"  > | <img src="Imagenes_L6/Imagenes_ECG/basal_ECG_hanni.png" alt="Electrodos de guía" >|
 | Respiración D1 | <img src="Imagenes_L6/Imagenes_ECG/in_ex_ECG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_ECG/in_ex_ECG_butt.png" alt="Electrodos de guía" >| <img src="Imagenes_L6/Imagenes_ECG/in_ex_ECG_hanni.png" alt="Electrodos de guía"> |
@@ -14,7 +14,7 @@
 
 
 ### **Ejercicio EMG** <a name="t7"></a>
-| Campo | Señal Cruda | Filtro IIR | Filtro FIR |
+| Campo | Señal Cruda | Filtro FIR | Filtro IIR |
 |-----------|-----------|-----------|-----------|
 | Bícep en Movimiento   | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_butt.png" alt="Electrodos de guía"  > | <img src="Imagenes_L6/Imagenes_EMG/bicep_EMG_black.png" alt="Electrodos de guía" >|
 | Trícep en Movimiento | <img src="Imagenes_L6/Imagenes_EMG/antebrazo_EMG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_EMG/antebrazo_EMG_butt.png" alt="Electrodos de guía" >| <img src="Imagenes_L6/Imagenes_EMG/antebrazo_EMG_black.png" alt="Electrodos de guía"> |
