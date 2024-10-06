@@ -1,4 +1,17 @@
-## Resultados   <a name="t5"></a>
+# Laboratorio N°7 - Diseño de Filtros FIR y IIR 
+1. [Introducción](#t2)
+2. [Objetivos del laboratorio](#t3)
+3. [Metodología](#t4)
+4. [Resultados](#t5)\
+   4.1 [Ejercicio ECG](#t6)\
+   4.2 [Ejercicio EMG ](#t7)\
+5. [Discusión](#t9)\
+   5.1 [Señal ECG](#t10)\
+   5.2 [Señal EMG](#t11)\
+6. [Bibliografía](#t13)
+
+
+## Resultados   <a name="t4"></a>
 
 ### **Ejercicio ECG** <a name="t6"></a>
 | Campo | Señal Cruda | Filtro FIR | Filtro IIR |
