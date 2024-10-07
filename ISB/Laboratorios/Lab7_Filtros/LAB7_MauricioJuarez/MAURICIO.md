@@ -22,9 +22,16 @@
 <p align="justify">En los laboratorios pasados, tuvimos la oportunidad de capturar y adquirir señales de Electromiografía y Electrocardiografía. Dichas señales se pueden observar a continuación
 
 <p align="center">
-  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/Se%C3%B1alesOriginalesECG.png?raw=true" alt="Ventanas" >
-   <p align="center"><i>Señales adquiridas de electrocardiograma</i></p>
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/Se%C3%B1alesOriginalesEMG.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 1. Señales adquiridas de electromiografía</i></p>
 </p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/Se%C3%B1alesOriginalesECG.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 2. Señales adquiridas de electrocardiograma</i></p>
+</p>
+
+
 
 
 ## 3. Filtros  <a name = "t3"></a>
