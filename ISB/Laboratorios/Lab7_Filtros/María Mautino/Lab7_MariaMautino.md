@@ -3,16 +3,17 @@
 ## Resultados   <a name="t10"></a>
 
 ### **Ejercicio ECG** <a name="t5"></a>
-| Campo | Señal Cruda | Filtro FIR | Filtro IIR |
+| Campo |  Señal Cruda vs Filtro FIR  |  Señal Cruda vs Filtro IIR |
 |-----------|-----------|-----------|-----------|
-| Basal D2  | <img src="Imagenes_L6/Imagenes_ECG/Basal_ECG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_ECG/basal_ECG_butter.png" alt="Electrodos de guía"  > | <img src="Imagenes_L6/Imagenes_ECG/basal_ECG_hanni.png" alt="Electrodos de guía" >|
-| Respiración D1 | <img src="Imagenes_L6/Imagenes_ECG/in_ex_ECG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_ECG/in_ex_ECG_butt.png" alt="Electrodos de guía" >| <img src="Imagenes_L6/Imagenes_ECG/in_ex_ECG_hanni.png" alt="Electrodos de guía"> |
-| Post Respiración D3  | <img src="Imagenes_L6/Imagenes_ECG/post_ECG_cruda.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_ECG/post_ECG_butt.png" alt="Electrodos de guía" >  | <img src="Imagenes_L6/Imagenes_ECG/post_ECG_hann.png" alt="Electrodos de guía"> |
-| Post Ejercicio D2  |
+| Basal D2  |  <img src="Anexo_ECG/señal REPOSO ECG D2 fir.png">  | <img src="Anexo_ECG/señal REPOSO ECG D2 iir.png"  > |
+| Respiración D1 |  <img src="Anexo_ECG/señal RESPIRACON D1 fir.png">  | <img src="Anexo_ECG/señal RESPIRACON D1 iir.png"  > |
+| Post Respiración D3  |  <img src="Anexo_ECG/POST RESPIRACION D3 señal fir.png">  | <img src="Anexo_ ECG/señal POST RESPIRACION D3 iir.png"  > |
+| Post Ejercicio D2  |  <img src="Anexo_ECG/señal EJERCICIO D2 fir.png">  | <img src="Anexo_ECG/señal EJERCICIO D2 iiir.png"  > |
 
 <p align="center">
   <b>Tabla 2. Resumen de la señal filtrada con filtros FIR e IIR para la data ECG</b>
 </p>
+
 
 
 ### **Ejercicio EMG** <a name="t6"></a>
