@@ -3,8 +3,8 @@
 1. [Objetivos](#t1)
 2. [Señales adquiridas](#t2)
 2. [Filtros](#t3)
-3. [Resultados](#t4)\
-4. [Discusión](#t5)\
+3. [Resultados](#t4)
+4. [Discusión](#t5)
 
 ## 1. Objetivos  <a name = "t1"></a>
 * Analizar las señales obtenidas
@@ -100,3 +100,35 @@
   <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/EMGFourierIIR.png?raw=true" alt="Ventanas" >
    <p align="center"><i>Figura 7. Señal de EMG filtrada con el filtro IIR y su transformada de Fourier</i></p>
 </p>
+
+<p align="justify">Ahora para las señales ECG procedemos a hacer el display de cada señal filtrada con sus transformadas
+
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/ECGHamming.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 5. Señal de EMG filtrada con el filtro FIR ventana Hamming</i></p>
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/ECGFourierHamming.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 6. Señal de ECG filtrada con el filtro FIR ventana Hamming y su transformada de Fourier</i></p>
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/ECGBartlett.png?raw=true" alt="Ventanas" >
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/ECGFourierBartlett.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 7. Señal de ECG filtrada con el filtro FIR ventana Bartlett y su transformada ded Fourier</i></p>
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/ECGIIR.png?raw=true" alt="Ventanas" >
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/ECGFourierIIR.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 7. Señal de EECG filtrada con el filtro IIR y su transformada de Fourier</i></p>
+</p>
+
