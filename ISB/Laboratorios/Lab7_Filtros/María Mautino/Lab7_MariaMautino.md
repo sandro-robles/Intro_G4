@@ -22,6 +22,12 @@
 | Post Respiración D3  |  <img src="Anexo_ECG/fft POST RESPIRACION D3 fir.png">  | <img src="Anexo_ECG/fft POST RESPIRACION D3 iir.png"  > |
 | Post Ejercicio D2  |  <img src="Anexo_ECG/fft EJERCICIO D2 fir.png">  | <img src="Anexo_ECG/fft EJERCICIO D2 iir.png"  > |
 
+### **Análisis del Filtro - ECG** <a name="t11"></a>
+| Filtro | Diagrama de Bode | Diagrama de Polos y Ceros |
+|--------|------------------|--------------------------|
+| FIR    | <img src="Anexo_ECG/bode fir (1).png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/Zeros y polos fir (1).png" width="400" height="300" style="display:block; margin:auto;"/> |
+| IIR    | <img src="Anexo_ECG/Bode iir (2).png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/Polos y zeros iir.png" width="400" height="300" style="display:block; margin:auto;"/> |
+
 
 ### **Señales EMG** <a name="t6"></a>
 | Campo | Señal Cruda vs Filtro FIR | Señal Cruda vs Filtro IIR |
