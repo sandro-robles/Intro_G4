@@ -2,21 +2,28 @@
 
 ## Resultados   <a name="t10"></a>
 
-### **Ejercicio ECG** <a name="t5"></a>
+### **Señales ECG** <a name="t5"></a>
 | Campo |  Señal Cruda vs Filtro FIR  |  Señal Cruda vs Filtro IIR |
 |-----------|-----------|-----------|
 | Basal D2  |  <img src="Anexo_ECG/señal REPOSO ECG D2 fir.png">  | <img src="Anexo_ECG/señal REPOSO ECG D2 iir.png"  > |
 | Respiración D1 |  <img src="Anexo_ECG/señal RESPIRACON D1 fir.png">  | <img src="Anexo_ECG/señal RESPIRACON D1 iir.png"  > |
-| Post Respiración D3  |  <img src="Anexo_ECG/POST RESPIRACION D3 señal fir.png">  | <img src="Anexo_ ECG/señal POST RESPIRACION D3 iir.png"  > |
+| Post Respiración D3  |  <img src="Anexo_ECG/POST RESPIRACION D3 señal fir.png">  | <img src="Anexo_ECG/señal POST RESPIRACION D3 iir.png"  > |
 | Post Ejercicio D2  |  <img src="Anexo_ECG/señal EJERCICIO D2 fir.png">  | <img src="Anexo_ECG/señal EJERCICIO D2 iiir.png"  > |
 
 <p align="center">
-  <b>Tabla 2. Resumen de la señal filtrada con filtros FIR e IIR para la data ECG</b>
+  <b>Tabla 2. Resumen de la señal filtrada con filtros FIR e IIR para la data ECG.</b>
 </p>
 
+### **Señales EMG - FFT** <a name="t6"></a>
+| Campo | FFT - Original vs FIR| FFT - Original vs IIR |
+|-----------|-----------|-----------|
+| Basal D2  |  <img src="Anexo_ECG/fft REPOSO ECG D2 fir.png">  | <img src="Anexo_ECG/fft REPOSO ECG D2 iir.png"  > |
+| Respiración D1 |  <img src="Anexo_ECG/fft RESPIRACON D1 fir.png">  | <img src="fft RESPIRACON D1 iii.png"  > |
+| Post Respiración D3  |  <img src="Anexo_ECG/fft POST RESPIRACION D3 fir.png">  | <img src="Anexo_ECG/fft POST RESPIRACION D3 iir.png"  > |
+| Post Ejercicio D2  |  <img src="Anexo_ECG/fft EJERCICIO D2 fir.png">  | <img src="Anexo_ECG/fft EJERCICIO D2 iir.png"  > |
 
 
-### **Ejercicio EMG** <a name="t6"></a>
+### **Señales EMG** <a name="t6"></a>
 | Campo | Señal Cruda vs Filtro FIR | Señal Cruda vs Filtro IIR |
 |-----------|-----------|-----------|
 | Bícep en Movimiento   | <img src="Anexo_Biceps/señalbicep movimiento(FIR).PNG">  | <img src="Anexo_Biceps/señal bicep movimiento (IIR).png"  > 
@@ -29,7 +36,7 @@
   <b>Tabla 3. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG</b>
 </p>
 
-### **Ejercicio EMG - FFT** <a name="t6"></a>
+### **Señales EMG - FFT** <a name="t6"></a>
 | Campo | FFT - Original | FFT - FIR | FFT - IIR |
 |-----------|-----------|-----------|-----------|
 | Bícep en Movimiento   | <img src="Anexo_Biceps/fft bicep movimiento.png">  | <img src="Anexo_Biceps/fft bicep movimiento (fir).png">  | <img src="Anexo_Biceps/fftbicepmovimiento_iir.png">  |
@@ -42,7 +49,7 @@
   <b>Tabla 3. Resumen de la señal filtrada con filtros FIR e IIR para la data EMG</b>
 </p>
 
-### **Análisis del Filtro** <a name="t11"></a>
+### **Análisis del Filtro - EMG** <a name="t11"></a>
 | Filtro | Diagrama de Bode | Diagrama de Polos y Ceros |
 |--------|------------------|--------------------------|
 | FIR    | <img src="Anexo_Biceps/bode fir.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zeros y polos fir.png" width="400" height="300" style="display:block; margin:auto;"/> |
