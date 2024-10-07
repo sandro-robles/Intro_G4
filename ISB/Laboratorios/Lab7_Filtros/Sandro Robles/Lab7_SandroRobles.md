@@ -7,12 +7,6 @@
 
 <p align="justify">Además, el filtro Bessel es valioso en aplicaciones como el ECG, donde se necesita minimizar la distorsión de la señal para mantener su forma original. Esto es fundamental para señales biomédicas afectadas por factores estocásticos, como el ruido muscular y el ambiente. [4]. </p>
 
-<p align="center"><img src="Anexos/Imagen_Intro.png" width="400"></p>
-
-<p align="center"><i>Figura 1: Interpretación de ECG [3].</i></p>
-
-<p align="justify"> </p>
-
 ## **Filtro FIR**<a id="FiltroFIR"></a>
 
 ## Diagrama de polos y ceros // Diagrama de Bode (del filtro FIR)
