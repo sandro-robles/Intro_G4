@@ -8,7 +8,7 @@
 
 <p align="justify">Para este propósito, se utilizan filtros FIR (Finite Impulse Response) y IIR (Infinite Impulse Response), que son sistemas lineales e invariantes en el tiempo. Los filtros FIR, que son no recursivos, permiten una respuesta de fase lineal, ideal para preservar la forma de señales EMG [2]. En contraste, los filtros IIR son recursivos y más eficientes computacionalmente, adecuados para aplicaciones en EMG y ECG donde se busca una rápida atenuación del ruido [3].</p>
 
-<p align="justify">Además, el filtro Bessel es valioso en aplicaciones como el ECG, donde se necesita minimizar la distorsión de la señal para mantener su forma original. Esto es fundamental para señales biomédicas afectadas por factores estocásticos, como el ruido muscular y el ambiente. Para señales no estacionarias, técnicas avanzadas como la transformada de Wavelet también son útiles, ya que permiten descomponer y analizar las señales en múltiples resoluciones. </p>
+<p align="justify">Además, el filtro Bessel es valioso en aplicaciones como el ECG, donde se necesita minimizar la distorsión de la señal para mantener su forma original. Esto es fundamental para señales biomédicas afectadas por factores estocásticos, como el ruido muscular y el ambiente. [4]. </p>
 
 <p align="center"><img src="Anexos/Imagen_Intro.png" width="400"></p>
 
@@ -1202,3 +1202,6 @@ plt.show()
 <p align="justify">[2] R. Hamming, Digital Filters. Dover Publications, 1998. Disponible en: https://books.google.com.pe/books?id=JQ35s71Vv10C&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false</p>
 
 <p align="justify">[3] B. Lenka, "Time-frequency analysis of non-stationary electrocardiogram signals using Hilbert-Huang Transform," 2015 International Conference on Communications and Signal Processing (ICCSP), Melmaruvathur, India, 2015, pp. 1156-1159, doi: 10.1109/ICCSP.2015.7322686</p>
+
+<p align="justify">[4] Diana Alejandra Madrid, “Implementación de Filtros Pasa Baja: Bessel y Chebyshev,” ResearchGate, Mar. 17, 2017. https://www.researchgate.net/publication/322114701_Implementacion_de_Filtros_Pasa_Baja_Bessel_y_Chebyshev (accessed Oct. 07, 2024).</p>
+‌
