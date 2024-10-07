@@ -183,21 +183,37 @@ plt.show()
 
 
 ```
+| Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
+|:--------------:|:--------------:|
+|![alt text](anexos/bicep_polos.jpg)|![alt text](anexos/bicep_bode.jpg)|
+<p align="center"><i>Tabla 1: EMG - Filtro FIR.</i></p>
 
-| Señal Cruda | Análisis espectral | Filtro FIR | Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
-|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-|  ![alt text](anexos/bicep_cruda.jpg)|![alt text](anexos/bicep_espectral.jpg)|![alt text](anexos/bicep_filtrada.jpg)|![alt text](anexos/bicep_polos.jpg)|![alt text](anexos/bicep_bode.jpg)|
+<p align="justify"> </p>
 
+
+
+| Señal Cruda | Análisis espectral | Filtro FIR | 
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/bicep_cruda.jpg)|![alt text](anexos/bicep_espectral.jpg)|![alt text](anexos/bicep_filtrada.jpg)
 <p align="center"><i>Tabla 1: EMG - Bicep con filtro FIR.</i></p>
 
 <p align="justify"> </p>
 
 
 
-| Señal Cruda | Análisis espectral | Filtro FIR | Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
-|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
-|  ![alt text](anexos/gastro_cruda.jpg)|![alt text](anexos/gastro_espectral.jpg)|![alt text](anexos/gastro_filtrada.jpg)|![alt text](anexos/gastro_polos.jpg)|![alt text](anexos/gastro_bode.jpg)|
+| Señal Cruda | Análisis espectral | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/gastro_cruda.jpg)|![alt text](anexos/gastro_espectral.jpg)|![alt text](anexos/gastro_filtrada.jpg)|
 
-<p align="center"><i>Tabla 1: EMG - Gastrocnemio con filtro FIR.</i></p>
+<p align="center"><i>Tabla 2: EMG - Gastrocnemio con filtro FIR.</i></p>
+
+<p align="justify"> </p>
+
+
+| Señal Cruda | Análisis espectral | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/trap_cruda.jpg)|![alt text](anexos/trap_espectral.jpg)|![alt text](anexos/trap_filtrada.jpg)|
+
+<p align="center"><i>Tabla 2: EMG - Trapecio con filtro FIR.</i></p>
 
 <p align="justify"> </p>
