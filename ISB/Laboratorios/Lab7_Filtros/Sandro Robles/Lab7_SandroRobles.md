@@ -371,3 +371,13 @@ plt.show()
 <p align="center"><i>Tabla 7: ECG - D1, D2 y D3 con filtro FIR (Reposo).</i></p>
 
 <p align="justify"> </p>
+
+| Señal Cruda | Análisis espectral | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/respi_cruda.jpg)|![alt text](anexos/respi_espectral.jpg)|![alt text](anexos/respi_filtrada.jpg)|
+
+<p align="center"><i>Tabla 8: ECG - D1, D2 y D3 con filtro FIR (Durante y tras la retención de la respiración).</i></p>
+
+<p align="justify"> </p>
+
+
