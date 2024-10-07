@@ -1,6 +1,6 @@
 
 
-## Resultados   <a name="t10"></a>
+## 4. Resultados   <a name="t10"></a>
 
 ### **Señales ECG** <a name="t5"></a>
 | Campo |  Señal Cruda vs Filtro FIR  |  Señal Cruda vs Filtro IIR |
@@ -58,8 +58,8 @@
 ### **Análisis del Filtro - EMG** <a name="t11"></a>
 | Filtro | Diagrama de Bode | Diagrama de Polos y Ceros |
 |--------|------------------|--------------------------|
-| FIR    | <img src="Anexo_Biceps/bode fir.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zeros y polos fir.png" width="400" height="300" style="display:block; margin:auto;"/> |
-| IIR    | <img src="Anexo_Biceps/bode iir.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zeros y polos iir.png" width="400" height="300" style="display:block; margin:auto;"/> |
+| FIR    | <img src="Anexo_Biceps/bodefiremg.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zerosfiremg.png" width="400" height="300" style="display:block; margin:auto;"/> |
+| IIR    | <img src="Anexo_Biceps/bodeiiremg.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zerosiiremg.png.png" width="400" height="300" style="display:block; margin:auto;"/> |
 
 ### **Bibliografía:** <a name="t12"></a>
 <p align="justify">[1] L. Romero, “Análisis de señales electrocardiográficas usando técnicas de procesamiento digital,” Uoc.edu, 2015, doi: http://hdl.handle.net/10609/40186.</p>
