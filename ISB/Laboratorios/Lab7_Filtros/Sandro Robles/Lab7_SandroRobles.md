@@ -1,4 +1,4 @@
-# **LABORATORIO 7: – Filtros**
+# **LABORATORIO 7: – Filtros (Sandro Robles)**
 ## **Tabla de contenidos:**
 1. [Objetivos](#Objetivos)
 2. [Filtro FIR: EMG](#FiltroFIREMG)
