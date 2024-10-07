@@ -1,7 +1,5 @@
 # **LABORATORIO 7: – Filtros (Sandro Robles)**
 ## **Tabla de contenidos:**
-1. [Objetivos](#Objetivos)
-2. [Filtro FIR: EMG](#FiltroFIREMG)
   
 ## **Introducción:**<a id="Introduccion"></a>
 <p align="justify"> En la ingeniería biomédica, el filtrado de señales es crucial para un análisis preciso de datos como EMG y ECG, que suelen estar contaminados por ruido y artefactos, lo que puede llevar a diagnósticos erróneos [1]. Por ello, el filtrado es un paso esencial para eliminar interferencias y mejorar la calidad de la señal antes del procesamiento.</p>
