@@ -991,7 +991,7 @@ plt.show()
 | Señal Cruda | Análisis espectral | Filtro BESSEL | 
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/bicep_cruda_BESSEL.jpg)|![alt text](anexos/bicep_espectral.jpg)|![alt text](anexos/bicep_filtrada.jpg)
-<p align="center"><i>Tabla 2: EMG - Bicep con filtro FIR.</i></p>
+<p align="center"><i>Tabla 18: EMG - Bicep con filtro FIR.</i></p>
 
 <p align="justify"> </p>
 
@@ -1001,7 +1001,7 @@ plt.show()
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/gastro_cruda.jpg)|![alt text](anexos/gastro_espectral_BESSEL.jpg)|![alt text](anexos/gastro_filtrada_BESSEL.jpg)|
 
-<p align="center"><i>Tabla 18: EMG - Gastrocnemio con filtro BESSEL.</i></p>
+<p align="center"><i>Tabla 19: EMG - Gastrocnemio con filtro BESSEL.</i></p>
 
 <p align="justify"> </p>
 
@@ -1010,7 +1010,7 @@ plt.show()
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/trap_cruda_BESSEL.jpg)|![alt text](anexos/trap_espectral_BESSEL.jpg)|![alt text](anexos/trap_filtrada_BESSEL.jpg)|
 
-<p align="center"><i>Tabla 19: EMG - Trapecio con filtro BESSEL.</i></p>
+<p align="center"><i>Tabla 20: EMG - Trapecio con filtro BESSEL.</i></p>
 
 <p align="justify"> </p>
 
@@ -1019,7 +1019,7 @@ plt.show()
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/tricep_cruda_BESSEL.jpg)|![alt text](anexos/tricep_espectral_BESSEL.jpg)|![alt text](anexos/tricep_filtrada_BESSEL.jpg)|
 
-<p align="center"><i>Tabla 20: EMG - Tricep con filtro BESSEL.</i></p>
+<p align="center"><i>Tabla 21: EMG - Tricep con filtro BESSEL.</i></p>
 
 <p align="justify"> </p>
 
@@ -1166,7 +1166,7 @@ plt.show()
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/ejercicio_cruda_BESSEL.jpg)|![alt text](anexos/ejercicio_espectral_BESSEL.jpg)|![alt text](anexos/ejercicio_filtrada_BESSEL.jpg)|
 
-<p align="center"><i>Tabla 21: ECG - D1, D2 y D3 con filtro BESSEL (Ejercicio).</i></p>
+<p align="center"><i>Tabla 22: ECG - D1, D2 y D3 con filtro BESSEL (Ejercicio).</i></p>
 
 <p align="justify"> </p>
 
@@ -1175,7 +1175,7 @@ plt.show()
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/reposo_cruda_BESSEL.jpg)|![alt text](anexos/reposo_espectral_BESSEL.jpg)|![alt text](anexos/reposo_filtrada_BESSEL.jpg)|
 
-<p align="center"><i>Tabla 22: ECG - D1, D2 y D3 con filtro BESSEL (Reposo).</i></p>
+<p align="center"><i>Tabla 23: ECG - D1, D2 y D3 con filtro BESSEL (Reposo).</i></p>
 
 <p align="justify"> </p>
 
@@ -1183,7 +1183,7 @@ plt.show()
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/respi_cruda_BESSEL.jpg)|![alt text](anexos/respi_espectral_BESSEL.jpg)|![alt text](anexos/respi_filtrada_BESSEL.jpg)|
 
-<p align="center"><i>Tabla 23: ECG - D1, D2 y D3 con filtro BESSEL (Durante y tras la retención de la respiración).</i></p>
+<p align="center"><i>Tabla 24: ECG - D1, D2 y D3 con filtro BESSEL (Durante y tras la retención de la respiración).</i></p>
 
 <p align="justify"> </p>
 
