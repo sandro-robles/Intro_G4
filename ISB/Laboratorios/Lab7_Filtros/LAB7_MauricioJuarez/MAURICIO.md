@@ -3,7 +3,7 @@
 1. [Objetivos](#t1)
 2. [Señales adquiridas](#t2)
 2. [Filtros](#t3)
-3. [Metodología](#t4)
+3. [Implementación](#t4)
 4. [Resultados](#t5)\
    4.1 [Ejercicio ECG](#t6)\
    4.2 [Ejercicio EMG ](#t7)
@@ -72,4 +72,13 @@
 <p align="center">
   <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ZplaneIIR.png?raw=true" alt="Ventanas" >
    <p align="center"><i>Figura 4. Diagrama de Bode y diagrama de ceros y polos del filtro IIR</i></p>
+</p>
+
+## 4. Implementación  <a name = "t4"></a>
+
+<p align="justify">Con la ayuda de los filtros diseñados ya podemos utilizarlos para mejorar nuestra señal adquirida y disminuir el ruido que se haya obtenido para EMG y ECG
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/EMG_filtrada.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 5. Señal de EMG filtrada con </i></p>
 </p>
