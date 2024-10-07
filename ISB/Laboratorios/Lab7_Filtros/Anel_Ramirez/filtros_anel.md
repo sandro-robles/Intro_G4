@@ -22,10 +22,12 @@
 | Campo | FFT - STFT- FIR - IIR |
 |-----------|-----------------------------|
 | Bícep fuerza   |<img width="1064" alt="BICEP_fuerza" src="https://github.com/user-attachments/assets/bebe8da1-1001-4a63-a435-bf4c94b6a920">
+| Gastro en Movimiento |<img width="1064" alt="gastro_mov" src="https://github.com/user-attachments/assets/af5d86d8-f80a-4fd6-b604-73c628ebe227">
+|Mano en reposo  | <img width="1064" alt="mano_reposo" src="https://github.com/user-attachments/assets/7b909034-5317-4f81-ab25-5bdee76185d2">
 
-| Gastro en Movimiento | <img src="Anexo_Biceps/ftt tricep en movimiento.png">  | <img src="Anexo_Biceps/fft ftt tricep en movimiento (FIR).png">  | <img src="Anexo_Biceps/fft tricep en movimiento (IIR).png">  |
-|Mano en reposo  |  <img src="Anexo_Biceps/fft mano reposo.png">  | <img src="Anexo_Biceps/fft mano reposo (FIR).png">  | <img src="Anexo_Biceps/fft mano reposo (IIR).png">  |
-|Trapecio reposo |  <img src="Anexo_Biceps/fft trapecio movimiento fuerza.png">  | <img src="Anexo_Biceps/fft trapecio movimiento fuerza (FIR).png">  | <img src="Anexo_Biceps/fft trapecio movimiento fuerza (IIR).png">  |
-|Tricep con fuerza | <img src="Anexo_Biceps/fft_gastro.png">  | <img src="Anexo_Biceps/fft_gastro (FIR).png">  | <img src="Anexo_Biceps/fft gastromov (IIR).png">  |
+|Trapecio reposo |<img width="1064" alt="trapecio norma" src="https://github.com/user-attachments/assets/c8a05060-d428-465e-b622-38ce31085144">
+
+|Tricep con fuerza | <img width="1064" alt="tricep_fuerza" src="https://github.com/user-attachments/assets/daa0e8ce-e591-455d-a25c-f044b49ec73a">
+
 
 
