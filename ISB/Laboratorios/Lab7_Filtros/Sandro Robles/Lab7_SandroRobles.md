@@ -16,6 +16,56 @@
 
 ## **Filtro FIR**<a id="FiltroFIR"></a>
 
+## Diagrama de polos y ceros // Diagrama de Bode (del filtro FIR)
+``` python
+# Diagrama de polos y ceros del filtro FIR
+z, p, k = tf2zpk(w, 1)
+plt.figure(figsize=(6, 6))
+plt.scatter(np.real(z), np.imag(z), marker='o', label='Ceros', edgecolor='blue')
+plt.scatter(np.real(p), np.imag(p), marker='x', label='Polos', edgecolor='red')
+plt.title('Diagrama de Polos y Ceros')
+plt.xlabel('Parte Real')
+plt.ylabel('Parte Imaginaria')
+plt.grid(True, linestyle='--')
+plt.axhline(0, color='black', linewidth=0.5)
+plt.axvline(0, color='black', linewidth=0.5)
+plt.legend()
+plt.show()
+
+# Diagrama de Bode del filtro FIR
+w_freq, h = freqz(w, worN=8000, fs=Fs)
+plt.figure(figsize=(12, 6))
+
+# Magnitud
+plt.subplot(2, 1, 1)
+plt.plot(w_freq, 20 * np.log10(abs(h)), 'b')
+plt.title('Diagrama de Bode (Magnitud y Fase)')
+plt.ylabel('Magnitud (dB)')
+plt.xscale('log')
+plt.grid(which='both', linestyle='--')
+plt.axvline(Fc, color='green')  # Frecuencia de corte
+
+# Fase
+plt.subplot(2, 1, 2)
+angles = np.unwrap(np.angle(h))
+plt.plot(w_freq, angles, 'g')
+plt.ylabel('Fase (radianes)')
+plt.xlabel('Frecuencia (Hz)')
+plt.xscale('log')
+plt.grid(which='both', linestyle='--')
+plt.axvline(Fc, color='green')  # Frecuencia de corte
+
+plt.tight_layout()
+plt.show()
+```
+| Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
+|:--------------:|:--------------:|
+|![alt text](anexos/bicep_polos.jpg)|![alt text](anexos/bicep_bode.jpg)|
+<p align="center"><i>Tabla 1: EMG - Filtro FIR.</i></p>
+
+<p align="justify"> </p>
+
+
 ## EMG: Código en Python
 
 ``` python
@@ -183,14 +233,6 @@ plt.show()
 
 
 ```
-| Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
-|:--------------:|:--------------:|
-|![alt text](anexos/bicep_polos.jpg)|![alt text](anexos/bicep_bode.jpg)|
-<p align="center"><i>Tabla 1: EMG - Filtro FIR.</i></p>
-
-<p align="justify"> </p>
-
-
 
 | Señal Cruda | Análisis espectral | Filtro FIR | 
 |:--------------:|:--------------:|:--------------:|
@@ -382,6 +424,66 @@ plt.show()
 
 ## **Filtro IIR Butterworth**<a id="FiltroIIR"></a>
 
+## Diagrama de polos y ceros // Diagrama de Bode (del filtro IIR)
+``` python
+# Diagrama de Polos y Ceros del Filtro IIR
+z, p, k = signal.tf2zpk(bd, ad)
+plt.figure(figsize=(6, 6))
+plt.scatter(np.real(z), np.imag(z), marker='o', label='Ceros', edgecolor='blue')
+plt.scatter(np.real(p), np.imag(p), marker='x', label='Polos', edgecolor='red')
+plt.title('Diagrama de Polos y Ceros del Filtro IIR')
+plt.xlabel('Parte Real')
+plt.ylabel('Parte Imaginaria')
+plt.grid(True, linestyle='--')
+plt.axhline(0, color='black', linewidth=0.5)
+plt.axvline(0, color='black', linewidth=0.5)
+plt.legend()
+plt.show()
+
+# Diagrama de Bode del filtro IIR (Digital)
+w_freq, h = signal.freqz(bd, ad, worN=8000, fs=Fs)
+plt.figure(figsize=(12, 6))
+
+# Magnitud
+plt.subplot(2, 1, 1)
+plt.plot(w_freq, 20 * np.log10(abs(h)), 'b')
+plt.title('Diagrama de Bode (Magnitud y Fase) del Filtro IIR Digital')
+plt.ylabel('Magnitud (dB)')
+plt.xscale('log')
+plt.grid(which='both', linestyle='--')
+plt.axvline(fc, color='green')  # Frecuencia de corte
+
+# Fase
+plt.subplot(2, 1, 2)
+angles = np.unwrap(np.angle(h))
+plt.plot(w_freq, angles, 'g')
+plt.ylabel('Fase (radianes)')
+plt.xlabel('Frecuencia (Hz)')
+plt.xscale('log')
+plt.grid(which='both', linestyle='--')
+plt.axvline(fc, color='green')  # Frecuencia de corte
+
+plt.tight_layout()
+plt.show()
+
+```
+| Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
+|:--------------:|:--------------:|
+|![alt text](anexos/IIR_polos.jpg)|![alt text](anexos/IIR_bode.jpg)|
+<p align="center"><i>Tabla 9: EMG - Filtro IIR.</i></p>
+
+<p align="justify"> </p>
+
+
+
+| Señal Cruda | Análisis espectral | Filtro FIR | 
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/bicep_cruda_IIR.jpg)|![alt text](anexos/bicep_espectral_IIR.jpg)|![alt text](anexos/bicep_filtrada_IIR.jpg)
+<p align="center"><i>Tabla 10: EMG - Bicep con filtro IIR.</i></p>
+
+<p align="justify"> </p>
+
+
 ## EMG: Código en Python
 ``` python
 # Importamos las librerías necesarias
@@ -516,65 +618,7 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.show()
-
-# Diagrama de Polos y Ceros del Filtro IIR
-z, p, k = signal.tf2zpk(bd, ad)
-plt.figure(figsize=(6, 6))
-plt.scatter(np.real(z), np.imag(z), marker='o', label='Ceros', edgecolor='blue')
-plt.scatter(np.real(p), np.imag(p), marker='x', label='Polos', edgecolor='red')
-plt.title('Diagrama de Polos y Ceros del Filtro IIR')
-plt.xlabel('Parte Real')
-plt.ylabel('Parte Imaginaria')
-plt.grid(True, linestyle='--')
-plt.axhline(0, color='black', linewidth=0.5)
-plt.axvline(0, color='black', linewidth=0.5)
-plt.legend()
-plt.show()
-
-# Diagrama de Bode del filtro IIR (Digital)
-w_freq, h = signal.freqz(bd, ad, worN=8000, fs=Fs)
-plt.figure(figsize=(12, 6))
-
-# Magnitud
-plt.subplot(2, 1, 1)
-plt.plot(w_freq, 20 * np.log10(abs(h)), 'b')
-plt.title('Diagrama de Bode (Magnitud y Fase) del Filtro IIR Digital')
-plt.ylabel('Magnitud (dB)')
-plt.xscale('log')
-plt.grid(which='both', linestyle='--')
-plt.axvline(fc, color='green')  # Frecuencia de corte
-
-# Fase
-plt.subplot(2, 1, 2)
-angles = np.unwrap(np.angle(h))
-plt.plot(w_freq, angles, 'g')
-plt.ylabel('Fase (radianes)')
-plt.xlabel('Frecuencia (Hz)')
-plt.xscale('log')
-plt.grid(which='both', linestyle='--')
-plt.axvline(fc, color='green')  # Frecuencia de corte
-
-plt.tight_layout()
-plt.show()
-
 ```
-| Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
-|:--------------:|:--------------:|
-|![alt text](anexos/IIR_polos.jpg)|![alt text](anexos/IIR_bode.jpg)|
-<p align="center"><i>Tabla 9: EMG - Filtro IIR.</i></p>
-
-<p align="justify"> </p>
-
-
-
-| Señal Cruda | Análisis espectral | Filtro FIR | 
-|:--------------:|:--------------:|:--------------:|
-|  ![alt text](anexos/bicep_cruda_IIR.jpg)|![alt text](anexos/bicep_espectral_IIR.jpg)|![alt text](anexos/bicep_filtrada_IIR.jpg)
-<p align="center"><i>Tabla 10: EMG - Bicep con filtro IIR.</i></p>
-
-<p align="justify"> </p>
-
-
 
 | Señal Cruda | Análisis espectral | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|
