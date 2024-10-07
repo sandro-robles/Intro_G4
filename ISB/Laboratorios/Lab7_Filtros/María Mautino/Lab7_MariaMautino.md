@@ -3,7 +3,7 @@
 1. [Introducción](#t1)\
    1.1 [Filtros Digitales](#t2)\
    1.2 [Filtros FIR](#t3)
-      - 1.2.1 [Método de las ventanas](#t4)
+      - 1.2.1 [Método de las ventanas](#t4)\
    1.3 [Filtros IIR](#t5)
       - 1.3.1 [Métodos de Diseño de Filtros IIR](#t6)
 2. [Objetivos del laboratorio](#t7)
@@ -49,11 +49,10 @@
 
 | **Filtro**           | **Imagen**                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------------------------|
-| Butterworth [8]       | <img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203600.png" width="400" height="300">            |
-| Chebyshev Tipo I [8]  | <img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203543.png" width="400" height="300">            |
-| Chebyshev Tipo II [8] | <img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203617.png" width="400" height="300">            |
-| Elíptico [8]          | <img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203632.png" width="400" height="300">            |
-
+| Butterworth: Ideal para una respuesta de frecuencia suave, sin ondulaciones, y cuando no se necesita alta selectividad [8].  | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203600.png" width="200" height="150"></div> |
+| Chebyshev Tipo I:  Alta selectividad con ondulaciones en la banda de paso, útil cuando las ondulaciones no son un problema [8]. | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203543.png" width="200" height="150"></div> |
+| Chebyshev Tipo II:Alta selectividad con ondulaciones en la banda de stop, aplicable cuando se requiere una banda de paso suave [8].| <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203617.png" width="200" height="150"></div> |
+| Elíptico: Alta selectividad con ondulaciones en ambas bandas, adecuado cuando se puede tolerar algo de distorsión a cambio de una transición rápida [8].      | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203632.png" width="200" height="150"></div> |
 
 ## 2. Objetivos <a name = "t7"></a>
 * Utilizar y filtrar señales de EMG y ECG obtenidas previamente, aplicando filtros FIR o IIR.
