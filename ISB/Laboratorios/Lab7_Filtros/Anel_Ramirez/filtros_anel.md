@@ -19,7 +19,7 @@
 
 ## Resultados <a name="t3"></a>
 ### **Ejercicio - EMG** <a name="t4"></a>
-| Campo | FFT - Original | FFT - FIR | FFT - IIR |
+| Campo | Original | FIR | IIR |
 |-----------|-----------|-----------|-----------|
 | Bícep fuerza   | <img width="768" alt="bicep_fuerza" src="https://github.com/user-attachments/assets/3272d135-0373-4faf-895b-f44f2d043e4f">
  |   |  |
