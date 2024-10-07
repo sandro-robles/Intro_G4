@@ -3,8 +3,8 @@
 1. [Introducción](#t1)\
    1.1 [Filtros Digitales](#t2)\
    1.2 [Filtros FIR](#t3)
-      - 1.2.1 [Método de las ventanas](#t4)
-   1.3 [Filtros IIR](#t5)
+      - 1.2.1 [Método de las ventanas](#t4)\
+   1.3 [Filtros IIR](#t5)\
       - 1.3.1 [Métodos de Diseño de Filtros IIR](#t6)
 2. [Objetivos del laboratorio](#t7)
 3. [Metodología](#t8)\
