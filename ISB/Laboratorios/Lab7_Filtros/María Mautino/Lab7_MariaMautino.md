@@ -18,7 +18,7 @@
 | Campo | FFT - Original vs FIR| FFT - Original vs IIR |
 |-----------|-----------|-----------|
 | Basal D2  |  <img src="Anexo_ECG/fft REPOSO ECG D2 fir.png">  | <img src="Anexo_ECG/fft REPOSO ECG D2 iir.png"  > |
-| Respiración D1 |  <img src="Anexo_ECG/fft RESPIRACON D1 fir.png">  | <img src="fft RESPIRACON D1 iii.png"  > |
+| Respiración D1 |  <img src="Anexo_ECG/fft RESPIRACON D1 fir.png">  | <img src="fft RESPIRACON D1 iir.png"  > |
 | Post Respiración D3  |  <img src="Anexo_ECG/fft POST RESPIRACION D3 fir.png">  | <img src="Anexo_ECG/fft POST RESPIRACION D3 iir.png"  > |
 | Post Ejercicio D2  |  <img src="Anexo_ECG/fft EJERCICIO D2 fir.png">  | <img src="Anexo_ECG/fft EJERCICIO D2 iir.png"  > |
 
