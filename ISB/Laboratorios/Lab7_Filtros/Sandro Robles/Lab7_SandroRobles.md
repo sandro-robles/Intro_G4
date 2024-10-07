@@ -184,22 +184,11 @@ plt.show()
 
 ```
 
-<p align="center"><img src="anexos/bicep_cruda.jpg" width="400"></p>
+| Señal Cruda | Análisis espectral | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/bicep_cruda.jpg)|![alt text](anexos/bicep_espectral.jpg)|![alt text](anexos/bicep_filtrada.jpg)|
 
-<p align="center"><i>Figura 1: Bicep señal cruda.</i></p>
-
-<p align="justify"> </p>
-
-<p align="center"><img src="anexos/bicep_espectral.jpg" width="400"></p>
-
-<p align="center"><i>Figura 2: Bicep análisis espectral.</i></p>
+<p align="center"><i>Tabla 1: EMG - Bicep con filtro FIR.</i></p>
 
 <p align="justify"> </p>
-
-<p align="center"><img src="anexos/bicep_filtrada.jpg" width="400"></p>
-
-<p align="center"><i>Figura 3: Bicep con filtro FIR.</i></p>
-
-<p align="justify"> </p>
-
 
