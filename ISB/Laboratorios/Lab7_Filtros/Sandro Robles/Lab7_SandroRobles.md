@@ -61,7 +61,7 @@ plt.show()
 | Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
 |:--------------:|:--------------:|
 |![alt text](anexos/bicep_polos.jpg)|![alt text](anexos/bicep_bode.jpg)|
-<p align="center"><i>Tabla 1: EMG - Filtro FIR.</i></p>
+<p align="center"><i>Tabla 1: Filtro FIR.</i></p>
 
 <p align="justify"> </p>
 
@@ -470,7 +470,7 @@ plt.show()
 | Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
 |:--------------:|:--------------:|
 |![alt text](anexos/IIR_polos.jpg)|![alt text](anexos/IIR_bode.jpg)|
-<p align="center"><i>Tabla 9: EMG - Filtro IIR.</i></p>
+<p align="center"><i>Tabla 9: Filtro IIR.</i></p>
 
 <p align="justify"> </p>
 
@@ -797,3 +797,393 @@ plt.show()
 <p align="center"><i>Tabla 16: ECG - D1, D2 y D3 con filtro IIR (Durante y tras la retención de la respiración).</i></p>
 
 <p align="justify"> </p>
+
+## **Filtro BESSEL**<a id="FiltroBESSEL"></a>
+
+## Diagrama de polos y ceros // Diagrama de Bode (del filtro BESSEL)
+``` python
+# Diagrama de Polos y Ceros del Filtro Bessel
+z, p, k = signal.tf2zpk(bd, ad)
+plt.figure(figsize=(6, 6))
+plt.scatter(np.real(z), np.imag(z), marker='o', label='Ceros', edgecolor='blue')
+plt.scatter(np.real(p), np.imag(p), marker='x', label='Polos', edgecolor='red')
+plt.title('Diagrama de Polos y Ceros del Filtro Bessel')
+plt.xlabel('Parte Real')
+plt.ylabel('Parte Imaginaria')
+plt.grid(True, linestyle='--')
+plt.axhline(0, color='black', linewidth=0.5)
+plt.axvline(0, color='black', linewidth=0.5)
+plt.legend()
+plt.show()
+
+# Diagrama de Bode del filtro Bessel (Digital)
+w_freq, h = signal.freqz(bd, ad, worN=8000, fs=Fs)
+plt.figure(figsize=(12, 6))
+
+# Magnitud
+plt.subplot(2, 1, 1)
+plt.plot(w_freq, 20 * np.log10(abs(h)), 'b')
+plt.title('Diagrama de Bode (Magnitud y Fase) del Filtro Bessel Digital')
+plt.ylabel('Magnitud (dB)')
+plt.xscale('log')
+plt.grid(which='both', linestyle='--')
+plt.axvline(fc, color='green')  # Frecuencia de corte
+
+# Fase
+plt.subplot(2, 1, 2)
+angles = np.unwrap(np.angle(h))
+plt.plot(w_freq, angles, 'g')
+plt.ylabel('Fase (radianes)')
+plt.xlabel('Frecuencia (Hz)')
+plt.xscale('log')
+plt.grid(which='both', linestyle='--')
+plt.axvline(fc, color='green')  # Frecuencia de corte
+
+plt.tight_layout()
+plt.show()
+```
+| Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
+|:--------------:|:--------------:|
+|![alt text](anexos/BESSEL_polos.jpg)|![alt text](anexos/BESSEL_bode.jpg)|
+<p align="center"><i>Tabla 17: Filtro BESSEL.</i></p>
+
+<p align="justify"> </p>
+
+
+## EMG: Código en Python
+
+``` python
+# Importamos las librerías necesarias
+import numpy as np
+from scipy import signal
+import matplotlib.pyplot as plt
+
+# Leer los archivos de texto de EMG en el bíceps (fuerza, movimiento, reposo)
+array_fuerza = np.genfromtxt("bicep fuerza.txt", delimiter="\t")
+array_movimiento = np.genfromtxt("bicep movimiento.txt", delimiter="\t")
+array_reposo = np.genfromtxt("bicep reposo.txt", delimiter="\t")
+
+# Extraer los valores de cada señal
+valores_fuerza = array_fuerza[:,-2]
+valores_movimiento = array_movimiento[:,-2]
+valores_reposo = array_reposo[:,-2]
+
+# Determinar la longitud de cada arreglo
+cantidad_fuerza = np.size(valores_fuerza)
+cantidad_movimiento = np.size(valores_movimiento)
+cantidad_reposo = np.size(valores_reposo)
+
+# Frecuencia de muestreo de las señales
+Fs = 1000  # Hz
+
+# Crear vectores de tiempo para cada señal
+tiempo_fuerza = np.arange(0, cantidad_fuerza) / Fs
+tiempo_movimiento = np.arange(0, cantidad_movimiento) / Fs
+tiempo_reposo = np.arange(0, cantidad_reposo) / Fs
+
+# Convertir valores a mV (ajustar si es necesario para EMG)
+valores_fuerza = (((valores_fuerza / 1024) - 0.5) * 3.3) / 1100 * 1000
+valores_movimiento = (((valores_movimiento / 1024) - 0.5) * 3.3) / 1100 * 1000
+valores_reposo = (((valores_reposo / 1024) - 0.5) * 3.3) / 1100 * 1000
+
+# Mostrar las señales originales sin filtrar
+plt.figure(figsize=(15, 10))
+plt.subplot(3, 1, 1)
+plt.plot(tiempo_reposo, valores_reposo)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('EMG en reposo (cruda)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.subplot(3, 1, 2)
+plt.plot(tiempo_movimiento, valores_movimiento)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('EMG en movimiento (cruda)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.subplot(3, 1, 3)
+plt.plot(tiempo_fuerza, valores_fuerza)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('EMG en fuerza (cruda)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
+
+# Análisis espectral usando FFT
+N = 1024
+X_reposo = np.fft.fft(valores_reposo, N)[:N//2]
+X_movimiento = np.fft.fft(valores_movimiento, N)[:N//2]
+X_fuerza = np.fft.fft(valores_fuerza, N)[:N//2]
+
+# Magnitudes
+mag_reposo = np.abs(X_reposo)
+mag_movimiento = np.abs(X_movimiento)
+mag_fuerza = np.abs(X_fuerza)
+
+# Frecuencias
+F = np.linspace(0, Fs / 2, N // 2)
+
+# Graficar espectros de frecuencia
+plt.figure(figsize=(15, 5))
+plt.plot(F, mag_reposo, label="Reposo")
+plt.plot(F, mag_movimiento, label="Movimiento")
+plt.plot(F, mag_fuerza, label="Fuerza")
+plt.xlabel("Frecuencia (Hz)")
+plt.ylabel("Magnitud (dB)")
+plt.title("Análisis espectral de las señales EMG")
+plt.legend()
+plt.xlim([0, 200])
+plt.grid(linestyle=":")
+plt.show()
+
+# Diseño del filtro Bessel
+orden = 4  # Orden del filtro (ajustar según necesidades)
+fc = 30  # Frecuencia de corte en Hz
+wc = 2 * np.pi * fc  # Frecuencia angular
+
+# Crear filtro Bessel analógico
+b, a = signal.bessel(orden, wc, btype='low', analog=True, norm='phase')
+
+# Convertir a digital usando la transformación bilineal
+bd, ad = signal.bilinear(b, a, fs=Fs)
+
+# Filtrado de las señales
+y_reposo = signal.lfilter(bd, ad, valores_reposo)
+y_movimiento = signal.lfilter(bd, ad, valores_movimiento)
+y_fuerza = signal.lfilter(bd, ad, valores_fuerza)
+
+# Graficar señales filtradas
+plt.figure(figsize=(15, 10))
+plt.subplot(3, 1, 1)
+plt.plot(tiempo_reposo, y_reposo)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('EMG en reposo (filtrada - Bessel)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.subplot(3, 1, 2)
+plt.plot(tiempo_movimiento, y_movimiento)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('EMG en movimiento (filtrada - Bessel)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.subplot(3, 1, 3)
+plt.plot(tiempo_fuerza, y_fuerza)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('EMG en fuerza (filtrada - Bessel)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
+```
+
+| Señal Cruda | Análisis espectral | Filtro BESSEL | 
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/bicep_cruda_BESSEL.jpg)|![alt text](anexos/bicep_espectral.jpg)|![alt text](anexos/bicep_filtrada.jpg)
+<p align="center"><i>Tabla 2: EMG - Bicep con filtro FIR.</i></p>
+
+<p align="justify"> </p>
+
+
+
+| Señal Cruda | Análisis espectral | Filtro BESSEL |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/gastro_cruda.jpg)|![alt text](anexos/gastro_espectral_BESSEL.jpg)|![alt text](anexos/gastro_filtrada_BESSEL.jpg)|
+
+<p align="center"><i>Tabla 18: EMG - Gastrocnemio con filtro BESSEL.</i></p>
+
+<p align="justify"> </p>
+
+
+| Señal Cruda | Análisis espectral | Filtro BESSEL |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/trap_cruda_BESSEL.jpg)|![alt text](anexos/trap_espectral_BESSEL.jpg)|![alt text](anexos/trap_filtrada_BESSEL.jpg)|
+
+<p align="center"><i>Tabla 19: EMG - Trapecio con filtro BESSEL.</i></p>
+
+<p align="justify"> </p>
+
+
+| Señal Cruda | Análisis espectral | Filtro BESSEL |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/tricep_cruda_BESSEL.jpg)|![alt text](anexos/tricep_espectral_BESSEL.jpg)|![alt text](anexos/tricep_filtrada_BESSEL.jpg)|
+
+<p align="center"><i>Tabla 20: EMG - Tricep con filtro BESSEL.</i></p>
+
+<p align="justify"> </p>
+
+## ECG: Código en Python
+
+``` python
+# Importamos las librerías necesarias
+import numpy as np
+from scipy import signal
+import matplotlib.pyplot as plt
+
+# Leer los archivos de texto de ECG (derivaciones D1, D2, D3)
+array_d1 = np.genfromtxt("EJERCICIO D1.txt", delimiter="\t")
+array_d2 = np.genfromtxt("EJERCICIO D2.txt", delimiter="\t")
+array_d3 = np.genfromtxt("EJERCICIO D3.txt", delimiter="\t")
+
+# Extraer los valores de cada señal
+valores_d1 = array_d1[:,-2]
+valores_d2 = array_d2[:,-2]
+valores_d3 = array_d3[:,-2]
+
+# Determinar la longitud de cada arreglo
+cantidad_d1 = np.size(valores_d1)
+cantidad_d2 = np.size(valores_d2)
+cantidad_d3 = np.size(valores_d3)
+
+# Frecuencia de muestreo de las señales
+Fs = 1000  # Hz
+
+# Crear vectores de tiempo para cada señal
+tiempo_d1 = np.arange(0, cantidad_d1) / Fs
+tiempo_d2 = np.arange(0, cantidad_d2) / Fs
+tiempo_d3 = np.arange(0, cantidad_d3) / Fs
+
+# Convertir valores a mV (ajustar si es necesario para ECG)
+valores_d1 = (((valores_d1 / 1024) - 0.5) * 3.3) / 1100 * 1000
+valores_d2 = (((valores_d2 / 1024) - 0.5) * 3.3) / 1100 * 1000
+valores_d3 = (((valores_d3 / 1024) - 0.5) * 3.3) / 1100 * 1000
+
+# Mostrar las señales originales sin filtrar
+plt.figure(figsize=(15, 10))
+plt.subplot(3, 1, 1)
+plt.plot(tiempo_d1, valores_d1)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('ECG Derivación 1 (cruda)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.subplot(3, 1, 2)
+plt.plot(tiempo_d2, valores_d2)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('ECG Derivación 2 (cruda)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.subplot(3, 1, 3)
+plt.plot(tiempo_d3, valores_d3)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('ECG Derivación 3 (cruda)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
+
+# Análisis espectral usando FFT
+N = 1024
+X_d1 = np.fft.fft(valores_d1, N)[:N//2]
+X_d2 = np.fft.fft(valores_d2, N)[:N//2]
+X_d3 = np.fft.fft(valores_d3, N)[:N//2]
+
+# Magnitudes
+mag_d1 = np.abs(X_d1)
+mag_d2 = np.abs(X_d2)
+mag_d3 = np.abs(X_d3)
+
+# Frecuencias
+F = np.linspace(0, Fs / 2, N // 2)
+
+# Graficar espectros de frecuencia
+plt.figure(figsize=(15, 5))
+plt.plot(F, mag_d1, label="Derivación 1")
+plt.plot(F, mag_d2, label="Derivación 2")
+plt.plot(F, mag_d3, label="Derivación 3")
+plt.xlabel("Frecuencia (Hz)")
+plt.ylabel("Magnitud (dB)")
+plt.title("Análisis espectral de las señales ECG")
+plt.legend()
+plt.xlim([0, 200])
+plt.grid(linestyle=":")
+plt.show()
+
+# Diseño del filtro Bessel
+orden = 4  # Orden del filtro
+fc = 30  # Frecuencia de corte en Hz
+wc = 2 * np.pi * fc  # Frecuencia angular
+
+# Crear filtro Bessel analógico
+b, a = signal.bessel(orden, wc, btype='low', analog=True, norm='phase')
+
+# Convertir a digital usando la transformación bilineal
+bd, ad = signal.bilinear(b, a, fs=Fs)
+
+# Filtrado de las señales
+y_d1 = signal.lfilter(bd, ad, valores_d1)
+y_d2 = signal.lfilter(bd, ad, valores_d2)
+y_d3 = signal.lfilter(bd, ad, valores_d3)
+
+# Graficar señales filtradas
+plt.figure(figsize=(15, 10))
+plt.subplot(3, 1, 1)
+plt.plot(tiempo_d1, y_d1)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('ECG Derivación 1 (filtrada - Bessel)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.subplot(3, 1, 2)
+plt.plot(tiempo_d2, y_d2)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('ECG Derivación 2 (filtrada - Bessel)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.subplot(3, 1, 3)
+plt.plot(tiempo_d3, y_d3)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('ECG Derivación 3 (filtrada - Bessel)')
+plt.xlim([3, 8])
+plt.grid(True)
+
+plt.tight_layout()
+plt.show()
+
+```
+
+| Señal Cruda | Análisis espectral | Filtro BESSEL|
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/ejercicio_cruda_BESSEL.jpg)|![alt text](anexos/ejercicio_espectral_BESSEL.jpg)|![alt text](anexos/ejercicio_filtrada_BESSEL.jpg)|
+
+<p align="center"><i>Tabla 21: ECG - D1, D2 y D3 con filtro BESSEL (Ejercicio).</i></p>
+
+<p align="justify"> </p>
+
+
+| Señal Cruda | Análisis espectral | Filtro BESSEL |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/reposo_cruda_BESSEL.jpg)|![alt text](anexos/reposo_espectral_BESSEL.jpg)|![alt text](anexos/reposo_filtrada_BESSEL.jpg)|
+
+<p align="center"><i>Tabla 22: ECG - D1, D2 y D3 con filtro BESSEL (Reposo).</i></p>
+
+<p align="justify"> </p>
+
+| Señal Cruda | Análisis espectral | Filtro BESSEL |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/respi_cruda_BESSEL.jpg)|![alt text](anexos/respi_espectral_BESSEL.jpg)|![alt text](anexos/respi_filtrada_BESSEL.jpg)|
+
+<p align="center"><i>Tabla 23: ECG - D1, D2 y D3 con filtro BESSEL (Durante y tras la retención de la respiración).</i></p>
+
+<p align="justify"> </p>
+
