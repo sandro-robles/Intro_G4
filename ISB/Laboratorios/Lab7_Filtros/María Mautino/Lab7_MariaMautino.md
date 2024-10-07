@@ -1,20 +1,26 @@
 # Laboratorio N°7 - Diseño de Filtros FIR y IIR
 ## **Tabla de contenidos:**
+
 1. [Introducción](#t1)\
    1.1 [Filtros Digitales](#t2)\
    1.2 [Filtros FIR](#t3)\
-     - 1.2.1 [Método de las ventanas](#t4)\
+   1.2.1 [Método de las ventanas](#t4)\
    1.3 [Filtros IIR](#t5)\
-     - 1.3.1 [Métodos de Diseño de Filtros IIR](#t6)
+   1.3.1 [Métodos de Diseño de Filtros IIR](#t6)
+
 2. [Objetivos del laboratorio](#t7)
+
 3. [Metodología](#t8)\
    3.1 [Ejercicio ECG](#t9)
+
 4. [Resultados](#t10)\
    4.1 [Ejercicio ECG](#t11)\
    4.2 [Ejercicio EMG](#t12)
+
 5. [Discusión](#t13)\
    5.1 [Señal ECG](#t14)\
    5.2 [Señal EMG](#t15)
+
 6. [Bibliografía](#t16)
 
 
