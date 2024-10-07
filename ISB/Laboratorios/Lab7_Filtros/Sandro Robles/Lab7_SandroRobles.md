@@ -184,19 +184,19 @@ plt.show()
 
 ```
 
-<p align="center"><img src="anexos/bicep_cruda.png" width="400"></p>
+<p align="center"><img src="anexos/bicep_cruda.jpg" width="400"></p>
 
 <p align="center"><i>Figura 1: Bicep señal cruda  [3].</i></p>
 
 <p align="justify"> </p>
 
-<p align="center"><img src="anexos/bicep_espectral.png" width="400"></p>
+<p align="center"><img src="anexos/bicep_espectral.jpg" width="400"></p>
 
 <p align="center"><i>Figura 2: Bicep análisis espectral  [3].</i></p>
 
 <p align="justify"> </p>
 
-<p align="center"><img src="anexos/bicep_filtrada.png" width="400"></p>
+<p align="center"><img src="anexos/bicep_filtrada.jpg" width="400"></p>
 
 <p align="center"><i>Figura 3: Bicep con filtro FIR  [3].</i></p>
 
