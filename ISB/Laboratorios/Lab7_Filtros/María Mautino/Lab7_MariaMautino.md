@@ -1,9 +1,12 @@
 # Laboratorio N°7 - Diseño de Filtros FIR y IIR 
 ## **Tabla de contenidos:**
-1. [Introducción](#t1)
-2. [Objetivos del laboratorio](#t2)
-3. [Metodología](#t3)\
-   3.1 [Ejercicio ECG](#t4)\
+1. [Introducción](#t1)\
+   1.1 [Filtros Digitales](#t6)\
+   1.2 [Filtros FIR](#t7)\
+   1.3 [Filtros IIR](#t7)
+3. [Objetivos del laboratorio](#t2)
+4. [Metodología](#t3)\
+   3.1 [Ejercicio ECG](#t4)
 5. [Resultados](#t5)\
    4.1 [Ejercicio ECG](#t6)\
    4.2 [Ejercicio EMG ](#t7)
@@ -14,6 +17,25 @@
 
 ## 1. Introducción  <a name = "t1"></a>
 <p align="justify">El presente informe tiene como objetivo mostrar el uso de distintos tipos de filtros FIR (Filtro de Respuesta al Impulso Finita), IIR (Filtro de Respuesta al Impulso Infinita) en las señales bioeléctricas de ECG (Electrocardiograma) y EMG (Electromiograma) adquiridas durante las sesiones prácticas. Los filtros son herramientas esenciales que nos permiten modificar una señal con el fin de eliminar ruidos o interferencias y así obtener datos más precisos. En el caso del ECG, utilizado para medir la actividad eléctrica del corazón, y el EMG, que registra la actividad eléctrica generada por los músculos, los filtros juegan un papel importante para mejorar la calidad de las señales y facilitar su interpretación, eliminando perturbaciones como el ruido ambiental o el movimiento [1].</p>
+
+### 1.1 Filtros Digitales:  <a name = "t1"></a>
+<p align="justify">Un filtro digital es un sistema que procesa señales aplicando operaciones matemáticas sobre una señal previamente muestreada ,es decir, una señal continua convertida en una secuencia de valores discretos. Esta señal discreta no tiene un valor en todos los instantes de tiempo, ya que está cuantificada. Además, al ser una señal digital, representa físicamente una secuencia de valores discretos, como puede ser un flujo de bits o una señal analógica que ha sido digitalizada [2].</p>
+
+### 1.2 Filtros FIR:  <a name = "t1"></a>
+<p align="justify">Los filtros FIR, conocidos como filtros no recursivos, tienen una respuesta finita al impulso, lo que significa que su salida depende únicamente de las entradas actuales y no de las salidas anteriores. Este tipo de filtro es muy estable y garantiza una fase lineal, lo que los hace ideales para aplicaciones en las que la precisión de la fase es importante. Al aplicar la convolución, el filtro FIR realiza un promedio ponderado de las muestras de entrada, y su salida eventualmente desaparece cuando las entradas se reducen a cero. Debido a su estabilidad y predictibilidad, los filtros FIR son ampliamente utilizados en aplicaciones como procesamiento de audio, mejora de imágenes y sistemas de comunicación, donde se requiere un control preciso de la frecuencia [3].</p>
+<p align="center"><img src="Anexo_Biceps/Filtro-FIR-estructura-basica.png" width="400"></p>
+<p align="center"><i>Figura 1:Estructura básica de un filtro FIR [4].</i></p>
+
+### Método de las ventanas:  <a name = "t1"></a>
+<p align="justify">El diseño de filtros FIR mediante el método de ventanas se basa en modificar la respuesta al impulso de un filtro ideal para obtener un filtro realizable y causal. Primero, se obtiene la respuesta al impulso de un filtro ideal (como paso bajo o paso alto), que es infinita en el tiempo. Luego, se aplica una ventana para truncar esa respuesta y limitarla a una longitud finita. Las ventanas, como las de Hamming o Blackman, ayudan a suavizar los bordes de la señal truncada, mejorando la atenuación de frecuencias no deseadas. Finalmente, la respuesta al impulso se desplaza en el tiempo para hacerla causal, es decir, para garantizar que el filtro sea físicamente implementable en un sistema real. Este método es sencillo y permite diseñar filtros con características controlables, aunque no es tan preciso como otros métodos más avanzados [5].</p>
+<p align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 194845.png" width="400"></p>
+<p align="center"><i>Figura 2: Respuesta en frecuencia y valores de ponderación de diferentes tipos de ventanas. [6].</i></p>
+
+### 1.3 Filtros IIR:  <a name = "t1"></a>
+<p align="justify">Por otro lado, los filtros IIR son recursivos y tienen una respuesta al impulso infinita, ya que la salida depende tanto de las entradas actuales como de las salidas previas. Esto les permite ser más eficientes en términos computacionales, ya que pueden lograr un filtrado similar a los FIR con menos coeficientes. Sin embargo, los filtros IIR pueden introducir distorsiones de fase y ser susceptibles a inestabilidad si no se diseñan adecuadamente. Estos filtros son preferidos en aplicaciones donde se requiere un procesamiento rápido y eficiente, como en el procesamiento de señales biomédicas (por ejemplo, ECG y EEG), sistemas de control y algoritmos de compresión de audio y voz, donde se necesita una respuesta rápida y eficaz [3].</p>
+<p align="center"><img src="Anexo_Biceps/Esquema-general-de-un-sistema-de-filtro-IIR-con-estructura-Directa-tipo-I.png" width="400"></p>
+
+<p align="center"><i>Figura 2:Esquema general de un filtro IIR [7].</i></p>
 
 ## 2. Objetivos <a name = "t2"></a>
 * Utilizar y filtrar señales de EMG y ECG obtenidas previamente, aplicando filtros FIR o IIR.
@@ -88,6 +110,12 @@
 
 ### **Bibliografía:** <a name="t10"></a>
 <p align="justify">[1] L. Romero, “Análisis de señales electrocardiográficas usando técnicas de procesamiento digital,” Uoc.edu, 2015, doi: http://hdl.handle.net/10609/40186.</p>
+<p align="justify">[2] DEWESoft d.o.o, “Signal filtering, Signal suppression, Signal processing | Dewesoft,” Dewesoft.com, 2023. https://training.dewesoft.com/online/course/filters (accessed Oct. 06, 2024).</p>
+<p align="justify"> [3] Hardware, “Hardware and Systems Engineering Design - FIR vs IIR Digital Filter,” Hwe.design, 2024. https://www.hwe.design/theories-concepts/signal-processing/fir-vs-iir-digital-filter (accessed Oct. 06, 2024).</p>
+<p align="justify"> [4] Figura 2-2. Filtro FIR, estructura básica,” ResearchGate, 2024. https://www.researchgate.net/figure/Figura-2-2-Filtro-FIR-estructura-basica_fig1_335241476 (accessed Oct. 06, 2024).</p
+<p align="justify"> [5] “Jaime Ramirez Grupo 11-Tarea 4 - Tarea 4 - Realizar simulaciones de filtros aplicando herramientas - Studocu,” Studocu, 2020. https://www.studocu.com/co/document/universidad-nacional-abierta-y-a-distancia/tratamiento-de-imagenes/jaime-ramirez-grupo-11-tarea-4/39937696 (accessed Oct. 07, 2024).‌</p>
+<p align="justify"> [6] “FIR Filters by Windowing - The Lab Book Pages,” Labbookpages.co.uk, 2024. http://www.labbookpages.co.uk/audio/firWindowing.html (accessed Oct. 07, 2024).‌</p>
+<p align="justify"> [7] “Figura 5-7.: Esquema general de un sistema de filtro IIR con estructura...,” ResearchGate, 2016. https://www.researchgate.net/figure/Figura-5-7-Esquema-general-de-un-sistema-de-filtro-IIR-con-estructura-Directa-tipo-I_fig58_323019453 (accessed Oct. 06, 2024).‌</p>
 ‌
 
 
