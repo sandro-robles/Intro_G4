@@ -11,4 +11,4 @@
    5.2 [Señal EMG](#t9)
 6. [Bibliografía](#t10)
 
-<img src="ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/Ventanas.PNG" alt="Electrodos de guía" >
+<img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/Ventanas.PNG?raw=true" alt="Electrodos de guía" >
