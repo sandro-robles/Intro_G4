@@ -3,8 +3,8 @@
 1. [Introducción](#t1)
 1. [Objetivos del laboratorio](#t2)
 4. [Resultados](#t3)\
-   3.1 [Ejercicio ECG](#t4)\
-   3.2 [Ejercicio EMG ](#t5)
+   3.1 [Ejercicio EMG](#t4)\
+   3.2 [Ejercicio ECG ](#t5)
 5. [Discusión](#t6)\
    4.1 [Señal ECG](#t7)\
    4.2 [Señal EMG](#t8)
@@ -18,5 +18,14 @@
 - Incluir diagramas de polos y zeros
 
 ## Resultados <a name="t3"></a>
+### **Ejercicio - EMG** <a name="t4"></a>
+| Campo | FFT - Original | FFT - FIR | FFT - IIR |
+|-----------|-----------|-----------|-----------|
+| Bícep fuerza   | <img width="768" alt="bicep_fuerza" src="https://github.com/user-attachments/assets/3272d135-0373-4faf-895b-f44f2d043e4f">
+ |   |  |
+| Gastro en Movimiento | <img src="Anexo_Biceps/ftt tricep en movimiento.png">  | <img src="Anexo_Biceps/fft ftt tricep en movimiento (FIR).png">  | <img src="Anexo_Biceps/fft tricep en movimiento (IIR).png">  |
+|Mano en reposo  |  <img src="Anexo_Biceps/fft mano reposo.png">  | <img src="Anexo_Biceps/fft mano reposo (FIR).png">  | <img src="Anexo_Biceps/fft mano reposo (IIR).png">  |
+|Trapecio reposo |  <img src="Anexo_Biceps/fft trapecio movimiento fuerza.png">  | <img src="Anexo_Biceps/fft trapecio movimiento fuerza (FIR).png">  | <img src="Anexo_Biceps/fft trapecio movimiento fuerza (IIR).png">  |
+|Tricep con fuerza | <img src="Anexo_Biceps/fft_gastro.png">  | <img src="Anexo_Biceps/fft_gastro (FIR).png">  | <img src="Anexo_Biceps/fft gastromov (IIR).png">  |
 
 
