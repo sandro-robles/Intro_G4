@@ -15,7 +15,7 @@
 <p align="justify"> </p>
 
 ## **Filtro FIR: EMG**<a id="FiltroFIREMG"></a>
-Bícep:
+
 ## Código en Python
 
 ``` python
@@ -24,7 +24,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import firwin, lfilter, freqz, tf2zpk
 
-# Leer los archivos de texto de EMG en el bíceps
+# Leer los archivos de texto de EMG en el bíceps -> AQUI SOLO CAMBIAMOS LOS DIFERENTES TXT PARA CADA MÚSCULO
 array_reposo = np.genfromtxt("bicep reposo.txt", delimiter="\t")
 array_movimiento = np.genfromtxt("bicep movimiento.txt", delimiter="\t")
 array_fuerza = np.genfromtxt("bicep fuerza.txt", delimiter="\t")
@@ -192,3 +192,12 @@ plt.show()
 
 <p align="justify"> </p>
 
+
+
+| Señal Cruda | Análisis espectral | Filtro FIR | Diagrama de Polos y Ceros |Diagrama de Bode (Magnitud y Fase) |
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/gastro_cruda.jpg)|![alt text](anexos/gastro_espectral.jpg)|![alt text](anexos/gastro_filtrada.jpg)|![alt text](anexos/gastro_polos.jpg)|![alt text](anexos/gastro_bode.jpg)|
+
+<p align="center"><i>Tabla 1: EMG - Gastrocnemio con filtro FIR.</i></p>
+
+<p align="justify"> </p>
