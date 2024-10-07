@@ -59,7 +59,7 @@
 | Filtro | Diagrama de Bode | Diagrama de Polos y Ceros |
 |--------|------------------|--------------------------|
 | FIR    | <img src="Anexo_ECG/bodefiremg.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/zerosfiremg.png" width="400" height="300" style="display:block; margin:auto;"/> |
-| IIR    | <img src="Anexo_ECG/bodeiiremg.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/zerosiiremg.png.png" width="400" height="300" style="display:block; margin:auto;"/> |
+| IIR    | <img src="Anexo_ECG/bodeiiremg.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/zerosiiremg.png" width="400" height="300" style="display:block; margin:auto;"/> |
 
 ### **Bibliografía:** <a name="t12"></a>
 <p align="justify">[1] L. Romero, “Análisis de señales electrocardiográficas usando técnicas de procesamiento digital,” Uoc.edu, 2015, doi: http://hdl.handle.net/10609/40186.</p>
