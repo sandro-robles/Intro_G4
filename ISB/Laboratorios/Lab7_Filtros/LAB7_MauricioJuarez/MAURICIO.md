@@ -23,6 +23,7 @@
 
 <p align="center">
   <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/Se%C3%B1alesOriginalesECG.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Señales adquiridas de electrocardiograma</i></p>
 </p>
 
 
