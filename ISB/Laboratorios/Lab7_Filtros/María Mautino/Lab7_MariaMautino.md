@@ -123,14 +123,6 @@ Sin embargo, el uso de filtros FIR de orden elevado conlleva una mayor complejid
 <p align="justify">Las señales de electromiografía de superficie (sEMG) suelen verse afectadas por varios tipos de ruidos, como el ruido de la línea eléctrica (PLI), el desplazamiento de la línea base (BW) y el ruido blanco gaussiano (WGN). Para mitigar estos ruidos, se suelen utilizar filtros digitales simples como los filtros IIR (Respuesta Infinita al Impulso) y FIR (Respuesta Finita al Impulso). Los filtros IIR son eficientes en términos computacionales, ya que requieren menos coeficientes para alcanzar una respuesta similar a la de los filtros FIR. No obstante, pueden introducir distorsiones de fase y ser menos estables. Los filtros FIR, por su parte, aunque garantizan una fase lineal y son siempre estables, requieren más recursos computacionales debido a la mayor cantidad de coeficientes necesarios. Ambos tipos de filtros son efectivos en reducir ruidos como el PLI y BW, pero tienen dificultades para manejar el WGN, que se superpone con el espectro de la señal sEMG.
 Debido a estas limitaciones, se han desarrollado técnicas avanzadas para mejorar la calidad de las señales sEMG. Entre ellas, la Transformada Wavelet se destaca, ya que permite separar el ruido de la señal utilizando resoluciones en el tiempo y la frecuencia [11].</p>
 
-<div align="center">
-   
-|  **Parámetro**  | **FIR** | **IIR** | 
-|:------------:|:---------------:|:------------:|
-|Tipo de filtro|Notch - Pasabanda |Notch-Butterworth|
-<p align="center"><i>Tabla 4. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal EMG. </i></p>
-</div>
-
 ### **Archivo de las señales ploteadas en Python.** <a name="t5"></a>
   - [EMG - FIR](https://github.com/sandro-robles/Intro_G4/blob/a164dcd24f881cf9e05baff796d131be994c7412/ISB/Laboratorios/Lab7_Filtros/Mar%C3%ADa%20Mautino/C%C3%B3digos_EMG/FIR%20emg.py)
 
