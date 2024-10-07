@@ -730,26 +730,26 @@ plt.show()
 
 ```
 
-| Señal Cruda | Análisis espectral | Filtro FIR |
+| Señal Cruda | Análisis espectral | Filtro IIR |
 |:--------------:|:--------------:|:--------------:|
-|  ![alt text](anexos/ejercicio_cruda.jpg)|![alt text](anexos/ejercicio_espectral.jpg)|![alt text](anexos/ejercicio_filtrada.jpg)|
+|  ![alt text](anexos/ejercicio_cruda_IIR.jpg)|![alt text](anexos/ejercicio_espectral_IIR.jpg)|![alt text](anexos/ejercicio_filtrada_IIR.jpg)|
 
 <p align="center"><i>Tabla 14: ECG - D1, D2 y D3 con filtro IIR (Ejercicio).</i></p>
 
 <p align="justify"> </p>
 
 
-| Señal Cruda | Análisis espectral | Filtro FIR |
+| Señal Cruda | Análisis espectral | Filtro IIR |
 |:--------------:|:--------------:|:--------------:|
-|  ![alt text](anexos/reposo_cruda.jpg)|![alt text](anexos/reposo_espectral.jpg)|![alt text](anexos/reposo_filtrada.jpg)|
+|  ![alt text](anexos/reposo_cruda_IIR.jpg)|![alt text](anexos/reposo_espectral_IIR.jpg)|![alt text](anexos/reposo_filtrada_IIR.jpg)|
 
 <p align="center"><i>Tabla 15: ECG - D1, D2 y D3 con filtro IIR (Reposo).</i></p>
 
 <p align="justify"> </p>
 
-| Señal Cruda | Análisis espectral | Filtro FIR |
+| Señal Cruda | Análisis espectral | Filtro IIR |
 |:--------------:|:--------------:|:--------------:|
-|  ![alt text](anexos/respi_cruda.jpg)|![alt text](anexos/respi_espectral.jpg)|![alt text](anexos/respi_filtrada.jpg)|
+|  ![alt text](anexos/respi_cruda_IIR.jpg)|![alt text](anexos/respi_espectral_IIR.jpg)|![alt text](anexos/respi_filtrada_IIR.jpg)|
 
 <p align="center"><i>Tabla 16: ECG - D1, D2 y D3 con filtro IIR (Durante y tras la retención de la respiración).</i></p>
 
