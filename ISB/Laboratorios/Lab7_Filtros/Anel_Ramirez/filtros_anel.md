@@ -9,13 +9,14 @@
    4.1 [Señal ECG](#t7)\
    4.2 [Señal EMG](#t8)
 ## Introducción <a name= "t1"></a>
-<p align="justify">El propósito del presente informe es analizar el uso de diferentes tipos de filtros como FIR e IIR aplicados a las señales bioeléctricas de ECG (Electrocardiograma) y EMG (Electromiograma) las cuales fueron obtenidas durante las sesiones prácticas anteriores. Estos filtros permiten modificar las señales y eliminar ruidos o interferencias, lo que resulta en mediciones más precisas. En el ECG, que monitorea la actividad eléctrica del corazón, y el EMG, que registra la de los músculos, su función es crucial para mejorar la calidad de las señales y facilitar su interpretación, eliminando perturbaciones como el ruido ambiental o movimientos.
-
+<p align="justify">En este informe se presentará un análisis detallado de señales bioeléctricas utilizando filtros digitales. Se trabajará con señales de EMG (Electromiograma) y ECG (Electrocardiograma) obtenidas en las sesiones anteriores. Las señales serán procesadas mediante filtros FIR (Filtro de Respuesta al Impulso Finita) o IIR (Filtro de Respuesta al Impulso Infinita), y se incluirán gráficas que representen tanto la señal original como la filtrada en el dominio del tiempo y la frecuencia, así como la transformada corta de Fourier.Estos filtros son importantes para procesar las señales y suprimir ruidos o interferencias, lo que permite obtener mediciones más precisas. En el caso del ECG, que registra la actividad eléctrica del corazón, y del EMG, que mide la actividad eléctrica de los músculos, los filtros cumplen una función esencial al optimizar la calidad de las señales y facilitar su interpretación, eliminando perturbaciones como el ruido de fondo o el movimiento.
+   
 ## Objetivos  <a name = "t2"></a>
 - Utilizar las señales EMG y ECG obtenidas en las sesiones anteriores
 - Seleccionar una señal de cada actividad realizada para EMG y ECG
 - Las señales deben ser filtradas utilizando filtros FIR o IIR
 - Incluir diagramas de polos y zeros
 
-## Resultados
+## Resultados <a name="t3"></a>
+
 
