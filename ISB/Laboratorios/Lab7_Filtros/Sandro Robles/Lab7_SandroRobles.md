@@ -474,16 +474,6 @@ plt.show()
 
 <p align="justify"> </p>
 
-
-
-| Señal Cruda | Análisis espectral | Filtro FIR | 
-|:--------------:|:--------------:|:--------------:|
-|  ![alt text](anexos/bicep_cruda_IIR.jpg)|![alt text](anexos/bicep_espectral_IIR.jpg)|![alt text](anexos/bicep_filtrada_IIR.jpg)
-<p align="center"><i>Tabla 10: EMG - Bicep con filtro IIR.</i></p>
-
-<p align="justify"> </p>
-
-
 ## EMG: Código en Python
 ``` python
 # Importamos las librerías necesarias
@@ -619,6 +609,15 @@ plt.grid(True)
 plt.tight_layout()
 plt.show()
 ```
+
+
+| Señal Cruda | Análisis espectral | Filtro FIR | 
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/bicep_cruda_IIR.jpg)|![alt text](anexos/bicep_espectral_IIR.jpg)|![alt text](anexos/bicep_filtrada_IIR.jpg)
+<p align="center"><i>Tabla 10: EMG - Bicep con filtro IIR.</i></p>
+
+<p align="justify"> </p>
+
 
 | Señal Cruda | Análisis espectral | Filtro FIR |
 |:--------------:|:--------------:|:--------------:|
