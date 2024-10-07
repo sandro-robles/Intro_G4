@@ -19,10 +19,10 @@
 
 ## Resultados <a name="t3"></a>
 ### **Ejercicio - EMG** <a name="t4"></a>
-| Campo | Original | FIR | IIR |
-|-----------|-----------|-----------|-----------|
-| Bícep fuerza   | <img width="768" alt="bicep_fuerza" src="https://github.com/user-attachments/assets/3272d135-0373-4faf-895b-f44f2d043e4f">
- |   |  |
+| Campo | FFT - STFT- FIR - IIR |
+|-----------|-----------------------------|
+| Bícep fuerza   |<img width="1064" alt="BICEP_fuerza" src="https://github.com/user-attachments/assets/bebe8da1-1001-4a63-a435-bf4c94b6a920">
+
 | Gastro en Movimiento | <img src="Anexo_Biceps/ftt tricep en movimiento.png">  | <img src="Anexo_Biceps/fft ftt tricep en movimiento (FIR).png">  | <img src="Anexo_Biceps/fft tricep en movimiento (IIR).png">  |
 |Mano en reposo  |  <img src="Anexo_Biceps/fft mano reposo.png">  | <img src="Anexo_Biceps/fft mano reposo (FIR).png">  | <img src="Anexo_Biceps/fft mano reposo (IIR).png">  |
 |Trapecio reposo |  <img src="Anexo_Biceps/fft trapecio movimiento fuerza.png">  | <img src="Anexo_Biceps/fft trapecio movimiento fuerza (FIR).png">  | <img src="Anexo_Biceps/fft trapecio movimiento fuerza (IIR).png">  |
