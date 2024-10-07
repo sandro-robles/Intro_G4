@@ -9,7 +9,6 @@
       1.3.1 [Métodos de Diseño de Filtros IIR](#t6)  
 2. [Objetivos del laboratorio](#t7)  
 3. [Metodología](#t8)  
-   3.1 [Ejercicio ECG](#t9)  
 4. [Resultados](#t10)  
    4.1 [Ejercicio ECG](#t11)  
    4.2 [Ejercicio EMG](#t12)  
