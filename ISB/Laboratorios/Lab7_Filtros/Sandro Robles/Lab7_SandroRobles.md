@@ -223,6 +223,6 @@ plt.show()
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/tricep_cruda.jpg)|![alt text](anexos/tricep_espectral.jpg)|![alt text](anexos/tricep_filtrada.jpg)|
 
-<p align="center"><i>Tabla 5: EMG - Ticep con filtro FIR.</i></p>
+<p align="center"><i>Tabla 5: EMG - Tricep con filtro FIR.</i></p>
 
 <p align="justify"> </p>
