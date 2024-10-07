@@ -2,7 +2,7 @@
 ## **Tabla de contenidos:**
 1. [Introducción](#t1)
 2. [Objetivos del laboratorio](#t2)
-3. [Metodología](#t3)
+3. [Metodología](#t3)\
    3.1 [Ejercicio ECG](#t4)\
 5. [Resultados](#t5)\
    4.1 [Ejercicio ECG](#t6)\
