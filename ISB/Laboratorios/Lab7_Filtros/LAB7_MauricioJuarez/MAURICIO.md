@@ -45,7 +45,7 @@
 <p align="justify">Como se puede observar, existen diferentes ventanas con las cuales se puede trabajar en los filtros FIR. En este laboratorio, utilizaré como primera ventana la ventana Hamming, ya que esta, como se puede ver en la figura, cuenta con una ganancia considerable para pasar las frecuencias de interés, no obstante, cuenta con un ancho de transición un poco elevado, lo que se traduce a que las frecuencias cercanas pasarán sin perder mucho su amplitud. Dicho esto, defino mi frecuencia de corte que será 0.01*pi (wn=0.01pi). Definidos los parámetros, elaboramos el filtro
 
 <p align="center">
-  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/BodeHamming.png?raw=true" alt="Ventanas" >
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/BodeHamming.png?raw=true" alt="Ventanas" >\
    <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ZplaneHamming.png?raw=true" alt="Ventanas" >
    <p align="center"><i>Figura 3. Diagrama de Bode y diagrama de ceros y polos del filtro</i></p>
 </p>
