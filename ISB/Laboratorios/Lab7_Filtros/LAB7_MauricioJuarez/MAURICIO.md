@@ -3,13 +3,8 @@
 1. [Objetivos](#t1)
 2. [Señales adquiridas](#t2)
 2. [Filtros](#t3)
-3. [Implementación](#t4)
-4. [Resultados](#t5)\
-   4.1 [Ejercicio ECG](#t6)\
-   4.2 [Ejercicio EMG ](#t7)
-5. [Discusión](#t8)\
-   5.1 [Señal ECG](#t9)\
-   5.2 [Señal EMG](#t10)
+3. [Resultados](#t4)\
+4. [Discusión](#t5)\
 
 ## 1. Objetivos  <a name = "t1"></a>
 * Analizar las señales obtenidas
@@ -74,11 +69,34 @@
    <p align="center"><i>Figura 4. Diagrama de Bode y diagrama de ceros y polos del filtro IIR</i></p>
 </p>
 
-## 4. Implementación  <a name = "t4"></a>
+## 4. Resultados  <a name = "t4"></a>
 
-<p align="justify">Con la ayuda de los filtros diseñados ya podemos utilizarlos para mejorar nuestra señal adquirida y disminuir el ruido que se haya obtenido para EMG y ECG
+<p align="justify">Con la ayuda de los filtros diseñados ya podemos utilizarlos para mejorar nuestra señal adquirida y disminuir el ruido que se haya obtenido para EMG y ECG. Primero empezaremos con el EMG 
 
 <p align="center">
-  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/EMG_filtrada.png?raw=true" alt="Ventanas" >
-   <p align="center"><i>Figura 5. Señal de EMG filtrada con </i></p>
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/EMGHamming.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 5. Señal de EMG filtrada con el filtro FIR ventana Hamming</i></p>
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/EMGFourierHamming.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 6. Señal de EMG filtrada con el filtro FIR ventana Hamming y su transformada de Fourier</i></p>
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/EMGBartlett.png?raw=true" alt="Ventanas" >
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/EMGFourierHamming.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 7. Señal de EMG filtrada con el filtro FIR ventana Bartlett y su transformada ded Fourier</i></p>
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/EMGIIR.png?raw=true" alt="Ventanas" >
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/EMG/EMGFourierIIR.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 7. Señal de EMG filtrada con el filtro IIR y su transformada de Fourier</i></p>
 </p>
