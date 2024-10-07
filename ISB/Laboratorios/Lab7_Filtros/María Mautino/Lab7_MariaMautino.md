@@ -14,7 +14,7 @@
 ## Introducción  <a name = "t1"></a>
 <p align="justify">El presente informe tiene como objetivo mostrar el uso de distintos tipos de filtros FIR (Filtro de Respuesta al Impulso Finita), IIR (Filtro de Respuesta al Impulso Infinita) en las señales bioeléctricas de ECG (Electrocardiograma) y EMG (Electromiograma) adquiridas durante las sesiones prácticas. Los filtros son herramientas esenciales que nos permiten modificar una señal con el fin de eliminar ruidos o interferencias y así obtener datos más precisos. En el caso del ECG, utilizado para medir la actividad eléctrica del corazón, y el EMG, que registra la actividad eléctrica generada por los músculos, los filtros juegan un papel importante para mejorar la calidad de las señales y facilitar su interpretación, eliminando perturbaciones como el ruido ambiental o el movimiento [1].</p>
 
-## Objetivos <a name = "t2"></a>
+## **Objetivos** <a name = "t2"></a>
 *Utilizar y filtrar señales de EMG y ECG obtenidas previamente, aplicando filtros FIR o IIR.
 *Analizar cada señal (original y filtrada) en el dominio del tiempo y la frecuencia.
 *Incluir los diagramas de polos y ceros, así como los Diagramas de Bode de los filtros utilizados.
