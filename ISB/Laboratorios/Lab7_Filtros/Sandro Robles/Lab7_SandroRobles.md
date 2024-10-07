@@ -4,9 +4,11 @@
 2. [Filtro FIR: EMG](#FiltroFIREMG)
   
 ## **Introducción:**<a id="Introduccion"></a>
-<p align="justify"> El corazón está compuesto por varios tejidos, entre los cuales se encuentra el músculo cardíaco, que puede producir señales eléctricas que son detectables en la superficie de la piel utilizando un sensor de ECG. [1]. </p>
+<p align="justify"> En la ingeniería biomédica, el filtrado de señales es crucial para un análisis preciso de datos como EMG y ECG, que suelen estar contaminados por ruido y artefactos, lo que puede llevar a diagnósticos erróneos [1]. Por ello, el filtrado es un paso esencial para eliminar interferencias y mejorar la calidad de la señal antes del procesamiento.</p>
 
-<p align="justify"> El electrocardiograma (ECG) es una herramienta fundamental en la medicina cardiovascular, utilizada para identificar una amplia variedad de patologías cardíacas, como arritmias y alteraciones miocárdicas y pericárdicas, así como desequilibrios electrolíticos y enfermedades pulmonares. Su facilidad de uso, carácter no invasivo y bajo costo han consolidado al ECG como una de las pruebas más empleadas en la práctica clínica. Sin embargo, su utilidad diagnóstica depende en gran medida de la precisión en la interpretación de los resultados [2]. </p>
+<p align="justify">Para este propósito, se utilizan filtros FIR (Finite Impulse Response) y IIR (Infinite Impulse Response), que son sistemas lineales e invariantes en el tiempo. Los filtros FIR, que son no recursivos, permiten una respuesta de fase lineal, ideal para preservar la forma de señales EMG [2]. En contraste, los filtros IIR son recursivos y más eficientes computacionalmente, adecuados para aplicaciones en EMG y ECG donde se busca una rápida atenuación del ruido [3].</p>
+
+<p align="justify">Además, el filtro Bessel es valioso en aplicaciones como el ECG, donde se necesita minimizar la distorsión de la señal para mantener su forma original. Esto es fundamental para señales biomédicas afectadas por factores estocásticos, como el ruido muscular y el ambiente. Para señales no estacionarias, técnicas avanzadas como la transformada de Wavelet también son útiles, ya que permiten descomponer y analizar las señales en múltiples resoluciones. </p>
 
 <p align="center"><img src="Anexos/Imagen_Intro.png" width="400"></p>
 
@@ -1192,3 +1194,11 @@ plt.show()
 <p align="justify"> La elección de los filtros FIR, IIR, y Bessel se realizó para maximizar la precisión y calidad en el análisis de señales EMG y ECG. Cada filtro cumple funciones específicas y aporta ventajas clave para los distintos requerimientos de estas señales biomédicas. </p>
 
 <p align="justify"> Para las señales EMG, el filtro FIR se eligió por su estabilidad y capacidad de mantener una respuesta de fase lineal, esencial para evitar la distorsión de fase y preservar la forma de la señal muscular. El filtro IIR fue seleccionado para EMG y ECG debido a su eficiencia computacional y rápida transición entre bandas, lo que permite una atenuación eficaz del ruido sin afectar los componentes de interés. Finalmente, el filtro Bessel se utilizó por su sobresaliente capacidad de mantener la forma de la señal gracias a su respuesta de fase lineal, algo fundamental para el análisis de ECG, donde la preservación de la morfología es crucial para el diagnóstico preciso.</p>
+
+## Bibliografía
+
+<p align="justify">[1] Y. Zhou, Bingo Wing-Kuen Ling, and X. Zhou, “Biomedical Signal Denoising Via Permutating, Thresholding and Averaging Noise Components Obtained from Hierarchical Multiresolution Analysis-Based Empirical Mode Decomposition,” Circuits, systems, and signal processing, vol. 42, no. 2, pp. 943–970, Sep. 2022, doi: https://doi.org/10.1007/s00034-022-02142-z.</p>
+
+<p align="justify">[2] R. Hamming, Digital Filters. Dover Publications, 1998. Disponible en: https://books.google.com.pe/books?id=JQ35s71Vv10C&printsec=frontcover&hl=es&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false</p>
+
+<p align="justify">[3] B. Lenka, "Time-frequency analysis of non-stationary electrocardiogram signals using Hilbert-Huang Transform," 2015 International Conference on Communications and Signal Processing (ICCSP), Melmaruvathur, India, 2015, pp. 1156-1159, doi: 10.1109/ICCSP.2015.7322686</p>
