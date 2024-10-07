@@ -87,9 +87,9 @@ Sin embargo, el uso de filtros FIR de orden elevado conlleva una mayor complejid
 </div>
 
 ### **Archivo de las señales ploteadas en Python.** <a name="t5"></a>
-  - [EMG - FIR](https://github.com/sandro-robles/Intro_G4/blob/a164dcd24f881cf9e05baff796d131be994c7412/ISB/Laboratorios/Lab7_Filtros/Mar%C3%ADa%20Mautino/C%C3%B3digos_EMG/FIR%20emg.py)
+  - [ECG - FIR](https://github.com/sandro-robles/Intro_G4/blob/2de258082a60a7a00dbc90d4647968245e023afa/ISB/Laboratorios/Lab7_Filtros/Mar%C3%ADa%20Mautino/C%C3%B3digos_ECG/FIR%20ecg.py)
 
-  - [EMG - IIR](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2006_Filtros%20digitales/Archivos%20python/EMG.py)
+  - [ECG - IIR](https://github.com/sandro-robles/Intro_G4/blob/2de258082a60a7a00dbc90d4647968245e023afa/ISB/Laboratorios/Lab7_Filtros/Mar%C3%ADa%20Mautino/C%C3%B3digos_ECG/IIR%20ecg.py)
 
 ### **Señales ECG** <a name="t5"></a>
 | Campo |  Señal Cruda vs Filtro FIR  |  Señal Cruda vs Filtro IIR |
