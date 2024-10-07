@@ -3,27 +3,28 @@
 1. [Introducción](#t1)
 2. [Objetivos del laboratorio](#t2)
 3. [Metodología](#t3)
-4. [Resultados](#t4)\
-   4.1 [Ejercicio ECG](#t5)\
-   4.2 [Ejercicio EMG ](#t6)
-5. [Discusión](#t7)\
-   5.1 [Señal ECG](#t8)\
-   5.2 [Señal EMG](#t9)
-6. [Bibliografía](#t10)
+   3.1 [Ejercicio ECG](#t4)\
+5. [Resultados](#t5)\
+   4.1 [Ejercicio ECG](#t6)\
+   4.2 [Ejercicio EMG ](#t7)
+6. [Discusión](#t8)\
+   5.1 [Señal ECG](#t9)\
+   5.2 [Señal EMG](#t10)
+7. [Bibliografía](#t11)
 
-## Introducción  <a name = "t1"></a>
+## 1. Introducción  <a name = "t1"></a>
 <p align="justify">El presente informe tiene como objetivo mostrar el uso de distintos tipos de filtros FIR (Filtro de Respuesta al Impulso Finita), IIR (Filtro de Respuesta al Impulso Infinita) en las señales bioeléctricas de ECG (Electrocardiograma) y EMG (Electromiograma) adquiridas durante las sesiones prácticas. Los filtros son herramientas esenciales que nos permiten modificar una señal con el fin de eliminar ruidos o interferencias y así obtener datos más precisos. En el caso del ECG, utilizado para medir la actividad eléctrica del corazón, y el EMG, que registra la actividad eléctrica generada por los músculos, los filtros juegan un papel importante para mejorar la calidad de las señales y facilitar su interpretación, eliminando perturbaciones como el ruido ambiental o el movimiento [1].</p>
 
-## Objetivos <a name = "t2"></a>
+## 2. Objetivos <a name = "t2"></a>
 * Utilizar y filtrar señales de EMG y ECG obtenidas previamente, aplicando filtros FIR o IIR.
 * Analizar cada señal (original y filtrada) en el dominio del tiempo y la frecuencia.
 * Incluir los diagramas de polos y ceros, así como los Diagramas de Bode de los filtros utilizados.
 * Justificar la selección de los filtros aplicados.
 
-## Metodología <a name = "t3"></a>
+## 3. Metodología <a name = "t3"></a>
 <p align="justify">En este laboratorio, nos enfocamos en desarrollar e implementar filtros digitales FIR e IIR para reducir el ruido de alta frecuencia que afecta las señales de ECG y EMG adquiridas previamente con el Kit BITalino. La finalidad de aplicar estos filtros es limpiar las señales de interferencias no deseadas, mejorando su calidad y precisión para su análisis posterior.
    
-   ### **Equipos y materiales utilizados:**<a id="Equipos"></a>
+### 3.1 **Equipos y materiales utilizados:**<a name = "t4"></a>
 
 <div align="center">
   
@@ -38,7 +39,7 @@
 <p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio.</i></p>
 
 
-## Resultados   <a name="t4"></a>
+## Resultados   <a name="t5"></a>
 
 ### **Ejercicio ECG** <a name="t5"></a>
 | Campo | Señal Cruda | Filtro FIR | Filtro IIR |
