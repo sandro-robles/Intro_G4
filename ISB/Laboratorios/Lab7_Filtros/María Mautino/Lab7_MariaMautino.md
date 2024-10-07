@@ -74,7 +74,7 @@
 <p align="center"><i>Tabla 2. Equipos y materiales utilizados en este laboratorio.</i></p>
 
 ## 4. Resultados   <a name="t10"></a>
-### 4.1 Conceptos - Filtros ECG:  <a name="t10"></a>
+### 4.1 Conceptos - Filtros ECG:  <a name="t11"></a>
 <p align="justify">Las señales de electrocardiograma (ECG) suelen estar afectadas por diversos ruidos y artefactos, como el desplazamiento de la línea base y las contracciones musculares, que pueden reducir la calidad de la señal y generar riesgos en el diagnóstico clínico. Para mitigar estos problemas, se ha estudiado ampliamente la técnica de descomposición mediante wavelets, utilizando bancos de filtros FIR (Respuesta Finita al Impulso) para descomponer la señal, aplicar umbrales y reconstruirla. Esta técnica permite mejorar significativamente la fidelidad de la señal de ECG al eliminar el ruido de manera efectiva.
 Sin embargo, el uso de filtros FIR de orden elevado conlleva una mayor complejidad en el hardware, lo que aumenta los costos y dificulta su implementación en dispositivos portátiles de monitoreo de salud. Para reducir esta complejidad, se han propuesto bancos de filtros híbridos que combinan filtros FIR e IIR (Respuesta Infinita al Impulso) en la Transformada Wavelet Discreta (DWT). Este enfoque híbrido logra una reducción de ruido efectiva con una menor carga computacional, lo que lo hace ideal para aplicaciones en dispositivos ambulatorios de monitoreo de ECG [9].</p>
 
@@ -83,7 +83,7 @@ Sin embargo, el uso de filtros FIR de orden elevado conlleva una mayor complejid
 
   - [ECG - IIR](https://github.com/sandro-robles/Intro_G4/blob/2de258082a60a7a00dbc90d4647968245e023afa/ISB/Laboratorios/Lab7_Filtros/Mar%C3%ADa%20Mautino/C%C3%B3digos_ECG/IIR%20ecg.py)
 
-### **Señales ECG** <a name="t5"></a>
+### **Señales ECG** <a name="t11"></a>
 | Campo |  Señal Cruda vs Filtro FIR  |  Señal Cruda vs Filtro IIR |
 |-----------|-----------|-----------|
 | Basal D2  |  <img src="Anexo_ECG/señal REPOSO ECG D2 fir.png">  | <img src="Anexo_ECG/señal REPOSO ECG D2 iir.png"  > |
