@@ -41,10 +41,13 @@
 #### 1.3.1 Métodos de Diseño de Filtros IIR: <a name = "t6"></a> 
 <p align="justify"> Los diferentes tipos de filtros IIR se utilizan según las necesidades de suavidad, selectividad y tolerancia a ondulaciones en las bandas de paso o de stop, dependiendo de la aplicación en la que se empleen [8].
    
-* Butterworth: Ideal para una respuesta de frecuencia suave, sin ondulaciones, y cuando no se necesita alta selectividad.
-* Chebyshev Tipo I: Alta selectividad con ondulaciones en la banda de paso, útil cuando las ondulaciones no son un problema.
-* Chebyshev Tipo II: Alta selectividad con ondulaciones en la banda de stop, aplicable cuando se requiere una banda de paso suave.
-* Elíptico: Alta selectividad con ondulaciones en ambas bandas, adecuado cuando se puede tolerar algo de distorsión a cambio de una transición rápida. </p>
+| **Filtro**           | **Imagen**                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------|
+| <div style="width:300px">Butterworth: Ideal para una respuesta de frecuencia suave, sin ondulaciones, y cuando no se necesita alta selectividad [8].</div>       | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203600.png" width="150" height="120"></div> |
+| <div style="width:300px">Chebyshev Tipo I: Alta selectividad con ondulaciones en la banda de paso, útil cuando las ondulaciones no son un problema [8].</div>    | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203543.png" width="150" height="120"></div> |
+| <div style="width:300px">Chebyshev Tipo II: Alta selectividad sin ondulaciones en la banda de paso, útil cuando se requiere una respuesta más suave [8].</div>   | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203617.png" width="150" height="120"></div> |
+| <div style="width:300px">Elíptico:  Alta selectividad con ondulaciones en ambas bandas, adecuado cuando se puede tolerar algo de distorsión a cambio de una transición rápida [8].</div> | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203632.png" width="150" height="120"></div> |
+
 
 
 | **Filtro**           | **Imagen**                                                                                             |
