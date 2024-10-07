@@ -602,3 +602,155 @@ plt.show()
 
 <p align="justify"> </p>
 
+## ECG: Código en Python
+
+``` python
+# Importamos las librerías necesarias
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.signal import firwin, lfilter, freqz, tf2zpk
+
+# Leer los archivos de texto de ECG (derivaciones 1, 2 y 3)
+array_d1 = np.genfromtxt("EJERCICIO D1.txt", delimiter="\t")
+array_d2 = np.genfromtxt("EJERCICIO D2.txt", delimiter="\t")
+array_d3 = np.genfromtxt("EJERCICIO D3.txt", delimiter="\t")
+
+# Extraer los valores de cada señal
+valores_d1 = array_d1[:,-2]
+valores_d2 = array_d2[:,-2]
+valores_d3 = array_d3[:,-2]
+
+# Determinar la longitud de cada arreglo
+cantidad_d1 = np.size(valores_d1)
+cantidad_d2 = np.size(valores_d2)
+cantidad_d3 = np.size(valores_d3)
+
+# Frecuencia de muestreo de las señales
+Fs = 1000  # Hz
+
+# Crear vectores de tiempo para cada señal
+tiempo_d1 = np.arange(0, cantidad_d1) / Fs
+tiempo_d2 = np.arange(0, cantidad_d2) / Fs
+tiempo_d3 = np.arange(0, cantidad_d3) / Fs
+
+# Convertir valores a mV (ajustar si es necesario para ECG)
+valores_d1 = (((valores_d1 / 1024) - 0.5) * 3.3) / 1100 * 1000
+valores_d2 = (((valores_d2 / 1024) - 0.5) * 3.3) / 1100 * 1000
+valores_d3 = (((valores_d3 / 1024) - 0.5) * 3.3) / 1100 * 1000
+
+# Mostrar las señales originales sin filtrar
+plt.figure(figsize=(15, 10))
+plt.subplot(3, 1, 1)
+plt.plot(tiempo_d1, valores_d1)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('Derivación 1 (cruda)')
+plt.xlim([3, 8])
+
+plt.subplot(3, 1, 2)
+plt.plot(tiempo_d2, valores_d2)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('Derivación 2 (cruda)')
+plt.xlim([3, 8])
+
+plt.subplot(3, 1, 3)
+plt.plot(tiempo_d3, valores_d3)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('Derivación 3 (cruda)')
+plt.xlim([3, 8])
+
+plt.tight_layout()
+plt.show()
+
+# Aplicar FFT para análisis espectral
+N = 1024
+X_d1 = np.fft.fft(valores_d1, N)[:N//2]
+X_d2 = np.fft.fft(valores_d2, N)[:N//2]
+X_d3 = np.fft.fft(valores_d3, N)[:N//2]
+
+# Magnitudes
+mag_d1 = np.abs(X_d1)
+mag_d2 = np.abs(X_d2)
+mag_d3 = np.abs(X_d3)
+
+# Frecuencias
+F = np.linspace(0, Fs / 2, N // 2)
+
+# Análisis espectral de las señales
+plt.figure(figsize=(15, 5))
+plt.plot(F, mag_d1, label="Derivación 1")
+plt.plot(F, mag_d2, label="Derivación 2")
+plt.plot(F, mag_d3, label="Derivación 3")
+plt.xlabel("Frecuencia (Hz)")
+plt.ylabel("Magnitud (dB)")
+plt.title("Análisis espectral de las señales ECG")
+plt.legend()
+plt.xlim([0, 200])
+plt.grid(linestyle=":")
+plt.show()
+
+# Diseño del filtro FIR
+M = 37  # Orden del filtro FIR
+Fc = 30  # Frecuencia de corte
+w = firwin(numtaps=M, cutoff=Fc, window='hamming', fs=Fs)
+
+# Aplicar el filtro FIR a las señales
+y_d1 = lfilter(w, 1.0, valores_d1)
+y_d2 = lfilter(w, 1.0, valores_d2)
+y_d3 = lfilter(w, 1.0, valores_d3)
+
+# Graficar las señales filtradas
+plt.figure(figsize=(15, 10))
+plt.subplot(3, 1, 1)
+plt.plot(tiempo_d1, y_d1)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('Derivación 1 (filtrada)')
+plt.xlim([3, 8])
+
+plt.subplot(3, 1, 2)
+plt.plot(tiempo_d2, y_d2)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('Derivación 2 (filtrada)')
+plt.xlim([3, 8])
+
+plt.subplot(3, 1, 3)
+plt.plot(tiempo_d3, y_d3)
+plt.xlabel('Tiempo (s)')
+plt.ylabel('Amplitud (mV)')
+plt.title('Derivación 3 (filtrada)')
+plt.xlim([3, 8])
+
+plt.tight_layout()
+plt.show()
+
+
+```
+
+| Señal Cruda | Análisis espectral | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/ejercicio_cruda.jpg)|![alt text](anexos/ejercicio_espectral.jpg)|![alt text](anexos/ejercicio_filtrada.jpg)|
+
+<p align="center"><i>Tabla 14: ECG - D1, D2 y D3 con filtro IIR (Ejercicio).</i></p>
+
+<p align="justify"> </p>
+
+
+| Señal Cruda | Análisis espectral | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/reposo_cruda.jpg)|![alt text](anexos/reposo_espectral.jpg)|![alt text](anexos/reposo_filtrada.jpg)|
+
+<p align="center"><i>Tabla 15: ECG - D1, D2 y D3 con filtro IIR (Reposo).</i></p>
+
+<p align="justify"> </p>
+
+| Señal Cruda | Análisis espectral | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/respi_cruda.jpg)|![alt text](anexos/respi_espectral.jpg)|![alt text](anexos/respi_filtrada.jpg)|
+
+<p align="center"><i>Tabla 16: ECG - D1, D2 y D3 con filtro IIR (Durante y tras la retención de la respiración).</i></p>
+
+<p align="justify"> </p>
