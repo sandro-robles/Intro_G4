@@ -49,9 +49,18 @@
 </p>
 <p align="center">
    <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ZplaneHamming.png?raw=true" alt="Ventanas" >
-   <p align="center"><i>Figura 3. Diagrama de Bode y diagrama de ceros y polos del filtro</i></p>
+   <p align="center"><i>Figura 3. Diagrama de Bode y diagrama de ceros y polos del filtro FIR ventana Hamming</i></p>
 </p>
 
-<p align="justify">Por otro lado, diseñaremos otro filtro FIR con otra ventana para ver el impacto que esta tiene en nuestras señales
+<p align="justify">Por otro lado, diseñaremos otro filtro FIR con otra ventana para ver el impacto que esta tiene en nuestras señales. Para ello, utilizaremos una ventana tipo Barlett, la cual cuenta con una menor ganancia para las frecuencias de interés, pero tiene un menor ancho de transición (comparándola con la ventana Hamming. Definimos la misma frecuencia de corte que en el anterior filtro (wn=0.01*pi). Obtenemos lo siguiente:
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/BodeBartlett.png?raw=true" alt="Ventanas" >
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ZplaneBartlett.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 4. Diagrama de Bode y diagrama de ceros y polos del filtro FIR ventana Bartlett</i></p>
+</p>
 
 <p align="justify">En este laboratorio, nos enfocamos en desarrollar e implementar filtros digitales FIR e IIR para reducir el ruido de alta frecuencia que afecta las señales de ECG y EMG adquiridas previamente con el Kit BITalino. La finalidad de aplicar estos filtros es limpiar las señales de interferencias no deseadas, mejorando su calidad y precisión para su análisis posterior.
