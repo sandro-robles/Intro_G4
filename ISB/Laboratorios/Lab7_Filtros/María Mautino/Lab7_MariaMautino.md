@@ -43,10 +43,10 @@
 
 | **Filtro**           | **Imagen**                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------------------------|
-| Butterworth: Ideal para una respuesta de frecuencia suave, sin ondulaciones, y cuando no se necesita alta selectividad [8].  | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203600.png" width="200" height="200"></div> |
-| Chebyshev Tipo I:  Alta selectividad con ondulaciones en la banda de paso, útil cuando las ondulaciones no son un problema [8]. | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203543.png" width="200" height="200"></div> |
-| Chebyshev Tipo II:Alta selectividad con ondulaciones en la banda de stop, aplicable cuando se requiere una banda de paso suave [8].| <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203617.png" width="200" height="200"></div> |
-| Elíptico: Alta selectividad con ondulaciones en ambas bandas, adecuado cuando se puede tolerar algo de distorsión a cambio de una transición rápida [8].      | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203632.png" width="200" height="200"></div> |
+| Butterworth: Ideal para una respuesta de frecuencia suave, sin ondulaciones, y cuando no se necesita alta selectividad [8].  | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203600.png" width="400" height="200"></div> |
+| Chebyshev Tipo I:  Alta selectividad con ondulaciones en la banda de paso, útil cuando las ondulaciones no son un problema [8]. | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203543.png" width="400" height="200"></div> |
+| Chebyshev Tipo II:Alta selectividad con ondulaciones en la banda de stop, aplicable cuando se requiere una banda de paso suave [8].| <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203617.png" width="400" height="200"></div> |
+| Elíptico: Alta selectividad con ondulaciones en ambas bandas, adecuado cuando se puede tolerar algo de distorsión a cambio de una transición rápida [8].      | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203632.png" width="400" height="200"></div> |
 
 ## 2. Objetivos <a name = "t7"></a>
 * Utilizar y filtrar señales de EMG y ECG obtenidas previamente, aplicando filtros FIR o IIR.
