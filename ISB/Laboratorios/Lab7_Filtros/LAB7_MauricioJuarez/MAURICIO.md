@@ -22,7 +22,7 @@
 <p align="justify">En los laboratorios pasados, tuvimos la oportunidad de capturar y adquirir señales de Electromiografía y Electrocardiografía. Dichas señales se pueden observar a continuación
 
 <p align="center">
-  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/Ventanas.PNG?raw=true" alt="Ventanas" >
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/Se%C3%B1alesOriginalesECG.png?raw=true" alt="Ventanas" >
 </p>
 
 
