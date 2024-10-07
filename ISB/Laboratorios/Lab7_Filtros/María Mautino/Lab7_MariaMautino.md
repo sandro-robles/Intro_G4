@@ -25,7 +25,7 @@
 ### **Análisis del Filtro - ECG** <a name="t11"></a>
 | Filtro | Diagrama de Bode | Diagrama de Polos y Ceros |
 |--------|------------------|--------------------------|
-| FIR    | <img src="Anexo_ECG/bode fir (1).png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/Zeros y polos fir (1).png" width="400" height="300" style="display:block; margin:auto;"/> |
+| FIR    | <img src="Anexo_ECG/bode.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/462244521_554943407211659_5770730214108742256_n.png" width="400" height="300" style="display:block; margin:auto;"/> |
 | IIR    | <img src="Anexo_ECG/Bode iir (2).png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/Polos y zeros iir.png" width="400" height="300" style="display:block; margin:auto;"/> |
 
 
