@@ -56,15 +56,15 @@
 ## **Conclusion**<a id="conclu"></a>
 
 ### **Filtros IIR**<a id="IIR"></a>
-<img src="Anexos/D1.png" width="400" > <img src="Anexos/D2.png" width="400" >
+<img src="Anexos/D1.png" width="400" height="400"> <img src="Anexos/D2.png" width="400" height="400">
 <p align="center"><i>Figura 3 Y 4: Diagrama de Bode y de polos y ceros del filtro IIR</i></p>
 
 ### **Filtros FIR - Ventana rectangular**<a id="FIR"></a>
-<img src="Anexos/D3.png" width="400"> <img src="Anexos/D4.png" width="400">
+<img src="Anexos/D3.png" width="400" height="400"> <img src="Anexos/D4.png" width="400" height="400">
 <p align="center"><i>Figura 5 Y 6: Diagrama de Bode y de polos y ceros del filtro FIR- Ventana rectangular</i></p>
 
 ### **Filtros FIR - Ventana kaiser**<a id="FIR"></a>
-<img src="Anexos/D5.png" width="400"> <img src="Anexos/D6.png" width="400">
+<img src="Anexos/D5.png" width="400" height="400"> <img src="Anexos/D6.png" width="400" height="400">
 <p align="center"><i>Figura 7 Y 8: Diagrama de Bode y de polos y ceros del filtro FIR- Ventana kaiser</i></p>
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
