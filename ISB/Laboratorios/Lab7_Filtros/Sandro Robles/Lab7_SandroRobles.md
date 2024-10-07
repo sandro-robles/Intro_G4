@@ -1187,3 +1187,8 @@ plt.show()
 
 <p align="justify"> </p>
 
+## JUSTIFICACIÓN de la elección de los tres filtros
+
+<p align="justify"> La elección de los filtros FIR, IIR, y Bessel se realizó para maximizar la precisión y calidad en el análisis de señales EMG y ECG. Cada filtro cumple funciones específicas y aporta ventajas clave para los distintos requerimientos de estas señales biomédicas. </p>
+
+<p align="justify"> Para las señales EMG, el filtro FIR se eligió por su estabilidad y capacidad de mantener una respuesta de fase lineal, esencial para evitar la distorsión de fase y preservar la forma de la señal muscular. El filtro IIR fue seleccionado para EMG y ECG debido a su eficiencia computacional y rápida transición entre bandas, lo que permite una atenuación eficaz del ruido sin afectar los componentes de interés. Finalmente, el filtro Bessel se utilizó por su sobresaliente capacidad de mantener la forma de la señal gracias a su respuesta de fase lineal, algo fundamental para el análisis de ECG, donde la preservación de la morfología es crucial para el diagnóstico preciso.</p>
