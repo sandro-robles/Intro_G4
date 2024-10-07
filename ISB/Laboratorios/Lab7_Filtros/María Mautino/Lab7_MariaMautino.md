@@ -23,9 +23,9 @@
 ## Metodología <a name = "t3"></a>
 <p align="justify">En este laboratorio, nos enfocamos en desarrollar e implementar filtros digitales FIR e IIR para reducir el ruido de alta frecuencia que afecta las señales de ECG y EMG adquiridas previamente con el Kit BITalino. La finalidad de aplicar estos filtros es limpiar las señales de interferencias no deseadas, mejorando su calidad y precisión para su análisis posterior.
    
-### **Equipos y materiales utilizados:**<a id="Equipos"></a>
+   ### **Equipos y materiales utilizados:**<a id="Equipos"></a>
 
-<div align="center" style="color: grey;">
+<div align="center">
   
 | **Modelo**    | **Descripción**          | **Cantidad** |
 |---------------|--------------------------|--------------|
@@ -35,7 +35,7 @@
 
 </div>
 
-<p align="center" style="color: grey;"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio.</i></p>
+<p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio.</i></p>
 
 
 ## Resultados   <a name="t4"></a>
