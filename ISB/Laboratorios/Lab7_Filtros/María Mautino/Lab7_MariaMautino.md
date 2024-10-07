@@ -1,3 +1,4 @@
+## María Fernanda Mautino Rodríguez - Trabajo individual
 # Laboratorio N°7 - Diseño de Filtros FIR y IIR
 ## **Tabla de contenidos:**
 
