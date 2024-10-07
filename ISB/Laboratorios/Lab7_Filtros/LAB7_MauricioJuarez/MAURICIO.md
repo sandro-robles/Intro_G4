@@ -63,4 +63,13 @@
    <p align="center"><i>Figura 4. Diagrama de Bode y diagrama de ceros y polos del filtro FIR ventana Bartlett</i></p>
 </p>
 
-<p align="justify">En este laboratorio, nos enfocamos en desarrollar e implementar filtros digitales FIR e IIR para reducir el ruido de alta frecuencia que afecta las señales de ECG y EMG adquiridas previamente con el Kit BITalino. La finalidad de aplicar estos filtros es limpiar las señales de interferencias no deseadas, mejorando su calidad y precisión para su análisis posterior.
+<p align="justify">Como último filtro que implementaremos en este laboratorio será un filtro IIR. Estos filtros son más eficientes computacionalmente ya que no cuentan con tantos coeficientes como lo tiene un filtro FIR, lo cual optimiza el espacio de memoria, pero si no se diseñan bien pueden llegar a ser inestables. Utilizo dos frecuencias las cuales serán la passband edge frequency (wp=0.01) y la stopband edge frequencies (ws=0.15). Con ello podemos diseñar nuestro filtro IIR como se muestra en la siguiente figura
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/BodeIIR.png?raw=true" alt="Ventanas" >
+</p>
+
+<p align="center">
+  <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ZplaneIIR.png?raw=true" alt="Ventanas" >
+   <p align="center"><i>Figura 4. Diagrama de Bode y diagrama de ceros y polos del filtro IIR</i></p>
+</p>
