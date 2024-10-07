@@ -1,21 +1,21 @@
 # Laboratorio N°7 - Diseño de Filtros FIR y IIR 
 ## **Tabla de contenidos:**
 1. [Introducción](#t1)
-   1.1 [Filtros Digitales](#t2)
-   1.2 [Filtros FIR](#t3)
-      1.2.1 [Método de las ventanas](#t4)
-   1.3 [Filtros IIR](#t7)
-      1.3.1 [Métodos de Diseño de Filtros IIR](#t5)
-2. [Objetivos del laboratorio](#t6)
-3. [Metodología](#t7)
-   3.1 [Ejercicio ECG](#t8)
-4. [Resultados](#t9)
-   4.1 [Ejercicio ECG](#t10)
-   4.2 [Ejercicio EMG](#t11)
-5. [Discusión](#t12)
-   5.1 [Señal ECG](#t9)
-   5.2 [Señal EMG](#t10)
-6. [Bibliografía](#t11)
+   - 1.1 [Filtros Digitales](#t2)
+   - 1.2 [Filtros FIR](#t3)
+      - 1.2.1 [Método de las ventanas](#t4)
+   - 1.3 [Filtros IIR](#t5)
+      - 1.3.1 [Métodos de Diseño de Filtros IIR](#t6)
+2. [Objetivos del laboratorio](#t7)
+3. [Metodología](#t8)
+   - 3.1 [Ejercicio ECG](#t9)
+4. [Resultados](#t10)
+   - 4.1 [Ejercicio ECG](#t11)
+   - 4.2 [Ejercicio EMG](#t12)
+5. [Discusión](#t13)
+   - 5.1 [Señal ECG](#t14)
+   - 5.2 [Señal EMG](#t15)
+6. [Bibliografía](#t16)
 
 ## 1. Introducción  <a name = "t1"></a>
 <p align="justify">El presente informe tiene como objetivo mostrar el uso de distintos tipos de filtros FIR (Filtro de Respuesta al Impulso Finita), IIR (Filtro de Respuesta al Impulso Infinita) en las señales bioeléctricas de ECG (Electrocardiograma) y EMG (Electromiograma) adquiridas durante las sesiones prácticas. Los filtros son herramientas esenciales que nos permiten modificar una señal con el fin de eliminar ruidos o interferencias y así obtener datos más precisos. En el caso del ECG, utilizado para medir la actividad eléctrica del corazón, y el EMG, que registra la actividad eléctrica generada por los músculos, los filtros juegan un papel importante para mejorar la calidad de las señales y facilitar su interpretación, eliminando perturbaciones como el ruido ambiental o el movimiento [1].</p>
@@ -40,6 +40,7 @@
 
 #### 1.3.1 Métodos de Diseño de Filtros IIR: <a name = "t6"></a> 
 <p align="justify"> Los diferentes tipos de filtros IIR se utilizan según las necesidades de suavidad, selectividad y tolerancia a ondulaciones en las bandas de paso o de stop, dependiendo de la aplicación en la que se empleen [8].
+   
 * Butterworth: Ideal para una respuesta de frecuencia suave, sin ondulaciones, y cuando no se necesita alta selectividad.
 * Chebyshev Tipo I: Alta selectividad con ondulaciones en la banda de paso, útil cuando las ondulaciones no son un problema.
 * Chebyshev Tipo II: Alta selectividad con ondulaciones en la banda de stop, aplicable cuando se requiere una banda de paso suave.
@@ -49,8 +50,8 @@
 | **Filtro**               | **Imagen**                                                                 |
 |--------------------------|-----------------------------------------------------------------|
 | Butterworth [8]           | <img src="Captura de pantalla 2024-10-06 203600.png">  |
-| Chebyshev Tipo I [8]    | <img src="Captura de pantalla 2024-10-06 203543.png">  |
-| Chebyshev Tipo II [8]    | <img src="Captura de pantalla 2024-10-06 203617.png">  |
+| Chebyshev Tipo I [8]      | <img src="Captura de pantalla 2024-10-06 203543.png">  |
+| Chebyshev Tipo II [8]     | <img src="Captura de pantalla 2024-10-06 203617.png">  |
 | Elíptico [8]              | <img src="Captura de pantalla 2024-10-06 203632.png">  |
 
 
