@@ -1,4 +1,5 @@
 ## **Metodologia:**<a id="Objetivos"></a>
+<p align="justify">De la data obtenido en los laboratorios anteriores ahora pasamos a la parte de preosesrla mediante la implemtacion de diferentes filtros y asi eliminar el ruido que puede haber en ella.</p>
 
 ### **EMG:**<a id="EMG"></a>
 <p align="center"><img src="Anexos/IMG_mano.jpeg" width="400"></p>
