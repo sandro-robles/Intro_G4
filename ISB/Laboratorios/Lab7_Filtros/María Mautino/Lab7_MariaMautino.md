@@ -78,14 +78,6 @@
 <p align="justify">Las señales de electrocardiograma (ECG) suelen estar afectadas por diversos ruidos y artefactos, como el desplazamiento de la línea base y las contracciones musculares, que pueden reducir la calidad de la señal y generar riesgos en el diagnóstico clínico. Para mitigar estos problemas, se ha estudiado ampliamente la técnica de descomposición mediante wavelets, utilizando bancos de filtros FIR (Respuesta Finita al Impulso) para descomponer la señal, aplicar umbrales y reconstruirla. Esta técnica permite mejorar significativamente la fidelidad de la señal de ECG al eliminar el ruido de manera efectiva.
 Sin embargo, el uso de filtros FIR de orden elevado conlleva una mayor complejidad en el hardware, lo que aumenta los costos y dificulta su implementación en dispositivos portátiles de monitoreo de salud. Para reducir esta complejidad, se han propuesto bancos de filtros híbridos que combinan filtros FIR e IIR (Respuesta Infinita al Impulso) en la Transformada Wavelet Discreta (DWT). Este enfoque híbrido logra una reducción de ruido efectiva con una menor carga computacional, lo que lo hace ideal para aplicaciones en dispositivos ambulatorios de monitoreo de ECG [9].</p>
 
-<div align="center">
-   
-|  **Parámetro**  | **FIR** | **IIR** | 
-|:------------:|:---------------:|:------------:|
-|Tipo de filtro|Notch|Notch-Butterworth|
-<p align="center"><i>Tabla 3. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal ECG. </i></p>
-</div>
-
 ### **Archivo de las señales ploteadas en Python.** <a name="t5"></a>
   - [ECG - FIR](https://github.com/sandro-robles/Intro_G4/blob/2de258082a60a7a00dbc90d4647968245e023afa/ISB/Laboratorios/Lab7_Filtros/Mar%C3%ADa%20Mautino/C%C3%B3digos_ECG/FIR%20ecg.py)
 
@@ -117,9 +109,18 @@ Sin embargo, el uso de filtros FIR de orden elevado conlleva una mayor complejid
 | FIR    | <img src="Anexo_ECG/bode.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/462244521_554943407211659_5770730214108742256_n.png" width="400" height="300" style="display:block; margin:auto;"/> |
 | IIR    | <img src="Anexo_ECG/Bode iir (2).png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/Polos y zeros iir.png" width="400" height="300" style="display:block; margin:auto;"/> |
 
+### **Justificación de la elección de filtros para ECG - FIR:**
+<p align="justify"> Se utilizó filtros FIR con ventana Blackman para procesar señales ECG, eliminando interferencias y preservando la calidad de la señal. Se eligió un filtro notch para eliminar el ruido de 60 Hz, que proviene de la red eléctrica, dado que estas interferencias pueden contaminar las señales ECG. La ventana Blackman es seleccionada porque ofrece una excelente atenuación de lóbulos laterales, minimizando las fugas espectrales y preservando las frecuencias adyacentes importantes para la señal. El ancho de banda de 5 Hz es estrecho, lo que asegura una eliminación precisa de la interferencia sin comprometer las frecuencias circundantes.
+
+Por otro lado, el filtro FIR pasa-banda con un rango de 0.5 Hz a 80 Hz es utilizado para conservar las componentes de baja frecuencia que son cruciales para la identificación de ondas P y T, mientras que el límite superior de 80 Hz captura los detalles finos del complejo QRS, fundamentales en el análisis clínico del ECG. La elección de la ventana Blackman en este filtro también está justificada por su capacidad de proporcionar una respuesta en frecuencia suave y evitar la distorsión de las fases de la señal, lo cual es esencial para el análisis preciso del ECG.
+
+El uso de filtros FIR con estas características está respaldado en investigaciones sobre dispositivos portátiles y adquisición de señales ECG, como se destaca en el artículo de Rodríguez-Jorge et al. (2021) [10], quienes implementan técnicas de procesamiento en tiempo real para la detección de complejos QRS en señales ECG adquiridas con dispositivos portátiles como BITalino​. En el estudio se demuestra cómo el filtrado pasa-banda seguido de transformaciones numéricas, como la derivada de la señal y la transformación de Hilbert, mejora la detección del complejo QRS incluso en señales con bajo SNR (relación señal-ruido) o morfología variable </p>.
+
+### **Justificación de la elección de filtros para ECG - IIR:**
+
 ### 4.2 Conceptos - Filtros EMG:  <a name="t10"></a>
 <p align="justify">Las señales de electromiografía de superficie (sEMG) suelen verse afectadas por varios tipos de ruidos, como el ruido de la línea eléctrica (PLI), el desplazamiento de la línea base (BW) y el ruido blanco gaussiano (WGN). Para mitigar estos ruidos, se suelen utilizar filtros digitales simples como los filtros IIR (Respuesta Infinita al Impulso) y FIR (Respuesta Finita al Impulso). Los filtros IIR son eficientes en términos computacionales, ya que requieren menos coeficientes para alcanzar una respuesta similar a la de los filtros FIR. No obstante, pueden introducir distorsiones de fase y ser menos estables. Los filtros FIR, por su parte, aunque garantizan una fase lineal y son siempre estables, requieren más recursos computacionales debido a la mayor cantidad de coeficientes necesarios. Ambos tipos de filtros son efectivos en reducir ruidos como el PLI y BW, pero tienen dificultades para manejar el WGN, que se superpone con el espectro de la señal sEMG.
-Debido a estas limitaciones, se han desarrollado técnicas avanzadas para mejorar la calidad de las señales sEMG. Entre ellas, la Transformada Wavelet se destaca, ya que permite separar el ruido de la señal utilizando resoluciones en el tiempo y la frecuencia [10].</p>
+Debido a estas limitaciones, se han desarrollado técnicas avanzadas para mejorar la calidad de las señales sEMG. Entre ellas, la Transformada Wavelet se destaca, ya que permite separar el ruido de la señal utilizando resoluciones en el tiempo y la frecuencia [11].</p>
 
 <div align="center">
    
