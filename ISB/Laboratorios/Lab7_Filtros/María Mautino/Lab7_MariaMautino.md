@@ -4,7 +4,7 @@
 
 ### **Ejercicio ECG** <a name="t5"></a>
 | Campo |  Señal Cruda vs Filtro FIR  |  Señal Cruda vs Filtro IIR |
-|-----------|-----------|-----------|-----------|
+|-----------|-----------|-----------|
 | Basal D2  |  <img src="Anexo_ECG/señal REPOSO ECG D2 fir.png">  | <img src="Anexo_ECG/señal REPOSO ECG D2 iir.png"  > |
 | Respiración D1 |  <img src="Anexo_ECG/señal RESPIRACON D1 fir.png">  | <img src="Anexo_ECG/señal RESPIRACON D1 iir.png"  > |
 | Post Respiración D3  |  <img src="Anexo_ECG/POST RESPIRACION D3 señal fir.png">  | <img src="Anexo_ ECG/señal POST RESPIRACION D3 iir.png"  > |
