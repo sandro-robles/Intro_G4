@@ -31,6 +31,7 @@
 <p align="justify">Se aplicaron tres diferentes filtros a las señales EMG como para las señales ECG obtenidas.</p>
 
 ### **EMG:**<a id="EMG"></a>
+
 | **Descripcion de la señal** | **Filtro IIR** | **Filtro FIR** | **Filtro FIR** |
 |:------------:|:---------------:|:---------------:|
 |Señal EMG del biceps | <img src="Anexos/F1_1.png" > | <img src="Anexos/F1_2.png" > | <img src="Anexos/F1_3.png" > |
@@ -42,8 +43,6 @@
 </p>
 
 ### **ECG:**<a id="ECG"></a>
-<p align="center"><img src="Anexos/IMG_mano.png" width="400"></p>
-<p align="center"><i>Figura 2: Imagen de la adquision de la señal ECG.</i></p>
 
 | **Descripcion de la señal** | **Filtro IIR** | **Filtro FIR** | **Filtro FIR** |
 |:------------:|:---------------:|:---------------:|
