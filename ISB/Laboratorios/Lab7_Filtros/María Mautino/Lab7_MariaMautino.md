@@ -48,6 +48,13 @@
 | <div style="width:200px"><small>Chebyshev Tipo II: Alta selectividad sin ondulaciones en la banda de paso, útil cuando se requiere una respuesta más suave [8].</small></div>   | <div align="center" style="vertical-align: middle;"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203617.png" width="200" height="160"></div> |
 | <div style="width:200px"><small>Elíptico: Alta selectividad con ondulaciones en ambas bandas, adecuado cuando se puede tolerar algo de distorsión a cambio de una transición rápida [8].</small></div> | <div align="center" style="vertical-align: middle;"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203632.png" width="200" height="160"></div> |
 
+| **Filtro**           | **Imagen**                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------|
+| <div style="width:50%;"><small>Butterworth: Ideal para una respuesta de frecuencia suave, sin ondulaciones, y cuando no se necesita alta selectividad [8].</small></div>       | <div align="center" style="width:50%;"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203600.png" width="200" height="160"></div> |
+| <div style="width:50%;"><small>Chebyshev Tipo I: Alta selectividad con ondulaciones en la banda de paso, útil cuando las ondulaciones no son un problema [8].</small></div>    | <div align="center" style="width:50%;"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203543.png" width="200" height="160"></div> |
+| <div style="width:50%;"><small>Chebyshev Tipo II: Alta selectividad sin ondulaciones en la banda de paso, útil cuando se requiere una respuesta más suave [8].</small></div>   | <div align="center" style="width:50%;"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203617.png" width="200" height="160"></div> |
+| <div style="width:50%;"><small>Elíptico: Alta selectividad con ondulaciones en ambas bandas, adecuado cuando se puede tolerar algo de distorsión a cambio de una transición rápida [8].</small></div> | <div align="center" style="width:50%;"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203632.png" width="200" height="160"></div> |
+
 
 
 
