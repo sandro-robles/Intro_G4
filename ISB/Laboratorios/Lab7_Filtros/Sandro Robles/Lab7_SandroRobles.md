@@ -362,3 +362,12 @@ plt.show()
 <p align="center"><i>Tabla 6: ECG - D1, D2 y D3 con filtro FIR (Ejercicio).</i></p>
 
 <p align="justify"> </p>
+
+
+| Señal Cruda | Análisis espectral | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/reposo_cruda.jpg)|![alt text](anexos/reposo_espectral.jpg)|![alt text](anexos/reposo_filtrada.jpg)|
+
+<p align="center"><i>Tabla 7: ECG - D1, D2 y D3 con filtro FIR (Reposo).</i></p>
+
+<p align="justify"> </p>
