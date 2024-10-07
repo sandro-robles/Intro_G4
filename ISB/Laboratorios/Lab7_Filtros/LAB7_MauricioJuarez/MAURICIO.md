@@ -10,3 +10,5 @@
    5.1 [Señal ECG](#t8)\
    5.2 [Señal EMG](#t9)
 6. [Bibliografía](#t10)
+
+<img src="ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/Ventanas.PNG" alt="Electrodos de guía" >
