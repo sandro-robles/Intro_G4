@@ -33,7 +33,7 @@
 ### **EMG:**<a id="EMG"></a>
 
 | **Descripcion de la señal** | **Filtro IIR** | **Filtro FIR** | **Filtro FIR** |
-|:------------:|:---------------:|:---------------:|
+|:------------:|:---------------:|:---------------:|:---------------:|
 |Señal EMG del biceps | <img src="Anexos/F1_1.png" > | <img src="Anexos/F1_2.png" > | <img src="Anexos/F1_3.png" > |
 |Señal EMG del gastrocnemio | <img src="Anexos/F2_1.png" > | <img src="Anexos/F2_2.png" > | <img src="Anexos/F2_3.png" > |
 |Señal EMG de la mano | <img src="Anexos/F3_1.png" > | <img src="Anexos/F3_2.png" > | <img src="Anexos/F3_3.png" > |
@@ -45,7 +45,7 @@
 ### **ECG:**<a id="ECG"></a>
 
 | **Descripcion de la señal** | **Filtro IIR** | **Filtro FIR** | **Filtro FIR** |
-|:------------:|:---------------:|:---------------:|
+|:------------:|:---------------:|:---------------:|:---------------:|
 |Señal ECG en estado de reposo | <img src="Anexos/F6_1.png" > | <img src="Anexos/F6_2.png" > | <img src="Anexos/F6_3.png" > |
 |Señal ECG en estado de respiración prolongada | <img src="Anexos/F7_1.png" > | <img src="Anexos/F7_1.png" > | <img src="Anexos/F7_1.png" > |
 |Señal ECG en estado de post - Respiración | <img src="Anexos/F8_1.png" > | <img src="Anexos/F8_2.png" > | <img src="Anexos/F8_3.png" > |
