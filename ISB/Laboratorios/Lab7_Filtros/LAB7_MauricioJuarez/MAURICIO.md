@@ -4,7 +4,6 @@
 2. [Señales adquiridas](#t2)
 2. [Filtros](#t3)
 3. [Resultados](#t4)
-4. [Discusión](#t5)
 
 ## 1. Objetivos  <a name = "t1"></a>
 * Analizar las señales obtenidas
@@ -131,4 +130,3 @@
   <img src="https://github.com/sandro-robles/Intro_G4/blob/main/ISB/Laboratorios/Lab7_Filtros/LAB7_MauricioJuarez/Anexo/ECG/ECGFourierIIR.png?raw=true" alt="Ventanas" >
    <p align="center"><i>Figura 7. Señal de EECG filtrada con el filtro IIR y su transformada de Fourier</i></p>
 </p>
-
