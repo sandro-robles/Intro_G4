@@ -14,6 +14,26 @@
 ## Introducción  <a name = "t1"></a>
 <p align="justify">El presente informe tiene como objetivo mostrar el uso de distintos tipos de filtros FIR (Filtro de Respuesta al Impulso Finita), IIR (Filtro de Respuesta al Impulso Infinita) en las señales bioeléctricas de ECG (Electrocardiograma) y EMG (Electromiograma) adquiridas durante las sesiones prácticas. Los filtros son herramientas esenciales que nos permiten modificar una señal con el fin de eliminar ruidos o interferencias y así obtener datos más precisos. En el caso del ECG, utilizado para medir la actividad eléctrica del corazón, y el EMG, que registra la actividad eléctrica generada por los músculos, los filtros juegan un papel importante para mejorar la calidad de las señales y facilitar su interpretación, eliminando perturbaciones como el ruido ambiental o el movimiento [1].</p>
 
+## Objetivos <a name = "t2"></a>
+*Utilizar y filtrar señales de EMG y ECG obtenidas previamente, aplicando filtros FIR o IIR.
+*Analizar cada señal (original y filtrada) en el dominio del tiempo y la frecuencia.
+*Incluir los diagramas de polos y ceros, así como los Diagramas de Bode de los filtros utilizados.
+*Justificar la selección de los filtros aplicados.
+
+## Metodología <a name = "t3"></a>
+<p align="justify">En este laboratorio, nos enfocamos en desarrollar e implementar filtros digitales FIR e IIR para reducir el ruido de alta frecuencia que afecta las señales de ECG y EMG adquiridas previamente con el Kit BITalino. La finalidad de aplicar estos filtros es limpiar las señales de interferencias no deseadas, mejorando su calidad y precisión para su análisis posterior.
+## **Equipos y materiales utilizados:**<a id="Equipos"></a>
+<div align="center">
+   
+|  **Modelo**  | **Descripción** | **Cantidad** |
+|:------------:|:---------------:|:------------:|
+| (r)EVOLUTION |   Kit BITalino  |       1      |
+|     ASUS     |      Laptop     |       1      |
+|       -      |    Electrodos superficiales   |       3      
+</div>
+<p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
+
+
 ## Resultados   <a name="t4"></a>
 
 ### **Ejercicio ECG** <a name="t5"></a>
@@ -61,7 +81,7 @@
 | FIR    | <img src="Anexo_Biceps/bode fir.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zeros y polos fir.png" width="400" height="300" style="display:block; margin:auto;"/> |
 | IIR    | <img src="Anexo_Biceps/bode iir.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_Biceps/zeros y polos iir.png" width="400" height="300" style="display:block; margin:auto;"/> |
 
-### **Bibliografía:** <a name="t0"></a>
+### **Bibliografía:** <a name="t10"></a>
 <p align="justify">[1] L. Romero, “Análisis de señales electrocardiográficas usando técnicas de procesamiento digital,” Uoc.edu, 2015, doi: http://hdl.handle.net/10609/40186.</p>
 ‌
 
