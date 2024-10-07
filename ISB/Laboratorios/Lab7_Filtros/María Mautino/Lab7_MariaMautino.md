@@ -18,8 +18,78 @@
    5.2 [Señal EMG](#t15)  
 6. [Bibliografía](#t16)
 
+## 1. Introducción  <a name = "t1"></a>
+<p align="justify">El presente informe tiene como objetivo mostrar el uso de distintos tipos de filtros FIR (Filtro de Respuesta al Impulso Finita), IIR (Filtro de Respuesta al Impulso Infinita) en las señales bioeléctricas de ECG (Electrocardiograma) y EMG (Electromiograma) adquiridas durante las sesiones prácticas. Los filtros son herramientas esenciales que nos permiten modificar una señal con el fin de eliminar ruidos o interferencias y así obtener datos más precisos. En el caso del ECG, utilizado para medir la actividad eléctrica del corazón, y el EMG, que registra la actividad eléctrica generada por los músculos, los filtros juegan un papel importante para mejorar la calidad de las señales y facilitar su interpretación, eliminando perturbaciones como el ruido ambiental o el movimiento [1].</p>
+
+### 1.1 Filtros Digitales:  <a name = "t2"></a>
+<p align="justify">Un filtro digital es un sistema que procesa señales aplicando operaciones matemáticas sobre una señal previamente muestreada ,es decir, una señal continua convertida en una secuencia de valores discretos. Esta señal discreta no tiene un valor en todos los instantes de tiempo, ya que está cuantificada. Además, al ser una señal digital, representa físicamente una secuencia de valores discretos, como puede ser un flujo de bits o una señal analógica que ha sido digitalizada [2].</p>
+
+### 1.2 Filtros FIR:  <a name = "t3"></a>
+<p align="justify">Los filtros FIR, conocidos como filtros no recursivos, tienen una respuesta finita al impulso, lo que significa que su salida depende únicamente de las entradas actuales y no de las salidas anteriores. Este tipo de filtro es muy estable y garantiza una fase lineal, lo que los hace ideales para aplicaciones en las que la precisión de la fase es importante. Al aplicar la convolución, el filtro FIR realiza un promedio ponderado de las muestras de entrada, y su salida eventualmente desaparece cuando las entradas se reducen a cero. Debido a su estabilidad y predictibilidad, los filtros FIR son ampliamente utilizados en aplicaciones como procesamiento de audio, mejora de imágenes y sistemas de comunicación, donde se requiere un control preciso de la frecuencia [3].</p>
+<p align="center"><img src="Anexo_Biceps/Filtro-FIR-estructura-basica.png" width="500"></p>
+<p align="center"><i>Figura 1:Estructura básica de un filtro FIR [4].</i></p>
+
+#### 1.2.1 Método de las ventanas:  <a name = "t4"></a>
+<p align="justify">El diseño de filtros FIR mediante el método de ventanas se basa en modificar la respuesta al impulso de un filtro ideal para obtener un filtro realizable y causal. Primero, se obtiene la respuesta al impulso de un filtro ideal (como paso bajo o paso alto), que es infinita en el tiempo. Luego, se aplica una ventana para truncar esa respuesta y limitarla a una longitud finita. Las ventanas, como las de Hamming o Blackman, ayudan a suavizar los bordes de la señal truncada, mejorando la atenuación de frecuencias no deseadas. Finalmente, la respuesta al impulso se desplaza en el tiempo para hacerla causal, es decir, para garantizar que el filtro sea físicamente implementable en un sistema real. Este método es sencillo y permite diseñar filtros con características controlables, aunque no es tan preciso como otros métodos más avanzados [5].</p>
+<p align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 194845.png" width="500"></p>
+<p align="center"><i>Figura 2: Respuesta en frecuencia y valores de ponderación de diferentes tipos de ventanas. [6].</i></p>
+
+### 1.3 Filtros IIR:  <a name = "t5"></a>
+<p align="justify">Por otro lado, los filtros IIR son recursivos y tienen una respuesta al impulso infinita, ya que la salida depende tanto de las entradas actuales como de las salidas previas. Esto les permite ser más eficientes en términos computacionales, ya que pueden lograr un filtrado similar a los FIR con menos coeficientes. Sin embargo, los filtros IIR pueden introducir distorsiones de fase y ser susceptibles a inestabilidad si no se diseñan adecuadamente. Estos filtros son preferidos en aplicaciones donde se requiere un procesamiento rápido y eficiente, como en el procesamiento de señales biomédicas (por ejemplo, ECG y EEG), sistemas de control y algoritmos de compresión de audio y voz, donde se necesita una respuesta rápida y eficaz [3].</p>
+<p align="center"><img src="Anexo_Biceps/Esquema-general-de-un-sistema-de-filtro-IIR-con-estructura-Directa-tipo-I.png" width="500"></p>
+<p align="center"><i>Figura 3:Esquema general de un filtro IIR [7].</i></p>
+
+#### 1.3.1 Métodos de Diseño de Filtros IIR: <a name = "t6"></a> 
+<p align="justify"> Los diferentes tipos de filtros IIR se utilizan según las necesidades de suavidad, selectividad y tolerancia a ondulaciones en las bandas de paso o de stop, dependiendo de la aplicación en la que se empleen [8].
+
+| **Filtro**           | **Imagen**                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------|
+| Butterworth: Ideal para una respuesta de frecuencia suave, sin ondulaciones, y cuando no se necesita alta selectividad [8].  | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203600.png" width="400" height="200"></div> |
+| Chebyshev Tipo I:  Alta selectividad con ondulaciones en la banda de paso, útil cuando las ondulaciones no son un problema [8]. | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203543.png" width="400" height="200"></div> |
+| Chebyshev Tipo II:Alta selectividad con ondulaciones en la banda de stop, aplicable cuando se requiere una banda de paso suave [8].| <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203617.png" width="400" height="200"></div> |
+| Elíptico: Alta selectividad con ondulaciones en ambas bandas, adecuado cuando se puede tolerar algo de distorsión a cambio de una transición rápida [8].      | <div align="center"><img src="Anexo_Biceps/Captura de pantalla 2024-10-06 203632.png" width="400" height="200"></div> |
+<p align="center"><i>Tabla 1. Métodos de Diseño de Filtros IIR - imágenes [8].</i></p>
+
+## 2. Objetivos <a name = "t7"></a>
+* Utilizar y filtrar señales de EMG y ECG obtenidas previamente, aplicando filtros FIR o IIR.
+* Analizar cada señal (original y filtrada) en el dominio del tiempo y la frecuencia.
+* Incluir los diagramas de polos y ceros, así como los Diagramas de Bode de los filtros utilizados.
+* Justificar la selección de los filtros aplicados.
+
+## 3. Metodología <a name = "t8"></a>
+<p align="justify">En este laboratorio, nos enfocamos en desarrollar e implementar filtros digitales FIR e IIR para reducir el ruido de alta frecuencia que afecta las señales de ECG y EMG adquiridas previamente con el Kit BITalino. La finalidad de aplicar estos filtros es limpiar las señales de interferencias no deseadas, mejorando su calidad y precisión para su análisis posterior.
+   
+### 3.1 **Equipos y materiales utilizados:**<a name = "t9"></a>
+
+<div align="center">
+  
+| **Modelo**    | **Descripción**          | **Cantidad** |
+|---------------|--------------------------|--------------|
+| (r)EVOLUTION  | Kit BITalino              | 1            |
+| ASUS          | Laptop                    | 1            |
+| -             | Electrodos superficiales  | 3            |
+
+</div>
+
+<p align="center"><i>Tabla 2. Equipos y materiales utilizados en este laboratorio.</i></p>
 
 ## 4. Resultados   <a name="t10"></a>
+### 4.1 Conceptos - Filtros ECG:  <a name="t10"></a>
+<p align="justify">Las señales de electrocardiograma (ECG) suelen estar afectadas por diversos ruidos y artefactos, como el desplazamiento de la línea base y las contracciones musculares, que pueden reducir la calidad de la señal y generar riesgos en el diagnóstico clínico. Para mitigar estos problemas, se ha estudiado ampliamente la técnica de descomposición mediante wavelets, utilizando bancos de filtros FIR (Respuesta Finita al Impulso) para descomponer la señal, aplicar umbrales y reconstruirla. Esta técnica permite mejorar significativamente la fidelidad de la señal de ECG al eliminar el ruido de manera efectiva.
+Sin embargo, el uso de filtros FIR de orden elevado conlleva una mayor complejidad en el hardware, lo que aumenta los costos y dificulta su implementación en dispositivos portátiles de monitoreo de salud. Para reducir esta complejidad, se han propuesto bancos de filtros híbridos que combinan filtros FIR e IIR (Respuesta Infinita al Impulso) en la Transformada Wavelet Discreta (DWT). Este enfoque híbrido logra una reducción de ruido efectiva con una menor carga computacional, lo que lo hace ideal para aplicaciones en dispositivos ambulatorios de monitoreo de ECG [9].</p>
+
+<div align="center">
+   
+|  **Parámetro**  | **FIR** | **IIR** | 
+|:------------:|:---------------:|:------------:|
+|Tipo de filtro|Notch|Notch-Butterworth|
+<p align="center"><i>Tabla 3. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal ECG. </i></p>
+</div>
+
+### **Archivo de las señales ploteadas en Python.** <a name="t5"></a>
+  - [EMG - FIR](https://github.com/sandro-robles/Intro_G4/blob/a164dcd24f881cf9e05baff796d131be994c7412/ISB/Laboratorios/Lab7_Filtros/Mar%C3%ADa%20Mautino/C%C3%B3digos_EMG/FIR%20emg.py)
+
+  - [EMG - IIR](https://github.com/sofiacespedes22/ISB_2024_G8/blob/main/4.ISB/LABORATORIOS/Laboratorio%2006_Filtros%20digitales/Archivos%20python/EMG.py)
 
 ### **Señales ECG** <a name="t5"></a>
 | Campo |  Señal Cruda vs Filtro FIR  |  Señal Cruda vs Filtro IIR |
@@ -33,7 +103,7 @@
   <b>Tabla 2. Resumen de la señal filtrada con filtros FIR e IIR para la data ECG.</b>
 </p>
 
-### **Señales EMG - FFT** <a name="t6"></a>
+### **Señales ECG - FFT** <a name="t6"></a>
 | Campo | FFT - Original vs FIR| FFT - Original vs IIR |
 |-----------|-----------|-----------|
 | Basal D2  |  <img src="Anexo_ECG/fft REPOSO ECG D2 fir.png">  | <img src="Anexo_ECG/fft REPOSO ECG D2 iir.png"  > |
@@ -46,6 +116,23 @@
 |--------|------------------|--------------------------|
 | FIR    | <img src="Anexo_ECG/bode.png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/462244521_554943407211659_5770730214108742256_n.png" width="400" height="300" style="display:block; margin:auto;"/> |
 | IIR    | <img src="Anexo_ECG/Bode iir (2).png" width="400" height="300" style="display:block; margin:auto;"/> | <img src="Anexo_ECG/Polos y zeros iir.png" width="400" height="300" style="display:block; margin:auto;"/> |
+
+### 4.2 Conceptos - Filtros EMG:  <a name="t10"></a>
+<p align="justify">Las señales de electromiografía de superficie (sEMG) suelen verse afectadas por varios tipos de ruidos, como el ruido de la línea eléctrica (PLI), el desplazamiento de la línea base (BW) y el ruido blanco gaussiano (WGN). Para mitigar estos ruidos, se suelen utilizar filtros digitales simples como los filtros IIR (Respuesta Infinita al Impulso) y FIR (Respuesta Finita al Impulso). Los filtros IIR son eficientes en términos computacionales, ya que requieren menos coeficientes para alcanzar una respuesta similar a la de los filtros FIR. No obstante, pueden introducir distorsiones de fase y ser menos estables. Los filtros FIR, por su parte, aunque garantizan una fase lineal y son siempre estables, requieren más recursos computacionales debido a la mayor cantidad de coeficientes necesarios. Ambos tipos de filtros son efectivos en reducir ruidos como el PLI y BW, pero tienen dificultades para manejar el WGN, que se superpone con el espectro de la señal sEMG.
+Debido a estas limitaciones, se han desarrollado técnicas avanzadas para mejorar la calidad de las señales sEMG. Entre ellas, la Transformada Wavelet se destaca, ya que permite separar el ruido de la señal utilizando resoluciones en el tiempo y la frecuencia [10].</p>
+
+<div align="center">
+   
+|  **Parámetro**  | **FIR** | **IIR** | 
+|:------------:|:---------------:|:------------:|
+|Tipo de filtro|Notch - Pasabanda |Notch-Butterworth|
+<p align="center"><i>Tabla 4. Parámetros considerados para el diseño de los filtro FIR e IIR en la señal EMG. </i></p>
+</div>
+
+### **Archivo de las señales ploteadas en Python.** <a name="t5"></a>
+  - [EMG - FIR](https://github.com/sandro-robles/Intro_G4/blob/a164dcd24f881cf9e05baff796d131be994c7412/ISB/Laboratorios/Lab7_Filtros/Mar%C3%ADa%20Mautino/C%C3%B3digos_EMG/FIR%20emg.py)
+
+  - [EMG - IIR](https://github.com/sandro-robles/Intro_G4/blob/a164dcd24f881cf9e05baff796d131be994c7412/ISB/Laboratorios/Lab7_Filtros/Mar%C3%ADa%20Mautino/C%C3%B3digos_EMG/IIR%20emg.py)
 
 
 ### **Señales EMG** <a name="t6"></a>
@@ -89,6 +176,7 @@
 <p align="justify"> [6] “FIR Filters by Windowing - The Lab Book Pages,” Labbookpages.co.uk, 2024. http://www.labbookpages.co.uk/audio/firWindowing.html (accessed Oct. 07, 2024).‌</p>
 <p align="justify"> [7] “Figura 5-7.: Esquema general de un sistema de filtro IIR con estructura...,” ResearchGate, 2016. https://www.researchgate.net/figure/Figura-5-7-Esquema-general-de-un-sistema-de-filtro-IIR-con-estructura-Directa-tipo-I_fig58_323019453 (accessed Oct. 06, 2024).‌</p>
 ‌<p align="justify"> [8] “Métodos de diseño filtros IIR,” SlideShare, 2023. https://es.slideshare.net/slideshow/mtodos-de-diseo-filtros-iir/257404855 (accessed Oct. 07, 2024).</p>
-‌
+‌‌<p align="justify"> [9] Yaprak Eminaga, A. Coskun, and I. Kale, “Hybrid IIR/FIR Wavelet Filter Banks for ECG Signal Denoising,” WestminsterResearch (University of Westminster), Oct. 2018, doi: https://doi.org/10.1109/biocas.2018.8584717.</p>
+‌‌<p align="justify"> [10]C. Li, H. Deng, S. Yin, C. Wang, and Y. Zhu, “sEMG signal filtering study using synchrosqueezing wavelet transform with differential evolution optimized threshold,” Results in Engineering, vol. 18, p. 101150, Jun. 2023, doi: https://doi.org/10.1016/j.rineng.2023.101150.</p>
 
 
