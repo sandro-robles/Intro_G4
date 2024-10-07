@@ -1,10 +1,15 @@
 # Laboratorio N°7 - Diseño de Filtros FIR y IIR 
 ## **Tabla de contenidos:**
 1. [Objetivos del laboratorio](#t1)
-2. [Metodología](#t2)
-3. [Resultados](#t3)\
+  - Utilizar las señales EMG y ECG obtenidas en las sesiones anteriores.
+  - Seleccionar una señal de cada actividad realizada para EMG y ECG.
+  - Las señales deben ser filtradas utilizando filtros FIR o IIR.
+  - Incluir diagrama de polos y zeros
+    
+3. [Metodología](#t2)
+4. [Resultados](#t3)\
    3.1 [Ejercicio ECG](#t4)\
    3.2 [Ejercicio EMG ](#t5)
-4. [Discusión](#t6)\
+5. [Discusión](#t6)\
    4.1 [Señal ECG](#t7)\
    4.2 [Señal EMG](#t8)
