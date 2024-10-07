@@ -195,7 +195,7 @@ plt.show()
 | Señal Cruda | Análisis espectral | Filtro FIR | 
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/bicep_cruda.jpg)|![alt text](anexos/bicep_espectral.jpg)|![alt text](anexos/bicep_filtrada.jpg)
-<p align="center"><i>Tabla 1: EMG - Bicep con filtro FIR.</i></p>
+<p align="center"><i>Tabla 2: EMG - Bicep con filtro FIR.</i></p>
 
 <p align="justify"> </p>
 
@@ -205,7 +205,7 @@ plt.show()
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/gastro_cruda.jpg)|![alt text](anexos/gastro_espectral.jpg)|![alt text](anexos/gastro_filtrada.jpg)|
 
-<p align="center"><i>Tabla 2: EMG - Gastrocnemio con filtro FIR.</i></p>
+<p align="center"><i>Tabla 3: EMG - Gastrocnemio con filtro FIR.</i></p>
 
 <p align="justify"> </p>
 
@@ -214,6 +214,15 @@ plt.show()
 |:--------------:|:--------------:|:--------------:|
 |  ![alt text](anexos/trap_cruda.jpg)|![alt text](anexos/trap_espectral.jpg)|![alt text](anexos/trap_filtrada.jpg)|
 
-<p align="center"><i>Tabla 2: EMG - Trapecio con filtro FIR.</i></p>
+<p align="center"><i>Tabla 4: EMG - Trapecio con filtro FIR.</i></p>
+
+<p align="justify"> </p>
+
+
+| Señal Cruda | Análisis espectral | Filtro FIR |
+|:--------------:|:--------------:|:--------------:|
+|  ![alt text](anexos/tricep_cruda.jpg)|![alt text](anexos/tricep_espectral.jpg)|![alt text](anexos/tricep_filtrada.jpg)|
+
+<p align="center"><i>Tabla 5: EMG - Ticep con filtro FIR.</i></p>
 
 <p align="justify"> </p>
