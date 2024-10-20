@@ -21,7 +21,7 @@
 ### **Transformada Wavelet**<a id="Transformada Wavelet"></a>
 <p align="justify"> La transformada wavelet proporciona una técnica avanzada de análisis de señales que, a diferencia de la Transformada de Fourier, permite realizar un análisis multiresolución, lo que significa que puede descomponer una señal en diferentes niveles de frecuencia, manteniendo tanto la información temporal como la de frecuencia. Es especialmente útil en el análisis de señales no estacionarias o que presentan cambios abruptos, como muchas señales biomédicas, porque permite examinar diferentes escalas de tiempo. La principal ventaja es su capacidad para ajustar la resolución en función de la frecuencia: usa intervalos de tiempo grandes para baja frecuencia y pequeños para alta frecuencia, mejorando el detalle en las zonas donde es necesario.</p>
 
-<p align="justify"> El proceso básico de la transformada wavelet implica pasar la señal por filtros pasaaltos y pasabajos para dividirla en sus componentes de alta y baja frecuencia. Esto se puede repetir, dividiendo aún más la señal en distintas bandas de frecuencia. Este enfoque produce una representación multiresolución, donde cada nivel corresponde a una banda específica de frecuencia, permitiendo observar qué frecuencias están presentes en qué momento de la señal. La transformada wavelet puede ser continua o discreta. </p>
+<p align="justify"> El proceso básico de la transformada wavelet implica pasar la señal por filtros pasaaltos y pasabajos para dividirla en sus componentes de alta y baja frecuencia. Esto se puede repetir, dividiendo aún más la señal en distintas bandas de frecuencia. Este enfoque produce una representación multiresolución, donde cada nivel corresponde a una banda específica de frecuencia, permitiendo observar qué frecuencias están presentes en qué momento de la señal. La transformada wavelet puede ser continua o discreta [2]. </p>
 
 <p align="center"><img src="Anexos/ondas-cerabrales.jpeg" width="400"></p>
 
@@ -179,11 +179,11 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1]Seshapu Prassanna, et al. “Application of Wavelet Based Security and Compression Techniques for Biomedical Instrumentation Signals.” International Journal of Innovative Technology and Exploring Engineering, vol. 9, no. 4, 13 Feb. 2020, pp. 57–64, www.researchgate.net/publication/364028066_Application_of_Wavelet_Based_Security_and_Compression_Techniques_for_Biomedical_Instrumentation_Signals, https://doi.org/10.35940/ijitee.c9014.029420. Accessed 20 Oct. 2024.</p>
+<p align="justify">[2] S. Kouro and R. Musalem, “Tutorial introductorio a la Teoría de Wavelet.” Available: http://www2.elo.utfsm.cl/~elo377/documentos/Wavelet.pdf
+‌.</p>
 
 
 
-
-<p align="justify">[2] D. F. Hight, H. A. Kaiser, J. W. Sleigh, and M. S. Avidan, “An updated introduction to electroencephalogram-based brain monitoring during intended general anesthesia,” Canadian Journal of Anesthesia/Journal canadien d’anesthésie, vol. 67, no. 12, pp. 1858–1878, Nov. 2020, doi: https://doi.org/10.1007/s12630-020-01820-3.</p>
 <p align="justify">[3] C. S. Nayak and A. C. Anilkumar, “EEG Normal Waveforms,” Nih.gov, Jul. 24, 2023. https://www.ncbi.nlm.nih.gov/books/NBK539805/#:~:text=However%2C%20the%20most%20frequently%20used,beta%20(13%20to%2030Hz). (accessed Sep. 28, 2024).</p>
 <p align="justify">[4]“¿Para qué es útil el Mapeo Cerebral? - Nepsa Rehabilitación Neurológica,” Nepsa Rehabilitación Neurológica, Dec. 14, 2018. https://nepsa.es/para-que-es-util-el-mapeo-cerebral/ (accessed Sep. 28, 2024).‌</p>
 <p align="justify">[5]“Ultracortex ‘Mark IV’ EEG Headset,” OpenBCI Online Store, 2015. https://shop.openbci.com/products/ultracortex-mark-iv srsltid=AfmBOooFLJKSwIY1W_qsd0d7tg13ph0ZpA8x1khuEkfJ13LgNWdD2_ja (accessed Sep. 29, 2024).
