@@ -35,11 +35,17 @@
 
 
 ## **Metodología:**<a id="Metodología"></a>
-<p align="justify">El laboratorio se llevó a cabo utilizando el Kit BITalino como en los laboratorios anteriores, con 3 electrodos de superficie colocados en las siguientes posiciones:</p>
+<p align="justify"> Para este laboratorio, utilizaremos las señales ECG, EMG y EEG previamente adquiridas en laboratorios anteriores con el Kit BITalino. A partir de estas señales, se procederá a su análisis para identificar el ruido presente. Luego, se diseñarán e implementarán filtros basados en la Transformada Wavelet Discreta (DWT), seleccionando los parámetros óptimos para cada tipo de señal (ECG, EMG y EEG) basándonos en referencias y estudios previos. 
+  
+## **Equipos y materiales utilizados:**<a id="Equipos"></a>
+<div align="center">
+   
+|  **Modelo**  | **Descripción** | **Cantidad** |
+|:------------:|:---------------:|:------------:|
+| (r)EVOLUTION |   Kit BITalino  |       1      |
 
-- El electrodo negativo cercano a la la linea media del lado derecho de la cabeza.
-- El electrodo positivo cercano a la línea media del lado izquierdo de la cabeza.
-- El electrodo de referencia se coloco en una región neutral, el hueso detrás de la oreja.
+<p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
+
 
 <p align="justify">El sujeto, una compañera de clase, estuvo sentado en una silla, en un ambiente controlado (sin ruido excesivo y las luces atenuadas). La prueba se desarrolló en varias fases. Primero, se realizó una fase de línea base inicial durante 30 segundos, en la cual nuestra compañera estuvo con los ojos cerrados, permaneciendo quieta y respiró normalmente. Posteriormente, se procedió con cinco ciclos de apertura y cierre de ojos. Luego, se realizó una segunda fase de línea base de 30 segundos, bajo las mismas condiciones que la primera, para comparar las señales en reposo.
 En la siguiente fase de la prueba, un compañero leyó en voz alta una serie de problemas matemáticos simples y complejas. Nuestra compañera resolvió estos problemas, manteniendo la mirada fija en un punto específico para minimizar los artefactos debidos a movimientos oculares. Para cada una de estas fases se midió la señal EEG y  se guardaron los datos obtenidos. Estos datos fueron procesados posteriormente en un programa python para analizar la actividad cerebral en cada una de las fases de la prueba.  
