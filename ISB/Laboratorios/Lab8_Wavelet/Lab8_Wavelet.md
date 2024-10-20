@@ -44,18 +44,17 @@
 |:------------:|:---------------:|:------------:|
 | (r)EVOLUTION |   Kit BITalino  |       1      |
 
-<p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
+<p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i> </p>
 
 ## **Procedimiento:**<a id="Procedimiento"></a>
-
 ### **SEÑAL ECG:**<a id="SeñalECG"></a>
 <p align="justify">Para el filtrado con transformada Wavelet de las señales ECG, se utilizaron los datos obtenidos previamente en el Laboratorio 4, en tres escenarios distintos: reposo, respiración controlada y después de realizar actividad física.</p>
 
-<p align="justify"> - Estado de reposo: El sujeto permaneció en una posición estable y tranquila, representando nuestra prueba de control. La señal fue registrada durante 30 segundos.</p>
+- Estado de reposo: El sujeto permaneció en una posición estable y tranquila, representando nuestra prueba de control. La señal fue registrada durante 30 segundos.
 
-<p align="justify"> - Estado de respiración controlada: El sujeto realizó un ciclo de respiración prolongada, manteniendo la inhalación, conteniendo la respiración y exhalando, mientras se registraba la señal a lo largo de 30 segundos.</p>
+- Estado de respiración controlada: El sujeto realizó un ciclo de respiración prolongada, manteniendo la inhalación, conteniendo la respiración y exhalando, mientras se registraba la señal a lo largo de 30 segundos.
 
-<p align="justify"> - Estado post-ejercicio: Después de realizar una actividad física intensa, que consistió en subir y bajar escaleras durante 5 minutos, se registró la señal tanto durante como inmediatamente después de la actividad física, también durante un periodo de 30 segundos.</p>
+- Estado post-ejercicio: Después de realizar una actividad física intensa, que consistió en subir y bajar escaleras durante 5 minutos, se registró la señal tanto durante como inmediatamente después de la actividad física, también durante un periodo de 30 segundos.
 
 ***Justificación de parámetros para la Señal ECG***
 
