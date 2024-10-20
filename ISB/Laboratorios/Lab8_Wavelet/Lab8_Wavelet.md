@@ -61,30 +61,30 @@
 
 
 ### **SEÑAL EMG:**<a id="SeñalEMG"></a>
-<p align="justify"> Para el EMG, se tomaron mediciones de los siguientes músculos en distintos estados:
+<p align="justify"> Para el EMG, se tomaron mediciones de los siguientes músculos en distintos estados:</p>
 
-<p align="justify">-Actividad muscular del tríceps braquial: Durante esta prueba, se registró la actividad eléctrica del tríceps braquial tanto en reposo como durante contracción. El electrodo de referencia se colocó en el codo para minimizar las interferencias.</p>
+-Actividad muscular del tríceps braquial: Durante esta prueba, se registró la actividad eléctrica del tríceps braquial tanto en reposo como durante contracción. El electrodo de referencia se colocó en el codo para minimizar las interferencias.
 
-<p align="justify">-Actividad muscular del gastrocnemio (pantorrilla): Se registró la actividad eléctrica del músculo gastrocnemio durante el movimiento de flexión y extensión del pie. El electrodo de referencia se ubicó en la rodilla para evitar interferencias.</p>
+-Actividad muscular del gastrocnemio (pantorrilla): Se registró la actividad eléctrica del músculo gastrocnemio durante el movimiento de flexión y extensión del pie. El electrodo de referencia se ubicó en la rodilla para evitar interferencias.
 
-<p align="justify">-Actividad muscular de la mano: En esta medición, se registró la actividad eléctrica durante la flexión y extensión de los dedos. El electrodo de referencia se colocó en el antebrazo para minimizar el ruido.</p>
+-Actividad muscular de la mano: En esta medición, se registró la actividad eléctrica durante la flexión y extensión de los dedos. El electrodo de referencia se colocó en el antebrazo para minimizar el ruido.
 
-<p align="justify">-Actividad muscular del bíceps braquial: Durante esta prueba, se midió la actividad del bíceps braquial en estados de reposo y contracción. El electrodo de referencia se ubicó en el codo.</p>
+-Actividad muscular del bíceps braquial: Durante esta prueba, se midió la actividad del bíceps braquial en estados de reposo y contracción. El electrodo de referencia se ubicó en el codo.
 
-<p align="justify">-Actividad muscular del trapecio: Se registró la actividad eléctrica del músculo trapecio durante la elevación y descenso de los hombros. El electrodo de referencia se colocó en la espalda, sobre la escápula.</p>
+-Actividad muscular del trapecio: Se registró la actividad eléctrica del músculo trapecio durante la elevación y descenso de los hombros. El electrodo de referencia se colocó en la espalda, sobre la escápula.
 
 ***Justificación de parámetros para la Señal EMG***
 
 ### **SEÑAL EEG:**<a id="SeñalECG"></a>
-<p align="justify"> Se consideraron las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 06 para el proceso de filtrado utilizando la transformada wavelet. Estas señales fueron registradas en diferentes estados:/p>
+<p align="justify"> Se consideraron las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 06 para el proceso de filtrado utilizando la transformada wavelet. Estas señales fueron registradas en diferentes estados:</p>
 
-<p align="justify">- Estado de reposo: El sujeto permaneció en una posición estable y tranquila, manteniendo la calma, con el fin de registrar una línea base de señal con mínimas interferencias y sin movimientos. Este estado sirve como prueba de control, y el registro de la señal duró 30 segundos./p>
+- Estado de reposo: El sujeto permaneció en una posición estable y tranquila, manteniendo la calma, con el fin de registrar una línea base de señal con mínimas interferencias y sin movimientos. Este estado sirve como prueba de control, y el registro de la señal duró 30 segundos./p>
 
-<p align="justify">- Estado de ojos cerrados y abiertos: El sujeto realizó un ciclo de abrir y cerrar los ojos en cinco ocasiones, manteniendo cada estado durante 5 segundos. Para evitar artefactos en la señal, el sujeto permaneció tranquilo y mirando a un punto fijo. La señal fue registrada durante 50 segundos./p>
+- Estado de ojos cerrados y abiertos: El sujeto realizó un ciclo de abrir y cerrar los ojos en cinco ocasiones, manteniendo cada estado durante 5 segundos. Para evitar artefactos en la señal, el sujeto permaneció tranquilo y mirando a un punto fijo. La señal fue registrada durante 50 segundos./p>
 
-<p align="justify">- Estado de segundo reposo: Después de la actividad de parpadeo, el sujeto retomó el estado de calma, sin movimientos, como una segunda fase de referencia. La señal fue grabada nuevamente por 30 segundos./p>
+- Estado de segundo reposo: Después de la actividad de parpadeo, el sujeto retomó el estado de calma, sin movimientos, como una segunda fase de referencia. La señal fue grabada nuevamente por 30 segundos.
 
-<p align="justify">- Estado de razonamiento: El sujeto resolvió mentalmente una serie de ejercicios matemáticos, de menor a mayor dificultad, mientras mantenía la mirada fija en un punto para evitar artefactos. Entre cada respuesta y la siguiente pregunta, se dejó un lapso de 12 segundos para el registro de la señal.</p>
+- Estado de razonamiento: El sujeto resolvió mentalmente una serie de ejercicios matemáticos, de menor a mayor dificultad, mientras mantenía la mirada fija en un punto para evitar artefactos. Entre cada respuesta y la siguiente pregunta, se dejó un lapso de 12 segundos para el registro de la señal.
 
 ***Justificación de parámetros para la Señal ECG***
 
