@@ -23,15 +23,15 @@
 
 <p align="justify"> El proceso básico de la transformada wavelet implica pasar la señal por filtros pasaaltos y pasabajos para dividirla en sus componentes de alta y baja frecuencia. Esto se puede repetir, dividiendo aún más la señal en distintas bandas de frecuencia. Este enfoque produce una representación multiresolución, donde cada nivel corresponde a una banda específica de frecuencia, permitiendo observar qué frecuencias están presentes en qué momento de la señal. La transformada wavelet puede ser continua o discreta [2]. </p>
 
-<p align="center"><img src="Anexos/ondas-cerabrales.jpeg" width="400"></p>
+<p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>
 
 <p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
 
 #### **Transformada Wavelet Continua**<a id="Transformada Wavelet Continua"></a>
 <p align="justify">La Transformada Wavelet Continua (CWT) permite analizar una señal en segmentos localizados del tiempo y consiste en expresar la señal como una expansión de coeficientes obtenidos a partir del producto interno entre la señal y una Wavelet Madre. Esta wavelet madre es una función de energía finita, que se dilata y se traslada en el tiempo para generar una familia de funciones conocidas como wavelets hijas. La CWT es especialmente útil para obtener información en baja frecuencia a través de intervalos grandes de tiempo, o en alta frecuencia utilizando intervalos pequeños de tiempo. Aunque la transformada maneja principalmente un plano de tiempo-escala, también puede trabajar en el dominio de tiempo-frecuencia mediante el teorema de Parseval, lo que la hace versátil para diferentes aplicaciones de análisis de señales [4].</p>
 
-#### **Transformada Wavelet Discrete**<a id="Transformada Wavelet Discreta"></a>
-<p align="justify">la Transformada Wavelet Discreta (DWT) es una versión discretizada de la CWT que permite realizar el análisis numérico de señales. Para ello, se discretizan los parámetros de escala y traslación, transformando la señal en una serie de funciones elementales con sus respectivos coeficientes. En este proceso, la Wavelet Madre y las funciones de escala son fundamentales, donde las wavelets se encargan de captar los detalles finos de la señal (alta frecuencia), mientras que las funciones de escala se encargan de las aproximaciones más generales (baja frecuencia). Esta transformada permite representar una señal como una sumatoria de wavelets discretizadas, lo que facilita su análisis y reconstrucción. La DWT es una opción altamente eficiente para sistemas digitales, proporcionando una base ortonormal que asegura una buena precisión en el procesamiento de señales no estacionarias [4].</p>
+#### **Transformada Wavelet Discreta**<a id="Transformada Wavelet Discreta"></a>
+<p align="justify">La Transformada Wavelet Discreta (DWT) es una versión discretizada de la CWT que permite realizar el análisis numérico de señales. Para ello, se discretizan los parámetros de escala y traslación, transformando la señal en una serie de funciones elementales con sus respectivos coeficientes. En este proceso, la Wavelet Madre y las funciones de escala son fundamentales, donde las wavelets se encargan de captar los detalles finos de la señal (alta frecuencia), mientras que las funciones de escala se encargan de las aproximaciones más generales (baja frecuencia). Esta transformada permite representar una señal como una sumatoria de wavelets discretizadas, lo que facilita su análisis y reconstrucción. La DWT es una opción altamente eficiente para sistemas digitales, proporcionando una base ortonormal que asegura una buena precisión en el procesamiento de señales no estacionarias [4].</p>
 
 
 ## **Metodología:**<a id="Metodología"></a>
@@ -174,11 +174,12 @@ Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](
 <p align="justify">[1]Seshapu Prassanna, et al. “Application of Wavelet Based Security and Compression Techniques for Biomedical Instrumentation Signals.” International Journal of Innovative Technology and Exploring Engineering, vol. 9, no. 4, 13 Feb. 2020, pp. 57–64, www.researchgate.net/publication/364028066_Application_of_Wavelet_Based_Security_and_Compression_Techniques_for_Biomedical_Instrumentation_Signals, https://doi.org/10.35940/ijitee.c9014.029420. Accessed 20 Oct. 2024.</p>
 <p align="justify">[2] S. Kouro and R. Musalem, “Tutorial introductorio a la Teoría de Wavelet.” Available: http://www2.elo.utfsm.cl/~elo377/documentos/Wavelet.pdf
 ‌.</p>
+<p align="justify">[3]G. Antonio and L. Paredes, “Reconocimiento de patrones en electroforesis capilar utilizando análisis multiresolucional y programación dinámica / Gerardo Ceballos,” 2024. https://www.researchgate.net/publication/44720047_Reconocimiento_de_patrones_en_electroforesis_capilar_utilizando_analisis_multiresolucional_y_programacion_dinamica_Gerardo_Ceballos (accessed Oct. 20, 2024).</p>
+<p align="justify">[4] N. N. B and D. Marcela, “El uso de la transformada wavelet discreta en la reconstrucción de señales senosoidales.,” Scientia et Technica, vol. 1, no. 38, pp. 381–386, 2024, doi: https://dialnet.unirioja.es/descarga/articulo/4782789.pdf.‌‌</p>
 
 
 
-<p align="justify">[3] C. S. Nayak and A. C. Anilkumar, “EEG Normal Waveforms,” Nih.gov, Jul. 24, 2023. https://www.ncbi.nlm.nih.gov/books/NBK539805/#:~:text=However%2C%20the%20most%20frequently%20used,beta%20(13%20to%2030Hz). (accessed Sep. 28, 2024).</p>
-<p align="justify">[4]“¿Para qué es útil el Mapeo Cerebral? - Nepsa Rehabilitación Neurológica,” Nepsa Rehabilitación Neurológica, Dec. 14, 2018. https://nepsa.es/para-que-es-util-el-mapeo-cerebral/ (accessed Sep. 28, 2024).‌</p>
+
 <p align="justify">[5]“Ultracortex ‘Mark IV’ EEG Headset,” OpenBCI Online Store, 2015. https://shop.openbci.com/products/ultracortex-mark-iv srsltid=AfmBOooFLJKSwIY1W_qsd0d7tg13ph0ZpA8x1khuEkfJ13LgNWdD2_ja (accessed Sep. 29, 2024).
 ‌<p align="justify">[6]“OpenBCI EEG Headband Kit Guide | OpenBCI Documentation,” Openbci.com, Jun. 18, 2024. https://docs.openbci.com/AddOns/Headwear/HeadBand/ (accessed Sep. 29, 2024).
 ‌<p align="justify">[7]C. S. Nayak and A. C. Anilkumar, “EEG Normal Waveforms,” Nih.gov, Jul. 24, 2023. https://www.ncbi.nlm.nih.gov/books/NBK539805/ (accessed Sep. 29, 2024).
