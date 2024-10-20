@@ -1,4 +1,4 @@
-# **LABORATORIO 6: – Filtro Wavelet**
+# **LABORATORIO 8: – Filtro Wavelet**
 ## **Tabla de contenidos:**
 1. [Objetivos](#Objetivos)
 2. [Introduccion](#Introduccion)
@@ -11,9 +11,9 @@
 9. [Ultracortex](#Ultracortex)
 10. [Bibliografia](#Bibliografia)
 ## **Objetivos:**<a id="Objetivos"></a>
-- Investigar técnicas de procesamiento de señales EEG, con énfasis en filtrado y eliminación de ruido.
-- Configurar correctamente el dispositivo BiTalino para la adquisición de señales EEG.
-- Extraer y analizar señales EEG utilizando el software OpenSignals (r)evolution.
+- Desarrollar filtros basados en la Transformada Wavelet Discreta (DWT) para eliminar ruido en señales ECG, EMG y EEG.
+- Comparar la eficiencia de diferentes wavelets en la reducción de ruido en señales biomédicas.
+- Extraer y analizar características clave de señales filtradas para su aplicación clínica.
   
 ## **Introducción:**<a id="Introduccion"></a>
 <p align="justify"> La transformada wavelet ha demostrado ser una poderosa herramienta matemática utilizada en una amplia gama de aplicaciones de procesamiento de señales y análisis de datos. Su capacidad para descomponer señales en diferentes niveles de resolución permite un análisis más preciso y adaptable en comparación con métodos tradicionales como la transformada de Fourier. En particular, la transformada wavelet ha ganado popularidad en el campo de la compresión de señales, eliminación de ruido, y el análisis de imágenes biomédicas. A diferencia de otras técnicas, la transformada wavelet no solo es eficaz para analizar señales estacionarias, sino que también permite trabajar con señales no estacionarias, lo que la hace ideal para aplicaciones en las que las características de la señal cambian con el tiempo.</p>
