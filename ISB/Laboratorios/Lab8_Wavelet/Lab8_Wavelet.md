@@ -43,10 +43,11 @@
 |  **Modelo**  | **Descripción** | **Cantidad** |
 |:------------:|:---------------:|:------------:|
 | (r)EVOLUTION |   Kit BITalino  |       1      |
-
+</div>
 <p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i> </p>
 
 ## **Procedimiento:**<a id="Procedimiento"></a>
+
 ### **SEÑAL ECG:**<a id="SeñalECG"></a>
 <p align="justify">Para el filtrado con transformada Wavelet de las señales ECG, se utilizaron los datos obtenidos previamente en el Laboratorio 4, en tres escenarios distintos: reposo, respiración controlada y después de realizar actividad física.</p>
 
