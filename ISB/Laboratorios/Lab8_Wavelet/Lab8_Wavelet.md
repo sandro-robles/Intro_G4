@@ -35,7 +35,7 @@
 
 
 ## **Metodología:**<a id="Metodología"></a>
-<p align="justify"> Para este laboratorio, utilizaremos las señales ECG, EMG y EEG previamente adquiridas en laboratorios anteriores con el Kit BITalino. A partir de estas señales, se procederá a su análisis para identificar el ruido presente. Luego, se diseñarán e implementarán filtros basados en la Transformada Wavelet Discreta (DWT), seleccionando los parámetros óptimos para cada tipo de señal (ECG, EMG y EEG) basándonos en referencias y estudios previos. 
+<p align="justify"> Para este laboratorio, utilizaremos las señales ECG, EMG y EEG previamente adquiridas en laboratorios anteriores con el Kit BITalino. A partir de estas señales, se procederá a su análisis para identificar el ruido presente. Luego, se diseñarán e implementarán filtros basados en la Transformada Wavelet Discreta (DWT), seleccionando los parámetros óptimos para cada tipo de señal (ECG, EMG y EEG) basándonos en referencias y estudios previos. </p>
   
 ## **Equipos y materiales utilizados:**<a id="Equipos"></a>
 <div align="center">
@@ -46,134 +46,51 @@
 
 <p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
 
+## **Procedimiento:**<a id="Procedimiento"></a>
 
-<p align="justify">El sujeto, una compañera de clase, estuvo sentado en una silla, en un ambiente controlado (sin ruido excesivo y las luces atenuadas). La prueba se desarrolló en varias fases. Primero, se realizó una fase de línea base inicial durante 30 segundos, en la cual nuestra compañera estuvo con los ojos cerrados, permaneciendo quieta y respiró normalmente. Posteriormente, se procedió con cinco ciclos de apertura y cierre de ojos. Luego, se realizó una segunda fase de línea base de 30 segundos, bajo las mismas condiciones que la primera, para comparar las señales en reposo.
-En la siguiente fase de la prueba, un compañero leyó en voz alta una serie de problemas matemáticos simples y complejas. Nuestra compañera resolvió estos problemas, manteniendo la mirada fija en un punto específico para minimizar los artefactos debidos a movimientos oculares. Para cada una de estas fases se midió la señal EEG y  se guardaron los datos obtenidos. Estos datos fueron procesados posteriormente en un programa python para analizar la actividad cerebral en cada una de las fases de la prueba.  
-Una vez realizado las pruebas con nuestra compañera se procedió a hacer el mismo procedimiento pero en este caso con nuestro docente pero a diferencia de l primer caso ya no usamos el Kit BITalino sino el Ultracortex. </p>
-Preguntas simples realizadas:
-<div align="center">
+### **SEÑAL ECG:**<a id="SeñalECG"></a>
+<p align="justify">Para el filtrado con transformada Wavelet de las señales ECG, se utilizaron los datos obtenidos previamente en el Laboratorio 4, en tres escenarios distintos: reposo, respiración controlada y después de realizar actividad física.</p>
 
-|  **Preguntas simples**  |
-|:------------:|
-| Hay 6 gatos en el parque; llegan 3 más. ¿Cuántos gatos hay ahora? |
-| Sofía tiene 8 plumas, y Pablo le da 2. ¿Cuántas plumas tiene Sofía ahora? |
-| Hay 12 flores en el jardín; se marchitan 5. ¿Cuántas flores quedan? |
-</div>
-<p align="center"><i>Tabla 1. Preguntas simples realizadas durante el laboratorio. </i></p>
-Preguntas complejas realizadas:
-<div align="center">
+<p align="justify"> - Estado de reposo: El sujeto permaneció en una posición estable y tranquila, representando nuestra prueba de control. La señal fue registrada durante 30 segundos.</p>
 
-|  **Preguntas siples**  |
-|:------------:|
-| Ana tiene 30 lápices, 7 más que Luis. Si juntos tienen 57 lápices, ¿cuántos tiene Luis? |
-| El equipo X ganó 56 puntos, 12 menos que el equipo Y. Si el equipo Z ganó 18 más que ambos equipos juntos, ¿cuántos puntos ganó el equipo Z? |
-| En una escuela hay 120 estudiantes, 20 más que en otra. Si en ambas escuelas hay 45 estudiantes menos que en una tercera escuela, ¿cuántos estudiantes hay en la tercera escuela? |
-</div>
-<p align="center"><i>Tabla 2. Preguntas complejas realizadas durante el laboratorio. </i></p>
+<p align="justify"> - Estado de respiración controlada: El sujeto realizó un ciclo de respiración prolongada, manteniendo la inhalación, conteniendo la respiración y exhalando, mientras se registraba la señal a lo largo de 30 segundos.</p>
 
-## **Cronología de mediciones:**<a id="Cronologíademediciones"></a>
-1. **Preparación del equipo y del sujeto:** <br>
-   1.1. Conexion de los electrodos, asegurando un buen contacto con la piel y verificando la correcta adherencia de cada uno. <br>
-   1.2. Conexion correcta del Kit BITalino con el portatil. <br>
+<p align="justify"> - Estado post-ejercicio: Después de realizar una actividad física intensa, que consistió en subir y bajar escaleras durante 5 minutos, se registró la señal tanto durante como inmediatamente después de la actividad física, también durante un periodo de 30 segundos.</p>
 
-2. **Mediciones con  Kit BITalino:** <br>
-   2.1. Registro de la línea base inicial (30 segundos). <br>
-   2.2. Ciclo de apertura y cierre de ojos (5 ciclos). <br>
-   2.3. Registro de una segunda línea base (30 segundos) <br>
-   2.4. Ejercicios mentales (resolución de problemas matemáticos). <br>
-
-3. **Mediciones con el Ultracortex:** <br>
-   3.1. Registro de la línea base inicial (30 segundos). <br>
-   3.2. Ciclo de apertura y cierre de ojos (5 ciclos). <br>
-   3.3. Registro de una segunda línea base (30 segundos) <br>
-   3.4. Ejercicios mentales (resolución de problemas matemáticos). <br>
-   
-## **Equipos y materiales utilizados:**<a id="Equipos"></a>
-<div align="center">
-   
-|  **Modelo**  | **Descripción** | **Cantidad** |
-|:------------:|:---------------:|:------------:|
-| (r)EVOLUTION |   Kit BITalino  |       1      |
-|     ASUS     |      Laptop     |       1      |
-|       -      |    Electrodos superficiales   |       3      |
-|    MARK IV    |   Ultracortex   |       1      |
-</div>
-<p align="center"><i>Tabla 3. Equipos y materiales utilizados en este laboratorio. </i></p>
-
-<p align="center"><img src="Anexos/BITalino.jpeg" width="300" height="300"><img src="Anexos/Ultracortex.jpg" width="300" height="300"></p>
-<p align="center"><i>Figura 3 y 4: Kit BITalino conectado a los electrodos y Ultracortex. </i></p>
-
-## **Posiciones de los electrodos:**<a id="Posicionesdeloselectrodos"></a>
-
-<p align="center"><img src="Anexos/Imagen de WhatsApp 2024-09-28 a las 17.52.35_7f87aa3e.jpg" width="400"></p>
-
-<p align="center"><i>Figura 5: Participante con los electrodos posicionados en la cabeza.</i></p>
+***Justificación de parámetros para la Señal ECG***
 
 
-## **Resultados:**<a id="Resultados"></a>
-### 1. Señales EEG captadas con eL Kit BITalino:
-Para el ploteo de la señal se usó un código Python, que se puede ver [aquí](Anexos/Señales_EEGplot.ipynb).
+### **SEÑAL EMG:**<a id="SeñalEMG"></a>
+<p align="justify"> Para el EMG, se tomaron mediciones de los siguientes músculos en distintos estados:
 
-#### <blockquote> Caso 1: Línea base sin movimientos y ojos cerrados durante 30 segundos. </blockquote>
-<p align="center">
+<p align="justify">-Actividad muscular del tríceps braquial: Durante esta prueba, se registró la actividad eléctrica del tríceps braquial tanto en reposo como durante contracción. El electrodo de referencia se colocó en el codo para minimizar las interferencias.</p>
 
-| **Video 1.** | **Señal obtenida** |
-|:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/42f96590-4a11-46fe-b84f-c8ca31c68e31"> | <img src="Anexos/S1.jpeg" > |
-<p align="center"><i>Tabla 4. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
-</p>
+<p align="justify">-Actividad muscular del gastrocnemio (pantorrilla): Se registró la actividad eléctrica del músculo gastrocnemio durante el movimiento de flexión y extensión del pie. El electrodo de referencia se ubicó en la rodilla para evitar interferencias.</p>
 
-#### <blockquote> Caso 2: Ciclo de ojos abiertos - ojos cerrados cinco veces cada 5 segundos. </blockquote>
-<p align="center">
-  
+<p align="justify">-Actividad muscular de la mano: En esta medición, se registró la actividad eléctrica durante la flexión y extensión de los dedos. El electrodo de referencia se colocó en el antebrazo para minimizar el ruido.</p>
 
-| **Video 2.** | **Señal obtenida** |
-|:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/a6729327-a0c4-4448-85a3-6769a2feeb0f">| <img src="Anexos/S2.jpeg" > |
-<p align="center"><i>Tabla 5. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
-</p>
+<p align="justify">-Actividad muscular del bíceps braquial: Durante esta prueba, se midió la actividad del bíceps braquial en estados de reposo y contracción. El electrodo de referencia se ubicó en el codo.</p>
 
-#### <blockquote> Caso 3: Fase de referencia de 30 segundos. </blockquote>
-<p align="center">
-  
+<p align="justify">-Actividad muscular del trapecio: Se registró la actividad eléctrica del músculo trapecio durante la elevación y descenso de los hombros. El electrodo de referencia se colocó en la espalda, sobre la escápula.</p>
 
-| **Video 3.** | **Señal obtenida** |
-|:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/dabb644d-1f9d-465d-b192-6a38d9cb3cf2">| <img src="Anexos/S3.jpeg" > |
-<p align="center"><i>Tabla 6. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
-</p>
+***Justificación de parámetros para la Señal EMG***
 
-#### <blockquote> Caso 4: Registro realizando ejercicios mentales (Simples). </blockquote>
-<p align="center">
+### **SEÑAL EEG:**<a id="SeñalECG"></a>
+<p align="justify"> Se consideraron las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 06 para el proceso de filtrado utilizando la transformada wavelet. Estas señales fueron registradas en diferentes estados:/p>
 
-| **Video 4.** | **Señal obtenida** |
-|:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/e4a0ca57-4e45-46d0-b6a8-1b4c8c50d91e">| <img src="Anexos/S4.jpeg" > |
-<p align="center"><i>Tabla 7. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
-</p>
+<p align="justify">- Estado de reposo: El sujeto permaneció en una posición estable y tranquila, manteniendo la calma, con el fin de registrar una línea base de señal con mínimas interferencias y sin movimientos. Este estado sirve como prueba de control, y el registro de la señal duró 30 segundos./p>
 
-#### <blockquote> Caso 5: Registro realizando ejercicios mentales (Complejos). </blockquote>
-<p align="center">
-   
-| **Video 5.** | **Señal obtenida** |
-|:------------:|:---------------:|
-|<video src="https://github.com/user-attachments/assets/444cd5aa-e248-41b3-a67c-636b4d0af70b">| <img src="Anexos/S5.jpeg" > |
-<p align="center"><i>Tabla 8. Video de la adquisición de la señal EEG y la señal obtenida. </i></p>
-</p>
+<p align="justify">- Estado de ojos cerrados y abiertos: El sujeto realizó un ciclo de abrir y cerrar los ojos en cinco ocasiones, manteniendo cada estado durante 5 segundos. Para evitar artefactos en la señal, el sujeto permaneció tranquilo y mirando a un punto fijo. La señal fue registrada durante 50 segundos./p>
 
-### 2. Señales EEG captadas con eL Ultracortex:
+<p align="justify">- Estado de segundo reposo: Después de la actividad de parpadeo, el sujeto retomó el estado de calma, sin movimientos, como una segunda fase de referencia. La señal fue grabada nuevamente por 30 segundos./p>
 
-| **Estado** | **Señal obtenida  (Ultracortex)** |
-|:------------:|:---------------:|
-|Línea base sin movimientos y ojos cerrados durante 30 segundos | <img src="Anexos/U1.png" > |
-|Ciclo de ojos abiertos - ojos cerrados cinco veces cada 5 segundos | <img src="Anexos/U2.png" > |
-|Fase de referencia de 30 segundos | <img src="Anexos/U3.png" > |
-|Registro realizando ejercicios mentales | <img src="Anexos/U4.png" > |
-<p align="center"><i>Tabla 9. Señales adquiridas de la señal EEG por el Ultracortex. </i></p>
-</p>
+<p align="justify">- Estado de razonamiento: El sujeto resolvió mentalmente una serie de ejercicios matemáticos, de menor a mayor dificultad, mientras mantenía la mirada fija en un punto para evitar artefactos. Entre cada respuesta y la siguiente pregunta, se dejó un lapso de 12 segundos para el registro de la señal.</p>
+
+***Justificación de parámetros para la Señal ECG***
+
 
 ## **Discusión:**<a id="Discusión"></a>
-<p align="justify">En la gráfica se pueden observar diferentes ondas en diferentes rangos de frecuencia como lo son las ondas delta (0.5 a 4Hz), ondas teta (4 a 7Hz), ondas alfa (8 a 12Hz), ondas sigma (12 a 16Hz) y ondas beta (13 a 30Hz) y cada una de estas ondas proporcionan características fisiológicas de la persona [7]. La onda delta se presenta fisiológicamente activa en el sueño profundo y es prominente en regiones fotocentrales de la cabeza [7]. La onda teta se encuentra con mayor intensidad en las primeras etapas de sueño y es más prominente en las regiones frontocentrales [7], además de ser indicador neuronal de procesos internos que requieren autogestión [8]. La onda alfa predomina en tareas que requieren atención, memoria semántica. Es fácil de ver cuando el paciente se encuentra con los ojos cerrados y mentalmente inactivo y hay un bloqueo de esta onda cuando el paciente se encuentra con los ojos abiertos y en un lugar con iluminación [8]. La onda sigma se observa fisiológicamente en el sueño N2, estas pueden ser lentas (12 a 14Hz) o rápidas (14 a 16Hz) y se observan con mayor intensidad en regiones frontocentrales de la cabeza [9]. Por último, las ondas beta son más prominentes en regiones frontales y centrales de la cabeza y se muestran con mayor actividad cuando el paciente se encuentra alerta, atento, enfocado en resolver problemas o concentrado en actividades mentales [8]. Se debe tener en cuenta que la gráfica obtenida de electroencefalograma puede verse afectada por diferentes artefactos como la respiración y la actividad del corazón [11].</p>
+<p align="justify"> </p>
 
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
