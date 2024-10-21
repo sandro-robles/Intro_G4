@@ -100,12 +100,3 @@
 <p align="justify">[3]G. Antonio and L. Paredes, “Reconocimiento de patrones en electroforesis capilar utilizando análisis multiresolucional y programación dinámica / Gerardo Ceballos,” 2024. https://www.researchgate.net/publication/44720047_Reconocimiento_de_patrones_en_electroforesis_capilar_utilizando_analisis_multiresolucional_y_programacion_dinamica_Gerardo_Ceballos (accessed Oct. 20, 2024).</p>
 <p align="justify">[4] N. N. B and D. Marcela, “El uso de la transformada wavelet discreta en la reconstrucción de señales senosoidales.,” Scientia et Technica, vol. 1, no. 38, pp. 381–386, 2024, doi: https://dialnet.unirioja.es/descarga/articulo/4782789.pdf.‌‌</p>
 
-
-
-
-<p align="justify">[5]“Ultracortex ‘Mark IV’ EEG Headset,” OpenBCI Online Store, 2015. https://shop.openbci.com/products/ultracortex-mark-iv srsltid=AfmBOooFLJKSwIY1W_qsd0d7tg13ph0ZpA8x1khuEkfJ13LgNWdD2_ja (accessed Sep. 29, 2024).
-‌<p align="justify">[6]“OpenBCI EEG Headband Kit Guide | OpenBCI Documentation,” Openbci.com, Jun. 18, 2024. https://docs.openbci.com/AddOns/Headwear/HeadBand/ (accessed Sep. 29, 2024).
-‌<p align="justify">[7]C. S. Nayak and A. C. Anilkumar, “EEG Normal Waveforms,” Nih.gov, Jul. 24, 2023. https://www.ncbi.nlm.nih.gov/books/NBK539805/ (accessed Sep. 29, 2024).
-‌‌<p align="justify">[8]P. Kora, K. Meenakshi, K. Swaraja, A. Rajani, and Mantena Satyanarayana Raju, “EEG based interpretation of human brain activity during yoga and meditation using machine learning: A systematic review,” Complementary Therapies in Clinical Practice, vol. 43, pp. 101329–101329, Feb. 2021, doi: https://doi.org/10.1016/j.ctcp.2021.101329.
-<p align="justify">[10]A. R. Gondeck and J. R. Smith, “Dynamics of human sleep sigma spindles,” Electroencephalography and Clinical Neurophysiology, vol. 37, no. 3, pp. 293–297, Sep. 1974, doi: https://doi.org/10.1016/0013-4694(74)90033-9.
-‌<p align="justify">[11]S. Majumder, Bijay Guragain, C. Wang, and N. Wilson, “On-board Drowsiness Detection using EEG: Current Status and Future Prospects,” ResearchGate, May 2019. https://www.researchgate.net/publication/335794861_On-board_Drowsiness_Detection_using_EEG_Current_Status_and_Future_Prospects (accessed Sep. 29, 2024).
