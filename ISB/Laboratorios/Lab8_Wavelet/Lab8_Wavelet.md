@@ -99,6 +99,12 @@
 | **Músculo** | **Señales**|
 |:------------:|:---------------:|
 |Tricep en reposo| ![tricep_en_reposo1](https://github.com/user-attachments/assets/7a7f44a0-bf2e-40df-87f6-eb8e25601987)|
+|Gastro en reposo|![gastrorepososs](https://github.com/user-attachments/assets/c77da4ab-5dd5-4f28-ac09-11ea39e0a676)|
+|Mano en reposo|![manosreposo](https://github.com/user-attachments/assets/e31c8bdf-c221-4c6f-8dec-57d819c12725)|
+|Bícep braquial en reposo|![biceoreposo](https://github.com/user-attachments/assets/225313e2-8673-43ee-b6a9-601c8d22805a)|
+|Trapecio en reposo|![trapecioo](https://github.com/user-attachments/assets/a0d15370-ae7e-409a-91a3-ad316d773bf2)|
+
+
 
 
 ### **SEÑAL EEG:**<a id="SeñalECG"></a>
