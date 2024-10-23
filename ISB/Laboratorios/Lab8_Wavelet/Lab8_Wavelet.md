@@ -96,6 +96,8 @@
 <p align="center"><i>Figura 6: Trapecio.</i></p>
 
 ***Justificación de parámetros para la Señal EMG***
+|Tricep en reposo| ![tricep_en_reposo1](https://github.com/user-attachments/assets/7a7f44a0-bf2e-40df-87f6-eb8e25601987)|
+
 
 ### **SEÑAL EEG:**<a id="SeñalECG"></a>
 <p align="justify"> Se consideraron las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 06 para el proceso de filtrado utilizando la transformada wavelet. Estas señales fueron registradas en diferentes estados:</p>
