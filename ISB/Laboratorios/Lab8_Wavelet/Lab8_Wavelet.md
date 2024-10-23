@@ -64,9 +64,9 @@
 <p align="justify"> Para el EMG, se tomaron mediciones de los siguientes músculos en distintos estados:</p>
 
 - Actividad muscular del tríceps braquial: Durante esta prueba, se registró la actividad eléctrica del tríceps braquial tanto en reposo como durante contracción. El electrodo de referencia se colocó en el codo para minimizar las interferencias.</p>
-<p align="center"> src="<img width="868" alt="tricep" src="https://github.com/user-attachments/assets/a4c9d7bc-d5b7-42ba-9c76-1459f971d447">"
+<p align="center"> "<img width="868" alt="tricep" src="https://github.com/user-attachments/assets/a4c9d7bc-d5b7-42ba-9c76-1459f971d447">"
 
-<p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
+<p align="center"><i>Figura 1: Trícep braquial [3].</i></p>
 
 - Actividad muscular del gastrocnemio (pantorrilla): Se registró la actividad eléctrica del músculo gastrocnemio durante el movimiento de flexión y extensión del pie. El electrodo de referencia se ubicó en la rodilla para evitar interferencias.
 
