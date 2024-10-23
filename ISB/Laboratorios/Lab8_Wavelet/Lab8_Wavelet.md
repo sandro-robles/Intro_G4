@@ -59,9 +59,12 @@
 
 | Tipo de señal | Señal Cruda | Filtro wavelet | 
 |:--------------:|:--------------:|:--------------:|
-| Reposo| | | 
-| Hiperventilación |  | |
-| Despues de actividad fisica | | |
+| Reposo|![respiracion](https://github.com/user-attachments/assets/a66cc74a-699f-41e3-83c9-195fbdddf335)
+ | | 
+| Respiración controlada | ![post-respiracion](https://github.com/user-attachments/assets/464a1798-6254-46ec-b372-1000b15aa9ed)
+ | |
+| Post-ejercicio | ![ejercicio](https://github.com/user-attachments/assets/66c5fc24-bbdb-428f-b5cd-eb8e00262918)
+| |
 
 
 ***Justificación de parámetros para la Señal ECG***
