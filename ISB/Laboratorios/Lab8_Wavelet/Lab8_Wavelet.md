@@ -66,15 +66,25 @@
 - Actividad muscular del tríceps braquial: Durante esta prueba, se registró la actividad eléctrica del tríceps braquial tanto en reposo como durante contracción. El electrodo de referencia se colocó en el codo para minimizar las interferencias.</p>
 <p align="center"> <img width="868" alt="tricep" src="https://github.com/user-attachments/assets/a4c9d7bc-d5b7-42ba-9c76-1459f971d447">
 
-<p align="center"><i>Figura 1: Trícep braquial [3].</i></p>
+<p align="center"><i>Figura 2: Trícep braquial.</i></p>
 
 - Actividad muscular del gastrocnemio (pantorrilla): Se registró la actividad eléctrica del músculo gastrocnemio durante el movimiento de flexión y extensión del pie. El electrodo de referencia se ubicó en la rodilla para evitar interferencias.
+<p align="center"><img width="868" alt="pierna" src="https://github.com/user-attachments/assets/e73274ca-5072-41f7-8ed7-a43339121757">
+<p align="center"><i>Figura 3: Gastrocnemio.</i></p>
+
 
 - Actividad muscular de la mano: En esta medición, se registró la actividad eléctrica durante la flexión y extensión de los dedos. El electrodo de referencia se colocó en el antebrazo para minimizar el ruido.
+<p align="center"><img width="868" alt="mano" src="https://github.com/user-attachments/assets/8edd416c-8361-4314-b48c-7dedec608fb6">
+<p align="center"><i>Figura 4: Mano-dedos.</i></p>
 
 - Actividad muscular del bíceps braquial: Durante esta prueba, se midió la actividad del bíceps braquial en estados de reposo y contracción. El electrodo de referencia se ubicó en el codo.
+<p align="center"><img width="868" alt="bicep" src="https://github.com/user-attachments/assets/31549e78-2e73-4fa1-955b-cab8fb5eaa78">
+<p align="center"><i>Figura 5: Bícep braquial.</i></p>
+
 
 - Actividad muscular del trapecio: Se registró la actividad eléctrica del músculo trapecio durante la elevación y descenso de los hombros. El electrodo de referencia se colocó en la espalda, sobre la escápula.
+<p align="center"><img width="868" alt="espalda" src="https://github.com/user-attachments/assets/3fad3a51-27b5-4f6b-b2a3-9d3fa1970156">
+<p align="center"><i>Figura 6: Trapecio.</i></p>
 
 ***Justificación de parámetros para la Señal EMG***
 
