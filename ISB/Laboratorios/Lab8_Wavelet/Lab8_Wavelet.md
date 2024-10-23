@@ -68,6 +68,15 @@
 
 
 ***Justificación de parámetros para la Señal ECG***
+<p align="justify"> Para el filtrado se utilizó el artículo "Efficient wavelet families for ECG classification using neural classifiers" donde se compara el uso de varias familias de wavelets en la clasificación de señales ECG usando diferentes redes neuronales. La DWT es clave en este trabajo porque permite descomponer la señal ECG en varios niveles de resolución, lo que facilita la extracción de características tanto morfológicas como estadísticas que alimentan los clasificadores neuronales. Para nuestro filtrado tomamos en cuenta características que se usan en el artículo usando la wavelet Daubechies (db4), que es la que tuvo mejores resultados. Entre las características vistas el artículo menciona dos etapas una donde se aplica una técnica de umbralización suave para eliminar el ruido de alta frecuencia y una segunda etapa que elimina el ruido de desvío de línea base utilizando un rango de 0,15 a 0,5 Hz. </p>
+
+| **Descripcion de la señal** | **Señal original** | **Señal filtrada** | **Wavelet** |
+|:------------:|:---------------:|:---------------:|:---------------:|
+|Señal ECG en estado de reposo | <img src="Anexos/S1_1.jpeg" > | <img src="Anexos//S1_2.jpeg" > | <img src="Anexos//S1_3.jpeg" > |
+|Señal ECG en estado de respiración prolongada | <img src="Anexos//S2_1.jpeg" > | <img src="Anexos//S2_2.jpeg" > | <img src="Anexos//S2_3.jpeg" > |
+|Señal ECG en estado de post - Respiración | <img src="Anexos//S3_1.jpeg" > | <img src="Anexos//S3_2.jpeg" > | <img src="Anexos//S3_3.jpeg" > |
+|Señal ECG en estado luego de actividad física | <img src="Anexos//S4_1.jpeg" > | <img src="Anexos//S4_2.jpeg" > | <img src="Anexos//S4_3.jpeg" > |
+<p align="center"><i>Tabla 2. Señales ECGs orignales y filtradas por la transformada Wavelet. </i></p>
 
 
 ### **SEÑAL EMG:**<a id="SeñalEMG"></a>
