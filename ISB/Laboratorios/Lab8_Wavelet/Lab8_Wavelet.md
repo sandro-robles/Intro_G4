@@ -104,7 +104,16 @@
 |Bícep braquial en reposo|![biceoreposo](https://github.com/user-attachments/assets/225313e2-8673-43ee-b6a9-601c8d22805a)|
 |Trapecio en reposo|![trapecioo](https://github.com/user-attachments/assets/a0d15370-ae7e-409a-91a3-ad316d773bf2)|
 
+**Interpretación**
+-Señal EMG Original: Esta es la señal original que representa la actividad muscular en un estado de reposo durante el intervalo de 0 a 10 segundos. La señal muestra variaciones leves, lo cual es típico en condiciones de reposo, donde la actividad muscular es mínima o casi inexistent
 
+-Coeficientes de Detalle Nivel 1: Este nivel de descomposición wavelet recoge las componentes de frecuencias altas y de corta duración. Las variaciones detectadas son muy leves, lo que sugiere la falta de actividad muscular rápida o de interferencias de alta frecuencia, lo cual concuerda con un estado de reposo.
+
+-Coeficientes de Detalle Nivel 2: Los coeficientes de este nivel corresponden a una combinación de frecuencias medias y altas. Aunque las fluctuaciones son un poco más marcadas que en el primer nivel, continúan siendo moderadas, lo que sigue reflejando la tranquilidad de la señal muscular en estado de reposo.
+
+-Coeficientes de Detalle Nivel 3: Este nivel captura componentes de frecuencia más baja en comparación con los niveles anteriores. Los patrones de actividad muscular son aún más constantes y uniformes, lo que confirma la ausencia de actividad muscular relevante durante el estado de reposo.
+
+-Coeficientes de Detalle Nivel 4: Este nivel recoge las componentes de baja frecuencia. Las variaciones son más notorias que en los niveles anteriores, pero continúan reflejando una actividad muy baja y constante, característica de la falta de contracción muscular.
 
 
 ### **SEÑAL EEG:**<a id="SeñalECG"></a>
@@ -120,6 +129,7 @@
 
 ***Justificación de parámetros para la Señal EEG***
 <p align="justify"> En el estudio titulado "Procesamiento de señales de electroencefalograma mediante wavelets para la eliminación de artefactos cardíacos",  se seleccionaron tres tipos de wavelets: Coiflets de orden 3, Daubechies de orden 4 y Symlets de orden 5. Estas fueron elegidas por su capacidad de filtrar artefactos cardíacos sin distorsionar la señal EEG. Los niveles de detalle eliminados fueron los niveles 2 y 3, ya que los artefactos cardíacos suelen aparecer en frecuencias bajas (0.5 a 4 Hz), y la eliminación de estos niveles permite eliminar el ruido sin afectar las ondas cerebrales importantes. El umbral de eliminación se ajustó usando SNR y NMSE para optimizar el filtrado sin pérdida significativa de información [X].</p>
+
 
 ## **Discusión:**<a id="Discusión"></a>
 <p align="justify"> </p>
