@@ -56,6 +56,12 @@
 - Estado de respiración controlada: El sujeto realizó un ciclo de respiración prolongada, manteniendo la inhalación, conteniendo la respiración y exhalando, mientras se registraba la señal a lo largo de 30 segundos.
 
 - Estado post-ejercicio: Después de realizar una actividad física intensa, que consistió en subir y bajar escaleras durante 5 minutos, se registró la señal tanto durante como inmediatamente después de la actividad física, también durante un periodo de 30 segundos.
+| Tipo de señal | Señal Cruda | Filtro wavelet | 
+|:--------------:|:--------------:|:--------------:|
+| Reposo| | | 
+| Hiperventilación |  | |
+| Despues de actividad fisica | | |
+
 
 ***Justificación de parámetros para la Señal ECG***
 
