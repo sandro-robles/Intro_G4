@@ -105,6 +105,7 @@
 |Trapecio en reposo|![trapecioo](https://github.com/user-attachments/assets/a0d15370-ae7e-409a-91a3-ad316d773bf2)|
 
 **Interpretación**
+
 -Señal EMG Original: Esta es la señal original que representa la actividad muscular en un estado de reposo durante el intervalo de 0 a 10 segundos. La señal muestra variaciones leves, lo cual es típico en condiciones de reposo, donde la actividad muscular es mínima o casi inexistent
 
 -Coeficientes de Detalle Nivel 1: Este nivel de descomposición wavelet recoge las componentes de frecuencias altas y de corta duración. Las variaciones detectadas son muy leves, lo que sugiere la falta de actividad muscular rápida o de interferencias de alta frecuencia, lo cual concuerda con un estado de reposo.
