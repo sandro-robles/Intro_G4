@@ -4,7 +4,7 @@
 2. [Contexto](#Contexto)
 3. [Procesamiento y Preprocesamiento de las señales sEMG](#procesamiento-y-preprocesamiento-de-las-señales-semg)
 4. [Equipos y materiales utilizados](#Equipos)
-5. [Resultados](#Resultados)
+5. [Metodología](#Metodología)
 6. [Discusión](#Discusión)
 7. [Bibliografia](#Bibliografia)
 
@@ -58,7 +58,8 @@
 </div>
 <p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
 
-
+## **Metodología:**<a id="Metodología"></a>
+<p align="justify"> El primer paso en el procesamiento de señales EMG es revisar la literatura para encontrar las mejores técnicas que se usan en este campo. A partir de esa revisión, se busca identificar el filtrado más adecuado para eliminar el ruido presente en las señales. Luego, se aplicará un proceso de segmentación que divida las señales en partes más manejables, lo que permitirá un análisis más preciso. Después de eso, se extraerán características importantes en los dominios del tiempo, frecuencia y tiempo-frecuencia, con el objetivo de entender mejor las señales. También se compararán los filtros FIR, IIR y Wavelet para ver cuál es más efectivo con las señales EMG. Finalmente, las señales obtenidas en el laboratorio serán analizadas, utilizando filtrado y extracción de características, para obtener datos que puedan ser útiles en aplicaciones biomédicas o tecnológicas.</p>
 
 ## **Bibliografía:**<a id="Bibliografia"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
