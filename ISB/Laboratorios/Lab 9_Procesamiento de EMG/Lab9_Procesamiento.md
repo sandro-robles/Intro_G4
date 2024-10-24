@@ -6,7 +6,7 @@
 4. [Equipos y materiales utilizados](#Equipos)
 5. [Metodología](#Metodología)
 6. [Discusión](#Discusión)
-7. [Bibliografia](#Bibliografia)
+7. [Bibliografía](#Bibliografía)
 
    
 ## **Objetivos:**<a id="Objetivos"></a>
@@ -61,7 +61,7 @@
 ## **Metodología:**<a id="Metodología"></a>
 <p align="justify"> El primer paso en el procesamiento de señales EMG es revisar la literatura para encontrar las mejores técnicas que se usan en este campo. A partir de esa revisión, se busca identificar el filtrado más adecuado para eliminar el ruido presente en las señales. Luego, se aplicará un proceso de segmentación que divida las señales en partes más manejables, lo que permitirá un análisis más preciso. Después de eso, se extraerán características importantes en los dominios del tiempo, frecuencia y tiempo-frecuencia, con el objetivo de entender mejor las señales. También se compararán los filtros FIR, IIR y Wavelet para ver cuál es más efectivo con las señales EMG. Finalmente, las señales obtenidas en el laboratorio serán analizadas, utilizando filtrado y extracción de características, para obtener datos que puedan ser útiles en aplicaciones biomédicas o tecnológicas.</p>
 
-## **Bibliografía:**<a id="Bibliografia"></a>
+## **Bibliografía:**<a id="Bibliografía"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
 <p align="justify">[2] J. Wu, X. Li, W. Liu, and Z. Jane Wang, “sEMG Signal Processing Methods: A Review,” Journal of Physics: Conference Series, vol. 1237, no. 3, p. 032008, Jun. 2019, doi: https://doi.org/10.1088/1742-6596/1237/3/032008.</p>
 <p align="justify">[3] “Figura 4. Diagrama de procesamiento de señal EMG,” ResearchGate, 2024. https://www.researchgate.net/figure/Figura-4-Diagrama-de-procesamiento-de-senal-EMG_fig3_381880854 (accessed Oct. 24, 2024).</p>
