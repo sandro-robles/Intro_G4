@@ -2,7 +2,7 @@
 ## **Tabla de contenidos:**
 1. [Objetivos](#Objetivos)
 2. [Contexto](#Contexto)
-3. [Procesamiento y Preprocesamiento de las señales sEMG](#Procesamiento)
+3. [Procesamiento y Preprocesamiento de las señales sEMG](#procesamiento-y-preprocesamiento-de-las-señales-semg)
 4. [Equipos y materiales utilizados](#Equipos)
 5. [Resultados](#Resultados)
 6. [Discusión](#Discusión)
@@ -20,7 +20,7 @@
 ## **Contexto:**<a id="Contexto"></a>
 <p align="justify"> La electromiografía de superficie (EMG) es una técnica utilizada para medir la actividad eléctrica de los músculos durante la contracción, proporcionando información esencial sobre las propiedades fisiológicas y funcionales del músculo. La electromiografía (EMG) se refiere a la señal eléctrica colectiva de los músculos, la cual es controlada por el sistema nervioso y producida durante la contracción muscular. La señal representa las propiedades anatómicas y fisiológicas de los músculos; de hecho, una señal EMG es la actividad eléctrica de las unidades motoras de un músculo, que consisten en dos tipos: EMG de superficie y EMG intramuscular. Las señales EMG de superficie y EMG intramuscular se registran mediante electrodos no invasivos y electrodos invasivos, respectivamente. Hoy en día, las señales detectadas en la superficie se prefieren para obtener información sobre el tiempo o la intensidad de la activación de los músculos superficiales. Las señales de electromiografía (EMG) se consideran las más útiles como señales electrofisiológicas tanto en los campos médicos como en los de ingeniería. El método básico para comprender el comportamiento del cuerpo humano bajo condiciones normales y patológicas se proporciona mediante el registro de señales EMG. Siempre que se registra una señal EMG del músculo, varios tipos de ruidos la contaminan. Por lo tanto, analizar y clasificar las señales EMG es muy difícil debido al patrón complicado de la EMG, especialmente cuando ocurre movimiento [1].</p>
 
-## **Procesamiento y Preprocesamiento de las señales sEMG:**<a id="Procesamiento"></a>
+## **Procesamiento y Preprocesamiento de las señales sEMG:**<a id="procesamiento-y-preprocesamiento-de-las-señales-semg"></a>
 <p align="justify">El procesamiento de las señales de electromiografía de superficie (sEMG) implica la adquisición de datos eléctricos generados por la actividad muscular, seguido de un conjunto de técnicas para eliminar el ruido, extraer características relevantes y clasificar los datos para diversas aplicaciones, como el control de prótesis, la ergonomía industrial y la interacción humano-máquina [2].</p>
 
 #### **1) Adquisición de señales:**
