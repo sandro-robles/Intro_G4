@@ -230,13 +230,13 @@ print("Zero crossings en bicep movimiento: ", zc_movimiento)
 |Trícep|0.049566200704902766|0.025463174978895962|337.7624814172448|2939|
 <p align="center"><i>Tabla 6: Características para la señal de movimiento segmentada.</i></p>
 
+### **Root Mean Square (RMS):**
+<p align="justify"> </p>
+
 ### **Mean Absolute Value (MAV):**
 <p align="justify"> </p>
 
 ### **Waveform Length (WL):**
-<p align="justify"> </p>
-
-### **Root Mean Square (RMS):**
 <p align="justify"> </p>
 
 ### **Zero Crossing (ZC):**
