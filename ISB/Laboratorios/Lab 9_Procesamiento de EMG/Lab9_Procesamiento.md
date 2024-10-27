@@ -3,7 +3,7 @@
 1. [Objetivos](#Objetivos)
 2. [Contexto](#Contexto)
 3. [Procesamiento y Preprocesamiento de las señales sEMG](#procesamiento-y-preprocesamiento-de-las-señales-semg)
-4. [Equipos y materiales utilizados](#Equipos-y-materiales-usados)
+4. [Equipos y materiales utilizados](#Equipos-y-materiales-utilizados)
 5. [Metodología](#Metodología)
 6. [Discusión](#Discusión)
 7. [Bibliografía](#Bibliografía)
