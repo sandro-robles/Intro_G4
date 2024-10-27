@@ -64,6 +64,134 @@
 ## **Características del dominio del tiempo:**<a id="caracteristicas"></a>
 <p align="justify"> Estas características son adecuadas para sistemas en tiempo real que deben cumplir con restricciones específicas y se pueden implementar fácilmente utilizando hardware básico. Las características del dominio temporal se extraen de la amplitud de la señal, que cambia con el tiempo. La amplitud de la señal está influenciada por el tipo de músculo y las condiciones de observación [5]. </p>
 
+## **Código:**<a id="codigo"></a>
+<p align="justify"> En esta sección mostraremos la segmentación y extracción de características de la señal de cada músculo estudiado (reposo, fuerza y movimiento). </p>
+
+### **Reposo:**
+``` python
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Cargar los datos desde el archivo "bicep reposo.txt"
+data_reposo = np.genfromtxt("bicep reposo.txt", delimiter="\t", skip_header=2)
+vals1 = data_reposo[:, -2]  # Asumiendo que los datos están en la penúltima columna
+vals1 = (((vals1 / 1024) - 0.5) * 3.3) / 1009
+vals1 = vals1 * 1000
+Fs = 1000  # Frecuencia de muestreo
+time1 = np.arange(0, len(vals1)) / Fs
+
+# Graficar la señal en reposo
+plt.figure(figsize=(12, 4))
+plt.plot(time1, vals1)
+plt.title("Señal EMG en reposo")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud (mV)")
+plt.show()
+```
+### **Fuerza:**
+``` python
+# Cargar los datos desde el archivo "bicep fuerza.txt"
+data_fuerza = np.genfromtxt("bicep fuerza.txt", delimiter="\t", skip_header=2)
+vals2 = data_fuerza[:, -2]  # Asumiendo que los datos están en la penúltima columna
+vals2 = (((vals2 / 1024) - 0.5) * 3.3) / 1009
+vals2 = vals2 * 1000
+Fs = 1000  # Frecuencia de muestreo
+time2 = np.arange(0, len(vals2)) / Fs
+
+# Graficar la señal
+plt.figure(figsize=(12, 4))
+plt.plot(time2, vals2)
+plt.title("Señal EMG en bicep fuerza")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud (mV)")
+plt.show()
+
+# Segmentación de la señal
+t_start = 4  # Definir el tiempo de inicio para la segmentación
+start_index = int(t_start * Fs)
+time_segmented2 = time2[start_index:]
+vals_segmented2 = vals2[start_index:]
+
+# Graficar la señal segmentada
+plt.figure(figsize=(12, 4))
+plt.plot(time_segmented2, vals_segmented2)
+plt.title("Señal EMG en bicep fuerza segmentada")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud (mV)")
+plt.show()
+```
+
+### **Movimiento:**
+``` python
+# Cargar los datos desde el archivo "bicep movimiento.txt"
+data_movimiento = np.genfromtxt("bicep movimiento.txt", delimiter="\t", skip_header=2)
+vals3 = data_movimiento[:, -2]  # Asumiendo que los datos están en la penúltima columna
+vals3 = (((vals3 / 1024) - 0.5) * 3.3) / 1009
+vals3 = vals3 * 1000
+Fs = 1000  # Frecuencia de muestreo
+time3 = np.arange(0, len(vals3)) / Fs
+
+# Graficar la señal
+plt.figure(figsize=(12, 4))
+plt.plot(time3, vals3)
+plt.title("Señal EMG en bicep movimiento")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud (mV)")
+plt.show()
+
+# Segmentación de la señal
+t_start = 5  # Definir el tiempo de inicio para la segmentación
+start_index = int(t_start * Fs)
+time_segmented3 = time3[start_index:]
+vals_segmented3 = vals3[start_index:]
+
+# Graficar la señal segmentada
+plt.figure(figsize=(12, 4))
+plt.plot(time_segmented3, vals_segmented3)
+plt.title("Señal EMG en bicep movimiento segmentada")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud (mV)")
+plt.show()
+```
+### **Extracción de características:**
+``` python
+from numpy import sqrt, average
+
+# Definir función para contar cruces por cero
+def zero_crossings(values, threshold):
+    crossings = 0
+    for i in range(len(values) - 1):
+        product = values[i] * values[i + 1]
+        if product < 0 and abs(values[i] - values[i + 1]) > threshold:
+            crossings += 1
+    return crossings
+
+threshold = 0
+
+# Características para la señal de fuerza (bicep fuerza segmentada)
+rms_fuerza = sqrt(sum(vals_segmented2 * vals_segmented2) / len(vals_segmented2))
+mav_fuerza = average(abs(vals_segmented2))
+WL_fuerza = np.sum(np.abs(np.diff(vals_segmented2)))
+zc_fuerza = zero_crossings(vals_segmented2, threshold)
+
+print("RMS en bicep fuerza: ", rms_fuerza)
+print("MAV en bicep fuerza: ", mav_fuerza)
+print("Wave Length en bicep fuerza: ", WL_fuerza)
+print("Zero crossings en bicep fuerza: ", zc_fuerza)
+
+# Características para la señal de movimiento (bicep movimiento segmentada)
+rms_movimiento = sqrt(sum(vals_segmented3 * vals_segmented3) / len(vals_segmented3))
+mav_movimiento = average(abs(vals_segmented3))
+WL_movimiento = np.sum(np.abs(np.diff(vals_segmented3)))
+zc_movimiento = zero_crossings(vals_segmented3, threshold)
+
+print("RMS en bicep movimiento: ", rms_movimiento)
+print("MAV en bicep movimiento: ", mav_movimiento)
+print("Wave Length en bicep movimiento: ", WL_movimiento)
+print("Zero crossings en bicep movimiento: ", zc_movimiento)
+```
+
+
 ### **Mean Absolute Value (MAV):**
 <p align="justify"> </p>
 
