@@ -64,6 +64,19 @@
 ## **Características del dominio del tiempo:**<a id="caracteristicas"></a>
 <p align="justify"> Estas características son adecuadas para sistemas en tiempo real que deben cumplir con restricciones específicas y se pueden implementar fácilmente utilizando hardware básico. Las características del dominio temporal se extraen de la amplitud de la señal, que cambia con el tiempo. La amplitud de la señal está influenciada por el tipo de músculo y las condiciones de observación [5]. </p>
 
+### **Root Mean Square (RMS):**
+<p align="justify">La raíz cuadrada del cuadrado medio de la amplitud de la señal</p>
+
+### **Mean Absolute Value (MAV):**
+<p align="justify">Representa el promedio del valor absoluto de la amplitud de la señal sEMG y se calcula tomando el valor promedio de las entradas absolutas de la señal.</p>
+
+### **Waveform Length (WL):**
+<p align="justify">Es la longitud acumulada de la forma de onda sobre la muestra. Indica una medida de la forma de onda relacionada con el tiempo y la amplitud.</p>
+
+### **Zero Crossing (ZC):**
+<p align="justify">Forma de calcular el número de veces que el valor de amplitud de la señal sEMG cruza el cero. La condición de umbral busca evitar el ruido de fondo.</p>
+
+## **Resultados:**<a id="resultados"></a>
 ## **Código:**<a id="codigo"></a>
 <p align="justify"> En esta sección mostraremos la segmentación y extracción de características de la señal de cada músculo estudiado (reposo, fuerza y movimiento). </p>
 
@@ -230,19 +243,7 @@ print("Zero crossings en bicep movimiento: ", zc_movimiento)
 |Trícep|0.049566200704902766|0.025463174978895962|337.7624814172448|2939|
 <p align="center"><i>Tabla 6: Características para la señal de movimiento segmentada.</i></p>
 
-### **Root Mean Square (RMS):**
-<p align="justify"> </p>
-
-### **Mean Absolute Value (MAV):**
-<p align="justify"> </p>
-
-### **Waveform Length (WL):**
-<p align="justify"> </p>
-
-### **Zero Crossing (ZC):**
-<p align="justify"> </p>
-
-## **Resultados:**<a id="resultados"></a>
+## **Discusion:**<a id="Discusion"></a>
 
 ## **Bibliografía:**<a id="Bibliografía"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
