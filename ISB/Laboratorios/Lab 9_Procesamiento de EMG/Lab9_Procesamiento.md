@@ -67,6 +67,17 @@
 ### **Mean Absolute Value (MAV):**
 <p align="justify"> </p>
 
+### **Waveform Length (WL):**
+<p align="justify"> </p>
+
+### **Root Mean Square (RMS):**
+<p align="justify"> </p>
+
+### **Zero Crossing (ZC):**
+<p align="justify"> </p>
+
+## **Resultados:**<a id="resultados"></a>
+
 ## **Bibliografía:**<a id="Bibliografía"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
 <p align="justify">[2] J. Wu, X. Li, W. Liu, and Z. Jane Wang, “sEMG Signal Processing Methods: A Review,” Journal of Physics: Conference Series, vol. 1237, no. 3, p. 032008, Jun. 2019, doi: https://doi.org/10.1088/1742-6596/1237/3/032008.</p>
