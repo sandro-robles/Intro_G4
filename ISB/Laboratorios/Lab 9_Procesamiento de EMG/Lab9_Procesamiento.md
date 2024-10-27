@@ -253,6 +253,9 @@ print("Zero crossings en bicep movimiento: ", zc_movimiento)
 
 ## **Discusion:**<a id="Discusion"></a>
 
+-La selección del filtro Butterworth resultó eficaz para reducir los componentes de ruido en las señales EMG, lo cual es crucial en estudios electromiográficos debido a la presencia constante de interferencias de red (50-60 Hz) y ruido de movimiento. Se eligieron frecuencias de corte alrededor de 20 Hz para eliminar ruidos de baja frecuencia y entre 400-500 Hz para atenuar los de alta frecuencia, maximizando la conservación de los componentes útiles de la señal.
+El uso de filtros Butterworth de tipo pasa-bajas y pasa-altas destaca por su respuesta de fase suave y capacidad de atenuación, lo que evita la distorsión de las señales EMG capturadas. En aplicaciones biomédicas, esta precisión es esencial para asegurar que las características temporales y frecuenciales de las señales reflejen con exactitud la activación muscular sin efectos de desplazamiento de fase.
+-
 ## **Bibliografía:**<a id="Bibliografía"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
 <p align="justify">[2] J. Wu, X. Li, W. Liu, and Z. Jane Wang, “sEMG Signal Processing Methods: A Review,” Journal of Physics: Conference Series, vol. 1237, no. 3, p. 032008, Jun. 2019, doi: https://doi.org/10.1088/1742-6596/1237/3/032008.</p>
