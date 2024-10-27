@@ -94,10 +94,7 @@ plt.show()
 |Gastrocnemio|![alt text](anexos/gastro_reposo.jpg)|
 |Trapecio|![alt text](anexos/trap_reposo.jpg)|
 |Trícep|![alt text](anexos/tricep_reposo.jpg)|
-<p align="center"><i>Tabla 1: Señal EMG en reposo.</i></p>
-
-<p align="justify"> </p>
-
+<p align="center"><i>Tabla 2: Señal EMG en reposo.</i></p>
 
 ### **Fuerza:**
 ``` python
@@ -132,6 +129,14 @@ plt.ylabel("Amplitud (mV)")
 plt.show()
 ```
 
+| Músculo |Señal EMG en fuerza| Señal EMG en fuerza segmentada|
+|:--------------:|:--------------:|:--------------:|
+|Bícep|![alt text](anexos/bicep_fuerza.jpg)| ![alt text](anexos/bicep_fuerza_seg.jpg)|
+|Gastrocnemio|![alt text](anexos/gastro_fuerza.jpg)|![alt text](anexos/gastro_fuerza_seg.jpg)|
+|Trapecio|![alt text](anexos/trap_fuerza.jpg)|![alt text](anexos/trap_fuerza_seg.jpg)|
+|Trícep|![alt text](anexos/tricep_fuerza.jpg)|![alt text](anexos/tricep_fuerza_seg.jpg)|
+<p align="center"><i>Tabla 3: Señal EMG en fuerza segmentada.</i></p>
+
 ### **Movimiento:**
 ``` python
 # Cargar los datos desde el archivo "bicep movimiento.txt"
@@ -164,6 +169,14 @@ plt.xlabel("Tiempo (s)")
 plt.ylabel("Amplitud (mV)")
 plt.show()
 ```
+| Músculo |Señal EMG en movimiento| Señal EMG en movimiento segmentada|
+|:--------------:|:--------------:|:--------------:|
+|Bícep|![alt text](anexos/bicep_mov.jpg)| ![alt text](anexos/bicep_mov_seg.jpg)|
+|Gastrocnemio|![alt text](anexos/gastro_mov.jpg)|![alt text](anexos/gastro_mov_seg.jpg)|
+|Trapecio|![alt text](anexos/trap_mov.jpg)|![alt text](anexos/trap_mov_seg.jpg)|
+|Trícep|![alt text](anexos/tricep_mov.jpg)|![alt text](anexos/tricep_mov_seg.jpg)|
+<p align="center"><i>Tabla 4: Señal EMG en movimiento segmentada.</i></p>
+
 ### **Extracción de características:**
 ``` python
 from numpy import sqrt, average
@@ -201,7 +214,21 @@ print("MAV en bicep movimiento: ", mav_movimiento)
 print("Wave Length en bicep movimiento: ", WL_movimiento)
 print("Zero crossings en bicep movimiento: ", zc_movimiento)
 ```
+| Músculo ↓ \ Característica →|RMS| MAV| WL| ZC|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
+|Bícep|0.11894607791031542|0.06644425588907153|603.5150442889|2430|
+|Gastrocnemio|0.11894607791031542|0.06644425588907153|603.5150442889|2430|
+|Trapecio|0.11894607791031542|0.06644425588907153|603.5150442889|2430|
+|Trícep|0.11894607791031542|0.06644425588907153|603.5150442889|2430|
+<p align="center"><i>Tabla 5: Características para la señal de fuerza segmentada.</i></p>
 
+| Músculo ↓ \ Característica →|RMS| MAV| WL| ZC|
+|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|
+|Bícep|0.02759388171744381|0.021146587780382288|221.6702025520317|2139|
+|Gastrocnemio|0.11894607791031542|0.06644425588907153|603.5150442889|2430|
+|Trapecio|0.11894607791031542|0.06644425588907153|603.5150442889|2430|
+|Trícep|0.11894607791031542|0.06644425588907153|603.5150442889|2430|
+<p align="center"><i>Tabla 6: Características para la señal de movimiento segmentada.</i></p>
 
 ### **Mean Absolute Value (MAV):**
 <p align="justify"> </p>
