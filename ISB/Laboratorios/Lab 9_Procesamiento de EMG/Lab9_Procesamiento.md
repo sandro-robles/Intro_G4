@@ -61,6 +61,12 @@
 ## **Metodología:**<a id="Metodología"></a>
 <p align="justify"> El primer paso en el procesamiento de señales EMG es revisar la literatura para encontrar las mejores técnicas que se usan en este campo. A partir de esa revisión, se busca identificar el filtrado más adecuado para eliminar el ruido presente en las señales. Luego, se aplicará un proceso de segmentación que divida las señales en partes más manejables, lo que permitirá un análisis más preciso. Después de eso, se extraerán características importantes en los dominios del tiempo, frecuencia y tiempo-frecuencia, con el objetivo de entender mejor las señales. También se compararán los filtros FIR, IIR y Wavelet para ver cuál es más efectivo con las señales EMG. Finalmente, las señales obtenidas en el laboratorio serán analizadas, utilizando filtrado y extracción de características, para obtener datos que puedan ser útiles en aplicaciones biomédicas o tecnológicas.</p>
 
+## **Características del dominio del tiempo:**<a id="caracteristicas"></a>
+<p align="justify"> Estas características son adecuadas para sistemas en tiempo real que deben cumplir con restricciones específicas y se pueden implementar fácilmente utilizando hardware básico. Las características del dominio temporal se extraen de la amplitud de la señal, que cambia con el tiempo. La amplitud de la señal está influenciada por el tipo de músculo y las condiciones de observación. </p>
+
+### **Mean Absolute Value (MAV):**
+<p align="justify"> </p>
+
 ## **Bibliografía:**<a id="Bibliografía"></a>
 <p align="justify">[1] R. H. Chowdhury, Mamun, Ali, A. Ashrif, Kalaivani Chellappan, and T. G. Chang, “Surface Electromyography Signal Processing and Classification Techniques,” Sensors, vol. 13, no. 9, pp. 12431–12466, Sep. 2013, doi: https://doi.org/10.3390/s130912431.</p>
 <p align="justify">[2] J. Wu, X. Li, W. Liu, and Z. Jane Wang, “sEMG Signal Processing Methods: A Review,” Journal of Physics: Conference Series, vol. 1237, no. 3, p. 032008, Jun. 2019, doi: https://doi.org/10.1088/1742-6596/1237/3/032008.</p>
