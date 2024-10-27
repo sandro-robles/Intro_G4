@@ -88,6 +88,17 @@ plt.xlabel("Tiempo (s)")
 plt.ylabel("Amplitud (mV)")
 plt.show()
 ```
+| Músculo |Señal EMG en reposo|
+|:--------------:|:--------------:|
+|Bícep|![alt text](anexos/bicep_reposo.jpg)|
+|Gastrocnemio|![alt text](anexos/gastro_reposo.jpg)|
+|Trapecio|![alt text](anexos/trap_reposo.jpg)|
+|Trícep|![alt text](anexos/tricep_reposo.jpg)|
+<p align="center"><i>Tabla 1: Señal EMG en reposo.</i></p>
+
+<p align="justify"> </p>
+
+
 ### **Fuerza:**
 ``` python
 # Cargar los datos desde el archivo "bicep fuerza.txt"
