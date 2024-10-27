@@ -60,7 +60,7 @@
 
 <p align="justify">El procesamiento de señales sEMG, aunque potente, presenta desafíos debido a la variabilidad de las señales y la sensibilidad al ruido. Sin embargo, las mejoras en la tecnología de adquisición y en los algoritmos de procesamiento han aumentado su utilidad en aplicaciones industriales y clínicas[4].</p>
 
-## **Equipos y materiales utilizados:**<a id="Equipos"></a>
+## **Equipos y materiales utilizados:**<a id="equipos"></a>
 <div align="center">
    
 |  **Modelo**  | **Descripción** | **Cantidad** |
