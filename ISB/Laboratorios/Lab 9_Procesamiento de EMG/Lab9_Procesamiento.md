@@ -66,15 +66,23 @@
 
 ### **Root Mean Square (RMS):**
 <p align="justify">La raíz cuadrada del cuadrado medio de la amplitud de la señal</p>
+<p align="center"><img src="Anexos/Fo1.PNG" width="400"></p>
+<p align="center"><i>Figura 2: Formula RMS.</i></p>
 
 ### **Mean Absolute Value (MAV):**
 <p align="justify">Representa el promedio del valor absoluto de la amplitud de la señal sEMG y se calcula tomando el valor promedio de las entradas absolutas de la señal.</p>
+<p align="center"><img src="Anexos/Fo2.PNG" width="400"></p>
+<p align="center"><i>Figura 2: Formula Mean Absolute Value.</i></p>
 
 ### **Waveform Length (WL):**
 <p align="justify">Es la longitud acumulada de la forma de onda sobre la muestra. Indica una medida de la forma de onda relacionada con el tiempo y la amplitud.</p>
+<p align="center"><img src="Anexos/Fo3.PNG" width="400"></p>
+<p align="center"><i>Figura 2: Formula Waveform Length.</i></p>
 
 ### **Zero Crossing (ZC):**
 <p align="justify">Forma de calcular el número de veces que el valor de amplitud de la señal sEMG cruza el cero. La condición de umbral busca evitar el ruido de fondo.</p>
+<p align="center"><img src="Anexos/Fo4.PNG" width="400"></p>
+<p align="center"><i>Figura 2: Formula Zero Crossing.</i></p>
 
 ## **Resultados:**<a id="resultados"></a>
 ## **Código:**<a id="codigo"></a>
