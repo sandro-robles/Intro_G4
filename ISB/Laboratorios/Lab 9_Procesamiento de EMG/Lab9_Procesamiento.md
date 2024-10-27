@@ -1,12 +1,23 @@
 # **LABORATORIO 9: – Procesamiento de EMG**
 ## **Tabla de contenidos:**
-1. [Objetivos](#Objetivos)
-2. [Contexto](#Contexto)
+1. [Objetivos](#objetivos)
+2. [Contexto](#contexto)
 3. [Procesamiento y Preprocesamiento de las señales sEMG](#procesamiento-y-preprocesamiento-de-las-señales-semg)
-4. [Equipos y materiales utilizados](#Equipos-y-materiales-utilizados)
-5. [Metodología](#Metodología)
-6. [Discusión](#Discusión)
-7. [Bibliografía](#Bibliografía)
+   1. [Adquisición de señales](#1-adquisicion-de-senales)
+   2. [Filtrado](#2-filtrado)
+   3. [Denoising (eliminación de ruido)](#3-denoising)
+   4. [Extracción de características](#4-extraccion-de-caracteristicas)
+   5. [Segmentación](#5-segmentacion)
+   6. [Clasificación](#6-clasificacion)
+4. [Equipos y materiales utilizados](#equipos)
+5. [Metodología](#metodologia)
+6. [Características del dominio del tiempo](#caracteristicas-del-dominio-del-tiempo)
+7. [Código](#codigo)
+   1. [Reposo](#reposo)
+   2. [Fuerza](#fuerza)
+   3. [Movimiento](#movimiento)
+8. [Resultados](#resultados)
+9. [Bibliografía](#bibliografia)
 
    
 ## **Objetivos:**<a id="Objetivos"></a>
