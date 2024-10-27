@@ -10,8 +10,8 @@
    5. [Segmentación](#5-segmentacion)
    6. [Clasificación](#6-clasificacion)
 4. [Equipos y materiales utilizados](#equipos)
-5. [Metodología](#metodologia)
-6. [Características del dominio del tiempo](#caracteristicas-del-dominio-del-tiempo)
+5. [Metodología](#metodología)
+6. [Características del dominio del tiempo](#caracteristicas)
 7. [Código](#codigo)
    1. [Reposo](#reposo)
    2. [Fuerza](#fuerza)
@@ -69,7 +69,7 @@
 </div>
 <p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i></p>
 
-## **Metodología:**<a id="Metodología"></a>
+## **Metodología:**<a id="metodología"></a>
 <p align="justify"> El primer paso en el procesamiento de señales EMG es revisar la literatura para encontrar las mejores técnicas que se usan en este campo. A partir de esa revisión, se busca identificar el filtrado más adecuado para eliminar el ruido presente en las señales. Luego, se aplicará un proceso de segmentación que divida las señales en partes más manejables, lo que permitirá un análisis más preciso. Después de eso, se extraerán características importantes en los dominios del tiempo, frecuencia y tiempo-frecuencia, con el objetivo de entender mejor las señales. También se compararán los filtros FIR, IIR y Wavelet para ver cuál es más efectivo con las señales EMG. Finalmente, las señales obtenidas en el laboratorio serán analizadas, utilizando filtrado y extracción de características, para obtener datos que puedan ser útiles en aplicaciones biomédicas o tecnológicas.</p>
 
 ## **Características del dominio del tiempo:**<a id="caracteristicas"></a>
