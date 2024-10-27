@@ -90,10 +90,10 @@ plt.show()
 ```
 | Músculo |Señal EMG en reposo|
 |:--------------:|:--------------:|
-|Bícep|![alt text](anexos/bicep_reposo.jpg)|
-|Gastrocnemio|![alt text](anexos/gastro_reposo.jpg)|
-|Trapecio|![alt text](anexos/trap_reposo.jpg)|
-|Trícep|![alt text](anexos/tricep_reposo.jpg)|
+|Bícep|![alt text](lab9_intro_img/bicep_reposo.png)|
+|Gastrocnemio|![alt text](lab9_intro_img/gastro_reposo.png)|
+|Trapecio|![alt text](lab9_intro_img/trap_reposo.png)|
+|Trícep|![alt text](lab9_intro_img/tricep_reposo.png)|
 <p align="center"><i>Tabla 2: Señal EMG en reposo.</i></p>
 
 ### **Fuerza:**
@@ -131,10 +131,10 @@ plt.show()
 
 | Músculo |Señal EMG en fuerza| Señal EMG en fuerza segmentada|
 |:--------------:|:--------------:|:--------------:|
-|Bícep|![alt text](anexos/bicep_fuerza.jpg)| ![alt text](anexos/bicep_fuerza_seg.jpg)|
-|Gastrocnemio|![alt text](anexos/gastro_fuerza.jpg)|![alt text](anexos/gastro_fuerza_seg.jpg)|
-|Trapecio|![alt text](anexos/trap_fuerza.jpg)|![alt text](anexos/trap_fuerza_seg.jpg)|
-|Trícep|![alt text](anexos/tricep_fuerza.jpg)|![alt text](anexos/tricep_fuerza_seg.jpg)|
+|Bícep|![alt text](lab9_intro_img/bicep_fuerza.png)| ![alt text](lab9_intro_img/bicep_fuerza_seg.png)|
+|Gastrocnemio|![alt text](lab9_intro_img/gastro_fuerza.png)|![alt text](lab9_intro_img/gastro_fuerza_seg.png)|
+|Trapecio|![alt text](lab9_intro_img/trap_fuerza.png)|![alt text](lab9_intro_img/trap_fuerza_seg.png)|
+|Trícep|![alt text](lab9_intro_img/tricep_fuerza.png)|![alt text](lab9_intro_img/tricep_fuerza_seg.png)|
 <p align="center"><i>Tabla 3: Señal EMG en fuerza segmentada.</i></p>
 
 ### **Movimiento:**
@@ -171,10 +171,10 @@ plt.show()
 ```
 | Músculo |Señal EMG en movimiento| Señal EMG en movimiento segmentada|
 |:--------------:|:--------------:|:--------------:|
-|Bícep|![alt text](anexos/bicep_mov.jpg)| ![alt text](anexos/bicep_mov_seg.jpg)|
-|Gastrocnemio|![alt text](anexos/gastro_mov.jpg)|![alt text](anexos/gastro_mov_seg.jpg)|
-|Trapecio|![alt text](anexos/trap_mov.jpg)|![alt text](anexos/trap_mov_seg.jpg)|
-|Trícep|![alt text](anexos/tricep_mov.jpg)|![alt text](anexos/tricep_mov_seg.jpg)|
+|Bícep|![alt text](lab9_intro_img/bicep_mov.png)| ![alt text](lab9_intro_img/bicep_mov_seg.png)|
+|Gastrocnemio|![alt text](lab9_intro_img/gastro_mov.png)|![alt text](lab9_intro_img/gastro_mov_seg.png)|
+|Trapecio|![alt text](lab9_intro_img/trap_mov.png)|![alt text](lab9_intro_img/trap_mov_seg.png)|
+|Trícep|![alt text](lab9_intro_img/tricep_mov.png)|![alt text](lab9_intro_img/tricep_mov_seg.png)|
 <p align="center"><i>Tabla 4: Señal EMG en movimiento segmentada.</i></p>
 
 ### **Extracción de características:**
