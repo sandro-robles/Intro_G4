@@ -1,4 +1,4 @@
-# **LABORATORIO 9: – Procesamiento de EMG**
+# **LABORATORIO 10: – Procesamiento de ECG**
 ## **Tabla de contenidos:**
 1. [Objetivos](#objetivos)
 2. [Contexto](#contexto)
