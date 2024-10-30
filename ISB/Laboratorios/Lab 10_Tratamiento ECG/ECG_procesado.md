@@ -31,5 +31,6 @@
 
 El electrocardiograma (ECG) permite medir la actividad eléctrica del corazón mediante la instalación de una serie de electrodos en el tórax del paciente. Este procedimiento, llevado a cabo con un electrocardiógrafo, registra los impulsos eléctricos emitidos por el corazón y posibilita la evaluación de su funcionamiento. No obstante, las fluctuaciones cardíacas están condicionadas por los procesos respiratorios de inspiración y espiración, además de ser reguladas por la actividad de los sistemas nerviosos simpático y parasimpático. Para el análisis de estas variaciones se utiliza la medición del intervalo R-R, cuya variabilidad temporal se conoce como Variabilidad de la Frecuencia Cardíaca (HRV). Estudios recientes han encontrado que una HRV elevada se asocia con mayores niveles de consumo de oxígeno, mientras que una HRV reducida se correlaciona con un incremento en la mortalidad y un mayor riesgo de desarrollar patologías cardíacas en individuos asintomáticos. Investigaciones adicionales han propuesto que la HRV depende del funcionamiento del Sistema Nervioso Autónomo (SNA) y de otros sistemas fisiológicos de regulación[1].
 
-<img width="519" alt="representacion de " src="https://github.com/user-attachments/assets/f9f254c6-5ba7-47b7-9b3f-73423716fbe0">
-<i>Figura 1.  Representación esquemática de un intervalo R­R [1] </i></div>
+<p align="center"><img width="519" alt="representacion de " src="https://github.com/user-attachments/assets/f9f254c6-5ba7-47b7-9b3f-73423716fbe0">
+
+<p align="center"><i>Figura 1.  Representación esquemática de un intervalo R­R [1] </i></div>
