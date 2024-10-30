@@ -34,3 +34,8 @@ El electrocardiograma (ECG) permite medir la actividad eléctrica del corazón m
 <p align="center"><img width="519" alt="representacion de " src="https://github.com/user-attachments/assets/f9f254c6-5ba7-47b7-9b3f-73423716fbe0">
 
 <p align="center"><i>Figura 1.  Representación esquemática de un intervalo R­R [1] </i></div>
+
+
+## **Bibliografía**<a id="Bibliografía"></a>
+[1] J.-E. Ortiz-Guzman and D. Mendoza-Romero, “VARIABILIDAD DE LA FRECUENCIA CARDIACA. UNA HERRAMIENTA UTIL,” 2017. Accessed: Oct. 30, 2024. [Online]. Available: https://www.researchgate.net/profile/Dario-Mendoza Romero/publication/303926557_VARIABILIDAD_DE_LA_FRECUENCIA_CARDIACA_UNA_HERRAMIENTA_UTIL/links/58a0e015aca272046aad62c2/VARIABILIDAD-DE-LA-FRECUENCIA-CARDIACA-UNA-HERRAMIENTA-UTIL.pdf
+‌
