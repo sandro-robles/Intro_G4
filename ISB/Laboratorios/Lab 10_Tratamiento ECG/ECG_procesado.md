@@ -22,3 +22,7 @@
 
    
 ## **Objetivos:**<a id="Objetivos"></a>
+
+-Hallar los valores normales variabilidad de la frecuencia cardiaca (HRV), basados en un artículo base.
+
+-Plotear los picos de la onda R de las señales de ECG antes tomadas y graficarlas utilizando python.
