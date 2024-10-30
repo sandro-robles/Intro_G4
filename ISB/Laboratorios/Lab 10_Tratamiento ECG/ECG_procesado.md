@@ -2,7 +2,7 @@
 ## **Tabla de contenidos:**
 1. [Objetivos](#objetivos)
 2. [Contexto](#contexto)
-3. [Procesamiento y Preprocesamiento de las señales sEMG](#procesamiento-y-preprocesamiento-de-las-señales-semg)
+3. [Procesamiento y Preprocesamiento de las señales ECG](#procesamiento-y-preprocesamiento-de-las-señales-ecg)
    1. [Adquisición de señales](#1-adquisicion-de-senales)
    2. [Filtrado](#2-filtrado)
    3. [Denoising (eliminación de ruido)](#3-denoising)
