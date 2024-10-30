@@ -38,7 +38,8 @@ El electrocardiograma (ECG) permite medir la actividad eléctrica del corazón m
 ## **Equipos y materiales utilizados**<a id="Contexto"></a>
 |   **Dispositivo**   | **Descripción** |  **Imagen**  |
 |:-------------------:|:---------------:|:------------:|
-|      Laptop      | Una laptop equipada con Python, un lenguaje de programación versátil y poderoso, es ideal para realizar tareas de programación y análisis de datos en entornos de laboratorio. |![compu](https://github.com/userattachments/assets/394f0859-3925-46fe-a153-03ec82bec961)
+|      Laptop      | Una laptop equipada con Python, un lenguaje de programación versátil y poderoso, es ideal para realizar tareas de programación y análisis de datos en entornos de laboratorio. |
+![compu](https://github.com/userattachments/assets/394f0859-3925-46fe-a153-03ec82bec961)
 
 
 </div>
