@@ -6,8 +6,7 @@
 4. [Equipos y materiales utilizados](#equipos)
 5. [Metodología](#metodología)
 6. [Resultados](#resultados)
-7. [Discusión](#discusion)
-8. [Bibliografía](#bibliografia)
+7. [Bibliografía](#bibliografia)
 
    
 ## **Objetivos:**<a id="Objetivos"></a>
@@ -114,7 +113,7 @@ El electrocardiograma (ECG) permite medir la actividad eléctrica del corazón m
 <p align="center"><img src="Anexos/D3_8.png"></p>
 <p align="center"><i>Figura 5. Señal ECG en papel para electrocardiagrama.</i></p>
 
-## **Discusión**<a id="Discusión"></a>
+
 
 ## **Bibliografía**<a id="Bibliografía"></a>
 [1] J.-E. Ortiz-Guzman and D. Mendoza-Romero, “VARIABILIDAD DE LA FRECUENCIA CARDIACA. UNA HERRAMIENTA UTIL,” 2017. Accessed: Oct. 30, 2024. [Online]. Available: https://www.researchgate.net/profile/Dario-Mendoza Romero/publication/303926557_VARIABILIDAD_DE_LA_FRECUENCIA_CARDIACA_UNA_HERRAMIENTA_UTIL/links/58a0e015aca272046aad62c2/VARIABILIDAD-DE-LA-FRECUENCIA-CARDIACA-UNA-HERRAMIENTA-UTIL.pdf
