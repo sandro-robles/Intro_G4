@@ -89,7 +89,30 @@ El electrocardiograma (ECG) permite medir la actividad eléctrica del corazón m
 
 ### **Tercera derivación:**
 #### **Reposo:**
+<p align="center"><img src="Anexos/D3_1.png"></p>
+<p align="center"><i>Figura 2.Filtrado de la señal ECG.</i></p>
+
+<p align="center"><img src="Anexos/D3_2.png"></p>
+<p align="center"><i>Figura 3.Identifiación de picos R en la señal ECG. </i></p>
+
+<p align="center"><img src="Anexos/D3_3.png"></p>
+<p align="center"><i>Figura 4. Ploteo de la señal ECG con función ecg_plot().</i></p>
+
+<p align="center"><img src="Anexos/D3_4.png"></p>
+<p align="center"><i>Figura 5. Señal ECG en papel para electrocardiagrama.</i></p>
+
 #### **Post ejercicio:**
+<p align="center"><img src="Anexos/D3_5.png"></p>
+<p align="center"><i>Figura 2.Filtrado de la señal ECG.</i></p>
+
+<p align="center"><img src="Anexos/D3_6.png"></p>
+<p align="center"><i>Figura 3.Identifiación de picos R en la señal ECG. </i></p>
+
+<p align="center"><img src="Anexos/D3_7.png"></p>
+<p align="center"><i>Figura 4. Ploteo de la señal ECG con función ecg_plot().</i></p>
+
+<p align="center"><img src="Anexos/D3_8.png"></p>
+<p align="center"><i>Figura 5. Señal ECG en papel para electrocardiagrama.</i></p>
 
 ## **Discusión**<a id="Discusión"></a>
 
