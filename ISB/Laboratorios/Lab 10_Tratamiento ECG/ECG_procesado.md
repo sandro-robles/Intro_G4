@@ -37,7 +37,7 @@ El electrocardiograma (ECG) permite medir la actividad eléctrica del corazón m
 <p align="center"><img src="Anexos/D1_1.png" width="500px" height="300px"></p>
 <p align="center"><i>Figura 2.Filtrado de la señal ECG.</i></p>
 
-<p align="center"><img src="Anexos/D1_2.png"></p>
+<p align="center"><img src="Anexos/D1_2.png" width="400px" height="400px"></p>
 <p align="center"><i>Figura 3.Identifiación de picos R en la señal ECG. </i></p>
 
 <p align="center"><img src="Anexos/D1_3.png"></p>
