@@ -35,9 +35,17 @@ El electrocardiograma (ECG) permite medir la actividad eléctrica del corazón m
 ## **Resultados**<a id="Resultados"></a>
 ### **Primera derivación:**
 #### **Reposo:**
-<p align="center"><img width="519" alt="representacion de " src="https://github.com/user-attachments/assets/f9f254c6-5ba7-47b7-9b3f-73423716fbe0">
-<p align="center"><i>Figura 2.  </i></div>
+<p align="center"><img src="Anexos/D1_1.png"></p>
+<p align="center"><i>Figura 2.  </i></p>
 
+<p align="center"><img src="Anexos/D1_2.png"></p>
+<p align="center"><i>Figura 3.  </i></p>
+
+<p align="center"><img src="Anexos/D1_3.png"></p>
+<p align="center"><i>Figura 4.  </i></p>
+
+<p align="center"><img src="Anexos/D1_4.png"></p>
+<p align="center"><i>Figura 5.  </i></p>
 #### **Post ejercicio:**
 
 ### **Segunda derivación:**
