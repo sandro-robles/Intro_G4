@@ -47,71 +47,71 @@ El electrocardiograma (ECG) permite medir la actividad eléctrica del corazón m
 <p align="center"><i>Figura 5. Señal ECG en papel para electrocardiagrama.</i></p>
 
 #### **Post ejercicio:**
-<p align="center"><img src="Anexos/D1_5.png"></p>
-<p align="center"><i>Figura 2.Filtrado de la señal ECG.</i></p>
+<p align="center"><img src="Anexos/D1_5.png" width="500px" height="300px"></p>
+<p align="center"><i>Figura 6.Filtrado de la señal ECG.</i></p>
 
 <p align="center"><img src="Anexos/D1_6.png"></p>
-<p align="center"><i>Figura 3.Identifiación de picos R en la señal ECG. </i></p>
+<p align="center"><i>Figura 7.Identifiación de picos R en la señal ECG. </i></p>
 
 <p align="center"><img src="Anexos/D1_7.png"></p>
-<p align="center"><i>Figura 4. Ploteo de la señal ECG con función ecg_plot().</i></p>
+<p align="center"><i>Figura 8. Ploteo de la señal ECG con función ecg_plot().</i></p>
 
 <p align="center"><img src="Anexos/D1_8.png"></p>
-<p align="center"><i>Figura 5. Señal ECG en papel para electrocardiagrama.</i></p>
+<p align="center"><i>Figura 9. Señal ECG en papel para electrocardiagrama.</i></p>
 
 ### **Segunda derivación:**
 #### **Reposo:**
-<p align="center"><img src="Anexos/D2_1.png"></p>
-<p align="center"><i>Figura 2.Filtrado de la señal ECG.</i></p>
+<p align="center"><img src="Anexos/D2_1.png" width="500px" height="300px"></p>
+<p align="center"><i>Figura 10.Filtrado de la señal ECG.</i></p>
 
 <p align="center"><img src="Anexos/D2_2.png"></p>
-<p align="center"><i>Figura 3.Identifiación de picos R en la señal ECG. </i></p>
+<p align="center"><i>Figura 11.Identifiación de picos R en la señal ECG. </i></p>
 
 <p align="center"><img src="Anexos/D2_3.png"></p>
-<p align="center"><i>Figura 4. Ploteo de la señal ECG con función ecg_plot().</i></p>
+<p align="center"><i>Figura 12. Ploteo de la señal ECG con función ecg_plot().</i></p>
 
 <p align="center"><img src="Anexos/D2_4.png"></p>
-<p align="center"><i>Figura 5. Señal ECG en papel para electrocardiagrama.</i></p>
+<p align="center"><i>Figura 13. Señal ECG en papel para electrocardiagrama.</i></p>
 
 #### **Post ejercicio:**
-<p align="center"><img src="Anexos/D2_5.png"></p>
-<p align="center"><i>Figura 2.Filtrado de la señal ECG.</i></p>
+<p align="center"><img src="Anexos/D2_5.png" width="500px" height="300px"></p>
+<p align="center"><i>Figura 14.Filtrado de la señal ECG.</i></p>
 
 <p align="center"><img src="Anexos/D2_6.png"></p>
-<p align="center"><i>Figura 3.Identifiación de picos R en la señal ECG. </i></p>
+<p align="center"><i>Figura 15.Identifiación de picos R en la señal ECG. </i></p>
 
 <p align="center"><img src="Anexos/D2_7.png"></p>
-<p align="center"><i>Figura 4. Ploteo de la señal ECG con función ecg_plot().</i></p>
+<p align="center"><i>Figura 16. Ploteo de la señal ECG con función ecg_plot().</i></p>
 
 <p align="center"><img src="Anexos/D2_8.png"></p>
-<p align="center"><i>Figura 5. Señal ECG en papel para electrocardiagrama.</i></p>
+<p align="center"><i>Figura 17. Señal ECG en papel para electrocardiagrama.</i></p>
 
 ### **Tercera derivación:**
 #### **Reposo:**
-<p align="center"><img src="Anexos/D3_1.png"></p>
-<p align="center"><i>Figura 2.Filtrado de la señal ECG.</i></p>
+<p align="center"><img src="Anexos/D3_1.png" width="500px" height="300px"></p>
+<p align="center"><i>Figura 18.Filtrado de la señal ECG.</i></p>
 
 <p align="center"><img src="Anexos/D3_2.png"></p>
-<p align="center"><i>Figura 3.Identifiación de picos R en la señal ECG. </i></p>
+<p align="center"><i>Figura 19.Identifiación de picos R en la señal ECG. </i></p>
 
 <p align="center"><img src="Anexos/D3_3.png"></p>
-<p align="center"><i>Figura 4. Ploteo de la señal ECG con función ecg_plot().</i></p>
+<p align="center"><i>Figura 20. Ploteo de la señal ECG con función ecg_plot().</i></p>
 
 <p align="center"><img src="Anexos/D3_4.png"></p>
-<p align="center"><i>Figura 5. Señal ECG en papel para electrocardiagrama.</i></p>
+<p align="center"><i>Figura 21. Señal ECG en papel para electrocardiagrama.</i></p>
 
 #### **Post ejercicio:**
-<p align="center"><img src="Anexos/D3_5.png"></p>
-<p align="center"><i>Figura 2.Filtrado de la señal ECG.</i></p>
+<p align="center"><img src="Anexos/D3_5.png" width="500px" height="300px"></p>
+<p align="center"><i>Figura 22.Filtrado de la señal ECG.</i></p>
 
 <p align="center"><img src="Anexos/D3_6.png"></p>
-<p align="center"><i>Figura 3.Identifiación de picos R en la señal ECG. </i></p>
+<p align="center"><i>Figura 23.Identifiación de picos R en la señal ECG. </i></p>
 
 <p align="center"><img src="Anexos/D3_7.png"></p>
-<p align="center"><i>Figura 4. Ploteo de la señal ECG con función ecg_plot().</i></p>
+<p align="center"><i>Figura 24. Ploteo de la señal ECG con función ecg_plot().</i></p>
 
 <p align="center"><img src="Anexos/D3_8.png"></p>
-<p align="center"><i>Figura 5. Señal ECG en papel para electrocardiagrama.</i></p>
+<p align="center"><i>Figura 25. Señal ECG en papel para electrocardiagrama.</i></p>
 
 
 
