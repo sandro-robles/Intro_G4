@@ -51,7 +51,7 @@ for i in range(num_intervalos):
 
 #### **ECG**
 <p align="justify">  </p>
-[https://studio.edgeimpulse.com/public/559663/live](https://studio.edgeimpulse.com/public/559663/live)  
+https://studio.edgeimpulse.com/public/559663/live
 <p align="center"><img src="Anexos/S1.png" width="400"></p>
 <p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
 
