@@ -24,6 +24,7 @@ with open(output_file, 'w', newline='') as csvfile:
     csvwriter.writerow(['timestamp', 'valores'])
     for t, v in zip(time_data, signal_data):
         csvwriter.writerow([t, v])
+```
 
 ## **Resultados:**
 <p align="justify"> .‌ </p>
