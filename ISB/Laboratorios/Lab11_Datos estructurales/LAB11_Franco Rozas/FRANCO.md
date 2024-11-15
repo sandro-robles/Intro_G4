@@ -48,20 +48,17 @@ for i in range(num_intervalos):
 
 ## **Resultados:**
 #### **ECG**
-<p align="justify">Link del repositorio de las señales ECG: https://studio.edgeimpulse.com/public/559663/live</p>
-https://studio.edgeimpulse.com/public/559663/live
+<p align="justify">Link del repositorio de las señales ECG: https://studio.edgeimpulse.com/public/559582/live</p>
 <p align="center"><img src="Anexos/S1.png" width="400"></p>
 <p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
 
 #### **EMG**
-<p align="justify">  </p>
-
+<p align="justify">Link del repositorio de las señales EMG: https://studio.edgeimpulse.com/public/559657/live</p>
 <p align="center"><img src="Anexos/S2.png" width="400"></p>
 <p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
 
 #### **EEG**
-<p align="justify">  </p>
-
+<p align="justify">Link del repositorio de las señales EEG: https://studio.edgeimpulse.com/public/559663/live</p>
 <p align="center"><img src="Anexos/S3.png" width="400"></p>
 <p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
 
