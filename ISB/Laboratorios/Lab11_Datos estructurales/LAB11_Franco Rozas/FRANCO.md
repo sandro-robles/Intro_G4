@@ -11,19 +11,19 @@
 #### **ECG**
 <p align="justify">  </p>
 
-<p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>
+<p align="center"><img src="Anexos/S1.png" width="400"></p>
 <p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
 
 #### **EMG**
 <p align="justify">  </p>
 
-<p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>
+<p align="center"><img src="Anexos/S2.png" width="400"></p>
 <p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
 
 #### **EEG**
 <p align="justify">  </p>
 
-<p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>
+<p align="center"><img src="Anexos/S3.png" width="400"></p>
 <p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
 
 
