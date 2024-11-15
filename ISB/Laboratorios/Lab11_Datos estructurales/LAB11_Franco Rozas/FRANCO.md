@@ -47,10 +47,8 @@ for i in range(num_intervalos):
 ```
 
 ## **Resultados:**
-<p align="justify"> .‌ </p>
-
 #### **ECG**
-<p align="justify">  </p>
+<p align="justify">Link del repositorio de las señales ECG: https://studio.edgeimpulse.com/public/559663/live</p>
 https://studio.edgeimpulse.com/public/559663/live
 <p align="center"><img src="Anexos/S1.png" width="400"></p>
 <p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
