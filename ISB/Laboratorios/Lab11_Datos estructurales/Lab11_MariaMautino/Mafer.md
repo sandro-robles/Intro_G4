@@ -206,7 +206,7 @@ print("\nProceso completado.")
 <p align="center"><i>Figura 5: ECG Ejercicio.</i></p>
 
 <p align="center"><img src="Anexos Lab11/prosim.png" width="300"></p>
-<p align="center"><i>Figura 5: ECG Pro Sim.</i></p>
+<p align="center"><i>Figura 6: ECG Pro Sim.</i></p>
 
 ### **CÓDIGO EMG:**
 ```python
@@ -344,6 +344,13 @@ for ruta_archivo in archivos_csv:
 
 print("\nProceso completado.")
 ```
+<p align="center"><img src="Anexos Lab11/MANO.png" width="300"></p>
+<p align="center"><i>Figura 7: EMG Mano.</i></p>
+<p align="center"><img src="Anexos Lab11/manofuerza.png" width="300"></p>
+<p align="center"><i>Figura 8: ECG Mano con fuerza.</i></p>
+<p align="center"><img src="Anexos Lab11/manoreposo.png" width="300"></p>
+<p align="center"><i>Figura 9: ECG Mano en resposo.</i></p>
+
 ### **CÓDIGO EEG:**
 ```python
 import requests
