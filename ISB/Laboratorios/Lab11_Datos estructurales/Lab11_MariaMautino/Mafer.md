@@ -12,7 +12,7 @@ Integrante: María Fernanda Mautino Rodríguez
 ## **Metodología:**
 <p align="justify">Los datos utilizados en este desarrollo fueron adquiridos en formato .txt, provenientes de los laboratorios de señales biológicas, específicamente de ECG, EMG y EEG. Dado que el entorno de Edge Impulse requiere archivos en formato .csv para su análisis, se desarrolló un script en Python que permite convertir automáticamente los archivos .txt en archivos .csv, adaptando su estructura al formato esperado. </p>
 
-###CÓDIGO PARA CONVERTIR ARCHIVOS .txt a .csv
+### **CÓDIGO PARA CONVERTIR ARCHIVOS .txt a .csv**
 
 ```python
 import csv
@@ -44,7 +44,7 @@ ruta_txt = 'ECG_Reposo1.txt'
 ruta_csv = 'ECG_Reposo1.csv'
 convertir_txt_a_csv(ruta_txt, ruta_csv, columna_datos=5, encabezado=['Tiempo (ms)', 'Señal ECG'])
 ```
-###CÓDIGO ECG:
+### **CÓDIGO ECG:**
 ```python
 import requests
 import os
@@ -186,4 +186,4 @@ for ruta_archivo in archivos_csv:
 
 print("\nProceso completado.")
 ```
-###CÓDIGO EMG:
+### **CÓDIGO EMG:**
