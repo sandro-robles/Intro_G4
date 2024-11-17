@@ -16,7 +16,6 @@ Integrante: María Fernanda Mautino Rodríguez
 import csv
 
 def convertir_txt_a_csv(ruta_txt, ruta_csv, columna_datos=5, encabezado=None):
-    """
     Convierte un archivo .txt a .csv extrayendo una columna específica y añadiendo un contador de tiempo.
     with open(ruta_txt, 'r') as archivo_txt, open(ruta_csv, 'w', newline='') as archivo_csv:
         escritor_csv = csv.writer(archivo_csv)
