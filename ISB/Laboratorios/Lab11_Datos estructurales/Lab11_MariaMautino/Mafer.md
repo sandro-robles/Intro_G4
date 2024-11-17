@@ -21,7 +21,7 @@ def convertir_txt_a_csv(ruta_txt, ruta_csv, columna_datos=5, encabezado=None):
     with open(ruta_txt, 'r') as archivo_txt, open(ruta_csv, 'w', newline='') as archivo_csv:
         escritor_csv = csv.writer(archivo_csv)
 
- # Escribir encabezados en el CSV
+# Escribir encabezados en el CSV
         if encabezado:
             escritor_csv.writerow(encabezado)
         else:
