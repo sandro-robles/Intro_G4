@@ -13,6 +13,38 @@ Integrante: María Fernanda Mautino Rodríguez
 <p align="justify">Los datos utilizados en este desarrollo fueron adquiridos en formato .txt, provenientes de los laboratorios de señales biológicas, específicamente de ECG, EMG y EEG. Dado que el entorno de Edge Impulse requiere archivos en formato .csv para su análisis, se desarrolló un script en Python que permite convertir automáticamente los archivos .txt en archivos .csv, adaptando su estructura al formato esperado. </p>
 
 ```python
+import csv
+
+def convertir_txt_a_csv(ruta_txt, ruta_csv, columna_datos=5, encabezado=None):
+    """
+    Convierte un archivo .txt a .csv extrayendo una columna específica y añadiendo un contador de tiempo.
+    with open(ruta_txt, 'r') as archivo_txt, open(ruta_csv, 'w', newline='') as archivo_csv:
+        escritor_csv = csv.writer(archivo_csv)
+
+        # Escribir encabezados en el CSV
+        if encabezado:
+            escritor_csv.writerow(encabezado)
+        else:
+            escritor_csv.writerow(['timestamp', 'data'])
+
+        timestamp = 0  # Inicializa el contador de tiempo
+
+        # Procesar línea por línea
+        for linea in archivo_txt:
+            if linea.startswith('#'):  # Saltar líneas de encabezado o comentarios
+                continue
+            columnas = linea.strip().split('\t')  # Separar las columnas por tabulaciones
+            if len(columnas) > columna_datos:  # Asegurarse de que la columna existe
+                escritor_csv.writerow([timestamp, columnas[columna_datos]])  # Guardar timestamp y dato
+                timestamp += 1  # Incrementar el contador de tiempo
+
+# Ejemplo de uso
+ruta_txt = 'ECG_Reposo1.txt'
+ruta_csv = 'ECG_Reposo1.csv'
+convertir_txt_a_csv(ruta_txt, ruta_csv, columna_datos=5, encabezado=['Tiempo (ms)', 'Señal ECG'])
+```
+
+```python
 import requests
 import os
 import csv
