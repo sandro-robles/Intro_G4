@@ -8,3 +8,6 @@ Integrante: María Fernanda Mautino Rodríguez
 ## **Objetivos:**
 - Crear un proyecto en Edge Impulse para cada tipo de señal procesada, como EMG, ECG y EEG, clasificándolas de manera adecuada.
 - Implementar un código en Python para cargar las señales correspondientes a la plataforma Edge Impulse.
+
+## **Metodología:**
+<p align="justify">Los datos utilizados en este desarrollo fueron adquiridos en formato .txt, provenientes de los laboratorios de señales biológicas, específicamente de ECG, EMG y EEG. Dado que el entorno de Edge Impulse requiere archivos en formato .csv para su análisis, se desarrolló un script en Python que permite convertir automáticamente los archivos .txt en archivos .csv, adaptando su estructura al formato esperado. </p>
