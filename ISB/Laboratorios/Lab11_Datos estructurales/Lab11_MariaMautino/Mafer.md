@@ -324,6 +324,6 @@ print("\nProceso completado.")
 ```
 <h2 style = "text-align: center;">Links de proyecto</h2>
 
-1. [EDGE IMPULSE - ECG]((https://studio.edgeimpulse.com/public/560002/live))</p>
+1. [EDGE IMPULSE - ECG](https://studio.edgeimpulse.com/public/560002/live))</p>
 2. [EDGE IMPULSE - EMG](https://studio.edgeimpulse.com/public/560374/live)</p>
 3. [EDGE IMPULSE - EEG](https://studio.edgeimpulse.com/public/560380/live)</p>
