@@ -189,6 +189,18 @@ print("\nProceso completado.")
 <p align="center"><img src="Anexos Lab11/basal.png" width="300"></p>
 <p align="center"><i>Figura 2: ECG Reposo.</i></p>
 
+<p align="center"><img src="Anexos Lab11/resp.png" width="300"></p>
+<p align="center"><i>Figura 3: ECG Respiración.</i></p>
+
+<p align="center"><img src="Anexos Lab11/post resp.png" width="300"></p>
+<p align="center"><i>Figura 4: ECG Post Respiración.</i></p>
+
+<p align="center"><img src="Anexos Lab11/ejercicio.png" width="300"></p>
+<p align="center"><i>Figura 5: ECG Ejercicio.</i></p>
+
+<p align="center"><img src="Anexos Lab11/prosim.png" width="300"></p>
+<p align="center"><i>Figura 5: ECG Pro Sim.</i></p>
+
 ### **CÓDIGO EMG:**
 ```python
 import requests
