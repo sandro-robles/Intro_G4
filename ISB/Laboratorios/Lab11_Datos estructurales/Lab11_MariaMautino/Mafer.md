@@ -186,6 +186,9 @@ for ruta_archivo in archivos_csv:
 
 print("\nProceso completado.")
 ```
+<p align="center"><img src="Anexos Lab11/basal.png" width="300"></p>
+<p align="center"><i>Figura 2: ECG Reposo.</i></p>
+
 ### **CÓDIGO EMG:**
 ```python
 import requests
@@ -322,8 +325,51 @@ for ruta_archivo in archivos_csv:
 
 print("\nProceso completado.")
 ```
+### **CÓDIGO EEG:**
+```python
+import requests
+import os
+
+# Ruta de la carpeta con los archivos procesados
+carpeta_procesada = r'C:\Users\User\Desktop\csv_procesados'
+
+# Clave API de Edge Impulse
+api_key = 'ei_dc8037a9949e6f14dc9e431164aff6314869eec59342c5fd334838e956cbe8d1'
+
+# Etiqueta base para los datos
+etiqueta_base = 'eeg_signal'
+
+# Subir los archivos a Edge Impulse
+for archivo in os.listdir(carpeta_procesada):
+    if archivo.endswith('.csv'):
+        ruta_archivo = os.path.join(carpeta_procesada, archivo)
+        etiqueta = f"{etiqueta_base}_{os.path.basename(ruta_archivo).replace('.csv', '')}"
+        
+        print(f"Subiendo archivo: {archivo} con etiqueta: {etiqueta}")
+        
+        try:
+            with open(ruta_archivo, 'rb') as archivo_csv:
+                respuesta = requests.post(
+                    url='https://ingestion.edgeimpulse.com/api/training/files',
+                    headers={
+                        'x-label': etiqueta,
+                        'x-api-key': api_key,
+                    },
+                    files=[('data', (archivo, archivo_csv, 'text/csv'))]
+                )
+            
+            if respuesta.status_code == 200:
+                print(f"¡Archivo subido exitosamente!: {archivo}")
+            else:
+                print(f"Error al subir el archivo {archivo}. Código: {respuesta.status_code}")
+                print(f"Detalles de la respuesta: {respuesta.text}")
+        except Exception as e:
+            print(f"Error al subir el archivo {archivo}: {e}")
+```
+
+
 <h2 style = "text-align: center;">Links de proyecto</h2>
 
-1. [EDGE IMPULSE - ECG](https://studio.edgeimpulse.com/public/560002/live))</p>
+1. [EDGE IMPULSE - ECG](https://studio.edgeimpulse.com/public/560002/live)</p>
 2. [EDGE IMPULSE - EMG](https://studio.edgeimpulse.com/public/560374/live)</p>
 3. [EDGE IMPULSE - EEG](https://studio.edgeimpulse.com/public/560380/live)</p>
