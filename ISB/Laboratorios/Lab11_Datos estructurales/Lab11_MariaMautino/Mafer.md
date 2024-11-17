@@ -12,6 +12,7 @@ Integrante: María Fernanda Mautino Rodríguez
 ## **Metodología:**
 <p align="justify">Los datos utilizados en este desarrollo fueron adquiridos en formato .txt, provenientes de los laboratorios de señales biológicas, específicamente de ECG, EMG y EEG. Dado que el entorno de Edge Impulse requiere archivos en formato .csv para su análisis, se desarrolló un script en Python que permite convertir automáticamente los archivos .txt en archivos .csv, adaptando su estructura al formato esperado. </p>
 
+```python
 import requests
 import os
 import csv
@@ -151,3 +152,4 @@ for ruta_archivo in archivos_csv:
         print(f"Error al procesar el archivo {ruta_archivo}: {e}")
 
 print("\nProceso completado.")
+```
