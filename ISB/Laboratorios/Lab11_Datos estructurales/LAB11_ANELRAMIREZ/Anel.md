@@ -10,7 +10,9 @@ Edge Impulse es una plataforma para desarrollar algoritmos de aprendizaje máqui
 
 ## **Links:**
 -ECG:[https://studio.edgeimpulse.com/studio/560451](https://studio.edgeimpulse.com/public/560451/live)
+
 -EMG:https://studio.edgeimpulse.com/public/560598/live
+
 -EEG:https://studio.edgeimpulse.com/public/560601/live
 
 ## **Pasos a seguir:**
