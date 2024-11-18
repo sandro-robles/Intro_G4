@@ -8,6 +8,11 @@ Edge Impulse es una plataforma para desarrollar algoritmos de aprendizaje máqui
 - Crear un proyecto en Edge Impulse (EI) para cada tipo de señal que se desea trabajar: EMG, ECG y EEG.
 - Diseñar un script en Python que automatice la carga de datos de cada tipo de señal en la plataforma de EI.
 
+## **Links:**
+-ECG:[https://studio.edgeimpulse.com/studio/560451](https://studio.edgeimpulse.com/public/560451/live)
+-EMG:https://studio.edgeimpulse.com/public/560598/live
+-EEG:https://studio.edgeimpulse.com/public/560601/live
+
 ## **Pasos a seguir:**
 <p align="justify">1.- Los datos utilizados para el desarrollo de este laboratorio se obtuvieron a partir de los experimentos realizados en los laboratorios 3, 4 y 5, correspondientes a las señales de ECG, EMG y EEG. Estos datos fueron adquiridos originalmente en formato ".txt". Para integrarlos en el entorno de Edge Impulse, fue necesario convertirlos al formato ".csv", asegurando así su compatibilidad y procesamiento adecuado. A continuación, se presenta el código empleado para realizar dicha conversión: </p>
 
