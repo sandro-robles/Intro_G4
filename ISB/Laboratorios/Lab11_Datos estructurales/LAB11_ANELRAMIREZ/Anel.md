@@ -70,7 +70,177 @@ print(f"Archivo guardado exitosamente como {output_file}")
   </tr>
 </table>
 
-<p align="justify">3.-
+<p align="justify">3.- Usamos este código para poder subir nuestros archivos al Edge Impulse, veremos a continuación algunas gráficas.
+    
+-ECG:
+
+
+```python
+import pandas as pd
+import os
+import requests
+# Configuración
+# =======================
+# Clave API de Edge Impulse
+api_key = 'ei_ce7073c877a48e7ef577de9ac7f8854970d040427c75448bc990c316b27ff490'
+
+# Lista de archivos CSV a procesar
+archivos_csv = [
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/ECG/ECG_ejercicio.csv',
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/ECG/ECG_prosim.csv',
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/ECG/ECG_reposo.csv',
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/ECG/ECG_respiracion.csv'
+]
+tamanio_intervalo = 500  # Ajusta según tus datos
+label = 'tu_etiqueta'  # Etiqueta para los datos en Edge Impulse
+# =======================
+# Código Principal
+# =======================
+for archivo in archivos_csv:
+    try:
+        # Cargar los datos del archivo CSV
+        data = pd.read_csv(archivo)
+        nombre_base = os.path.basename(archivo).replace('.csv', '')
+
+        # Calcular el número total de intervalos
+        num_filas = len(data)
+        num_intervalos = (num_filas // tamanio_intervalo) + (1 if num_filas % tamanio_intervalo != 0 else 0)
+
+        print(f"\nProcesando archivo: {archivo}")
+        print(f"Total de intervalos a subir: {num_intervalos}")
+
+        for i in range(num_intervalos):
+            # Filtrar datos para el intervalo actual
+            inicio = i * tamanio_intervalo
+            fin = min((i + 1) * tamanio_intervalo, num_filas)
+            intervalo_data = data.iloc[inicio:fin]
+
+            # Crear el nombre del archivo para el intervalo
+            intervalo_filename = f'{nombre_base}_intervalo_{i + 1}.csv'
+            intervalo_data.to_csv(intervalo_filename, index=False)  # Guardar en un archivo CSV temporal
+
+            # Preparar el archivo para la subida
+            file_tuple = ('data', (os.path.basename(intervalo_filename), open(intervalo_filename, 'rb'), 'application/csv'))
+
+            print(f"Subiendo intervalo {i + 1}/{num_intervalos}...")
+            res = requests.post(
+                url='https://ingestion.edgeimpulse.com/api/training/files',
+                headers={
+                    'x-label': label,
+                    'x-api-key': api_key,
+                },
+                files=[file_tuple]
+            )
+
+            # Verificar la respuesta de la subida
+            if res.status_code == 200:
+                print(f"¡Subida exitosa! Intervalo {i + 1}")
+            else:
+                print(f"Error al subir intervalo {i + 1}: {res.status_code}, {res.text}")
+
+            # Cerrar el archivo después de la subida
+            file_tuple[1][1].close()
+
+    except Exception as e:
+        print(f"Error al procesar el archivo {archivo}: {e}")
+print("\nProceso completado.")
+
+```
+
+<p align="center"><img width="505" alt="Ejercicico intervalo 19" src="https://github.com/user-attachments/assets/bdc682e0-f2cd-47e7-9756-b7bb652ac012">
+
+<p align="center"><i>Figura 2:Ejercicico intervalo 19</i></p>
+<p align="center"><img width="505" alt="Reposo intervalo 76" src="https://github.com/user-attachments/assets/29dcdc41-0c7b-472f-93b6-497a7536bf24">
+<p align="center"><i>Figura 3:Reposo intervalo 76</i></p>
+<p align="center"><img width="505" alt="Respiracion intervalor 48" src="https://github.com/user-attachments/assets/45a956b3-c83a-46c6-a0b9-7db08fb94576">
+<p align="center"><i>Figura 4:Respiracion intervalor 48</i></p>
+<p align="center"><img width="505" alt="Pro sim intervalo 42" src="https://github.com/user-attachments/assets/d6d3b98f-6645-428f-ab5f-f1c21b3cbb8f">
+
+<p align="center"><i>Figura 5:Pro sim intervalo 42</i></p>
+
+-EMG:
+
+```python
+import pandas as pd
+import os
+import requests
+# Configuración
+# =======================
+# Clave API de Edge Impulse
+api_key = 'ei_3144080d5c50c4ccf956fc3dd33f457151ca704e625ef39ac9fba0b153c620a3'
+
+# Lista de archivos CSV a procesar
+archivos_csv = [
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/EMG/EMG_mano.csv',
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/EMG/EMG_manofuerza.csv',
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/EMG/EMG_manoreposo.csv',
+]
+tamanio_intervalo = 500  # Ajusta según tus datos
+label = 'tu_etiqueta'  # Etiqueta para los datos en Edge Impulse
+# =======================
+# Código Principal
+# =======================
+for archivo in archivos_csv:
+    try:
+        # Cargar los datos del archivo CSV
+        data = pd.read_csv(archivo)
+        nombre_base = os.path.basename(archivo).replace('.csv', '')
+
+        # Calcular el número total de intervalos
+        num_filas = len(data)
+        num_intervalos = (num_filas // tamanio_intervalo) + (1 if num_filas % tamanio_intervalo != 0 else 0)
+
+        print(f"\nProcesando archivo: {archivo}")
+        print(f"Total de intervalos a subir: {num_intervalos}")
+
+        for i in range(num_intervalos):
+            # Filtrar datos para el intervalo actual
+            inicio = i * tamanio_intervalo
+            fin = min((i + 1) * tamanio_intervalo, num_filas)
+            intervalo_data = data.iloc[inicio:fin]
+
+            # Crear el nombre del archivo para el intervalo
+            intervalo_filename = f'{nombre_base}_intervalo_{i + 1}.csv'
+            intervalo_data.to_csv(intervalo_filename, index=False)  # Guardar en un archivo CSV temporal
+
+            # Preparar el archivo para la subida
+            file_tuple = ('data', (os.path.basename(intervalo_filename), open(intervalo_filename, 'rb'), 'application/csv'))
+
+            print(f"Subiendo intervalo {i + 1}/{num_intervalos}...")
+            res = requests.post(
+                url='https://ingestion.edgeimpulse.com/api/training/files',
+                headers={
+                    'x-label': label,
+                    'x-api-key': api_key,
+                },
+                files=[file_tuple]
+            )
+
+            # Verificar la respuesta de la subida
+            if res.status_code == 200:
+                print(f"¡Subida exitosa! Intervalo {i + 1}")
+            else:
+                print(f"Error al subir intervalo {i + 1}: {res.status_code}, {res.text}")
+
+            # Cerrar el archivo después de la subida
+            file_tuple[1][1].close()
+
+    except Exception as e:
+        print(f"Error al procesar el archivo {archivo}: {e}")
+print("\nProceso completado.")
+
+
+```
+<p align="center"><img width="505" alt="Mano intervalo 4" src="https://github.com/user-attachments/assets/777c3faa-ddcc-4354-ab10-27b0cc83de2e">
+
+<p align="center"><i>Figura 6:Mano intervalo 4</i></p>
+<p align="center"><img width="505" alt="Mano reposo intervalo 34" src="https://github.com/user-attachments/assets/cc5a7896-49d9-4c4e-be7c-fbeb60bd6032">
+
+<p align="center"><i>Figura 7:Mano reposo intervalo 34</i></p>
+<p align="center"><img width="505" alt="Mano fuerza intervalo 36" src="https://github.com/user-attachments/assets/0b8ac9ba-323d-4174-85dc-d5e62c0be059">
+
+<p align="center"><i>Figura 8:Mano fuerza intervalo 36</i></p>
+
 
 
 
