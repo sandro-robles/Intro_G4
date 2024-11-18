@@ -242,5 +242,78 @@ print("\nProceso completado.")
 <p align="center"><i>Figura 8:Mano fuerza intervalo 36</i></p>
 
 
+-EEG:
+
+```python
+import pandas as pd
+import os
+import requests
+# Configuración
+# =======================
+# Clave API de Edge Impulse
+api_key = 'ei_40a66b681b4c50e3ae704b6bad2e2bc5bd7214e15ca9674d6eb0c0ad793b3eab'
+
+# Lista de archivos CSV a procesar
+archivos_csv = [
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/EEG/EEG_ojos.csv',
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/EEG/EEG_pregsimple.csv',
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/EEG/EEG_respiracion1.csv',
+    r'/Users/fernandaramirez/Desktop/LAB11_ANELRAMIREZ/EEG/EEG_respiracion2.csv',
+]
+tamanio_intervalo = 500  # Ajusta según tus datos
+label = 'tu_etiqueta'  # Etiqueta para los datos en Edge Impulse
+# =======================
+# Código Principal
+# =======================
+for archivo in archivos_csv:
+    try:
+        # Cargar los datos del archivo CSV
+        data = pd.read_csv(archivo)
+        nombre_base = os.path.basename(archivo).replace('.csv', '')
+
+        # Calcular el número total de intervalos
+        num_filas = len(data)
+        num_intervalos = (num_filas // tamanio_intervalo) + (1 if num_filas % tamanio_intervalo != 0 else 0)
+
+        print(f"\nProcesando archivo: {archivo}")
+        print(f"Total de intervalos a subir: {num_intervalos}")
+
+        for i in range(num_intervalos):
+            # Filtrar datos para el intervalo actual
+            inicio = i * tamanio_intervalo
+            fin = min((i + 1) * tamanio_intervalo, num_filas)
+            intervalo_data = data.iloc[inicio:fin]
+
+            # Crear el nombre del archivo para el intervalo
+            intervalo_filename = f'{nombre_base}_intervalo_{i + 1}.csv'
+            intervalo_data.to_csv(intervalo_filename, index=False)  # Guardar en un archivo CSV temporal
+
+            # Preparar el archivo para la subida
+            file_tuple = ('data', (os.path.basename(intervalo_filename), open(intervalo_filename, 'rb'), 'application/csv'))
+
+            print(f"Subiendo intervalo {i + 1}/{num_intervalos}...")
+            res = requests.post(
+                url='https://ingestion.edgeimpulse.com/api/training/files',
+                headers={
+                    'x-label': label,
+                    'x-api-key': api_key,
+                },
+                files=[file_tuple]
+            )
+
+            # Verificar la respuesta de la subida
+            if res.status_code == 200:
+                print(f"¡Subida exitosa! Intervalo {i + 1}")
+            else:
+                print(f"Error al subir intervalo {i + 1}: {res.status_code}, {res.text}")
+
+            # Cerrar el archivo después de la subida
+            file_tuple[1][1].close()
+
+    except Exception as e:
+        print(f"Error al procesar el archivo {archivo}: {e}")
+print("\nProceso completado.")
+```
+
 
 
