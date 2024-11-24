@@ -22,8 +22,9 @@ Integrante: María Fernanda Mautino Rodríguez
 4. ECG_PRUEBAPROSIM
 5. ECG_RESP
 
-<p align="justify"> Luego, se implementó un proceso de ajuste en el dataset para mejorar la proporción de las etiquetas y acercarlas a una distribución del 80% entrenamiento y 20% prueba. El ajuste consistió en aplicar resampleo a los datos originales, aumentando o disminuyendo la cantidad de muestras en función de un factor de corrección específico para cada etiqueta.</p>
+<p align="justify"> Luego, se implementó un proceso de ajuste en el dataset para mejorar la proporción de las etiquetas y acercarlas a una distribución del 80% entrenamiento y 20% prueba. El ajuste consistió en aplicar resampling a los datos originales, aumentando o disminuyendo la cantidad de muestras en función de un factor de corrección específico para cada etiqueta.</p>
 
+## **Ajuste del Dataset mediante Resampling:**
 ```python
 import os
 import pandas as pd
@@ -130,6 +131,7 @@ subir_a_edge_impulse(fragmentos_ajustados, api_key)
 
 print("\nProceso completado. Archivos ajustados y subidos a Edge Impulse.")
 
-``` 
+```
+
 <p align="justify">El dataset final quedó con un total de 24 minutos y 10 segundos distribuidos de la siguiente manera:</p>
--Distribución Train/Test: 78% entrenamiento y 22% prueba.
+Distribución Train/Test: 78% entrenamiento y 22% prueba.
