@@ -5,9 +5,6 @@ Integrante: María Fernanda Mautino Rodríguez
 <h2 style = "text-align: center;">Links de Edge Impulse:</h2>
 
 1. [EDGE IMPULSE - ECG](https://studio.edgeimpulse.com/public/560002/live)</p>
-2. [EDGE IMPULSE - EMG](https://studio.edgeimpulse.com/public/560374/live)</p>
-3. [EDGE IMPULSE - EEG](https://studio.edgeimpulse.com/public/560380/live)</p>
-
 
 ## **Edge impluse:**
 <p align="justify">Edge Impulse es una plataforma de inteligencia artificial especializada en el desarrollo y entrenamiento de modelos para dispositivos periféricos o de borde. Estos dispositivos incluyen sensores, microcontroladores y hardware de bajo consumo, permitiendo procesar datos localmente sin depender de conexiones constantes a la nube. Esto optimiza el rendimiento y la seguridad en aplicaciones que requieren análisis en tiempo real. </p>
