@@ -177,7 +177,7 @@ print("\nProceso completado. Archivos ajustados y subidos a Edge Impulse.")
 ## **Model Testing:**
 <p align="justify">Se evaluó el modelo con el conjunto de datos de prueba, obteniendo una precisión global del 40.93%. Los resultados indican un área bajo la curva ROC de 0.88, con una precisión ponderada de 0.48 y un recall de 0.67. Sin embargo, la matriz de confusión muestra que la mayoría de las predicciones se concentran en las clases incorrectas o inciertas, reflejando que el modelo requiere ajustes adicionales para mejorar su rendimiento.</p>
 
-<p align="center"><img src="Anexos Lab12/10.png" width="400"></p>
+<p align="center"><img src="Anexos Lab12/10.png" width="200"></p>
 <p align="center"><i>Figura 10: Resultados del model testing.</i></p> 
 
 
