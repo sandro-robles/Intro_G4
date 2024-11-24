@@ -23,7 +23,7 @@ Integrante: María Fernanda Mautino Rodríguez
 5. ECG_RESP
 
 <p align="center"><img src="Anexos Lab12/1.png" width="400"></p>
-<p align="center"><i>Figura 1: Página de Edge Impulse personal.</i></p>
+<p align="center"><i>Figura 2:Distribución Train/Test: 74% entrenamiento y 26% prueba con un total de 19 minutos y 50 segundos.</i></p> 
 
 <p align="justify"> Luego, se implementó un proceso de ajuste en el dataset para mejorar la proporción de las etiquetas y acercarlas a una distribución del 80% entrenamiento y 20% prueba. El ajuste consistió en aplicar resampling a los datos originales, aumentando o disminuyendo la cantidad de muestras en función de un factor de corrección específico para cada etiqueta.</p>
 
@@ -136,7 +136,7 @@ print("\nProceso completado. Archivos ajustados y subidos a Edge Impulse.")
 
 ```
 <p align="center"><img src="Anexos Lab12/2.png" width="400"></p>
-<p align="center"><i>Figura 1: Página de Edge Impulse personal.</i></p> 
+<p align="center"><i>Figura 3: Distribución Train/Test: 78% entrenamiento y 22% prueba con un total de 24 minutos y 10 segundos.</i></p> 
 
-<p align="justify">El dataset final quedó con un total de 24 minutos y 10 segundos distribuidos de la siguiente manera:</p>
-Distribución Train/Test: 78% entrenamiento y 22% prueba.
+
+
