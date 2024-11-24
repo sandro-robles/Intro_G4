@@ -9,7 +9,7 @@ Integrante: María Fernanda Mautino Rodríguez
 ## **Edge impluse:**
 <p align="justify">Edge Impulse es una plataforma de inteligencia artificial especializada en el desarrollo y entrenamiento de modelos para dispositivos periféricos o de borde. Estos dispositivos incluyen sensores, microcontroladores y hardware de bajo consumo, permitiendo procesar datos localmente sin depender de conexiones constantes a la nube. Esto optimiza el rendimiento y la seguridad en aplicaciones que requieren análisis en tiempo real. </p>
 
-<p align="center"><img src="Anexos Lab12/3.png" width="400"></p>
+<p align="center"><img src="Anexos Lab12/3.png" width="300"></p>
 <p align="center"><i>Figura 1: Página de Edge Impulse personal.</i></p>
 
 <p align="justify">Tras aplicar el proceso de fragmentación y subida de los datos preprocesados a la plataforma Edge Impulse, se logró recolectar un total de 19 minutos y 50 segundos de datos clasificados. La distribución inicial del conjunto de datos presentó un balance general de 74% para entrenamiento y 26% para prueba. Este resultado fue producto de la segmentación y balanceo de los archivos originales en fragmentos más pequeños, con la finalidad de optimizar la representación de cada clase.</p>
