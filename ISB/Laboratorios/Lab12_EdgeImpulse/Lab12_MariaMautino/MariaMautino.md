@@ -22,7 +22,7 @@ Integrante: María Fernanda Mautino Rodríguez
 4. ECG_PRUEBAPROSIM
 5. ECG_RESP
 
-<p align="center"><img src="Anexos Lab12/1.png" width="400"></p>
+<p align="center"><img src="Anexos Lab12/1.png" width="300"></p>
 <p align="center"><i>Figura 2:Distribución Train/Test: 74% entrenamiento y 26% prueba con un total de 19 minutos y 50 segundos.</i></p> 
 
 <p align="justify"> Luego, se implementó un proceso de ajuste en el dataset para mejorar la proporción de las etiquetas y acercarlas a una distribución del 80% entrenamiento y 20% prueba. El ajuste consistió en aplicar resampling a los datos originales, aumentando o disminuyendo la cantidad de muestras en función de un factor de corrección específico para cada etiqueta.</p>
