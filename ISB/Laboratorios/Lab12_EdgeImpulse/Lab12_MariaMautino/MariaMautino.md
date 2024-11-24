@@ -12,9 +12,12 @@ Integrante: María Fernanda Mautino Rodríguez
 <p align="center"><img src="Anexos Lab11/Captura de pantalla 2024-11-17 132251.png" width="400"></p>
 <p align="center"><i>Figura 1: Página de Edge Impulse personal.</i></p>
 
-## **Objetivos:**
-- Crear un proyecto en Edge Impulse para cada tipo de señal procesada, como EMG, ECG y EEG, clasificándolas de manera adecuada.
-- Implementar un código en Python para cargar las señales correspondientes a la plataforma Edge Impulse.
+<p align="justify">Tras aplicar el proceso de fragmentación y subida de los datos preprocesados a la plataforma Edge Impulse, se logró recolectar un total de 19 minutos y 50 segundos de datos clasificados. La distribución inicial del conjunto de datos presentó un balance general de 74% para entrenamiento y 26% para prueba. Este resultado fue producto de la segmentación y balanceo de los archivos originales en fragmentos más pequeños, con la finalidad de optimizar la representación de cada clase.</p>
 
-## **Metodología:**
-<p align="justify">Los datos utilizados en este desarrollo fueron adquiridos en formato .txt, provenientes de los laboratorios de señales biológicas, específicamente de ECG, EMG y EEG. Dado que el entorno de Edge Impulse requiere archivos en formato .csv para su análisis, se desarrolló un script en Python que permite convertir automáticamente los archivos .txt en archivos .csv, adaptando su estructura al formato esperado. </p>
+<p align="justify">El proceso permitió trabajar con cinco categorías principales:</p>
+
+1. ECG_BASAL
+2. ECG_EJERCICIOS
+3. ECG_POST_RESP
+4. ECG_PRUEBAPROSIM
+5. ECG_RESP
