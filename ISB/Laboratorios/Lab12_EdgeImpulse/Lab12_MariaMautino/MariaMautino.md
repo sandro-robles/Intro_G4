@@ -9,7 +9,7 @@ Integrante: María Fernanda Mautino Rodríguez
 ## **Edge impluse:**
 <p align="justify">Edge Impulse es una plataforma de inteligencia artificial especializada en el desarrollo y entrenamiento de modelos para dispositivos periféricos o de borde. Estos dispositivos incluyen sensores, microcontroladores y hardware de bajo consumo, permitiendo procesar datos localmente sin depender de conexiones constantes a la nube. Esto optimiza el rendimiento y la seguridad en aplicaciones que requieren análisis en tiempo real. </p>
 
-<p align="center"><img src="Anexos Lab11/Captura de pantalla 2024-11-17 132251.png" width="400"></p>
+<p align="center"><img src="Anexos Lab12/3.png" width="400"></p>
 <p align="center"><i>Figura 1: Página de Edge Impulse personal.</i></p>
 
 <p align="justify">Tras aplicar el proceso de fragmentación y subida de los datos preprocesados a la plataforma Edge Impulse, se logró recolectar un total de 19 minutos y 50 segundos de datos clasificados. La distribución inicial del conjunto de datos presentó un balance general de 74% para entrenamiento y 26% para prueba. Este resultado fue producto de la segmentación y balanceo de los archivos originales en fragmentos más pequeños, con la finalidad de optimizar la representación de cada clase.</p>
@@ -21,6 +21,9 @@ Integrante: María Fernanda Mautino Rodríguez
 3. ECG_POST_RESP
 4. ECG_PRUEBAPROSIM
 5. ECG_RESP
+
+<p align="center"><img src="Anexos Lab12/1.png" width="400"></p>
+<p align="center"><i>Figura 1: Página de Edge Impulse personal.</i></p>
 
 <p align="justify"> Luego, se implementó un proceso de ajuste en el dataset para mejorar la proporción de las etiquetas y acercarlas a una distribución del 80% entrenamiento y 20% prueba. El ajuste consistió en aplicar resampling a los datos originales, aumentando o disminuyendo la cantidad de muestras en función de un factor de corrección específico para cada etiqueta.</p>
 
@@ -132,6 +135,8 @@ subir_a_edge_impulse(fragmentos_ajustados, api_key)
 print("\nProceso completado. Archivos ajustados y subidos a Edge Impulse.")
 
 ```
+<p align="center"><img src="Anexos Lab12/2.png" width="400"></p>
+<p align="center"><i>Figura 1: Página de Edge Impulse personal.</i></p> 
 
 <p align="justify">El dataset final quedó con un total de 24 minutos y 10 segundos distribuidos de la siguiente manera:</p>
 Distribución Train/Test: 78% entrenamiento y 22% prueba.
