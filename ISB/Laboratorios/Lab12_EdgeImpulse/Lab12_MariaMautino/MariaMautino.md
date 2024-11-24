@@ -132,4 +132,4 @@ print("\nProceso completado. Archivos ajustados y subidos a Edge Impulse.")
 
 ``` 
 <p align="justify">El dataset final quedó con un total de 24 minutos y 10 segundos distribuidos de la siguiente manera:</p>
-- Distribución Train/Test: 78% entrenamiento y 22% prueba.
+-Distribución Train/Test: 78% entrenamiento y 22% prueba.
