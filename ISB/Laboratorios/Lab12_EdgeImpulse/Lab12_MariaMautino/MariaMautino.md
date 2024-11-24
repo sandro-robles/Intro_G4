@@ -155,3 +155,22 @@ print("\nProceso completado. Archivos ajustados y subidos a Edge Impulse.")
 <p align="center"><img src="Anexos Lab12/6.png" width="400"></p>
 <p align="center"><i>Figura 6: Análisis Espectral.</i></p> 
 
+## **Training set:**
+<p align="justify">En esta etapa, se procesaron las señales del conjunto de datos de entrenamiento, obteniendo un total de 1,036 ventanas de entrenamiento distribuidas entre las cinco clases definidas: ECG_basal, ECG_ejercicios, ECG_post_resp, ECG_pruebaprosim y ECG_resp. Utilizando la técnica UMAP, se redujeron las dimensiones de las características para su análisis visual en el explorador de características, donde se identificaron patrones específicos para cada clase.</p>
+
+<p align="center"><img src="Anexos Lab12/7.png" width="400"></p>
+<p align="center"><i>Figura 7:Training set.</i></p> 
+
+
+## **Resultados del Modelo de Clasificación:**
+<p align="justify">El modelo alcanzó una precisión del 59.1% y una pérdida de 1.01. Las clases "ECG_post_resp" y "ECG_pruebaprosim" fueron las mejor clasificadas, mientras que "ECG_basal", "ECG_ejercicios" y "ECG_resp" tuvieron más errores. El área bajo la curva ROC fue de 0.85, mostrando buen desempeño general, aunque se necesita mejorar la clasificación en algunas clases.</p>
+
+<p align="center"><img src="Anexos Lab12/8.png" width="400"></p>
+<p align="center"><i>Figura 8: Resultados del Modelo de Clasificación.</i></p> 
+
+## **Retrain:**
+<p align="justify">El modelo fue entrenado y validado con éxito utilizando las características espectrales generadas.</p>
+
+<p align="center"><img src="Anexos Lab12/9.png" width="400"></p>
+<p align="center"><i>Figura 9: Retraining output.</i></p> 
+
