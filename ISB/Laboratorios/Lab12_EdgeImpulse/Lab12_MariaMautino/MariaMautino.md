@@ -21,3 +21,115 @@ Integrante: María Fernanda Mautino Rodríguez
 3. ECG_POST_RESP
 4. ECG_PRUEBAPROSIM
 5. ECG_RESP
+
+<p align="justify"> Luego, se implementó un proceso de ajuste en el dataset para mejorar la proporción de las etiquetas y acercarlas a una distribución del 80% entrenamiento y 20% prueba. El ajuste consistió en aplicar resampleo a los datos originales, aumentando o disminuyendo la cantidad de muestras en función de un factor de corrección específico para cada etiqueta.</p>
+
+```python
+import os
+import pandas as pd
+import requests
+
+# =======================
+# Configuración general
+# =======================
+# Clave API de Edge Impulse
+api_key = 'ei_9cd4d3d4ae4c68bd1c9a7b8021a172de05cea4cbf3ba12f170f3bb25b11e13a2'
+
+# Archivos CSV base
+file_paths = {
+    "ECG_basal": r'C:\Users\User\Desktop\ECG_basal.csv',
+    "ECG_ejercicios": r'C:\Users\User\Desktop\ECG_ejercicios.csv',
+    "ECG_post_resp": r'C:\Users\User\Desktop\ECG_post_resp.csv',
+    "ECG_pruebaprosim": r'C:\Users\User\Desktop\ECG_pruebaprosim.csv',
+    "ECG_resp": r'C:\Users\User\Desktop\ECG_resp.csv'
+}
+
+# Carpeta de salida para archivos ajustados
+output_folder = r'C:\Users\User\Desktop\ECG_correcciones'
+os.makedirs(output_folder, exist_ok=True)
+
+# Configuración de resampleo
+factores_ajuste = {
+    "ECG_basal": 1.05,  # Ajustes pequeños para mejorar la distribución
+    "ECG_ejercicios": 1.2,
+    "ECG_post_resp": 1.1,
+    "ECG_pruebaprosim": 1.1,
+    "ECG_resp": 1.0  # Sin cambio en este caso
+}
+
+# =======================
+# Funciones principales
+# =======================
+
+def ajustar_resampleo(file_paths, factores_ajuste):
+    """
+    Aplica ajustes de resampleo para equilibrar las proporciones.
+    """
+    fragmentos_generados = []
+    for label, file_path in file_paths.items():
+        print(f"Ajustando archivo: {label}...")
+        try:
+            # Leer datos originales
+            data = pd.read_csv(file_path, sep=',')
+            
+            # Determinar factor de ajuste
+            factor = factores_ajuste.get(label, 1.0)
+            n_samples = int(len(data) * factor)
+            
+            # Aplicar resampleo
+            data_resampleada = data.reindex(
+                pd.RangeIndex(start=0, stop=n_samples),
+                method=None
+            ).interpolate(method="linear").ffill().bfill()
+            
+            # Guardar archivo ajustado
+            output_path = os.path.join(output_folder, f"{label}_ajustado.csv")
+            data_resampleada.to_csv(output_path, index=False)
+            fragmentos_generados.append((output_path, label))
+        
+        except Exception as e:
+            print(f"Error al ajustar {label}: {e}")
+    
+    return fragmentos_generados
+
+def subir_a_edge_impulse(fragmentos, api_key):
+    """
+    Sube los archivos ajustados a Edge Impulse.
+    """
+    for ruta_fragmento, label in fragmentos:
+        prepared_file = [('data', (os.path.basename(ruta_fragmento), open(ruta_fragmento, 'rb'), 'text/csv'))]
+        print(f"Subiendo {os.path.basename(ruta_fragmento)} con etiqueta {label}...")
+        try:
+            response = requests.post(
+                url='https://ingestion.edgeimpulse.com/api/training/files',
+                headers={
+                    'x-label': label,
+                    'x-api-key': api_key,
+                },
+                files=prepared_file
+            )
+            if response.status_code == 200:
+                print(f"¡Subida exitosa! Archivo: {os.path.basename(ruta_fragmento)}")
+            else:
+                print(f"Error al subir {os.path.basename(ruta_fragmento)}: {response.status_code}, {response.text}")
+        finally:
+            for _, fileobj in prepared_file:
+                fileobj[1].close()
+
+# =======================
+# Código principal
+# =======================
+
+# Ajustar archivos con resampleo
+fragmentos_ajustados = ajustar_resampleo(file_paths, factores_ajuste)
+print(f"\nSe generaron {len(fragmentos_ajustados)} archivos ajustados.")
+
+# Subir los archivos ajustados a Edge Impulse
+print("\nSubiendo archivos ajustados a Edge Impulse...")
+subir_a_edge_impulse(fragmentos_ajustados, api_key)
+
+print("\nProceso completado. Archivos ajustados y subidos a Edge Impulse.")
+
+``` 
+<p align="justify">El dataset final quedó con un total de 24 minutos y 10 segundos distribuidos de la siguiente manera:</p>
+- Distribución Train/Test: 78% entrenamiento y 22% prueba.
