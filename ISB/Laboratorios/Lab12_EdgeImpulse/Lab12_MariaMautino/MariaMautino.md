@@ -138,7 +138,13 @@ print("\nProceso completado. Archivos ajustados y subidos a Edge Impulse.")
 <p align="center"><img src="Anexos Lab12/2.png" width="400"></p>
 <p align="center"><i>Figura 3: Distribución Train/Test: 78% entrenamiento y 22% prueba con un total de 24 minutos y 10 segundos.</i></p> 
 
-<p align="justify"> Para alcanzar el balance deseado de 80% Training / 20% Test, se realizó un ajuste manual en la distribución de las muestras. En particular, se movieron algunas muestras de la clase ECG_post_resp desde el conjunto de pruebas (Test) hacia el conjunto de entrenamiento (Training). Este cambio permitió equilibrar la proporción global del dataset, logrando el objetivo establecido para la separación entre los conjuntos de entrenamiento y prueba..</p>
+<p align="justify"> Para alcanzar el balance deseado de 80% Training / 20% Test, se realizó un ajuste manual en la distribución de las muestras. En particular, se movieron algunas muestras de la clase ECG_post_resp desde el conjunto de pruebas (Test) hacia el conjunto de entrenamiento (Training). Este cambio permitió equilibrar la proporción global del dataset, logrando el objetivo establecido para la separación entre los conjuntos de entrenamiento y prueba.</p>
 
 <p align="center"><img src="Anexos Lab12/4.png" width="400"></p>
 <p align="center"><i>Figura 3: Distribución Train/Test: 80% entrenamiento y 20% prueba con un total de 24 minutos y 10 segundos.</i></p> 
+
+## **Creación de Impulse:**
+<p align="justify">Para continuar con el proceso de clasificación de las señales de ECG, se procedió a la creación de un Impulse en Edge Impulse. Este impulse tiene como objetivo procesar los datos en bruto de las señales mediante análisis espectral para extraer características relevantes.</p>
+
+<p align="center"><img src="Anexos Lab12/5.png" width="400"></p>
+<p align="center"><i>Figura 5: Distribución Train/Test: 78% entrenamiento y 22% prueba con un total de 24 minutos y 10 segundos.</i></p> 
