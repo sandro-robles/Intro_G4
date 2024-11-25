@@ -36,9 +36,5 @@
 
 ## **Bibliografía:**<a id="bibliografia"></a>
 <p align="justify">[1] Elnaz Lashgari, Dehua Liang, and Uri Maoz. 2020. Data augmentation for deep-learning-based electroencephalography. Journal of Neuroscience Methods (2020), 108885.</p>
-<p align="justify">[2] </p>
-<p align="justify">[3] </p>
-<p align="justify">[4] </p>
-<p align="justify">[5] </p>
 ‌
 ‌
