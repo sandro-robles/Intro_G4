@@ -27,6 +27,11 @@
 <p align="center"><img src="Anexos/IM5.png"></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
 
+## **Model testing:**
+<p align="justify"> </p>
+<p align="center"><img src="Anexos/IM6.png"></p>
+<p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
+
 ## **Bibliografía:**<a id="bibliografia"></a>
 <p align="justify">[1] Elnaz Lashgari, Dehua Liang, and Uri Maoz. 2020. Data augmentation for deep-learning-based electroencephalography. Journal of Neuroscience Methods (2020), 108885.</p>
 <p align="justify">[2] </p>
