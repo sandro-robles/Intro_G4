@@ -68,7 +68,7 @@ transformar_txt_a_csv(archivo_txt, archivo_csv, indice_columna=5, cabecera=['Tie
 
 ```
 
-<p align="center"><img src="Anexos/conversion.png" width="400"></p>
+<p align="center"><img src="Anexos/txtacsv.png" width="400"></p>
 
 <p align="center"><i>Figura 2: Conversión de .txt a .csv </i></p>
 
