@@ -10,21 +10,21 @@
 
 ## **Create impulse:**
 <p align="justify"> </p>
-<p align="center"><img src="Anexos/IM1.png.png" width="400"></p>
+<p align="center"><img src="Anexos/IM1.png" width="400"></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
 
 ## **Spectral features:**
 <p align="justify"> </p>
 <p align="center"><img src="Anexos/IM2.png"></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
-<p align="center"><img src="Anexos/IM3.png.png" ></p>
+<p align="center"><img src="Anexos/IM3.png" ></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
 
 ## **Classifier:**
 <p align="justify"> </p>
-<p align="center"><img src="Anexos/IM2.png"></p>
+<p align="center"><img src="Anexos/IM4.png"></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
-<p align="center"><img src="Anexos/IM3.png"></p>
+<p align="center"><img src="Anexos/IM5.png"></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
 
 ## **Bibliografía:**<a id="bibliografia"></a>
