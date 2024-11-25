@@ -18,7 +18,9 @@
 - Explorar las capacidades de Edge Impulse para diseñar e implementar un modelo de aprendizaje automático que clasifique señales biomédicas, específicamente ECG, mediante técnicas avanzadas de procesamiento de datos y extracción de características.
 - Evaluar el desempeño del modelo entrenado en Edge Impulse para clasificar diferentes estados fisiológicos asociados a las señales ECG (ejercicio, reposo, respiración, etc.).
 - Familiarizarse con las herramientas de Edge Impulse, como la configuración de impulsos, análisis espectral y generación de características, para el desarrollo de aplicaciones basadas en dispositivos IoT y machine learning en tiempo real.
-  
+
+<p align="justify">Link del repositorio de las señales ECG: https://studio.edgeimpulse.com/public/559582/live](https://studio.edgeimpulse.com/public/565758/live)</p>
+
 ## **Introducción:**<a id="Introduccion"></a>
 <p align="justify"> El presente informe detalla el proceso de análisis y clasificación de señales ECG mediante el uso de técnicas de procesamiento de datos, análisis espectral y aprendizaje automático, mediante la plataforme Edge Impulse. Se utilizó un enfoque estructurado que incluye la división de datos, generación de características, y entrenamiento de una red neuronal para clasificar cinco tipos de señales ECG: ejercicio, post-respiración, reposo, respiración, y simulación.‌ </p>
 
