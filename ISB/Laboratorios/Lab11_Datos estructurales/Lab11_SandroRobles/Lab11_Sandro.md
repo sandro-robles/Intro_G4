@@ -23,8 +23,6 @@
 
 ## **Metodología:**<a id="Metodología"></a>
 <p align="justify"> Los datos empleados para este laboratorio fueron obtenidos en formato .txt, los cuales fueron adquiridos de los laboratorios de señales biológicas (ECG, EMG y EEG). La plataforma Edge Impulse requiere de archivos en formato .csv para poder ser procesados y clasificados, por lo que se empleó un script en Visual Studio Code, el cual que convierte automáticamente los archivos .txt al formato .csv, ajustando así su estructura para cumplir con los requisitos de la plataforma principal. </p>
-
-<p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>
      
 |  **Señal biológica**  | **Imagen de obtención** | **Señal obtenida** |
 |:------------:|:---------------:|:---------------:|
@@ -34,16 +32,41 @@
 </div>
 <p align="center"><i>Tabla 1. Señales biológicas que serán procesadas. </i> </p>
 
-## **Procedimiento:**<a id="Procedimiento"></a>
+### **Coversión de .txt a .csv:**<a id="Conversion"></a>
+```python
+import csv
 
-### **SEÑAL ECG:**<a id="SeñalECG"></a>
-<p align="justify">Para el filtrado con transformada Wavelet de las señales ECG, se utilizaron los datos obtenidos previamente en el Laboratorio 4, en tres escenarios distintos: reposo, respiración controlada y después de realizar actividad física.</p>
+def transformar_txt_a_csv(ruta_origen, ruta_destino, indice_columna=5, cabecera=None):
+    """
+    Convierte un archivo .txt en un archivo .csv, extrayendo una columna específica
+    y añadiendo un contador de tiempo como referencia.
+    """
+    with open(ruta_origen, 'r') as archivo_entrada, open(ruta_destino, 'w', newline='') as archivo_salida:
+        escritor = csv.writer(archivo_salida)
 
-- Estado de reposo: El sujeto permaneció en una posición estable y tranquila, representando nuestra prueba de control. La señal fue registrada durante 30 segundos.
+        # Escribir la cabecera en el archivo CSV
+        if cabecera:
+            escritor.writerow(cabecera)
+        else:
+            escritor.writerow(['tiempo', 'valor'])
 
-- Estado de respiración controlada: El sujeto realizó un ciclo de respiración prolongada, manteniendo la inhalación, conteniendo la respiración y exhalando, mientras se registraba la señal a lo largo de 30 segundos.
+        contador_tiempo = 0  # Inicializa el contador de tiempo
 
-- Estado post-ejercicio: Después de realizar una actividad física intensa, que consistió en subir y bajar escaleras durante 5 minutos, se registró la señal tanto durante como inmediatamente después de la actividad física, también durante un periodo de 30 segundos.
+        # Procesar cada línea del archivo .txt
+        for linea in archivo_entrada:
+            if linea.startswith('#'):  # Ignorar líneas de encabezado o comentarios
+                continue
+            datos = linea.strip().split('\t')  # Dividir las columnas por tabulaciones
+            if len(datos) > indice_columna:  # Verificar si la columna requerida existe
+                escritor.writerow([contador_tiempo, datos[indice_columna]])  # Guardar tiempo y valor
+                contador_tiempo += 1  # Incrementar el contador
+
+# Ejemplo de uso
+archivo_txt = 'ECG_ejercicio.txt'
+archivo_csv = 'ECG_ejercicio.csv'
+transformar_txt_a_csv(archivo_txt, archivo_csv, indice_columna=5, cabecera=['Tiempo (ms)', 'Señal EMG'])
+
+```
 
 ***Justificación de parámetros para la Señal ECG***
 <p align="justify"> Para el filtrado se utilizó el artículo "Efficient wavelet families for ECG classification using neural classifiers" donde se compara el uso de varias familias de wavelets en la clasificación de señales ECG usando diferentes redes neuronales. La DWT es clave en este trabajo porque permite descomponer la señal ECG en varios niveles de resolución, lo que facilita la extracción de características tanto morfológicas como estadísticas que alimentan los clasificadores neuronales. Para nuestro filtrado tomamos en cuenta características que se usan en el artículo usando la wavelet Daubechies (db4), que es la que tuvo mejores resultados. Entre las características vistas el artículo menciona dos etapas una donde se aplica una técnica de umbralización suave para eliminar el ruido de alta frecuencia y una segunda etapa que elimina el ruido de desvío de línea base utilizando un rango de 0,15 a 0,5 Hz [5]. </p>
