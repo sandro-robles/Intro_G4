@@ -11,21 +11,23 @@
 ## **Create impulse:**
 <p align="justify">Procediendo para la creación del impulso se puso un tamaño de ventana de 2000 ms para capturar suficientes características de la señal y un incremento de 1000 ms. Todo esto con una frecuencia de muestreo de 1000Hz.</p>
 <p align="center"><img src="Anexos/IM1.png"></p>
-<p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
+<p align="center"><i>Figura 2: Creacion del impulso.</i></p>
 
 ## **Spectral features:**
-<p align="justify"> </p>
-<p align="center"><img src="Anexos/IM2.png"></p>
-<p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
-<p align="center"><img src="Anexos/IM3.png" ></p>
-<p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
+<p align="justify">Para la configuración de Spectral Features, se ajustaron os siguientes parametros y un filtro FFT de 32 para extraer información relevante del dominio de la frecuencia, se canvio de 16 ya que es muy pequeño para generar algo significativo y tampoco tan grande para no aumentar la carga computacional. </p>
+<p align="center"><img src="Anexos/IM3.png"></p>
+<p align="center"><i>Figura 3: Parametros para Spectral features.</i></p>
+<p align="center"><img src="Anexos/IM2.png" ></p>
+<p align="center"><i>Figura 4: Feature explorer.</i></p>
 
 ## **Classifier:**
-<p align="justify"> </p>
+<p align="justify">Pasando a la parte de la clasificacion, las configuraciones realizadas fueron:</p>
 <p align="center"><img src="Anexos/IM4.png"></p>
-<p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
+<p align="center"><i>Figura 5: Configuraciones para la clasificacion.</i></p>
+<p align="justify">Se pusieron 12o ciclos para ajustar mejor los datos del modelo y no tan grande para evitar el overfitting, un learning rate de 0.001 debido a que se obtubo mejores resultados comparado a uno con 0.0005 y por ultimo se aumqntaron enl numero de neuronas: +10 Dense layer para mejorar el rendimiento y un Dropout de 0.3 para evitar overfitting.</p>
+<p align="justify">Con todas estas configuraciones el modelo obtubo las siguientes caracteristicas:</p>
 <p align="center"><img src="Anexos/IM5.png"></p>
-<p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
+<p align="center"><i>Figura 6: Accuracy obtenido y matriz de confusion..</i></p>
 
 ## **Model testing:**
 <p align="justify"> </p>
