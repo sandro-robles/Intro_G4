@@ -10,7 +10,7 @@
 
 ## **Create impulse:**
 <p align="justify"> </p>
-<p align="center"><img src="Anexos/IM1.png" width="400"></p>
+<p align="center"><img src="Anexos/IM1.png"></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
 
 ## **Spectral features:**
