@@ -1,50 +1,38 @@
-# **LABORATORIO 8: – Filtro Wavelet**
+# **LABORATORIO 11: – Edge Impulse**
 ## **Tabla de contenidos:**
 1. [Objetivos](#Objetivos)
-2. [Introduccion](#Introduccion)
-3. [Equipos y materiales utilizados](#Equipos)
-4. [Metodología](#Metodología)
+2. [Introduccion, ¿Qué es Edge Impulse?](#Introduccion)
+3. [Metodología](#Metodología)
 5. [Cronología de mediciones](#Cronologíademediciones)
 6. [Posiciones de los electrodos](#Posicionesdeloselectrodos)
 7. [Resultados](#Resultados)
 8. [Discusión](#Discusión)
 9. [Ultracortex](#Ultracortex)
 10. [Bibliografia](#Bibliografia)
+    
 ## **Objetivos:**<a id="Objetivos"></a>
-- Desarrollar filtros basados en la Transformada Wavelet Discreta (DWT) para eliminar ruido en señales ECG, EMG y EEG.
-- Comparar la eficiencia de diferentes wavelets en la reducción de ruido en señales biomédicas.
-- Extraer y analizar características clave de señales filtradas para su aplicación clínica.
+- Diseñar un proyecto en Edge Impulse para cada categoría de señal procesada (EMG, ECG y EEG).
+- Desarrollar un script en VisualStudio que permita cargar las señales correspondientes en la plataforma Edge Impulse.
   
-## **Introducción:**<a id="Introduccion"></a>
-<p align="justify"> En el campo de la ingeniería biomédica, la obtención y correcta interpretación de señales médicas como el electrocardiograma (ECG), electromiograma (EMG) y electroencefalograma (EEG) son fundamentales tanto para el diagnóstico de enfermedades como para la investigación. En este contexto, la transformada Wavelet ha demostrado ser una herramienta matemática altamente eficaz para el procesamiento y análisis de estas señales, permitiendo descomponerlas en diferentes niveles de resolución para un análisis más preciso y adaptable. A diferencia de métodos tradicionales como la transformada de Fourier, la transformada Wavelet es especialmente útil para señales no estacionarias, cuyas características varían en el tiempo. Esto la convierte en una técnica ideal para aplicaciones biomédicas, donde las señales suelen estar contaminadas por ruido. La Discrete Wavelet Transform (DWT), en particular, facilita la selección de diferentes familias de wavelets que optimizan el procesamiento al reducir el ruido sin comprometer las características clave de las señales, mejorando la calidad y confiabilidad del análisis diagnóstico [1]​.‌ </p>
+## **¿Qué es Edge Impulse?**<a id="Introduccion"></a>
+<p align="justify"> Edge Impulse es una plataforma de desarrollo especializada en aprendizaje automático para dispositivos de borde (edge devices). Su objetivo es facilitar a los desarrolladores la creación, optimización y despliegue de modelos de machine learning en hardware embebido de forma eficiente y accesible.[1]​.‌ </p>
 
-### **Transformada Wavelet**<a id="Transformada Wavelet"></a>
-<p align="justify"> La transformada wavelet proporciona una técnica avanzada de análisis de señales que, a diferencia de la Transformada de Fourier, permite realizar un análisis multiresolución, lo que significa que puede descomponer una señal en diferentes niveles de frecuencia, manteniendo tanto la información temporal como la de frecuencia. Es especialmente útil en el análisis de señales no estacionarias o que presentan cambios abruptos, como muchas señales biomédicas, porque permite examinar diferentes escalas de tiempo. La principal ventaja es su capacidad para ajustar la resolución en función de la frecuencia: usa intervalos de tiempo grandes para baja frecuencia y pequeños para alta frecuencia, mejorando el detalle en las zonas donde es necesario.</p>
+<p align="center"><img src="Anexos/edgeimpulse.png" width="400"></p>
 
-<p align="justify"> El proceso básico de la transformada wavelet implica pasar la señal por filtros pasaaltos y pasabajos para dividirla en sus componentes de alta y baja frecuencia. Esto se puede repetir, dividiendo aún más la señal en distintas bandas de frecuencia. Este enfoque produce una representación multiresolución, donde cada nivel corresponde a una banda específica de frecuencia, permitiendo observar qué frecuencias están presentes en qué momento de la señal. La transformada wavelet puede ser continua o discreta [2]. </p>
-
-<p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>
-
-<p align="center"><i>Figura 1: Transformada Wavelet [3].</i></p>
-
-#### **Transformada Wavelet Continua**<a id="Transformada Wavelet Continua"></a>
-<p align="justify">La Transformada Wavelet Continua (CWT) permite analizar una señal en segmentos localizados del tiempo y consiste en expresar la señal como una expansión de coeficientes obtenidos a partir del producto interno entre la señal y una Wavelet Madre. Esta wavelet madre es una función de energía finita, que se dilata y se traslada en el tiempo para generar una familia de funciones conocidas como wavelets hijas. La CWT es especialmente útil para obtener información en baja frecuencia a través de intervalos grandes de tiempo, o en alta frecuencia utilizando intervalos pequeños de tiempo. Aunque la transformada maneja principalmente un plano de tiempo-escala, también puede trabajar en el dominio de tiempo-frecuencia mediante el teorema de Parseval, lo que la hace versátil para diferentes aplicaciones de análisis de señales [4].</p>
-
-#### **Transformada Wavelet Discreta**<a id="Transformada Wavelet Discreta"></a>
-<p align="justify">La Transformada Wavelet Discreta (DWT) es una versión discretizada de la CWT que permite realizar el análisis numérico de señales. Para ello, se discretizan los parámetros de escala y traslación, transformando la señal en una serie de funciones elementales con sus respectivos coeficientes. En este proceso, la Wavelet Madre y las funciones de escala son fundamentales, donde las wavelets se encargan de captar los detalles finos de la señal (alta frecuencia), mientras que las funciones de escala se encargan de las aproximaciones más generales (baja frecuencia). Esta transformada permite representar una señal como una sumatoria de wavelets discretizadas, lo que facilita su análisis y reconstrucción. La DWT es una opción altamente eficiente para sistemas digitales, proporcionando una base ortonormal que asegura una buena precisión en el procesamiento de señales no estacionarias [4].</p>
-
+<p align="center"><i>Figura 1: Logo Edge Impulse [1].</i></p>
 
 ## **Metodología:**<a id="Metodología"></a>
-<p align="justify"> Para este laboratorio, utilizaremos las señales ECG, EMG y EEG previamente adquiridas en laboratorios anteriores con el Kit BITalino. A partir de estas señales, se procederá a su análisis para identificar el ruido presente. Luego, se diseñarán e implementarán filtros basados en la Transformada Wavelet Discreta (DWT), seleccionando los parámetros óptimos para cada tipo de señal (ECG, EMG y EEG) basándonos en referencias y estudios previos. </p>
-  
-## **Equipos y materiales utilizados:**<a id="Equipos"></a>
-<div align="center">
-   
-|  **Modelo**  | **Descripción** | **Cantidad** |
-|:------------:|:---------------:|:------------:|
-| (r)EVOLUTION |   Kit BITalino  |       1      |
+<p align="justify"> Los datos empleados para este laboratorio fueron obtenidos en formato .txt, los cuales fueron adquiridos de los laboratorios de señales biológicas (ECG, EMG y EEG). La plataforma Edge Impulse requiere de archivos en formato .csv para poder ser procesados y clasificados, por lo que se empleó un script en Visual Studio Code, el cual que convierte automáticamente los archivos .txt al formato .csv, ajustando así su estructura para cumplir con los requisitos de la plataforma principal. </p>
+
+<p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>
+     
+|  **Señal**  | **Imagen** | 
+|:------------:|:---------------:|
+| ECG |   <p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>  | 
+| EEG |  <p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>  | 
+| EMG |   <p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>  | 
 </div>
-<p align="center"><i>Tabla 1. Equipos y materiales utilizados en este laboratorio. </i> </p>
+<p align="center"><i>Tabla 1. Señales biológicas que serán procesadas. </i> </p>
 
 ## **Procedimiento:**<a id="Procedimiento"></a>
 
