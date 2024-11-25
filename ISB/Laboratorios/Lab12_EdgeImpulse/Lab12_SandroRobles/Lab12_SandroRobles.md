@@ -1,4 +1,4 @@
-# **LABORATORIO 8: – Filtro Wavelet**
+# **LABORATORIO 12: Edge Impulse - Impulse Design**
 ## **Tabla de contenidos:**
 1. [Objetivos](#Objetivos)
 2. [Introduccion](#Introduccion)
