@@ -72,43 +72,153 @@ transformar_txt_a_csv(archivo_txt, archivo_csv, indice_columna=5, cabecera=['Tie
 
 <p align="center"><i>Figura 2: Conversión de .txt a .csv </i></p>
 
-***Justificación de parámetros para la Señal ECG***
-<p align="justify"> Para el filtrado se utilizó el artículo "Efficient wavelet families for ECG classification using neural classifiers" donde se compara el uso de varias familias de wavelets en la clasificación de señales ECG usando diferentes redes neuronales. La DWT es clave en este trabajo porque permite descomponer la señal ECG en varios niveles de resolución, lo que facilita la extracción de características tanto morfológicas como estadísticas que alimentan los clasificadores neuronales. Para nuestro filtrado tomamos en cuenta características que se usan en el artículo usando la wavelet Daubechies (db4), que es la que tuvo mejores resultados. Entre las características vistas el artículo menciona dos etapas una donde se aplica una técnica de umbralización suave para eliminar el ruido de alta frecuencia y una segunda etapa que elimina el ruido de desvío de línea base utilizando un rango de 0,15 a 0,5 Hz [5]. </p>
+### **Señal ECG en Edge Impulse:**<a id="SeñalEMG"></a>
+<p align="justify"> Código utilizado para subirlo a la plataforma:</p>
 
-| **Descripcion de la señal** | **Señal original** | **Señal filtrada** | **Wavelet** |
-|:------------:|:---------------:|:---------------:|:---------------:|
-|Señal ECG en estado de reposo | <img src="Anexos/S1_1.jpeg" > | <img src="Anexos//S1_2.jpeg" > | <img src="Anexos//S1_3.jpeg" > |
-|Señal ECG en estado de respiración prolongada | <img src="Anexos//S2_1.jpeg" > | <img src="Anexos//S2_2.jpeg" > | <img src="Anexos//S2_3.jpeg" > |
-|Señal ECG en estado de post - Respiración | <img src="Anexos//S3_1.jpeg" > | <img src="Anexos//S3_2.jpeg" > | <img src="Anexos//S3_3.jpeg" > |
-|Señal ECG en estado luego de actividad física | <img src="Anexos//S4_1.jpeg" > | <img src="Anexos//S4_2.jpeg" > | <img src="Anexos//S4_3.jpeg" > |
-<p align="center"><i>Tabla 2. Señales ECGs orignales y filtradas por la transformada Wavelet. </i></p>
+```python
+import requests
+import os
+import csv
 
+# =======================
+# Configuración
+# =======================
 
-### **SEÑAL EMG:**<a id="SeñalEMG"></a>
-<p align="justify"> Para el EMG, se tomaron mediciones de los siguientes músculos en distintos estados:</p>
+# Clave API para Edge Impulse
+clave_api = 'ei_f65e60f5f26d74bd5d6670d43186d03e007d69d0ee4796bf9d4675f4b5609212'
 
-- Actividad muscular del tríceps braquial: Durante esta prueba, se registró la actividad eléctrica del tríceps braquial tanto en reposo como durante contracción. El electrodo de referencia se colocó en el codo para minimizar las interferencias.</p>
-<p align="center"> <img width="868" alt="tricep" src="https://github.com/user-attachments/assets/a4c9d7bc-d5b7-42ba-9c76-1459f971d447">
+# Lista de rutas de archivos CSV a procesar
+lista_csv = [
+    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_ejercicio.csv',
+    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_postrespiracion.csv',
+    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_prosim.csv',
+    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_prosim.csv',
+    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_respiracion.csv',
+]
 
-<p align="center"><i>Figura 2: Trícep braquial.</i></p>
+# Tamaño inicial del intervalo (en filas)
+tamano_intervalo = 500  # Configurar según la cantidad de muestras por segundo
 
-- Actividad muscular del gastrocnemio (pantorrilla): Se registró la actividad eléctrica del músculo gastrocnemio durante el movimiento de flexión y extensión del pie. El electrodo de referencia se ubicó en la rodilla para evitar interferencias.
-<p align="center"><img width="868" alt="pierna" src="https://github.com/user-attachments/assets/e73274ca-5072-41f7-8ed7-a43339121757">
-<p align="center"><i>Figura 3: Gastrocnemio.</i></p>
+# Incremento del intervalo en filas
+incremento_intervalo = 100
 
+# Límite máximo de fragmentos por archivo
+max_fragmentos = 15
 
-- Actividad muscular de la mano: En esta medición, se registró la actividad eléctrica durante la flexión y extensión de los dedos. El electrodo de referencia se colocó en el antebrazo para minimizar el ruido.
-<p align="center"><img width="868" alt="mano" src="https://github.com/user-attachments/assets/8edd416c-8361-4314-b48c-7dedec608fb6">
-<p align="center"><i>Figura 4: Mano-dedos.</i></p>
+# Carpeta para guardar los fragmentos temporalmente
+carpeta_salida = 'csv_fragmentos'
+os.makedirs(carpeta_salida, exist_ok=True)
 
-- Actividad muscular del bíceps braquial: Durante esta prueba, se midió la actividad del bíceps braquial en estados de reposo y contracción. El electrodo de referencia se ubicó en el codo.
-<p align="center"><img width="868" alt="bicep" src="https://github.com/user-attachments/assets/31549e78-2e73-4fa1-955b-cab8fb5eaa78">
-<p align="center"><i>Figura 5: Bícep braquial.</i></p>
+# =======================
+# Código Principal
+# =======================
 
+for archivo in lista_csv:
+    # Obtener el nombre base del archivo
+    nombre_archivo = os.path.basename(archivo).replace('.csv', '')
 
-- Actividad muscular del trapecio: Se registró la actividad eléctrica del músculo trapecio durante la elevación y descenso de los hombros. El electrodo de referencia se colocó en la espalda, sobre la escápula.
-<p align="center"><img width="868" alt="espalda" src="https://github.com/user-attachments/assets/3fad3a51-27b5-4f6b-b2a3-9d3fa1970156">
-<p align="center"><i>Figura 6: Trapecio.</i></p>
+    print(f"\nProcesando el archivo: {archivo}...")
+    try:
+        # Leer el archivo CSV línea por línea
+        with open(archivo, 'r') as entrada_csv:
+            lector = csv.reader(entrada_csv)
+            encabezado = next(lector)  # Leer el encabezado
+
+            # Renombrar la columna de datos a "Datos"
+            if len(encabezado) > 1:
+                encabezado[1] = "Datos"
+
+            # Fragmentos
+            fragmento_actual = []
+            contador_filas = 0
+            indice_fragmento = 1
+            filas_por_fragmento = tamano_intervalo
+
+            for fila in lector:
+                if indice_fragmento > max_fragmentos:
+                    break  # Detener si se alcanza el límite de fragmentos
+
+                fragmento_actual.append(fila)
+                contador_filas += 1
+
+                # Guardar el fragmento cuando se alcance el tamaño del intervalo
+                if contador_filas == filas_por_fragmento:
+                    nombre_fragmento = f"{nombre_archivo}_parte_{indice_fragmento}.csv"
+                    ruta_fragmento = os.path.join(carpeta_salida, nombre_fragmento)
+
+                    with open(ruta_fragmento, 'w', newline='') as salida_fragmento:
+                        escritor = csv.writer(salida_fragmento)
+                        escritor.writerow(encabezado)
+                        escritor.writerows(fragmento_actual)
+
+                    # Subir el fragmento a Edge Impulse
+                    print(f"Subiendo: {nombre_fragmento}...")
+                    archivo_preparado = [('data', (nombre_fragmento, open(ruta_fragmento, 'rb'), 'text/csv'))]
+                    try:
+                        respuesta = requests.post(
+                            url='https://ingestion.edgeimpulse.com/api/training/files',
+                            headers={
+                                'x-label': nombre_archivo,
+                                'x-api-key': clave_api,
+                            },
+                            files=archivo_preparado
+                        )
+
+                        if respuesta.status_code == 200:
+                            print(f"¡Subida exitosa! Fragmento: {nombre_fragmento}")
+                        else:
+                            print(f"Error al subir el fragmento: {nombre_fragmento}. Código:", respuesta.status_code)
+                            print("Mensaje del servidor:", respuesta.text)
+                    finally:
+                        for _, fileobj in archivo_preparado:
+                            fileobj[1].close()
+
+                    # Reiniciar para el siguiente fragmento
+                    fragmento_actual = []
+                    contador_filas = 0
+                    indice_fragmento += 1
+                    filas_por_fragmento += incremento_intervalo
+
+            # Guardar el último fragmento si hay filas restantes
+            if fragmento_actual and indice_fragmento <= max_fragmentos:
+                nombre_fragmento = f"{nombre_archivo}_parte_{indice_fragmento}.csv"
+                ruta_fragmento = os.path.join(carpeta_salida, nombre_fragmento)
+
+                with open(ruta_fragmento, 'w', newline='') as salida_fragmento:
+                    escritor = csv.writer(salida_fragmento)
+                    escritor.writerow(encabezado)
+                    escritor.writerows(fragmento_actual)
+
+                print(f"Subiendo fragmento final: {nombre_fragmento}...")
+                archivo_preparado = [('data', (nombre_fragmento, open(ruta_fragmento, 'rb'), 'text/csv'))]
+                try:
+                    respuesta = requests.post(
+                        url='https://ingestion.edgeimpulse.com/api/training/files',
+                        headers={
+                            'x-label': nombre_archivo,
+                            'x-api-key': clave_api,
+                        },
+                        files=archivo_preparado
+                    )
+
+                    if respuesta.status_code == 200:
+                        print(f"¡Subida exitosa! Fragmento final: {nombre_fragmento}")
+                    else:
+                        print(f"Error al subir el fragmento final: {nombre_fragmento}. Código:", respuesta.status_code)
+                        print("Mensaje del servidor:", respuesta.text)
+                finally:
+                    for _, fileobj in archivo_preparado:
+                        fileobj[1].close()
+
+    except Exception as error:
+        print(f"Error al procesar el archivo {archivo}: {error}")
+
+print("\nProceso completado.")
+
+```
+<p align="center"><img src="Anexos/ecg_edge.png" width="400"></p>
+
+<p align="center"><i>Figura 3: Señal ECG en Edge Impulse </i></p>
 
 ***Justificación de parámetros para la Señal EMG***
 | **Músculo** | **Señales**|
