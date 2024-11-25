@@ -216,7 +216,7 @@ for archivo in lista_csv:
 print("\nProceso completado.")
 
 ```
-<p align="center"><img src="Anexos/ecg_edge.png" width="400"></p>
+<p align="center"><img src="Anexos/ecg_edge.png" width="1000"></p>
 
 <p align="center"><i>Figura 3: Señal ECG en Edge Impulse </i></p>
 
