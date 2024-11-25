@@ -25,12 +25,12 @@
 <p align="center"><img src="Anexos/IM4.png"></p>
 <p align="center"><i>Figura 5: Configuraciones para la clasificacion.</i></p>
 <p align="justify">Se pusieron 12o ciclos para ajustar mejor los datos del modelo y no tan grande para evitar el overfitting, un learning rate de 0.001 debido a que se obtubo mejores resultados comparado a uno con 0.0005 y por ultimo se aumqntaron enl numero de neuronas: +10 Dense layer para mejorar el rendimiento y un Dropout de 0.3 para evitar overfitting.</p>
-<p align="justify">Con todas estas configuraciones el modelo obtubo las siguientes caracteristicas:</p>
+<p align="justify">Con todas estas configuraciones el modelo obtubo las siguientes caracteristicas, aceptables aunque con mejora:</p>
 <p align="center"><img src="Anexos/IM5.png"></p>
 <p align="center"><i>Figura 6: Accuracy obtenido y matriz de confusion..</i></p>
 
 ## **Model testing:**
-<p align="justify"> </p>
+<p align="justify">Como ultiam parte se reentron el modelo y se hizo un testeo final con un accuracy de 71.43%, un ROC de 0.94 dato importanto ya que nos dice que puede difrenciar las diferentes clases, precision de 0.69, recall de 0,79 y F1 score de 0.72, concluyendo que se obtuvo un modelo funcional pero muy mejorable. Tanto en la parte de la data, un modelo con un dataset mayor arrojaria muchos mejores resultados y seria mas seguro, se lodria aplicar filtrado y explorar mas ajustes aunque con mas carga computacional.</p>
 <p align="center"><img src="Anexos/IM6.png"></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
 
