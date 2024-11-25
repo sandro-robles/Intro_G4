@@ -133,6 +133,7 @@
 
 ### **Conclusiones**<a id="Conclusiones"></a>
 <p align="justify"> El modelo demostró ser capaz de identificar señales de ECG_postrespiración con un alto grado de precisión, pero tuvo un desempeño limitado en otras categorías. </p>
+
 - La precisión global del modelo (34.69%) indica que se requieren mejoras significativas en el preprocesamiento, los datos de entrenamiento y la arquitectura de la red.
 - La alta incertidumbre en la clasificación de ciertas clases sugiere la necesidad de ajustar los parámetros del modelo y aumentar la cantidad y diversidad de los datos.
 
