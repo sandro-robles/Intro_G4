@@ -1,4 +1,4 @@
-# **LABORATORIO 11: – Edge Impulse**
+# **LABORATORIO 11:  Edge Impulse**
 ## **Tabla de contenidos:**
 1. [Objetivos](#Objetivos)
 2. [Introduccion, ¿Qué es Edge Impulse?](#Introduccion)
