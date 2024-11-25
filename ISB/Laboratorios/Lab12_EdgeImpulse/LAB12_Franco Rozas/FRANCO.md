@@ -9,7 +9,7 @@
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
 
 ## **Create impulse:**
-<p align="justify"> </p>
+<p align="justify">Procediendo para la creación del impulso se puso un tamaño de ventana de 2000 ms para capturar suficientes características de la señal y un incremento de 1000 ms. Todo esto con una frecuencia de muestreo de 1000Hz.</p>
 <p align="center"><img src="Anexos/IM1.png"></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
 
