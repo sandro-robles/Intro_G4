@@ -67,148 +67,62 @@ transformar_txt_a_csv(archivo_txt, archivo_csv, indice_columna=5, cabecera=['Tie
 
 <p align="center"><i>Figura 2: Conversión de .txt a .csv </i></p>
 
+<p align="justify"> En relación con la plataforma, procederemos a desarrollar tres proyectos individuales, cada uno dedicado específicamente a un tipo de señal biológica. Esto incluye un proyecto para señales de ECG (electrocardiografía), otro para EMG (electromiografía) y un tercero para EEG (electroencefalografía). Al organizar cada tipo de señal en proyectos separados, no solo optimizamos la clasificación de las mismas, sino que también facilitamos su análisis individual, permitiendo un enfoque más detallado y preciso en el tratamiento de los datos. Esta segmentación también es crucial para adaptar los modelos de machine learning de manera específica a las características únicas de cada señal, maximizando así la efectividad del sistema y asegurando resultados más confiables. </p>
+
+<p align="center"><img src="Anexos/proyectos_edge.png" width="400"></p>
+
+<p align="center"><i>Figura 3: Proyectos en Edge Impulse </i></p>
+
 ### **Señales en Edge Impulse:**<a id="Señal"></a>
-<p align="justify"> Código utilizado para subirlo a la plataforma:</p>
+<p align="justify"> Se empleó la plataforma Google Colab como herramienta para gestionar y subir los códigos correspondientes a cada proyecto en Edge Impulse. Para realizar el proceso correctamente, fue necesario ajustar la clave de la API de Edge Impulse en función del proyecto o la señal biológica en cuestión, asegurando así que los datos fueran clasificados y organizados de manera adecuada en la plataforma. Este paso fue esencial para garantizar que cada tipo de señal, ya sea ECG, EMG o EEG, se asociara al proyecto correspondiente, permitiendo una segmentación clara y un procesamiento eficaz. A continuación, se presenta el código utilizado para realizar la carga en la plataforma:</p>
 
 ```python
 import requests
 import os
-import csv
+import pandas as pd
 
-# =======================
-# Configuración
-# =======================
+api_key = 'ei_e4bba639a9f8eb9657fed6240bea5762648369292faeaa571eef367124a01fa7'
+label = 'EMG_manoreposo.csv'
 
-# Clave API para Edge Impulse
-clave_api = 'ei_f65e60f5f26d74bd5d6670d43186d03e007d69d0ee4796bf9d4675f4b5609212'
+# Lectura del archivo CSV
+data = pd.read_csv('EMG_manoreposo.csv')
+# Divido los datos del archivo en intervalos de 2 segundos para el enventanado
+intervalo_segundos = 2000
+data['intervalo'] = (data['timestamp'] // intervalo_segundos).astype(int)
+# Obtengo la cantidad de intervalos en los que se dividiría el archivo
+num_intervalos = data['intervalo'].max() + 1
 
-# Lista de rutas de archivos CSV a procesar
-lista_csv = [
-    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_ejercicio.csv',
-    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_postrespiracion.csv',
-    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_prosim.csv',
-    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_prosim.csv',
-    r'C:\Users\User\Downloads\Lab11_SandroRobles\ECG\ECG_respiracion.csv',
-]
+for i in range(num_intervalos):
+    # Separo los datos para el intervalo actual
+    intervalo_data = data[data['intervalo'] == i]
+    # Guardo el intervalo en un archivo temporal csv (que luego se elimina)
+    intervalo_filename = f'intervalo_{i}.csv'
+    intervalo_data.to_csv(intervalo_filename, index=False)
+    # Abro el archivo temporal
+    file_data = open(intervalo_filename, 'rb')
+    # Preparo el archivo temporal para enviar al Edge Impulse
+    file_tuple = ('data', (os.path.basename(intervalo_filename), open(intervalo_filename, 'rb'), 'application/csv'))
+    # Envío el archivo temporal al Edge Impulse
+    res = requests.post(
+        url='https://ingestion.edgeimpulse.com/api/training/files',
+        headers={
+            'x-label': label,
+            'x-api-key': api_key,
+        },
+        files=[file_tuple]
+    )
+    # Cierro el archivo temporal
+    file_data.close()
+    # Verifico que se esté mandando cada intervalo
+    print(f'Intervalo {i} - Resultado: {res.text}')
+    # Elimino el archivo temporal
+    os.remove(intervalo_filename)
 
-# Tamaño inicial del intervalo (en filas)
-tamano_intervalo = 500  # Configurar según la cantidad de muestras por segundo
-
-# Incremento del intervalo en filas
-incremento_intervalo = 100
-
-# Límite máximo de fragmentos por archivo
-max_fragmentos = 15
-
-# Carpeta para guardar los fragmentos temporalmente
-carpeta_salida = 'csv_fragmentos'
-os.makedirs(carpeta_salida, exist_ok=True)
-
-# =======================
-# Código Principal
-# =======================
-
-for archivo in lista_csv:
-    # Obtener el nombre base del archivo
-    nombre_archivo = os.path.basename(archivo).replace('.csv', '')
-
-    print(f"\nProcesando el archivo: {archivo}...")
-    try:
-        # Leer el archivo CSV línea por línea
-        with open(archivo, 'r') as entrada_csv:
-            lector = csv.reader(entrada_csv)
-            encabezado = next(lector)  # Leer el encabezado
-
-            # Renombrar la columna de datos a "Datos"
-            if len(encabezado) > 1:
-                encabezado[1] = "Datos"
-
-            # Fragmentos
-            fragmento_actual = []
-            contador_filas = 0
-            indice_fragmento = 1
-            filas_por_fragmento = tamano_intervalo
-
-            for fila in lector:
-                if indice_fragmento > max_fragmentos:
-                    break  # Detener si se alcanza el límite de fragmentos
-
-                fragmento_actual.append(fila)
-                contador_filas += 1
-
-                # Guardar el fragmento cuando se alcance el tamaño del intervalo
-                if contador_filas == filas_por_fragmento:
-                    nombre_fragmento = f"{nombre_archivo}_parte_{indice_fragmento}.csv"
-                    ruta_fragmento = os.path.join(carpeta_salida, nombre_fragmento)
-
-                    with open(ruta_fragmento, 'w', newline='') as salida_fragmento:
-                        escritor = csv.writer(salida_fragmento)
-                        escritor.writerow(encabezado)
-                        escritor.writerows(fragmento_actual)
-
-                    # Subir el fragmento a Edge Impulse
-                    print(f"Subiendo: {nombre_fragmento}...")
-                    archivo_preparado = [('data', (nombre_fragmento, open(ruta_fragmento, 'rb'), 'text/csv'))]
-                    try:
-                        respuesta = requests.post(
-                            url='https://ingestion.edgeimpulse.com/api/training/files',
-                            headers={
-                                'x-label': nombre_archivo,
-                                'x-api-key': clave_api,
-                            },
-                            files=archivo_preparado
-                        )
-
-                        if respuesta.status_code == 200:
-                            print(f"¡Subida exitosa! Fragmento: {nombre_fragmento}")
-                        else:
-                            print(f"Error al subir el fragmento: {nombre_fragmento}. Código:", respuesta.status_code)
-                            print("Mensaje del servidor:", respuesta.text)
-                    finally:
-                        for _, fileobj in archivo_preparado:
-                            fileobj[1].close()
-
-                    # Reiniciar para el siguiente fragmento
-                    fragmento_actual = []
-                    contador_filas = 0
-                    indice_fragmento += 1
-                    filas_por_fragmento += incremento_intervalo
-
-            # Guardar el último fragmento si hay filas restantes
-            if fragmento_actual and indice_fragmento <= max_fragmentos:
-                nombre_fragmento = f"{nombre_archivo}_parte_{indice_fragmento}.csv"
-                ruta_fragmento = os.path.join(carpeta_salida, nombre_fragmento)
-
-                with open(ruta_fragmento, 'w', newline='') as salida_fragmento:
-                    escritor = csv.writer(salida_fragmento)
-                    escritor.writerow(encabezado)
-                    escritor.writerows(fragmento_actual)
-
-                print(f"Subiendo fragmento final: {nombre_fragmento}...")
-                archivo_preparado = [('data', (nombre_fragmento, open(ruta_fragmento, 'rb'), 'text/csv'))]
-                try:
-                    respuesta = requests.post(
-                        url='https://ingestion.edgeimpulse.com/api/training/files',
-                        headers={
-                            'x-label': nombre_archivo,
-                            'x-api-key': clave_api,
-                        },
-                        files=archivo_preparado
-                    )
-
-                    if respuesta.status_code == 200:
-                        print(f"¡Subida exitosa! Fragmento final: {nombre_fragmento}")
-                    else:
-                        print(f"Error al subir el fragmento final: {nombre_fragmento}. Código:", respuesta.status_code)
-                        print("Mensaje del servidor:", respuesta.text)
-                finally:
-                    for _, fileobj in archivo_preparado:
-                        fileobj[1].close()
-
-    except Exception as error:
-        print(f"Error al procesar el archivo {archivo}: {error}")
-
-print("\nProceso completado.")
+if (res.status_code == 200):
+    print('Uploaded file(s) to Edge Impulse\n', res.status_code, res.content)
+else:
+    print('Failed to upload file(s) to Edge Impulse\n',
+          res.status_code, res.content)
 
 ```
 <p align="center"><img src="Anexos/ecg_edge.png" width="1000"></p>
