@@ -26,11 +26,11 @@
 
 <p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>
      
-|  **Señal**  | **Imagen** | 
-|:------------:|:---------------:|
-| ECG |   <p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>  | 
-| EEG |  <p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>  | 
-| EMG |   <p align="center"><img src="Anexos/Wavelet1.png" width="400"></p>  | 
+|  **Señal biológica**  | **Imagen de obtención** | **Señal obtenida** |
+|:------------:|:---------------:|:---------------:|
+| ECG |   <p align="center"><img src="Anexos/ecg_foto.png" width="400"></p>  |  <p align="center"><img src="Anexos/ecg_señalobtenida.png" width="400"></p> | 
+| EEG |  <p align="center"><img src="Anexos/eeg_foto.png" width="400"></p>  |  <p align="center"><img src="Anexos/eeg_señalobtenida.png" width="400"></p> | 
+| EMG |   <p align="center"><img src="Anexos/emg_foto.png" width="400"></p>  |  <p align="center"><img src="Anexos/emg_señalobtenida.png" width="400"></p> | 
 </div>
 <p align="center"><i>Tabla 1. Señales biológicas que serán procesadas. </i> </p>
 
