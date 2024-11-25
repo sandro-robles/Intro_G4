@@ -3,12 +3,7 @@
 1. [Objetivos](#Objetivos)
 2. [Introduccion, ¿Qué es Edge Impulse?](#Introduccion)
 3. [Metodología](#Metodología)
-5. [Cronología de mediciones](#Cronologíademediciones)
-6. [Posiciones de los electrodos](#Posicionesdeloselectrodos)
-7. [Resultados](#Resultados)
-8. [Discusión](#Discusión)
-9. [Ultracortex](#Ultracortex)
-10. [Bibliografia](#Bibliografia)
+4. [Bibliografia](#Bibliografia)
     
 ## **Objetivos:**<a id="Objetivos"></a>
 - Diseñar un proyecto en Edge Impulse para cada categoría de señal procesada (EMG, ECG y EEG).
