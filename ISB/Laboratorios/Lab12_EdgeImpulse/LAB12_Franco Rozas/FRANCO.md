@@ -4,7 +4,24 @@
 <p align="justify">Link del repositorio de las señales ECG: https://studio.edgeimpulse.com/public/559582/live</p>
 
 ## **DATA augmentation:**
-<p align="justify"> Para mejorar el modelo, se consideró conveniente aumentar la cantidad de datos disponibles mediante la técnica de data augmentation, utilizando el método overlapping windows. Esta técnica, descrita en un artículo de "Data augmentation for deep-learning-based electroencephalography", muestra su efectivad para incrementar el número de muestras disponibles y mejorar la capacidad de generalización de los modelos. En dicho estudio, se utilizaron ventanas de 8 segundos con un 50 % de traslape para aumentar datos de EEG y entrenar un modelo de CNN que logró una precisión del 97.1 % en la detección de convulsiones neonatales. De manera similar, otros estudios implementaron ventanas deslizantes con traslapes de 87.5 % y 75 % en señales EEG, logrando precisiones de hasta 96.45 %, evidenciando el impacto positivo de esta técnica. Por estos resultados, aplicaremos el método de ventanas traslapadas en las señales ECG de este laboratorio, con el fin de aumentar las muestras y fortalecer el desempeño del modelo entrenado, aumentando a un DATA COLLECTED de 11 minutos y 45 segundos.</p>
+<p align="justify"> Para mejorar el modelo, se consideró conveniente aumentar la cantidad de datos disponibles mediante la técnica de data augmentation, utilizando el método overlapping windows. Esta técnica, descrita en un artículo de "Data augmentation for deep-learning-based electroencephalography", muestra su efectivad para incrementar el número de muestras disponibles y mejorar la capacidad de generalización de los modelos. En dicho estudio, se utilizaron ventanas de 8 segundos con un 50 % de traslape para aumentar datos de EEG y entrenar un modelo de CNN que logró una precisión del 97.1 % en la detección de convulsiones neonatales. De manera similar, otros estudios implementaron ventanas deslizantes con traslapes de 87.5 % y 75 % en señales EEG, logrando precisiones de hasta 96.45 %, evidenciando el impacto positivo de esta técnica [1]. Por estos resultados, aplicaremos el método de ventanas traslapadas en las señales ECG de este laboratorio, con el fin de aumentar las muestras y fortalecer el desempeño del modelo entrenado, aumentando a un DATA COLLECTED de 11 minutos y 45 segundos.</p>
 <p align="center"><img src="Anexos/S1.png" width="400"></p>
 <p align="center"><i>Figura 1: Repositorio editado de las señales ECG.</i></p>
 
+## **Create impulse:**
+<p align="justify"> </p>
+
+## **Spectral features:**
+<p align="justify"> </p>
+
+## **Classifier:**
+<p align="justify"> </p>
+
+## **Bibliografía:**<a id="bibliografia"></a>
+<p align="justify">[1] Elnaz Lashgari, Dehua Liang, and Uri Maoz. 2020. Data augmentation for deep-learning-based electroencephalography. Journal of Neuroscience Methods (2020), 108885.</p>
+<p align="justify">[2] </p>
+<p align="justify">[3] </p>
+<p align="justify">[4] </p>
+<p align="justify">[5] </p>
+‌
+‌
