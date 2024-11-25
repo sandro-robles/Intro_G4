@@ -1,4 +1,4 @@
-# **LABORATORIO 12: – Mejora Edge Impulse**
+# **LABORATORIO 12: Continuación Edge Impulse**
 
 Integrante: Anel Fernanda Ramirez Condori
 
