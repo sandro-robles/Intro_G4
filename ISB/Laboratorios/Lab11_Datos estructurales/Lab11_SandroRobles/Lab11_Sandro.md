@@ -74,7 +74,13 @@ transformar_txt_a_csv(archivo_txt, archivo_csv, indice_columna=5, cabecera=['Tie
 <p align="center"><i>Figura 3: Proyectos en Edge Impulse </i></p>
 
 ### **Señales en Edge Impulse:**<a id="Señal"></a>
-<p align="justify"> Se empleó la plataforma Google Colab como herramienta para gestionar y subir los códigos correspondientes a cada proyecto en Edge Impulse. Para realizar el proceso correctamente, fue necesario ajustar la clave de la API de Edge Impulse en función del proyecto o la señal biológica en cuestión, asegurando así que los datos fueran clasificados y organizados de manera adecuada en la plataforma. Este paso fue esencial para garantizar que cada tipo de señal, ya sea ECG, EMG o EEG, se asociara al proyecto correspondiente, permitiendo una segmentación clara y un procesamiento eficaz. A continuación, se presenta el código utilizado para realizar la carga en la plataforma:</p>
+<p align="justify"> Se empleó la plataforma Google Colab como herramienta para gestionar y subir los códigos correspondientes a cada proyecto en Edge Impulse. Para realizar el proceso correctamente, fue necesario ajustar la clave de la API de Edge Impulse en función del proyecto o la señal biológica en cuestión, asegurando así que los datos fueran clasificados y organizados de manera adecuada en la plataforma. Este paso fue esencial para garantizar que cada tipo de señal, ya sea ECG, EMG o EEG, se asociara al proyecto correspondiente, permitiendo una segmentación clara y un procesamiento eficaz.</p>
+
+<p align="center"><img src="Anexos/google_colab.png" width="400"></p>
+
+<p align="center"><i>Figura 4: Código en Google Colab. </i></p>
+
+<p align="justify"> A continuación, se presenta el código utilizado para realizar la carga en la plataforma:</p>
 
 ```python
 import requests
@@ -127,16 +133,17 @@ else:
 ```
 <p align="center"><img src="Anexos/ecg_edge.png" width="1000"></p>
 
-<p align="center"><i>Figura 3: Señal ECG en Edge Impulse. </i></p>
+<p align="center"><i>Figura 5: Señal ECG en Edge Impulse. </i></p>
 
 <p align="center"><img src="Anexos/emg_edge.png" width="1000"></p>
 
-<p align="center"><i>Figura 4: Señal EMG en Edge Impulse. </i></p>
+<p align="center"><i>Figura 6: Señal EMG en Edge Impulse. </i></p>
+
+<p align="justify"> Es fundamental destacar la relevancia de crear proyectos separados para cada tipo de señal biológica. Si hubiéramos colocado todas las señales en un único proyecto, aunque técnicamente podrían haberse clasificado, el análisis habría perdido precisión y claridad. Esta división permite un estudio más detallado y específico de cada señal, facilitando una mejor comprensión de sus características individuales y evitando posibles confusiones o solapamientos en los resultados. Además, organizar las señales en proyectos separados asegura una mayor flexibilidad para adaptar los modelos de aprendizaje automático a las particularidades de cada tipo de dato. </p>
 
 <p align="center"><img src="Anexos/data_distribution.png" width="1000"></p>
 
-<p align="center"><i>Figura 5: Distribución de los datos en Edge Impulse. </i></p>
-
+<p align="center"><i>Figura 7: Distribución de los datos en Edge Impulse. </i></p>
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
 <p align="justify">[1]“Edge Impulse - The Leading Edge AI Platform,” Edgeimpulse.com, 2024. https://edgeimpulse.com/ (accessed Nov. 20, 2024).‌</p>
