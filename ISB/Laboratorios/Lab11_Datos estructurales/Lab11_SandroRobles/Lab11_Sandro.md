@@ -72,7 +72,7 @@ transformar_txt_a_csv(archivo_txt, archivo_csv, indice_columna=5, cabecera=['Tie
 
 <p align="center"><i>Figura 2: Conversión de .txt a .csv </i></p>
 
-### **Señal ECG en Edge Impulse:**<a id="SeñalEMG"></a>
+### **Señales en Edge Impulse:**<a id="Señal"></a>
 <p align="justify"> Código utilizado para subirlo a la plataforma:</p>
 
 ```python
@@ -218,56 +218,19 @@ print("\nProceso completado.")
 ```
 <p align="center"><img src="Anexos/ecg_edge.png" width="1000"></p>
 
-<p align="center"><i>Figura 3: Señal ECG en Edge Impulse </i></p>
+<p align="center"><i>Figura 3: Señal ECG en Edge Impulse. </i></p>
 
-***Justificación de parámetros para la Señal EMG***
-| **Músculo** | **Señales**|
-|:------------:|:---------------:|
-|Tricep en reposo| ![tricep_en_reposo1](https://github.com/user-attachments/assets/7a7f44a0-bf2e-40df-87f6-eb8e25601987)|
-|Gastro en reposo|![gastrorepososs](https://github.com/user-attachments/assets/c77da4ab-5dd5-4f28-ac09-11ea39e0a676)|
-|Mano en reposo|![manosreposo](https://github.com/user-attachments/assets/e31c8bdf-c221-4c6f-8dec-57d819c12725)|
-|Bícep braquial en reposo|![biceoreposo](https://github.com/user-attachments/assets/225313e2-8673-43ee-b6a9-601c8d22805a)|
-|Trapecio en reposo|![trapecioo](https://github.com/user-attachments/assets/a0d15370-ae7e-409a-91a3-ad316d773bf2)|
+<p align="center"><img src="Anexos/emg_edge.png" width="1000"></p>
 
-**Interpretación**
+<p align="center"><i>Figura 4: Señal EMG en Edge Impulse. </i></p>
 
--Señal EMG Original: Esta es la señal original que representa la actividad muscular en un estado de reposo durante el intervalo de 0 a 10 segundos. La señal muestra variaciones leves, lo cual es típico en condiciones de reposo, donde la actividad muscular es mínima o casi inexistent
+<p align="center"><img src="Anexos/data_distribution.png" width="1000"></p>
 
--Coeficientes de Detalle Nivel 1: Este nivel de descomposición wavelet recoge las componentes de frecuencias altas y de corta duración. Las variaciones detectadas son muy leves, lo que sugiere la falta de actividad muscular rápida o de interferencias de alta frecuencia, lo cual concuerda con un estado de reposo.
-
--Coeficientes de Detalle Nivel 2: Los coeficientes de este nivel corresponden a una combinación de frecuencias medias y altas. Aunque las fluctuaciones son un poco más marcadas que en el primer nivel, continúan siendo moderadas, lo que sigue reflejando la tranquilidad de la señal muscular en estado de reposo.
-
--Coeficientes de Detalle Nivel 3: Este nivel captura componentes de frecuencia más baja en comparación con los niveles anteriores. Los patrones de actividad muscular son aún más constantes y uniformes, lo que confirma la ausencia de actividad muscular relevante durante el estado de reposo.
-
--Coeficientes de Detalle Nivel 4: Este nivel recoge las componentes de baja frecuencia. Las variaciones son más notorias que en los niveles anteriores, pero continúan reflejando una actividad muy baja y constante, característica de la falta de contracción muscular.
-
-
-### **SEÑAL EEG:**<a id="SeñalECG"></a>
-<p align="justify"> Se consideraron las señales de electroencefalograma (EEG) obtenidas en el Laboratorio 06 para el proceso de filtrado utilizando la transformada wavelet. Estas señales fueron registradas en diferentes estados:</p>
-
-- Estado de reposo: El sujeto permaneció en una posición estable y tranquila, manteniendo la calma, con el fin de registrar una línea base de señal con mínimas interferencias y sin movimientos. Este estado sirve como prueba de control, y el registro de la señal duró 30 segundos.
-
-- Estado de ojos cerrados y abiertos: El sujeto realizó un ciclo de abrir y cerrar los ojos en cinco ocasiones, manteniendo cada estado durante 5 segundos. Para evitar artefactos en la señal, el sujeto permaneció tranquilo y mirando a un punto fijo. La señal fue registrada durante 50 segundos.
-
-- Estado de segundo reposo: Después de la actividad de parpadeo, el sujeto retomó el estado de calma, sin movimientos, como una segunda fase de referencia. La señal fue grabada nuevamente por 30 segundos.
-
-- Estado de razonamiento: El sujeto resolvió mentalmente una serie de ejercicios matemáticos, de menor a mayor dificultad, mientras mantenía la mirada fija en un punto para evitar artefactos. Entre cada respuesta y la siguiente pregunta, se dejó un lapso de 12 segundos para el registro de la señal.
-
-***Justificación de parámetros para la Señal EEG***
-<p align="justify"> En el estudio titulado "Procesamiento de señales de electroencefalograma mediante wavelets para la eliminación de artefactos cardíacos",  se seleccionaron tres tipos de wavelets: Coiflets de orden 3, Daubechies de orden 4 y Symlets de orden 5. Estas fueron elegidas por su capacidad de filtrar artefactos cardíacos sin distorsionar la señal EEG. Los niveles de detalle eliminados fueron los niveles 2 y 3, ya que los artefactos cardíacos suelen aparecer en frecuencias bajas (0.5 a 4 Hz), y la eliminación de estos niveles permite eliminar el ruido sin afectar las ondas cerebrales importantes. El umbral de eliminación se ajustó usando SNR y NMSE para optimizar el filtrado sin pérdida significativa de información [5].</p>
-
-
-## **Discusión:**<a id="Discusión"></a>
-<p align="justify"> </p>
+<p align="center"><i>Figura 5: Distribución de los datos en Edge Impulse. </i></p>
 
 
 ## **Bibliografia:**<a id="Bibliografia"></a>
-<p align="justify">[1]Seshapu Prassanna, et al. “Application of Wavelet Based Security and Compression Techniques for Biomedical Instrumentation Signals.” International Journal of Innovative Technology and Exploring Engineering, vol. 9, no. 4, 13 Feb. 2020, pp. 57–64, www.researchgate.net/publication/364028066_Application_of_Wavelet_Based_Security_and_Compression_Techniques_for_Biomedical_Instrumentation_Signals, https://doi.org/10.35940/ijitee.c9014.029420. Accessed 20 Oct. 2024.</p>
-<p align="justify">[2] S. Kouro and R. Musalem, “Tutorial introductorio a la Teoría de Wavelet.” Available: http://www2.elo.utfsm.cl/~elo377/documentos/Wavelet.pdf
-‌.</p>
-<p align="justify">[3]G. Antonio and L. Paredes, “Reconocimiento de patrones en electroforesis capilar utilizando análisis multiresolucional y programación dinámica / Gerardo Ceballos,” 2024. https://www.researchgate.net/publication/44720047_Reconocimiento_de_patrones_en_electroforesis_capilar_utilizando_analisis_multiresolucional_y_programacion_dinamica_Gerardo_Ceballos (accessed Oct. 20, 2024).</p>
-<p align="justify">[4] N. N. B and D. Marcela, “El uso de la transformada wavelet discreta en la reconstrucción de señales senosoidales.,” Scientia et Technica, vol. 1, no. 38, pp. 381–386, 2024, doi: https://dialnet.unirioja.es/descarga/articulo/4782789.pdf.‌‌</p>
-<p align="justify">[5] R Singh and R Mehta, “Efficient wavelet families for ECG classification using neural classifiers” Science Direct, 2014, doi: https://doi.org/10.1016/j.procs.2018.05.054</p>
-<p align="justify">[5] Beatriz, Pérez Alberruche. “Procesamiento de Señales de Electroencefalograma Mediante Wavelets Para La Eliminación de Artefactos Cardíacos  | Archivo Digital UPM.” Oa.upm.es, Sept. 2022, oa.upm.es/71888/, https://oa.upm.es/71888/. Accessed 21 Oct. 2024.</p>
+<p align="justify">[1]“Edge Impulse - The Leading Edge AI Platform,” Edgeimpulse.com, 2024. https://edgeimpulse.com/ (accessed Nov. 20, 2024).‌</p>
+
 
 
