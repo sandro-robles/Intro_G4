@@ -10,7 +10,7 @@
 
 ## **Classifier:**
 <p align="justify">En la parte del classifier, dispongo de 100 ciclos de entrenamiento y un learning rate de 0.0005, con un validation size de 20.</p>
-<p align="center"><img src="Anexos/Features3.PNG"></p>
+<p align="center"><img src="Anexos/CLassifier.PNG"></p>
 <p align="center"><i>Figura 2: Configuraciones para la clasificacion.</i></p>
 
 ## **Model results:**
